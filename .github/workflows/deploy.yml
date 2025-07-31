@@ -1,0 +1,74 @@
+name: Deploy to Production
+
+on:
+  push:
+    branches: [ main ]
+    paths-ignore:
+      - 'README.md'
+      - 'docs/**'
+      - '**/*.md'
+  pull_request:
+    branches: [ main ]
+    paths-ignore:
+      - 'README.md'
+      - 'docs/**'
+      - '**/*.md'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        
+    - name: Install DFX via dfxvm
+      run: |
+        # Download and install dfxvm directly
+        DFXVM_VERSION="1.0.1"
+        DFXVM_DIR="$HOME/.local/share/dfx"
+        mkdir -p "$DFXVM_DIR/bin"
+        
+        # Download dfxvm for Linux
+        curl -L "https://github.com/dfinity/dfxvm/releases/download/v${DFXVM_VERSION}/dfxvm-x86_64-unknown-linux-gnu.tar.gz" -o dfxvm.tar.gz
+        
+        # Extract and install dfxvm
+        tar -xzf dfxvm.tar.gz
+        mv dfxvm-x86_64-unknown-linux-gnu/dfxvm "$DFXVM_DIR/bin/"
+        chmod +x "$DFXVM_DIR/bin/dfxvm"
+        
+        # Add to PATH and export for current session
+        echo "$DFXVM_DIR/bin" >> $GITHUB_PATH
+        export PATH="$DFXVM_DIR/bin:$PATH"
+        
+        # Install and set DFX 0.24.3 as default
+        dfxvm default 0.24.3
+        
+        # Find where dfx was installed and add to PATH
+        export PATH="$HOME/.local/share/dfx/versions/0.24.3:$PATH"
+        
+        # Verify dfx installation
+        $HOME/.local/share/dfx/versions/0.24.3/dfx --version
+        
+    - name: Import DFX Identity
+      run: |
+        export PATH="$HOME/.local/share/dfx/versions/0.24.3:$PATH"
+        echo "${{ secrets.DFX_IDENTITY_SUNDAYBLENDER_PROD_PEM }}" > identity.pem
+        dfx identity import sundayblender-prod identity.pem --disable-encryption || true
+        dfx identity use sundayblender-prod
+        
+    - name: Deploy to IC
+      env:
+        DFX_NETWORK: ic
+      run: |
+        # Set PATH for this step
+        export PATH="$HOME/.local/share/dfx/versions/0.24.3:$PATH"
+        
+        # Deploy to IC using sundayblender-prod identity
+        dfx identity use sundayblender-prod
+        dfx deploy --network ic --yes 
