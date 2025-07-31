@@ -1,4 +1,12 @@
 baseURL = '/'
 languageCode = 'en-us'
 title = 'The Sunday Blender'
-theme = "papermod"
+theme = "pehtheme-hugo"
+
+[params]
+	description = 'The Sunday Blender - A minimalist blog built with Hugo and Pehtheme'
+	mainSections = 'posts'
+
+[author]
+	name = 'Clayton Man'
+	bio = 'A newsman making the best news for kids'
