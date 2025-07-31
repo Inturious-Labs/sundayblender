@@ -1,0 +1,21 @@
+{
+  "canisters": {
+    "sundayblender": {
+      "type": "assets",
+      "source": [
+        "public"
+      ]
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:4943",
+      "type": "ephemeral"
+    },
+    "ic": {
+      "type": "persistent"
+    }
+  },
+  "version": 1
+}
+
