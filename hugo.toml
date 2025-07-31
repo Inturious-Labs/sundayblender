@@ -3,6 +3,9 @@ languageCode = 'en-us'
 title = 'The Sunday Blender'
 theme = "pehtheme-hugo"
 
+[permalinks]
+	posts = "/p/:slug/"
+
 [params]
 	description = 'The Sunday Blender - A minimalist blog built with Hugo and Pehtheme'
 	mainSections = 'posts'
