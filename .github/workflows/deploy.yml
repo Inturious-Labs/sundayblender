@@ -1,4 +1,4 @@
-name: Deploy to Production
+name: Deploy to IC Mainnet
 
 on:
   push:
@@ -27,6 +27,12 @@ jobs:
       with:
         node-version: '20'
         
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: 'latest'
+        extended: true
+        
     - name: Install DFX via dfxvm
       run: |
         # Download and install dfxvm directly
@@ -54,6 +60,10 @@ jobs:
         
         # Verify dfx installation
         $HOME/.local/share/dfx/versions/0.24.3/dfx --version
+        
+    - name: Build Hugo Site
+      run: |
+        hugo --minify
         
     - name: Import DFX Identity
       run: |
