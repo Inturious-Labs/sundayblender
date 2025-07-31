@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://bf52x-nyaaa-aaaan-qz5aq-cai.icp0.io/'
 languageCode = 'en-us'
 title = 'The Sunday Blender'
 theme = "pehtheme-hugo"
@@ -13,3 +13,11 @@ theme = "pehtheme-hugo"
 [author]
 	name = 'Clayton Man'
 	bio = 'A newsman making the best news for kids'
+
+[build]
+	writeStats = true
+
+[markup]
+	[markup.goldmark]
+		[markup.goldmark.renderer]
+			unsafe = true
