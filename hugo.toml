@@ -1,0 +1,4 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'The Sunday Blender'
+theme = "papermod"
