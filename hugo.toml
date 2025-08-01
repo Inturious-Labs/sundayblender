@@ -1,4 +1,4 @@
-baseURL = 'https://bf52x-nyaaa-aaaan-qz5aq-cai.icp0.io/'
+baseURL = '/'
 languageCode = 'en-us'
 title = 'The Sunday Blender'
 theme = "pehtheme-hugo"
