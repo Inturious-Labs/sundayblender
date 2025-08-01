@@ -1,270 +1,89 @@
-Saved at path
-  Relative: 161719562.flying-dutchman-sails-away.md
-  Absolute: /Users/zire/Downloads/substack export_sundayblender/posts/161719562.flying-dutchman-sails-away.md
-_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa6a0ab44-4bba-4227-9934-e0e9da6b5751_743x500.heic)
+---
+title: "Flying Dutchman Sails Away"
+date: 2025-04-20
+description: "xx"
+tags: ["AI", "Technology", "Global News", "Science"]
+draft: false
+slug: "flying-dutchman-sails-away"
+image: ""
+---
 
-### 1\. Tech
-
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/ab303b8f-eda9-40e2-842a-57be422d7e05_1140x629.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!wTwT!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fab303b8f-eda9-40e2-842a-57be422d7e05_1140x629.heic)
+## Tech
+---
 
 **Bugatti** has unveiled the **Tourbillon**, a groundbreaking hybrid hypercar set to redefine automotive excellence. Succeeding the Chiron, the Tourbillon boasts a formidable **8.3-liter** naturally aspirated **V16** engine developed with **Cosworth**, delivering **1,000 horsepower**. This is complemented by three electric motors—two at the front and one at the rear—adding **800 horsepower**, culminating in a total output of **1,800 horsepower**. The vehicle accelerates from 0 to 60 mph in just **2 seconds** and achieves a top speed of **276 mph**. Limited to **250 units**, each priced at approximately **$4.1 million**, the Tourbillon features an analog instrument cluster crafted by Swiss horologists, emphasizing Bugatti's commitment to blending tradition with innovation.
 
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/12a174ef-959f-46c2-bf73-e2b3e91d3d79_2000x1500.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!qt82!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F12a174ef-959f-46c2-bf73-e2b3e91d3d79_2000x1500.heic)
-
 Big Tech has officially entered the quantum era, with major advancements from companies like **IBM**, **Amazon**, **Microsoft**, **Google**, and **Nvidia**. IBM plans to launch the first quantum-centric supercomputer featuring over **4,000 qubits**. Amazon's Ocelot chip and Microsoft's Majorana chip represent breakthroughs in error correction and scalability. The quantum computing industry is projected to reach up to **$850 billion** in economic value by 2040. However, the advent of quantum technology brings serious cybersecurity risks, as future quantum systems could potentially decrypt all currently secure data, prompting a surge in demand for quantum-specific cybersecurity solutions.
 
-* * *
-
-### 2\. Global
-
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/8d8eed62-6aa8-4791-a547-42e25f0cc9c0_1952x1098.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!p_AW!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d8eed62-6aa8-4791-a547-42e25f0cc9c0_1952x1098.heic)
+## Global
+---
 
 In April 2025, **President Trump** initiated a significant confrontation with **Harvard University** over federal funding and university autonomy. The administration demanded that Harvard implement sweeping changes. Harvard President **Alan Garber** firmly rejected these demands, citing constitutional protections for academic freedom. In response, the administration froze over **$2.2 billion** in federal grants, threatened to revoke Harvard's tax-exempt status, and considered barring the university from enrolling international students. While **Columbia University** initially complied with similar federal directives, Harvard's resistance has galvanized broader support for institutional independence across academia. ​
 
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/b31d899a-9d03-42e4-a327-9bff3e0f1d83_1200x720.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!HyRn!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb31d899a-9d03-42e4-a327-9bff3e0f1d83_1200x720.heic)
-
 ​In April 2025, Spanish Prime Minister **Pedro Sánchez** visited China to strengthen bilateral ties amid escalating global trade tensions. Meeting with **President Xi Jinping** in **Beijing**, Sánchez advocated for balanced EU-China relations and emphasized multilateralism over unilateral trade measures. The leaders discussed cooperation in sectors like renewable energy, technology, and agriculture, culminating in agreements on science, education, and film. Sánchez's visit, his third in two years, further advanced EU’s strategy to diversify markets and uphold open trade principles.
 
-### 3\. Economy & Finance
-
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/54b73a09-c358-4e1e-9862-9852a8910119_2880x1920.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!uDAQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F54b73a09-c358-4e1e-9862-9852a8910119_2880x1920.heic)
+## Economy & Finance
+---
 
 ​In April 2025, U.S. financial markets experienced significant turmoil due to **President Trump**'s aggressive tariff policies.The S&P 500 and Nasdaq entered bear market territory, with U.S. stocks losing over **$6 trillion** in value across two days. The U.S. dollar declined nearly **10%** since January, reaching a three-year low, as investors questioned its safe-haven status. Simultaneously, U.S. Treasury yields spiked, with the 10-year yield rising to **4.5%**, indicating a sell-off in bonds. These developments reflect eroding confidence in U.S. economic leadership and the global implications of current trade policies.
 
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/068a15fc-841c-4ac4-9beb-6a0d3e8c988a_4000x2250.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!pqA4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F068a15fc-841c-4ac4-9beb-6a0d3e8c988a_4000x2250.heic)
-
 ​In April 2025, the U.S.–China trade war escalated sharply as President Trump imposed tariffs up to **145%** on Chinese imports, citing trade imbalances and national security concerns. China retaliated with **125%** tariffs on U.S. goods and restricted exports of critical rare earth minerals vital to high-tech industries. These actions disrupted global supply chains, impacted companies like **Boeing** and **Nvidia**, and led to significant market volatility. Chinese Ambassador Xie Feng called for peaceful coexistence but warned of further retaliation if tensions persist. Despite private discussions, no high-level negotiations are scheduled, leaving the trade conflict unresolved.
-
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/fc84fa45-e5e2-4487-a130-be263317d845_1976x1317.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!7xAl!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffc84fa45-e5e2-4487-a130-be263317d845_1976x1317.heic)
 
 On April 17, 2025, Chinese tea brand **Chagee** debuted on the **Nasdaq** under the ticker “CHA,” becoming the first Chinese freshly brewed tea company to list in the U.S. The IPO raised **$411 million** by offering 14.7 million American depositary shares at **$28** each. Shares opened at **$33.75** and closed at **$32.44**, valuing the company at approximately **$6 billion**. Founded in 2017 by Zhang Junjie, Chagee operates over **6,400** stores globally, with **156** overseas locations. Despite U.S.-China trade tensions, the listing attracted strong investor interest, signaling confidence in China's consumer market growth.
 
-The Sunday Blender is a reader-supported publication. To receive new posts and support my work, consider becoming a free or paid subscriber.
-
-* * *
-
-### 4\. Science
-
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/0373a162-3487-4312-8df9-150738c1906a_768x512.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!XEEH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0373a162-3487-4312-8df9-150738c1906a_768x512.heic)
+## Science
+---
 
 A high-school student **Matteo Paz** from **Pasadena, California**, recently won the first place prize of **$250,000** in the **2025 Regeneron Science Talent Search** for combining machine learning with astronomy. Self-described as the nation’s “oldest and most prestigious science and math competition for high school seniors,” the contest recognized Paz for developing his A.I. algorithm. The young scientist’s tool processed **200 billion** data entries from NASA’s now-retired **Near-Earth Object Wide-field Infrared Survey Explorer (NEOWISE)** telescope. His model revealed **1.5 million** previously unknown potential celestial bodies.
 
-* * *
-
-### 5\. Nature, Environment
-
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/8f002467-b8aa-4530-89d1-2e39c9e479a9_700x400.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!zfx3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8f002467-b8aa-4530-89d1-2e39c9e479a9_700x400.heic)
+## Nature, Environment
+---
 
 Mark your calendar! On the morning of **April 25, 2025**, a rare celestial event will grace the skies: a triple conjunction forming a "smiley face." **Venus** and **Saturn** will align with a slender crescent **moon**, creating a triangular formation resembling a smiling face. This spectacle will be visible worldwide around **5:30 a.m.** local time, just before sunrise, provided there's a clear eastern horizon. While Venus and Saturn serve as the "eyes," the crescent moon forms the "smile." Though visible to the naked eye, binoculars or a telescope can enhance the experience. This event follows the peak of the **Lyrid** meteor shower, offering stargazers a delightful morning show.
 
-* * *
-
-### 6\. Lifestyle, Entertainment, Culture
-
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/1a807bb4-d20b-48f6-9d6c-428e1d474066_1600x900.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!ynkq!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1a807bb4-d20b-48f6-9d6c-428e1d474066_1600x900.heic)
+## Lifestyle, Entertainment, Culture
+---
 
 **Easter** (**April 20, 2025**), falling on the first Sunday after the first full moon following the spring equinox, is celebrated by Christians worldwide to honor the resurrection of **Jesus Christ**. Common traditions include attending church services, enjoying festive meals, and participating in Easter egg hunts, especially for children. People often decorate eggs, exchange chocolate bunnies, and gather with family. In many Western countries like the **United States, the UK, Canada, Australia, and Germany**, Easter Sunday is a widely observed cultural event, even if not always a formal public holiday. In **predominantly Christian nations** such as **Italy, Spain, and the Philippines**, Easter is a national holiday with several days off, including Good Friday and Easter Monday in many cases.
 
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/2a68026b-5abc-4841-a4d4-8646f8d37d70_2560x1708.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!FS-v!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2a68026b-5abc-4841-a4d4-8646f8d37d70_2560x1708.heic)
-
 Coachella 2025, held over two weekends in April in **Indio, California**, marked the festival's **24th** edition since its inception in 1999. Renowned for its eclectic mix of music, art installations, and cultural moments, this year’s event featured headliners **Lady Gaga**, **Green Day**, **Post Malone**, and **Travis Scott**. Lady Gaga's performance was notable for its theatrical elements and a brief microphone malfunction, which she handled with professionalism, quipping, "At least you know I'm singing live" . Green Day and Travis Scott delivered energetic sets, while Post Malone closed the festival with a blend of his hits.​ Other prominent acts included **Missy Elliott**, **Charli XCX**, **Megan Thee Stallion**, **BLACKPINK**'s **Lisa** and **Jennie**, **Ed Sheeran**, and **Zedd** . The festival also featured surprise guest appearances from artists like **Billie Eilish**, **Troye Sivan**, and **Lorde**, adding to the event's dynamic atmosphere.
-
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/a3806c20-917d-4d27-a611-88606b5e94e4_1920x1080.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!Z465!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa3806c20-917d-4d27-a611-88606b5e94e4_1920x1080.heic)
 
 **A Minecraft Movie**, released on April 4, 2025, has become a cultural phenomenon, blending the beloved sandbox game's elements with a live-action adventure. The film stars **Jason Momo**a as Garrett and **Jack Black** as Steve. The story follows four misfits transported into the Minecraft Overworld, embarking on a quest to return home with Steve's guidance.​ The movie has grossed over **$662 million** box-office worldwide, making it the highest-grossing film of 2025 in US and the second-highest-grossing video game adaptation to date (behind 2023’s **Super Mario Bros** film). A standout moment from the film is Jack Black's 34-second song "**Steve’s Lava Chicken**," which entered the UK singles chart at number **21**, becoming the shortest song ever to do so.
 
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/14de3674-5af1-4987-982b-ccdafeb44537_1920x1080.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!NRqq!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F14de3674-5af1-4987-982b-ccdafeb44537_1920x1080.heic)
-
 **​Forbes**' 2025 **30 Under 30** list spotlights **600** young innovators across **20** industries, including **AI**, **healthcare**, **media**, and **retail**. Collectively, these honorees have raised over **$3.6 billion** in funding and amassed **300 million** social media followers. Notable achievements include advancements in tumor treatment technologies, expansion of electric vehicle charging infrastructure, and the development of AI-driven retail solutions . Nearly one-third (9 honorees) in Finance are crypto innovators. Forbes humorously highlighted 10 former honorees embroiled in scandals, such as FTX’s **Sam Bankman-Fried** and Alameda’s **Caroline Ellison**. Historically, **Stanford**, **Harvard**, and **MIT** alumni dominated the list, though 2025 specifics remain unclear.
 
-* * *
-
-### 7\. Sports
-
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/57bc9c8a-5dd2-4ba7-9363-058a4c2631d3_1200x800.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!zCNC!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F57bc9c8a-5dd2-4ba7-9363-058a4c2631d3_1200x800.heic)
+## Sports
+---
 
 The **2025 Paris–Roubaix**, held on April 13, marked the **122nd** edition of cycling's legendary "**Hell of the North**." Dutch rider **Mathieu van der Poel** claimed his third consecutive victory. The grueling **259.2 km** race from Compiègne to Roubaix featured **30** cobbled sectors. Van der Poel's decisive move came after rival **Tadej Pogačar** crashed on a cobbled section with **38 km** remaining. Despite suffering a puncture and being struck by a water bottle thrown by a spectator, Van der Poel maintained his lead to secure victory . Pogačar, making his Paris–Roubaix debut, finished second, with Denmark's Mads Pedersen completing the podium in third place.
 
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/222f07a2-5168-43cd-af02-24ad7acd3624_3840x2560.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!YUQH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F222f07a2-5168-43cd-af02-24ad7acd3624_3840x2560.heic)
-
 On April 18, 2025, **Remco Evenepoel** made a triumphant return to racing by winning the **65th** **De Brabantse Pijl** in **Belgium**. The **162.6 km** race from Beersel to Overijse saw Evenepoel and fellow Belgian **Wout van Aert** break away with **55 km** remaining, later joined briefly by Joseph Blackmore. Evenepoel dropped Blackmore on the final lap and, despite Van Aert's sprinting prowess, launched a successful early sprint to secure victory. This marked Evenepoel's first win since recovering from a serious injury sustained in December 2024. António Morgado finished third, 27 seconds behind the leading duo.
-
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/0a367b2b-b56a-4e3f-a1e0-a4f42b8402d4_1296x729.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!RbC4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0a367b2b-b56a-4e3f-a1e0-a4f42b8402d4_1296x729.heic)
 
 **Max Verstappen** delivered a commanding performance at the **2025 Saudi Arabian Grand Prix** in **Jeddah**, securing his second victory of the season. Starting from pole position with a lap time of **1:27.294**, he narrowly edged out **McLaren**'s **Oscar Piastri** by just **0.010** seconds in qualifying. During the race, Verstappen maintained his lead throughout, showcasing **Red Bull**'s strategic prowess and the RB21's reliability. This win marked Verstappen's third career victory at the **Jeddah Corniche Circuit**, further solidifying his dominance on street circuits. The triumph also propelled him to the top of the drivers' championship standings, overtaking **Lando Norris** of the **McLaren Team**, who finished outside the podium positions.
 
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/af82ccd6-5d1a-4409-8704-6ab2791e3d94_1920x1280.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!opmj!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faf82ccd6-5d1a-4409-8704-6ab2791e3d94_1920x1280.heic)
-
 In Game 1 of the 2025 NBA Playoffs, **the Minnesota Timberwolves** dominated **the Los Angeles Lakers** with a **117–95** victory. The Timberwolves set a franchise playoff record by making **21** three-pointers, shooting **50%** from beyond the arc. Their defense stifled the Lakers, limiting them to **31.8%** shooting from three-point range and outscoring them **25–6** in fast-break points. ​For the Lakers, **Luka Dončić** scored 37 points but struggled with ball distribution, recording only one assist and committing five turnovers. The Timberwolves' physical dominance, particularly in the paint and on the boards, exposed the Lakers' lack of size, especially in the absence of Anthony Davis.
-
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/ce2077f7-70f3-4403-b11f-24bfc65b63a6_2500x1853.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!wmeK!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fce2077f7-70f3-4403-b11f-24bfc65b63a6_2500x1853.heic)
 
 In another Game 1 of the 2025 NBA Playoffs, **the Denver Nuggets** edged **the Los Angeles Clippers** **112–110** in overtime at Ball Arena. **Nikola Jokić** led Denver with **29 points**, **12 assists**, and **9 rebounds**, narrowly missing a triple-double. Aaron Gordon contributed **25 points**, including six in overtime, while Jamal Murray added **21 points**. Russell Westbrook, facing his former team, made a pivotal corner three-pointer late in regulation and a crucial defensive play in overtime. The Clippers, led by **James Harden**'s **32 points** and **11 assists**, and **Kawhi Leonard**'s **22 points**, committed **20 turnovers**, which proved costly in the tightly contested game.
 
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/5bb94ea2-dcea-4c48-94fb-7ddc44191f6a_1200x600.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!KvLI!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5bb94ea2-dcea-4c48-94fb-7ddc44191f6a_1200x600.heic)
-
 On April 19, 2025, **Inter Miami** edged **Columbus Crew** **1–0** at Cleveland's Huntington Bank Field, maintaining their unbeaten MLS season. **Benjamin Cremaschi** scored the decisive goal in the first half, heading in a precise cross from **Marcelo Weigandt**. Despite **Lionel Messi** playing the full match, he didn't score but contributed to the team's performance. Columbus Crew had several opportunities to equalize, with notable chances from Dániel Gazdag and Diego Rossi, but failed to convert. The match set a new attendance record of over **60,000** people for the Crew, highlighting the draw of Messi and Inter Miami.
 
-* * *
-
-### 8\. This Day in History
-
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/918f197d-2328-420e-9bcd-49c4b23f3159_1080x763.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!t6L_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F918f197d-2328-420e-9bcd-49c4b23f3159_1080x763.heic)
+## This Day in History
+---
 
 ​On **April 20, 2008**, **Danica Patrick** made history by becoming the first woman to win an IndyCar Series race, triumphing at the **Indy Japan 300** held at **Twin Ring Motegi**. Driving for **Andretti Green Racing**, Patrick strategically conserved fuel while maintaining competitive speed, allowing her to overtake the leaders late in the race. Her groundbreaking victory was not only a personal milestone but also a landmark moment for women in motorsports, challenging long-standing gender barriers in a male-dominated sport. The win elevated her global profile and inspired a new generation of female drivers to pursue professional racing careers.
 
-* * *
-
-### 9\. Oddities
-
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/8f5c678d-9e50-4203-837c-b47f706b8676_1200x799.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!3xJo!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8f5c678d-9e50-4203-837c-b47f706b8676_1200x799.heic)
+## Oddities
+---
 
 On April 19, 2025, **Beijing** hosted the world's first half-marathon featuring humanoid robots racing alongside humans. Twenty-one bipedal robots, developed by Chinese firms like **DroidUP** and **Noetix Robotics**, participated in the **21.1 km** event. Despite the groundbreaking nature of the race, only **6** robots managed to finish, with many stumbling, overheating, or requiring human assistance. The standout performer, **Tiangong Ultra**, completed the course in **2 hours and 40 minutes**, necessitating three battery changes and occasional support from handlers. While the event highlighted China's advancements in robotics, it also underscored the current limitations of humanoid robots in real-world scenarios. ​
 
-* * *
-
-### 10\. Joke
-
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/6c717fa5-3682-4c75-85f7-beb3e22cb586_1280x720.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!DGTX!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6c717fa5-3682-4c75-85f7-beb3e22cb586_1280x720.heic)
+## Joke
+---
 
 ​**"Why did the U.S. and China start a ping-pong tournament during the trade war?**
 
 Because every time one slams a _tariff_ across the table, the other smashes back a _retaliation_… and now the supply chain’s stuck in the net!" 🏓
 
-* * *
+---
 
-Thanks for reading The Sunday Blender! This post is public so feel free to share it with your friends who may also enjoy good old newspaper reading
-
-[Share](https://weekly.sundayblender.com/p/flying-dutchman-sails-away?utm_source=substack&utm_medium=email&utm_content=share&action=share)
+Thanks for reading The Sunday Blender! This post is public so feel free to share it with your friends who may also enjoy good old newspaper reading.

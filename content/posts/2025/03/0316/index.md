@@ -1,340 +1,96 @@
-Saved at path
-  Relative: 159117833.space-oddities-on-the-moon-space.md
-  Absolute: /Users/zire/Downloads/substack export_sundayblender/posts/159117833.space-oddities-on-the-moon-space.md
-,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F33a240cd-a492-43b2-83a1-8397507895d5_1792x1024.heic)
+---
+title: "Space Oddities On the Moon Space"
+date: 2025-03-16
+description: "xx"
+tags: ["AI", "Technology", "Global News", "Science"]
+draft: false
+slug: "space-oddities-on-the-moon-space"
+image: ""
+---
 
-### 1\. Tech
-
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/44468923-9bf6-4c6c-8fdf-f9ba1bc581f5_2048x1365.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!L6vJ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F44468923-9bf6-4c6c-8fdf-f9ba1bc581f5_2048x1365.heic)
+## Tech
 
 As of March 15, 2025, **NASA** **(National Aeronautics and Space Administration)**'s **SpaceX** Crew-10 mission is en route to the International Space Station (ISS). The Falcon 9 rocket carrying the Crew Dragon spacecraft launched successfully from **Kennedy Space Center** on March 14 at 7:03 p.m. EDT. The spacecraft is scheduled to autonomously dock with the ISS at approximately 11:30 p.m. EDT on March 15. This mission is particularly significant as it facilitates the return of NASA astronauts Butch Wilmore and Suni Williams, who have been aboard the ISS since June 2024 due to technical issues with **Boeing**'s Starliner spacecraft.
 
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/85c8945f-5534-463b-bfe7-5adc353b9d58_1280x720.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!KkJ5!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F85c8945f-5534-463b-bfe7-5adc353b9d58_1280x720.heic)
-
 **OpenAI** launched **GPT-5** and introduced AI interaction with real-time multimodal processing. It seamlessly integrates text, image, audio, and video inputs/outputs simultaneously. Demos showcased live video analysis: a user filming a broken car engine received instant repair guidance, while developers debugged code via screen recordings. GPT-5’s “dynamic context” adapts to ambiguous queries, like interpreting a sketched app idea into functional code. **OpenAI** partners with **Adobe** and **Zoom** for enterprise tools, embedding ethical safeguards.
-
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/dc9fcc10-8d1e-400d-a03b-cee2cbf7e5da_1706x960.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!eLe0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdc9fcc10-8d1e-400d-a03b-cee2cbf7e5da_1706x960.heic)
 
 At the **Mobile World Congress (MWC) 2025** in **Barcelona**, Chinese tech companies made a strong impact by showcasing AI-powered application**s** that redefine digital content creation. Innovations included photo transformation tools, enabling users to generate high-quality images from simple sketches, and short movie generator**s**, which use AI to create engaging video content from text prompts. With Western firms focusing on hardware upgrades, Chinese companies are leading in AI-driven creativity, positioning themselves as key players in the next wave of digital transformation.
 
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/f77507cf-9eae-4012-bbfe-c2012bdcb6a8_1140x700.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!SKdG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff77507cf-9eae-4012-bbfe-c2012bdcb6a8_1140x700.heic)
-
 **Manus AI**, launched on March 6, 2025, by Chinese startup Monica, is being hailed as the world’s first fully autonomous AI agent. Unlike traditional chatbots, Manus independently plans and executes complex tasks such as creating websites, analyzing stocks, and managing enterprise data. Co-founder Yichao "Peak" Ji describes it as a step toward artificial general intelligence (**AGI**), bridging human-machine collaboration. While praised for its groundbreaking capabilities, early users report glitches and performance inconsistencies. Accessible only by invitation, Manus has sparked global interest and concern, with experts warning it may disrupt labor markets by industrializing intelligence and automating decision-making processes.
-
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/b76d7a0d-9678-4c05-897b-c8f183768f8c_1600x900.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!Ykyy!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb76d7a0d-9678-4c05-897b-c8f183768f8c_1600x900.heic)
 
 In a historic shift, Lip-Bu Tan was appointed **Intel**'s CEO on March 18, 2025, making him the latest Chinese-heritage leader to helm a major U.S. semiconductor company. He joins Jensen Huang **(NVIDIA),** Lisa Su **(AMD),** and Hock Tan **(Broadcom)**, marking an era where the biggest chip firms are all led by Chinese-born or Chinese-American executives. Tan, originally from Malaysia, brings extensive experience from **Cadence Design Systems** and venture capital. His leadership reflects the growing influence of Chinese-origin talent in the global semiconductor race, especially as U.S.-China tech tensions continue to shape the industry's future.
 
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/f9c31aa5-a543-46f4-8859-0680f8e6d5c7_1811x1208.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!luHr!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff9c31aa5-a543-46f4-8859-0680f8e6d5c7_1811x1208.heic)
-
 **Cortical Labs**, a startup founded in 2019 based in Australia and Singapore, has unveiled the CL1, the world’s first commercial biological computer powered by human brain cells. Neurons are cultivated from stem cells and embedded on a **59-electrode** silicon array, enabling adaptive learning and energy-efficient computing. CL1 consumes just **20 watts** of power and costs **$35,000** per unit. It promises revolutionary applications in research and healthcare, offering unparalleled flexibility and efficiency compared to traditional AI systems.
 
-* * *
-
-### 2\. Global
-
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/6c299104-1219-4a44-b66f-2cf3a3518744_3600x2400.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!vspH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6c299104-1219-4a44-b66f-2cf3a3518744_3600x2400.heic)
+## Global
+---
 
 **President Trump** signed an executive order on March 15, 2025, aimed at dismantling seven federal agencies, including the U.S. Agency for Global Media (parent of **Voice of America**), the Woodrow Wilson International Center for Scholars, and the Institute of Museum and Library Services. The order mandates these agencies eliminate non-statutory functions and reduce statutory ones to the minimum required by law. This move is part of Trump's broader effort to reduce government overreach, streamline priorities, and return power to local communities.
 
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/5bb230b5-74f7-4ceb-916c-39240f38cd1b_2048x1152.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!KTo9!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5bb230b5-74f7-4ceb-916c-39240f38cd1b_2048x1152.heic)
-
 **Russian** special forces launched a daring and highly unconventional raid through an abandoned gas pipeline in the Kursk region, aiming to ambush Ukrainian troops. Enduring darkness and toxic gas, hundreds of soldiers crawled approximately **15** kilometers inside the pipeline with a diameter of only **1.42 meters**, hiding for **4** days in preparation before emerging to attack. Ukraine responded with missile strikes, artillery, and drones to neutralize the threat. The raid underscores escalating tensions amidst shifting battlefield dynamics
-
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/40632804-d70b-4b76-bd18-545555617d24_1200x675.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!VXsz!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F40632804-d70b-4b76-bd18-545555617d24_1200x675.heic)
 
 In an effort to revitalize tourism, **Hong Kong** has launched a "Let's Go the Extra Mile" campaign, encouraging service workers, including taxi drivers, to exhibit greater courtesy and helpfulness. Chief Executive John Lee emphasized the importance of smiling and improved service to attract visitors. The campaign aims to address past criticisms of poor service that have tarnished Hong Kong's image. Despite these efforts, tourism numbers, particularly from mainland China, have not fully rebounded, with some visitors preferring destinations in southern China due to better service and lower costs.
 
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/12c69562-ccb2-4f47-b5ab-6126f1d81296_1200x675.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!IiTh!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F12c69562-ccb2-4f47-b5ab-6126f1d81296_1200x675.heic)
-
 In 2024, **New Zealand** experienced a significant emigration surge, with **127,800** people departing—a **28%** increase from the previous year. This trend is primarily attributed to economic challenges, including a technical recession marked by the highest recession rate since 1991 (excluding the pandemic), declining productivity, and high unemployment rates. Consequently, many New Zealanders are seeking better opportunities abroad, particularly in **Australia**, which boasts a stronger economy and lower unemployment.
 
-* * *
-
-### 3\. Economy & Finance
-
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/350cc473-7265-49aa-8e48-f55b557e1181_1612x1080.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!cUUA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F350cc473-7265-49aa-8e48-f55b557e1181_1612x1080.heic)
+## Economy & Finance
+---
 
 **The Bank of China** has established a **50 billion yuan ($6.9 billion)** fund to support technology startups. This initiative aims to bolster the private sector and foster advancements in emerging industries. The move aligns with China's policy objectives for 2025, focusing on technological breakthroughs amidst geopolitical tensions. This follows the Industrial and Commercial Bank of China's launch of an **80 billion yuan** technology fund, highlighting a significant push by state lenders to support innovation and economic growth.
 
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/95e67d81-d055-4d8f-98ed-0e760459544a_1200x628.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!MogT!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F95e67d81-d055-4d8f-98ed-0e760459544a_1200x628.heic)
-
 Gold prices have surged to an unprecedented **$3,000** per ounce, driven by heightened demand for safe-haven assets amid economic uncertainty and geopolitical tensions. Central banks have significantly increased gold purchases, diversifying reserves to mitigate risks associated with foreign currencies. The ongoing trade disputes, particularly U.S. tariffs and retaliatory measures from other nations, have fueled investor anxiety, pushing gold prices up by **14%** since the start of 2025. As global economic instability persists, gold is expected to remain a favored asset, potentially driving prices even higher in the coming months
-
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/45ad0a8c-01be-4735-b154-ea7930f716f4_1200x800.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!vVd1!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F45ad0a8c-01be-4735-b154-ea7930f716f4_1200x800.heic)
 
 Singapore’s condominium market is witnessing a frenzy of speculative buying, with investors (“flippers”) reselling units within months for profits exceeding **30%** in prime districts like Orchard and Marina Bay. Fueled by high demand for luxury amenities—private pools, smart home systems, and 24/7 concierge services—flippers target newly launched developments, leveraging Singapore’s business-friendly regulations and digital real estate platforms like Greyloft to streamline transactions. This trend has pushed average condo prices to a historic **S$2,800** per square foot, pricing out many locals despite cooling measures.
 
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/96ea54e6-a96c-43a3-8c2b-bfb300dbabea_1200x628.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!0Z80!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F96ea54e6-a96c-43a3-8c2b-bfb300dbabea_1200x628.heic)
-
 In 2025, Japanese companies agreed to an average wage increase of **5.46%**, marking the highest rise in **34** years. This substantial hike aims to help workers cope with rising living costs due to inflation and labor shortages. Major corporations like **Hitachi** have implemented record pay raises, reflecting a broader trend across industries. Policymakers hope that sustained wage hikes will eventually stimulate household consumption and support Japan's economic recovery.
 
-* * *
-
-### 4\. Science
-
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/a9b077eb-79c2-4983-9072-59db7207feb1_1280x960.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!k1kV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa9b077eb-79c2-4983-9072-59db7207feb1_1280x960.heic)
+## Science
+---
 
 In February 2025, Chinese mathematician **Hong Wang**, an associate professor at **NYU**'s Courant Institute, alongside **Joshua Zahl** from the **University of British Columbia**, resolved the longstanding Kakeya conjecture in three dimensions. The Kakeya problem, posed in 1917 by Sōichi Kakeya, inquires about the minimal area required to rotate a needle in all directions within a plane. Wang and Zahl demonstrated that while such sets can have zero volume, they must still be three-dimensional. This breakthrough not only advances geometric measure theory but also positions Wang as a strong contender for the Fields Medal, one of mathematics' highest honors.
 
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/08408daa-a841-4a7b-91c7-42a3ffbe7642_1825x1217.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!qKZL!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F08408daa-a841-4a7b-91c7-42a3ffbe7642_1825x1217.heic)
-
 The European Space Agency’s **Odysseus** rover has begun operations on the Moon, exploring its surface for geological insights. Meanwhile, Japan’s Smart Lander for Investigating Moon (**SLIM**), nicknamed "Moon Sniper," has been reactivated after surviving extreme lunar conditions. SLIM, which landed in January 2024 near the Shioli crater, demonstrated precision landing technology but faced issues with solar power due to its tilted position. Both missions exemplify advancements in lunar exploration, with Odysseus focusing on scientific discovery and SLIM showcasing innovative landing techniques for future missions.
-
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/a4ac10f8-f3f0-4673-ab37-42685d0fc2d2_1280x720.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!Arqj!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa4ac10f8-f3f0-4673-ab37-42685d0fc2d2_1280x720.heic)
 
 ​In 2025, Daylight Saving Time (DST) in the United States began on **Sunday, March 9**, when clocks were set forward one hour at 2:00 a.m. local time. DST will end on **Sunday, November 2**, at 2:00 a.m., when clocks will be set back one hour to standard time. This practice, commonly referred to as "spring forward" in March and "fall back" in November, is observed by most U.S. states. The primary purpose of DST is to make better use of daylight during the longer days of summer, providing extended evening daylight. However, the practice has been a topic of debate, with discussions about its impact on health and energy consumption.
 
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/d26dd38b-9bf8-4ec9-8077-f177669c054d_1199x675.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!Ipu4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd26dd38b-9bf8-4ec9-8077-f177669c054d_1199x675.heic)
-
 The **James Webb Space Telescope** has captured images of brown dwarfs in the Flame Nebula, objects too small to be stars but larger than planets. These free-floating objects have masses as low as two to three times **Jupiter**'s. Webb's infrared capabilities allow it to detect these faint, low-mass objects previously hidden in dense star-forming regions. This research helps scientists understand the mass limitations of brown dwarfs and distinguish them from rogue planets. Webb's giant mirror and infrared view provide unprecedented insights into the cosmos, revealing previously unseen objects and revolutionizing our understanding of the universe.
 
-* * *
-
-### 5\. Nature, Environment
-
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/24ffa306-6703-44e7-a8fb-16d574ce6539_2048x1365.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!mTL3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F24ffa306-6703-44e7-a8fb-16d574ce6539_2048x1365.heic)
+## Nature, Environment
+---
 
 In the early hours of March 14, 2025, skywatchers across **Chile**, **Argentina**, and **Venezuela** gathered to witness a total lunar eclipse, popularly known as a "blood moon." This celestial event occurs when the Earth aligns directly between the sun and the moon, casting a shadow that gives the moon a reddish hue. In Chile, the eclipse began at 3:26 a.m., reached its maximum at 3:58 a.m., and concluded by 4:31 a.m., offering a spectacular display visible nationwide. The next opportunity to experience a total lunar eclipse in these regions will be in June 2029, making this event particularly special for enthusiasts and casual observers alike.
 
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/1d244d68-d071-4991-8987-0bc56be50919_768x400.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!yI5D!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1d244d68-d071-4991-8987-0bc56be50919_768x400.heic)
-
 In early March, the **Kawazu Cherry Blossom Festival** in Shizuoka Prefecture, Japan showcased the early-blooming Kawazu-zakura trees. Visitors from across Japan and abroad gathered along the **Kawazu River**, where approximately **800** cherry trees lined a **4-kilometer** stretch, creating a picturesque pink tunnel. The festival featured nighttime illuminations, enhancing the blossoms' beauty under the evening sky. Festival stalls offered local delicacies and sakura-themed treats, allowing attendees to indulge in seasonal flavors. ​
-
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/046a9394-c2a0-4261-bf4b-2ced42efa389_1024x693.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!ksE-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F046a9394-c2a0-4261-bf4b-2ced42efa389_1024x693.heic)
 
 In a mesmerizing display off the coast of **Rancho Palos Verdes, California**, Pacific gray whales recently delighted observers by creating rainbows with their spouts. As these majestic creatures exhaled, the sunlit mist produced vibrant, arched spectra, captivating onlookers. This natural phenomenon occurs when sunlight interacts with the moisture in the whales' spouts, refracting light into its constituent colors, much like a traditional rainbow. Such events highlight the intricate beauty of marine life and offer a unique spectacle for whale watchers and nature enthusiasts alike.
 
-* * *
-
-### 6\. Lifestyle, Entertainment, Culture
-
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/094f49fa-3bf4-4c98-a808-c1200214d27d_1600x900.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!vYYb!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F094f49fa-3bf4-4c98-a808-c1200214d27d_1600x900.heic)
+## Lifestyle, Entertainment, Culture
+---
 
 In 2025, Chinese architect **Liu Jiakun** was awarded the prestigious **Pritzker Architecture Prize**, becoming the third China-born laureate after **Wang Shu** (2012) and **I.M. Pei** (1983). Renowned for integrating traditional Chinese elements with modern design, Liu's notable works include the Luyeyuan Stone Sculpture Art Museum, the Shuijingfang Museum, and the West Village complex in **Chengdu**. His innovative use of "rebirth bricks," crafted from earthquake rubble, exemplifies his commitment to sustainability and cultural preservation. The Pritzker jury lauded Liu for his "reverence for culture, history, and nature," commending his ability to chronicle time and offer familiarity through modern interpretations of classic Chinese architecture.
 
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/2ed9f691-0615-4b5a-a292-fab54296ed68_1500x923.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!YaLS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2ed9f691-0615-4b5a-a292-fab54296ed68_1500x923.heic)
-
 **​London**'s local news landscape has significantly declined, transforming the city into a "news desert." The **Evening Standard**, once the last daily paper, transitioned to a weekly format, leaving a void in daily local coverage. This decline mirrors a broader trend in the UK, where over **300** local newspapers closed between 2009 and 2019, leading to reduced resources for remaining outlets. In response, a mix of small news sources and digital platforms has emerged, striving to fill the gap. However, these new entities often struggle with sustainability and reach, raising concerns about the future of local journalism and its role in maintaining informed communities. ​
-
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/f772ae7e-2008-4dd8-95f3-ad0e3f74d7fd_1600x900.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!1tty!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff772ae7e-2008-4dd8-95f3-ad0e3f74d7fd_1600x900.heic)
 
 In March 2025, **Denmark**'s state-run postal service, **PostNord**, announced it would cease letter deliveries by the end of the year, ending a **400-year** tradition. This decision stems from a dramatic **90%** decline in letter volumes since 2000, attributed to increased digital communication. Consequently, PostNord plans to remove approximately **1,500** mailboxes starting in June and lay off about **1,500** of its **4,600** employees. This move reflects broader challenges faced by postal services globally as digitalization reduces traditional mail usage.
 
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/b8fe165b-95fe-4c83-8ac0-64b64f4c98c2_1280x720.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!6vQb!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb8fe165b-95fe-4c83-8ac0-64b64f4c98c2_1280x720.heic)
-
 St. Patrick's Day, celebrated annually on **March 17**, honors **St. Patrick**, the patron saint of Ireland. Born in Roman Britain, he was kidnapped at 16 and brought to Ireland as a slave. After escaping, he returned around Year 432 to convert the Irish to Christianity, establishing monasteries, churches, and schools. The day commemorates his death and has evolved from a solemn religious observance into a global celebration of Irish culture, especially prominent in the United States. Traditions include wearing green attire, displaying shamrocks, attending parades, and enjoying Irish music and food. Notably, the **New York City St. Patrick's Day Parade**, established in **1762**, is among the world's largest, attracting millions of spectators annually.
 
-* * *
-
-### 7\. Sports
-
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/cfa718df-b994-4077-9a7e-293c2424dcaa_1200x675.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!WorA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcfa718df-b994-4077-9a7e-293c2424dcaa_1200x675.heic)
+## Sports
+---
 
 The 2025 Australian Grand Prix, held at Melbourne's Albert Park Circuit, marked the season's opening race. **McLaren** showcased dominance, with **Lando Norris** securing pole position and his teammate, **Oscar Piastri**, starting second. Reigning World Champion **Max Verstappen** qualified third for **Red Bull**. **George Russell** of **Mercedes** secured fourth, while **Yuki Tsunoda** impressed with a fifth-place finish for **Racing Bulls**. **Ferrari**'s new recruit, **Lewis Hamilton**, faced challenges, qualifying eighth, just behind teammate **Charles Leclerc**. The race day, March 16, 2025, is anticipated to be unpredictable due to forecasted wet conditions, adding an extra layer of excitement to the season opener. ​
 
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/43ed25ac-ba2e-4621-a9f5-492dceb5bad4_1440x810.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!yCym!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F43ed25ac-ba2e-4621-a9f5-492dceb5bad4_1440x810.heic)
-
 **The Golden State Warriors** have achieved a remarkable 13-1 record since **Jimmy Butler** joined their lineup. This surge has significantly boosted their playoff prospects. Butler's addition has brought a new dynamic to the team, complementing stars like **Stephen Curry**. The Warriors recently extended their winning streak to six games, defeating the **Sacramento Kings** **130-104** on March 13, 2025. Curry also celebrated a milestone by becoming the first player to reach **4,000** career three-pointers. The Warriors' improved performance positions them as potential championship contenders, though challenging matchups lie ahead.
-
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/378d1c81-b704-4150-adb7-6445e492291a_1500x843.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!bJdK!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F378d1c81-b704-4150-adb7-6445e492291a_1500x843.heic)
 
 **Tadej Pogačar**, the Slovenian cycling sensation, showcased his resilience and dominance by winning the 2025 Strade Bianche. Despite a high-speed crash **50** kilometers from the finish, Pogačar remounted and launched a decisive attack on the Colle Pinzuto climb, leaving competitors like Tom Pidcock behind. He powered through with an average of **630 watts**, peaking at **810 watts** during his assault. This victory marks Pogačar's third Strade Bianche title in four years, solidifying his status among cycling's elite. Pogačar's remarkable comeback after the crash underscores his exceptional talent and determination.
 
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/0abd6dee-ea02-4ff4-822a-7b65c9ad035a_1200x800.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!ZbFf!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0abd6dee-ea02-4ff4-822a-7b65c9ad035a_1200x800.heic)
-
 Two-time Tour de France champion **Jonas Vingegaard** withdrew from the 2025 Paris-Nice race following a crash during Stage 5. The Danish cyclist suffered injuries to his hand and face, including a cut on his lip, which impeded his performance, leading to a **26-second** loss to stage winner Lenny Martinez. Prior to his withdrawal, Vingegaard was second in the general classification, **22 seconds** behind teammate Matteo Jorgenson, who now leads the race.
 
-* * *
-
-### 8\. Oddities
-
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/58f10c56-d9d0-45c1-a565-4f44ee66b4d9_900x900.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!6jJK!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F58f10c56-d9d0-45c1-a565-4f44ee66b4d9_900x900.heic)
+## Oddities
+---
 
 On March 5, 2025, Air India Flight 126 from Chicago to Delhi was forced to return to Chicago after **10 hours** in flight due to clogged toilets. Approximately an hour and 45 minutes into the journey, crew members discovered that **8 of the 12** lavatories were inoperative, causing significant discomfort. An investigation revealed that passengers had flushed inappropriate items—such as polythene bags, rags, and clothes—leading to severe blockages. Given nighttime restrictions at European airports and the need to ensure passenger comfort and safety, the decision was made to return to Chicago.
 
-* * *
+---
 
-Thanks for reading The Sunday Blender! This post is public so feel free to share it with your friends who may also enjoy good old newspaper reading
-
-[Share](https://weekly.sundayblender.com/p/space-oddities-on-the-moon-space?utm_source=substack&utm_medium=email&utm_content=share&action=share)
+Thanks for reading The Sunday Blender! This post is public so feel free to share it with your friends who may also enjoy good old newspaper reading.

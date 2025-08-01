@@ -1,348 +1,99 @@
-Saved at path
-  Relative: 157599150.meeting-of-the-minds.md
-  Absolute: /Users/zire/Downloads/substack export_sundayblender/posts/157599150.meeting-of-the-minds.md
-B8V!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F196035ba-e77b-472c-9b44-a3367452f2de_1000x710.heic)
+---
+title: "Meeting of the Minds"
+date: 2025-02-24
+description: "xx"
+tags: ["AI", "Technology", "Global News", "Science"]
+draft: false
+slug: "meeting-of-the-minds"
+image: ""
+---
 
-### 1\. Tech
-
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/8fbd3284-765f-4dbf-aa30-07fb7bc8bc1d_1000x615.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!7UmQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8fbd3284-765f-4dbf-aa30-07fb7bc8bc1d_1000x615.heic)
+## Tech
+---
 
 On February 17, **Xi Jinping** met with prominent Chinese entrepreneurs in a rare high-profile gathering. Attendees included Jack Ma of **Alibaba**, Ren Zhengfei of **Huawei**, Wang Chuanfu of **BYD**, Zeng Yuqun of **CATL**, Pony Ma of **Tencent**, and Lei Jun of **Xiaomi,** and Liang Wenfeng of **DeepSeek**. This meeting signaled strong support for the private sector amid economic challenges. Xi urged entrepreneurs to "show their talents," emphasizing innovation and growth. The event marked a shift towards a more business-friendly approach after years of regulatory scrutiny. It highlighted Beijing's reliance on private enterprises for economic revival and technological advancement.
 
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/30d6fdcf-24cd-4d46-bcd4-2f34ae556e68_1892x970.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!_kfi!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F30d6fdcf-24cd-4d46-bcd4-2f34ae556e68_1892x970.heic)
-
 Grok 3, launched by **Elon Musk**'s **xAI**, is touted as the "smartest AI on Earth." It boasts advanced reasoning, text-to-video conversion, and self-correction mechanisms. Grok 3 is powered by the Colossus supercomputer with over **100,000** Nvidia GPUs. It outperforms competitors in math, science, and coding benchmarks. The AI aims to answer profound questions like "Where are the aliens?" and "What’s the meaning of life?" Initially available to Premium+ subscribers on X and Grok.com, it features a DeepSearch mode for real-time information retrieval.
-
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/b0167d9d-03ae-48c2-93d7-9dbac60d9c1f_2048x1517.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!uSWf!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb0167d9d-03ae-48c2-93d7-9dbac60d9c1f_2048x1517.heic)
 
 The **Oppo** Find N5 is the world's thinnest book-style foldable smartphone, measuring **8.93mm** when closed. It features a large **8.12-inch** inner display and a **6.62-inch** external screen, both with high refresh rates and brightness up to **2,100 nits**. Powered by the Snapdragon 8 Elite chipset, it offers robust performance and AI capabilities. The phone includes a triple-camera setup with Hasselblad tuning and supports fast charging with an impressive **5,600mAh** battery. Its design combines elegance with durability using advanced materials like titanium for enhanced strength.
 
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/99168646-bb13-45a5-96a2-47659af9526e_1600x900.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!T-EP!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F99168646-bb13-45a5-96a2-47659af9526e_1600x900.heic)
-
 **Microsoft**'s Majorana 1 chip marks a significant breakthrough in quantum computing by leveraging topological qubits, which are more robust and scalable than traditional qubits. This innovation uses a new material called topoconductors to control Majorana particles, enabling the creation of reliable and digitally controlled qubits. The chip currently contains eight topological qubits but is designed to scale to one million on a single chip, potentially solving complex industrial problems like breaking down microplastics or inventing self-healing materials. This technology could revolutionize fields such as medicine and environmental science by providing solutions that current computers cannot achieve.
-
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/43cac20d-1662-469c-9aca-e414d32f6380_1940x1320.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!MVMx!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F43cac20d-1662-469c-9aca-e414d32f6380_1940x1320.heic)
 
 **Rivian**'s California Dune Edition, available for the R1T and R1S, is designed for off-road enthusiasts. It features a unique "California Dune" beige paint and 20-inch rally-style wheels. The Tri-Motor powertrain delivers **850 horsepower** and **1,103 lb-ft** of torque, accelerating from 0-60 mph in **2.9 seconds** with a range of up to **329 miles**. The edition includes an All-Terrain Package with reinforced underbody protection and Maxtrax recovery boards. Pricing starts at $99,900 for the R1T and $105,900 for the R1S. The interior boasts a two-tone Sandstone and Black Mountain design.
 
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/2d9493c2-2d66-476b-baed-6e23a1f706fb_1200x675.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!Wi0q!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2d9493c2-2d66-476b-baed-6e23a1f706fb_1200x675.heic)
-
 **Sony** offered PlayStation Plus members five extra days of service as compensation for a **24-hour** PSN outage. The outage, caused by an "operational issue," affected all users but impacted subscribers most due to lost online gaming time. While some appreciated the gesture, many felt it was insufficient and preferred alternatives like free games or store credit. Non-subscribers received no compensation beyond Sony's apology.
-
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/87d74ad7-1a64-4045-92a5-5696d4a885da_1200x672.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!oBr1!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F87d74ad7-1a64-4045-92a5-5696d4a885da_1200x672.heic)
 
 **Adobe** recently introduced AI video generation tools through its Firefly platform, allowing users to create short videos using text prompts. This innovation aligns with Adobe's broader strategy to integrate AI across its creative suite. Additionally, Adobe has enhanced Premiere Pro and After Effects with new features like media intelligence and caption translation, streamlining post-production workflows for video professionals. These updates aim to reduce tedious tasks and enhance creativity in filmmaking processes. The company continues to invest in AI-driven solutions that support both professional filmmakers and emerging creators worldwide.
 
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/26a07b02-307e-4423-ad1b-7db00b5e0dba_1600x900.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!AMqZ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F26a07b02-307e-4423-ad1b-7db00b5e0dba_1600x900.heic)
-
 Chinese tech giants, including **Huawei** Cloud, **Alibaba** Cloud, and **Tencent** Cloud, have rapidly integrated **DeepSeek**'s open-source AI models into their platforms. **Baidu** Cloud was among the first to offer these models with significant price cuts and a free trial. Tencent emphasizes speed with one-click deployment, while Alibaba focuses on accessibility with no-code tools. Huawei leverages AI acceleration technology to match high-end GPU efficiency at lower costs. This integration highlights China's push for AI dominance and offers more affordable alternatives to Western AI services like OpenAI.
-
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/21a55bd3-f1ef-487f-bbed-84a705bdfef5_1601x900.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!BEo1!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F21a55bd3-f1ef-487f-bbed-84a705bdfef5_1601x900.heic)
 
 **XPeng** CEO He Xiaopeng announced plans to achieve Level 3 (L3) autonomous driving by the second half of 2025. This technology will significantly enhance user experience, akin to the impact of the iPhone 4 on smartphones. Currently, most Chinese vehicles operate at L2 autonomy; Xpeng's move to L3 involves greater legal responsibility in emergencies. The company is investing heavily in AI and R&D, with approximately **4.5 billion yuan** dedicated to AI development.
 
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/a7f91f3e-0a9a-4e10-85b7-7229ea4e117b_818x600.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!Msxw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa7f91f3e-0a9a-4e10-85b7-7229ea4e117b_818x600.heic)
-
 **Alef Aeronautics** made history with the first publicly documented flight of a drivable flying car. The company's ultralight Model Zero prototype successfully took off vertically and flew over a parked vehicle in California. This milestone marks a significant step toward commercializing flying cars, with Alef aiming for production by early 2026. The Model A, capable of driving **200 miles** and flying **110 miles**, is designed for safety with features like triple redundancy systems and obstacle detection.
 
-* * *
-
-### 2\. Global
-
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/9bd27340-f93f-4794-97eb-4f2dc2fe94b8_2048x1536.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!YjIT!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9bd27340-f93f-4794-97eb-4f2dc2fe94b8_2048x1536.heic)
+## Global
+---
 
 Egg prices in the U.S. have reached record highs due to a severe avian flu outbreak that has killed millions of egg-laying hens. The average price for a dozen Grade A eggs is $4.95, up **53%** from last year. Wholesale prices have surged even higher, reaching over $8 per dozen. Supply chain disruptions and labor shortages exacerbate the issue, leading some stores to ration egg purchases. Prices are expected to rise further by **20%** in 2025 as bird flu continues to impact poultry supplies.
 
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/1ac1c32b-b5ee-41c3-b824-c28ed59fc18f_1024x682.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!cmZr!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1ac1c32b-b5ee-41c3-b824-c28ed59fc18f_1024x682.heic)
-
 **Pope Francis**, who is **88** years old, remains hospitalized at **Rome**'s Gemelli Hospital due to complications from bronchitis that developed into double pneumonia. His medical team emphasizes that he is "fragile and not out of danger" because of his age and chronic health issues. Despite these challenges, Pope Francis continues to work while in the hospital, reading documents and maintaining his commitment to the Church. He has been leading the Catholic Church since 2013.
-
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/06ae0700-8c87-4c4d-88a0-ccdcd3d7f179_1920x1282.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!WH3A!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F06ae0700-8c87-4c4d-88a0-ccdcd3d7f179_1920x1282.heic)
 
 A tragic stampede at New Delhi Railway Station on February 15 resulted in the deaths of **18** people, as passengers rushed to board trains for the Maha Kumbh festival in Prayagraj. The chaos was exacerbated by a last-minute platform change announcement, causing confusion and overcrowding on platforms 14 and 15. Postmortem reports revealed that most victims died from traumatic asphyxia due to blunt force injuries.
 
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/b1b8fbdc-eb43-4ef5-b423-0f6044894df7_1560x877.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!Qeee!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb1b8fbdc-eb43-4ef5-b423-0f6044894df7_1560x877.heic)
-
 At least seven Japanese nationals have been rescued from large-scale scam centers at the Myanmar-Thailand border. These individuals were among thousands of foreigners coerced into participating in online scams. The rescues followed a power cut initiated by Thai authorities to disrupt these operations. Many more Japanese citizens are thought to still be held captive, with estimates suggesting up to **31** Japanese nationals may be involved.
 
-* * *
-
-### 3\. Economy & Finance
-
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/6dee1574-e8d4-4a21-a327-2cd7bee19dde_1200x675.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!stP7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6dee1574-e8d4-4a21-a327-2cd7bee19dde_1200x675.heic)
+## Economy & Finance
+---
 
 Huawei’s Harmony Intelligent Mobility Alliance, including Aito and Luxeed EVs, reported a **6.1% YoY** sales increase in January, reaching nearly **35,000 units**. The growth highlights Huawei’s expanding influence in smart vehicle ecosystems amid fierce NEV market competition.
 
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/5af786e2-2d34-42ae-b637-b2f6d50777d6_1457x1088.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!wnS9!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5af786e2-2d34-42ae-b637-b2f6d50777d6_1457x1088.heic)
-
 China's wind turbine exports are poised for significant growth, projected to rise from nearly **10 GW** over the past decade to over **100 GW** in the next ten years. Leading manufacturers like **Goldwind** and **Envision** are expected to dominate onshore exports, focusing on emerging markets in Asia, Africa, and South America. Chinese OEMs (Original Equipment Manufacturer) benefit from lower costs and a vast domestic supply chain, allowing them to undercut Western competitors. However, they face challenges such as limited brand recognition and political risks outside China.
-
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/116b145c-60ed-47ba-aaa7-eeab91e5b42a_1200x1200.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!bf2g!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F116b145c-60ed-47ba-aaa7-eeab91e5b42a_1200x1200.heic)
 
 Global semiconductor sales surged by **19.1%** in 2024, reaching a record **$627.6 billion**, driven by strong demand from the computing sector and significant growth in memory and logic segments. The industry is projected to see double-digit growth in 2025. This expansion is fueled by advancements in AI, high-performance computing, and emerging technologies like edge computing. The Americas and Asia Pacific are expected to lead this growth, with new fab constructions underway globally to meet rising demand for advanced semiconductors.
 
-* * *
-
-### 4\. Science
-
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/bcf03da5-3f6a-4b30-a4cc-fda3b5ddc509_1280x720.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!cEjZ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbcf03da5-3f6a-4b30-a4cc-fda3b5ddc509_1280x720.heic)
+## Science
+---
 
 Astronomers have created the first-ever 3D map of an exoplanet's atmosphere, focusing on WASP-121b, an ultra-hot Jupiter **900** light-years away. Using the European Southern Observatory's Very Large Telescope (VLT), they detected powerful winds carrying elements like iron and titanium, creating intricate weather patterns. The planet features a jet stream that spans half its equator and another flow moving gas from the hot to cool sides. This unique climate challenges current understanding of planetary weather systems, with winds outpacing even the strongest solar system hurricanes.
 
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/b29fa092-2ad7-4c93-88c4-669aec84e365_1980x1200.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!K71K!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb29fa092-2ad7-4c93-88c4-669aec84e365_1980x1200.heic)
-
 Scientists have discovered a nearly complete skull of a **30-million-year-old** apex predator, Bastetodon syrtos, in Egypt's Fayum Depression. This leopard-sized carnivore belonged to the extinct hyaenodont group and was characterized by sharp teeth and powerful jaw muscles. It thrived in ancient forests that are now deserts, preying on early primates, hippos, elephants, and hyraxes. The find sheds light on Africa's ancient ecosystems before modern carnivores emerged. Named after the Egyptian goddess Bastet, this discovery provides insights into how these formidable predators adapted to climate changes before their eventual extinction about **25 million** years ago.
 
-* * *
-
-### 5\. Nature, Environment
-
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/1f94e07c-052e-4387-b094-4f0f9267b1ae_2180x1306.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!lwyS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1f94e07c-052e-4387-b094-4f0f9267b1ae_2180x1306.heic)
+## Nature, Environment
+---
 
 Norway's parliament has passed a bill allowing hydropower development in previously protected rivers. The law permits power plants over **1 MW** if societal benefits are deemed "significant" and environmental impacts "acceptable." This move has sparked controversy among environmental groups, who argue it threatens biodiversity and fish populations. Nearly **400 waterways** were previously safeguarded for ecological reasons, but the new policy could lead to increased conflicts over river development.
 
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/a00ba66c-47e9-4c25-b3b6-803b36f5530a_1600x1071.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!eTnh!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa00ba66c-47e9-4c25-b3b6-803b36f5530a_1600x1071.heic)
-
 Global sea ice has reached a record low, with the combined extent in the Arctic and Antarctic dropping to **15.76 million** square kilometers by February 13, 2025. This surpasses the previous five-day record of **15.93 million** square kilometers set in January-February 2023. The decline is attributed to rising global temperatures, warmer ocean waters, and winds breaking apart ice. These changes exacerbate climate change by increasing heat absorption from darker ocean surfaces.
 
-* * *
-
-### 6\. Lifestyle, Entertainment, Culture
-
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/4200a24c-9d5a-4809-8c2b-6aff44c82213_1280x853.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!2m9z!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4200a24c-9d5a-4809-8c2b-6aff44c82213_1280x853.heic)
+## Lifestyle, Entertainment, Culture
+---
 
 **Cadillac** partnered with **COQODAQ**, a trendy **New York City** restaurant, to offer a unique dining experience inside the all-electric Escalade IQ. This collaboration, dubbed "The Cadillac of Reservations," allowed guests to dine on COQODAQ's signature dishes like Better Fried Chicken and caviar while seated in the vehicle's luxurious Executive Second Row. The setup featured heated and ventilated seats, massaging functionality, and an immersive audio system.
 
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/7deea88b-6b15-4e91-9a85-0622a81dc835_1200x720.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!ceFY!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7deea88b-6b15-4e91-9a85-0622a81dc835_1200x720.heic)
-
 "**Ne Zha 2**" has shattered box office records, becoming the highest-grossing animated film globally with earnings over **$1.7 billion**. It surpassed "Inside Out 2" and is now among the top-grossing films of all time, ranking eighth globally. In China alone, it has earned over **$1.5 billion**, making it the country's biggest-ever hit and the first film to gross $1 billion in a single market. The movie's success extends to IMAX screens in China, where it broke records previously held by "Avengers: Endgame". Its North American release also marked milestones as the first Chinese film to cross **$10 million** under limited release.
 
-* * *
-
-### 7\. Sports
-
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/80bea3c9-0d1b-44c2-89b3-4d77d6fba35c_1806x1192.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!WmQM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F80bea3c9-0d1b-44c2-89b3-4d77d6fba35c_1806x1192.heic)
+## Sports
+---
 
 **Uta Abe**, 24, made a stellar return to judo at the Baku Grand Slam after a surprising early exit at the Paris Olympics. She secured the women's 52-kilogram title, winning three matches by ippon. In the final, she defeated Mascha Ballhaus of Germany using a ne-waza hold. Other Japanese athletes also dominated, with Natsumi Tsunoda winning gold in the 48 kg category, securing ippon in all her bouts. Momo Tamaoki, Ryuju Nagayama, and Takeshi Takeoka added to Japan's success, making it a clean sweep with five gold medals at the event.
 
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/0d899407-8f9f-452d-91cf-b944b4333203_1200x675.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!De8A!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0d899407-8f9f-452d-91cf-b944b4333203_1200x675.heic)
-
 **Real Madrid** defeated **Manchester City** 3-1 in the Champions League playoff second leg, securing a 6-3 aggregate victory. **Kylian Mbappé** scored a hat-trick, netting goals in the 4th, 33rd, and 61st minutes. His performance was pivotal as Real dominated from the start. Manchester City struggled without Erling Haaland due to injury and lost John Stones early on. Nico González scored a late consolation goal for City but it was too little to change their fate. This win advances Real Madrid to the last 16, where they will face either Bayer Leverkusen or Atlético Madrid.
-
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/1db1128c-013b-4d53-97a3-4a5f9531891f_2560x1705.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!Ctw_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1db1128c-013b-4d53-97a3-4a5f9531891f_2560x1705.heic)
 
 The F1 75 Live event at London's O2 Arena marked the first large-scale launch for Formula 1, celebrating its **75th** anniversary. All ten teams and twenty drivers unveiled their new liveries together, a departure from traditional individual team launches. The event featured performances by **Take That, Kane Brown, and Machine Gun Kelly**. Comedian Jack Whitehall hosted the evening, which included red carpet arrivals and team presentations showcasing their unique identities. **Lewis Hamilton** made his first appearance with Ferrari alongside **Charles Leclerc** during this glamorous event that aimed to broaden F1's appeal beyond its core audience.
 
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/90f09fad-5c9a-4c46-9108-7c66b0e847cc_1619x1080.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!RxOl!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F90f09fad-5c9a-4c46-9108-7c66b0e847cc_1619x1080.heic)
-
 In Stage 5 of the UAE Tour, **Tim Merlier** secured victory in a chaotic sprint finish, edging Matteo Malucelli and Jonathan Milan. **Tadej Pogačar** extended his overall lead by participating in a breakaway for over **100km** and gaining bonus seconds at intermediate sprints. Two late crashes disrupted the peloton, affecting several general classification riders like Carlos Rodríguez and Felix Gall, who lost significant time. Despite being reeled in with 39km remaining, Pogačar's strategy paid off as he increased his lead to **21 seconds** over Josh Tarling.
-
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/501ab5ca-c04a-4605-aee9-54e94c5cfdb1_1200x675.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!wZO4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F501ab5ca-c04a-4605-aee9-54e94c5cfdb1_1200x675.heic)
 
 **Mac McClung** made history by winning his third consecutive NBA Slam Dunk Contest, becoming the first to achieve this feat. At the Chase Center in San Francisco, McClung impressed with four perfect 50-point dunks. His performances included jumping over a car for a reverse dunk and leaping over Evan Mobley for a double-pump slam. Stephon Castle was his closest competitor but couldn't match McClung's consistency and creativity. This victory solidifies McClung as one of the greatest dunkers in NBA history, joining Nate Robinson as a three-time winner, though he is the first to do so consecutively.
 
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/9e20ac15-1dea-4cf4-9dde-8749b18a81ee_660x371.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!Y5Qa!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e20ac15-1dea-4cf4-9dde-8749b18a81ee_660x371.heic)
-
 **Stephen Curry** won his second NBA All-Star Game MVP award, leading Shaq's OGs to victory over Chuck's Global Stars in a new mini-tournament format. Curry scored 12 points with four three-pointers in the final game, securing a 41-25 win at Chase Center. He kicked off the final with an early three-pointer and later hit from half-court, thrilling the crowd. The hometown hero was celebrated with chants of "MVP!" as he accepted the Kobe Bryant Trophy, marking a special moment in his illustrious career.
 
-* * *
-
-### 8\. Oddball
-
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/e194eedc-47c4-46a6-806b-7f89b2d07419_2048x1152.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!N8Yl!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe194eedc-47c4-46a6-806b-7f89b2d07419_2048x1152.heic)
+## Oddball
+---
 
 In Munich, Germany, over **1,000** QR code stickers mysteriously appeared on gravestones and wooden crosses across three cemeteries. The stickers displayed a QR code that revealed the name of the deceased and their grave location when scanned. Initially puzzling authorities, it was later discovered that a local gardening firm had placed them as part of an internal tracking system for maintenance tasks. The removal process caused some damage to the gravestones, prompting a police investigation into property damage. Despite this explanation, many questions remain about how such an extensive operation went unnoticed initially.
 
-[
-
-![](https://substack-post-media.s3.amazonaws.com/public/images/b244ef43-65b7-44f4-b94c-d51907df6fb7_1600x900.heic)
-
-
-
-](https://substackcdn.com/image/fetch/$s_!2GeP!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb244ef43-65b7-44f4-b94c-d51907df6fb7_1600x900.heic)
-
 A juvenile sea lion wandered onto Highway 101 in San Francisco near Candlestick Park, prompting a rescue by the California Highway Patrol. On February 13, around 9:45 p.m., CHP officers responded to reports of the sea lion in traffic lanes. With help from a motorist who narrowly avoided hitting it, they guided the pup through an opening in a retaining wall back into San Francisco Bay. The CHP praised their officers for ensuring safety and security for all creatures.
 
-* * *
+---
 
 Thanks for reading The Sunday Blender! Subscribe for free to receive new posts and support my work.
