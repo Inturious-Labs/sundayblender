@@ -1,7 +1,12 @@
-Saved at path
-  Relative: 163206744.we-come-this-far-now-what.md
-  Absolute: /Users/zire/Downloads/substack export_sundayblender/posts/163206744.we-come-this-far-now-what.md
-to,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb59e634c-87f8-4263-8fb7-1eeb7c77adb8_5838x3892.heic)
+---
+title: "We Come This Far - Now What?"
+date: 2025-05-09
+description: "xx"
+tags: ["AI", "Technology", "Global News", "Science"]
+draft: false
+slug: "we-come-this-far-now-what"
+image: ""
+---
 
 **15 issues** over **15 Saturdays** so far since the inaugural issue of **The Sunday Blender** on **January 27** during the Chinese New Year of 2025. I’m mildly surprised that I’ve come down on this path this far and kept doing this for so long.
 
@@ -11,8 +16,8 @@ It’s been a pleasure to see this carefully curated newsletter resonate with ma
 
 The Sunday Blender has gathered a sizable and steadily growing subscriber base. Let me clarify a few things.
 
-Why do I do this
-----------------
+## Why do I do this
+---
 
 As explained in this earlier post, “[Make News Interesting for Kids](https://weekly.sundayblender.com/p/make-news-interesting-for-kids)”, I created The Sunday Blender because it seemed useful to my son. He loves reading it and has been its biggest fan. That means the world to me. I would continue to do this even if he’s the only reader ever. I don’t think any traditional media can deliver what The Sunday Blender does for him. They’re either too childish, too bleak, too progressive, too politically correct, too narrow-minded, or just too boring.
 
@@ -26,33 +31,32 @@ If you decide to become a paid subscriber, it’s a precious token of appreciati
 
 It’s actually quite a joyful process for me personally whenever I edit the latest issue. I’m bombarded with information overflow in my line of business. Selecting the right information source is becoming a craft, a science, or even an art. I also learn a great deal about the global affairs that I would otherwise probably miss if I just buried myself in the daily grind. The Sunday Blender pushes me to challenge conventional wisdom and develop a much more balanced view of the world.
 
-How can you help?
------------------
+## How can you help?
+---
 
 I can use your help to refer The Sunday Blender to more friends, whose kids share the following characteristics:
 
-*   **Curious**, with a strong desire to learn about the bigger world outside of school life
+- **Curious**, with a strong desire to learn about the bigger world outside of school life
     
-*   **Enjoying reading**, rather than watching endless short videos (boy, that’s hard)
+- **Enjoying reading**, rather than watching endless short videos (boy, that’s hard)
     
-*   Developing **independent thinking** by understanding the world based on facts
+- Developing **independent thinking** by understanding the world based on facts
     
 
 As for the parents, why should they trust the contents of this newsletter?
 
-*   It’s a **non-political** newsletter. I do my best to remove any politically sensitive content or biases. It’s based on verifiable facts, not another op-ed from the New York Times or Fox News.
+- It’s a **non-political** newsletter. I do my best to remove any politically sensitive content or biases. It’s based on verifiable facts, not another op-ed from the New York Times or Fox News.
     
-*   It’s **better** than the real world. It does not faithfully report out every school shooting in America, or very famine in Africa, or every military coup in southeast Asia or South America, or every bicker between US and China, or every executive order from Donald Trump, or every new dress from Jennie of BLACKPINK, or whatever new sighting of Kanye West. There is enough clickbait out there on every social media platform. Kids don’t need to know those. We want them to aspire for this world, not to be discouraged by it.
+- It’s **better** than the real world. It does not faithfully report out every school shooting in America, or very famine in Africa, or every military coup in southeast Asia or South America, or every bicker between US and China, or every executive order from Donald Trump, or every new dress from Jennie of BLACKPINK, or whatever new sighting of Kanye West. There is enough clickbait out there on every social media platform. Kids don’t need to know those. We want them to aspire for this world, not to be discouraged by it.
     
-*   It’s **educational**. Every issue covers **technology**, **science**, **nature**, **environment**, **culture**, **lifestyle**, **history,** and **sports**. It tells them the beauty and the diversity of the world, the awe-inspiring wonders in the universe, inspiring human stories from their struggles and journeys of redemption, the whole lot.
-    
+- It’s **educational**. Every issue covers **technology**, **science**, **nature**, **environment**, **culture**, **lifestyle**, **history,** and **sports**. It tells them the beauty and the diversity of the world, the awe-inspiring wonders in the universe, inspiring human stories from their struggles and journeys of redemption, the whole lot.
 
 Let’s make news interesting for kids, together.
 
 [Refer a friend](https://weekly.sundayblender.com/leaderboard?&utm_source=post)
 
-How do I do this
-----------------
+## How do I do this
+---
 
 I source news from three channels: **Twitter** (I follow all the major news outlets in every vertical), **AI LLMs** (“_tell me the top 10 tech stories in the last seven days_”), and **WeChat** official accounts (which surprisingly cover many blind spots that the Western media misses). I bookmark a headline story as I see it and come up with a list of **20+** stories for the new issue on Saturday. I select stories that are most impactful and interesting.
 
@@ -62,8 +66,8 @@ I use **Google Search** to pick a good-looking, license-free header image for ev
 
 I’ll do some fact-checking when I see something suspicious. Can’t fully trust the machine yet.
 
-Who is Clayton Man?
--------------------
+## Who is Clayton Man?
+---
 
 For those of you who know me in real life, you might wonder why I use **Clayton Man** as a pseudonym, rather than my real name.
 
@@ -71,17 +75,16 @@ I’m a prolific public speaker in my industry, which is already a bit on the av
 
 Thank you for understanding.
 
-How to access The Sunday Blender
---------------------------------
+## How to access The Sunday Blender
+---
 
 This newsletter is hosted on the **Substack** platform, one of the largest tech platforms for content creators in the world. You can access issues of the Sunday Blender in three ways:
 
-*   The website, [https://weekly.sundayblender.com](https://weekly.sundayblender.com)
+- The website, [https://weekly.sundayblender.com](https://weekly.sundayblender.com)
     
-*   The app of [Substack](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://apps.apple.com/us/app/substack/id1581650857&ved=2ahUKEwjF56j00paNAxXkIzQIHTPlCmMQFnoECAkQAQ&usg=AOvVaw0yk2ItGZWU_m8qEB4LEllV)
+- The app of [Substack](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://apps.apple.com/us/app/substack/id1581650857&ved=2ahUKEwjF56j00paNAxXkIzQIHTPlCmMQFnoECAkQAQ&usg=AOvVaw0yk2ItGZWU_m8qEB4LEllV)
     
-*   Your email inbox
-    
+- Your email inbox
 
 **Email** would be the best way. The website and app can be easily blocked, but emails will not. If you reside in a country where Google is blocked, you should not be surprised that every other tech platform and social network is blocked as well, including Substack. So you would need to visit the website or the app in some other scientific way.
 
