@@ -5,7 +5,7 @@ description: "xx"
 tags: ["AI", "Technology", "Global News", "Science"]
 draft: false
 slug: "march-madness-to-mars"
-image: ""
+featured_image: ""
 ---
 
 ## Tech

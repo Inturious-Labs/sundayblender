@@ -5,7 +5,7 @@ description: "xx"
 tags: ["AI", "Technology", "Global News", "Science"]
 draft: false
 slug: "meeting-of-the-minds"
-image: ""
+featured_image: ""
 ---
 
 ## Tech

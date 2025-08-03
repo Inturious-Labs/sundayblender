@@ -5,7 +5,7 @@ description: "Latest developments in AI, global news, economy, and science - Dee
 tags: ["AI", "Technology", "Global News", "Science"]
 draft: false
 slug: "deepseek-challenges-ai-powerhouses"
-image: "deepseek.png"
+featured_image: "deepseek.png"
 ---
 
 ## Tech

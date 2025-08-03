@@ -1,11 +1,11 @@
 ---
 title: "Mega Snow and Mega Collison"
 date: 2025-02-16
-description: ""
+description: "xx"
 tags: ["AI", "Technology", "Global News", "Science"]
 draft: false
 slug: "mega-snow-and-mega-collision"
-image: "xx"
+featured_image: ""
 ---
 
 ## Tech

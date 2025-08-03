@@ -5,7 +5,7 @@ description: "xx"
 tags: ["AI", "Technology", "Global News", "Science"]
 draft: false
 slug: "from-labubu-viral-craze-to-glaciers-spiral-of-doom"
-image: ""
+featured_image: ""
 ---
 
 ## Tech
