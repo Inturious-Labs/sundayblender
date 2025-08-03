@@ -1,18 +1,18 @@
 baseURL = '/'
 languageCode = 'en-us'
 title = 'The Sunday Blender'
-theme = "pehtheme-hugo"
+theme = "diary"
 
 [permalinks]
 	posts = "/p/:slug/"
 
 [params]
-	description = 'The Sunday Blender - A minimalist blog built with Hugo and Pehtheme'
-	mainSections = 'posts'
-
-[author]
-	name = 'Clayton Man'
-	bio = 'A newsman making the best news for kids'
+	subtitle = "Making news interesting for kids"
+	description = 'The Sunday Blender - A minimalist blog built with Hugo and Diary theme'
+	enableOpenGraph = true
+	enableTwitterCards = true
+	author = "Clayton Man"
+	author_bio = "A newsman making the best news for kids"
 
 [build]
 	writeStats = true
