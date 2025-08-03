@@ -11,6 +11,7 @@ theme = "diary"
 	description = 'The Sunday Blender - A minimalist blog built with Hugo and Diary theme'
 	enableOpenGraph = true
 	enableTwitterCards = true
+	enableReadingTime = true
 	author = "Clayton Man"
 	author_bio = "A newsman making the best news for kids"
 	author_image = "/img/author.jpg"
