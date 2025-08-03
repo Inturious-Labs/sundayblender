@@ -63,7 +63,7 @@ jobs:
         
     - name: Build Hugo Site
       run: |
-        hugo --minify
+        hugo --environment production --minify
         
     - name: Import DFX Identity
       run: |
