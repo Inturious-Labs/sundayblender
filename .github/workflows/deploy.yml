@@ -80,7 +80,7 @@ jobs:
         rm -rf public/
         # Build for production with proper settings
         echo "=== Building Hugo Site ==="
-        HUGO_ENV=production hugo --minify --environment production --gc --buildDrafts=false --buildFuture=false --log --verboseLog
+        HUGO_ENV=production hugo --minify --environment production --gc --buildDrafts=false --buildFuture=false --logLevel debug
         
         echo "=== Checking Build Output ==="
         echo "Public directory contents:"
@@ -103,7 +103,7 @@ jobs:
         echo "Content directory:"
         ls -la content/
         echo "=== Hugo Build Debug ==="
-        hugo --log --verboseLog
+        hugo --logLevel debug
         
     - name: Import DFX Identity
       run: |
