@@ -1,7 +1,7 @@
 ---
 title: "About The Sunday Blender "
 date: 2025-01-26
-description: "make news interesting for kids"
+description: "best news for kids"
 draft: false
 disableReadingTime: true
 ---
