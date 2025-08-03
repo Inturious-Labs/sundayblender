@@ -5,7 +5,7 @@ description: "xx"
 tags: ["AI", "Technology", "Global News", "Science"]
 draft: false
 slug: "ai-advances-scientific-discovery"
-image: ""
+featured_image: ""
 ---
 
 ## Tech
@@ -40,14 +40,14 @@ Paleontologists have uncovered a remarkable **506-million**\-year-old predator n
 
 Researchers at **UC San Diego** have uncovered that the **PHGDH** gene, previously identified as a biomarker for **Alzheimer's** disease, actually contributes to its onset. Using artificial intelligence (AI), the team discovered that PHGDH activates a pathway disrupting gene regulation in brain cells, leading to Alzheimer's development. This "moonlighting" role was revealed through AI-assisted 3D structural analysis. Additionally, the AI-guided compound **NCT-503** was found to inhibit this pathogenic activity, offering a potential therapeutic avenue. Around **30-50%** of people aged **85** and older in the US may develop Alzheimer’s.
 
-## Nature, Environment
+## Nature & Environment
 ---
 
 Texas is currently experiencing an unprecedented early-season heat wave, with temperatures soaring into the upper 90s and heat index values exceeding **100°F** in cities like **Houston**, **Austin**, and **San Antonio**. This extreme heat, more typical of August than May, is attributed to a strong high-pressure system over the Gulf of Mexico. Houston is on track for one of its warmest Mays since records began in **1889**, with average highs placing it in the top 10% of warmest Mays. San Antonio faces worsening drought conditions, having recorded only **0.19 inches** of rainfall this month compared to the average **4.4 inches**.
 
 **Axial Seamount**, an underwater volcano located approximately **300 miles** off **Oregon**'s coast, is exhibiting signs of an impending eruption—the first since 2015. Scientists monitoring the seamount have recorded over **1,000** daily earthquakes in late March and early April 2025, indicating magma movement beneath the seafloor. The volcano's inflation has reached nearly **90%** of its pre-2015 eruption level. While the eruption poses no threat to human populations due to its depth and distance from shore, it offers researchers a unique opportunity to study volcanic processes and their impact on deep-sea ecosystems in real time.
 
-## Lifestyle, Entertainment, Culture
+## Entertainment & Culture
 ---
 
 **Percival Everett**'s novel _**James**_ won the **2025 Pulitzer Prize for Fiction**, offering a profound reimagining of **Mark Twain**’s _**Adventures of Huckleberry Finn**_. Told from the perspective of Jim, the enslaved character who accompanies Huck on his journey down the Mississippi River, the novel shifts the focus to explore Jim's internal world, giving him a much deeper, more complex voice than in Twain’s original. Jim becomes the protagonist of his own story, grappling with his experiences of enslavement, freedom, and race. The novel has garnered widespread acclaim, including the **National Book Award** and the **Kirkus Prize**, and has been recognized as one of the best books of 2024 by various publications.

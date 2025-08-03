@@ -5,7 +5,7 @@ description: "xx"
 tags: ["AI", "Technology", "Global News", "Science"]
 draft: false
 slug: "while-young-talents-trailblaze-ai-frontier-legendary-icons-write-new-chapters"
-image: ""
+featured_image: ""
 ---
 
 ## Tech

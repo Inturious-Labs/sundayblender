@@ -5,7 +5,7 @@ description: "xx"
 tags: ["AI", "Technology", "Global News", "Science"]
 draft: false
 slug: "meeting-of-the-minds"
-image: ""
+featured_image: ""
 ---
 
 ## Tech
@@ -58,14 +58,14 @@ Astronomers have created the first-ever 3D map of an exoplanet's atmosphere, foc
 
 Scientists have discovered a nearly complete skull of a **30-million-year-old** apex predator, Bastetodon syrtos, in Egypt's Fayum Depression. This leopard-sized carnivore belonged to the extinct hyaenodont group and was characterized by sharp teeth and powerful jaw muscles. It thrived in ancient forests that are now deserts, preying on early primates, hippos, elephants, and hyraxes. The find sheds light on Africa's ancient ecosystems before modern carnivores emerged. Named after the Egyptian goddess Bastet, this discovery provides insights into how these formidable predators adapted to climate changes before their eventual extinction about **25 million** years ago.
 
-## Nature, Environment
+## Nature & Environment
 ---
 
 Norway's parliament has passed a bill allowing hydropower development in previously protected rivers. The law permits power plants over **1 MW** if societal benefits are deemed "significant" and environmental impacts "acceptable." This move has sparked controversy among environmental groups, who argue it threatens biodiversity and fish populations. Nearly **400 waterways** were previously safeguarded for ecological reasons, but the new policy could lead to increased conflicts over river development.
 
 Global sea ice has reached a record low, with the combined extent in the Arctic and Antarctic dropping to **15.76 million** square kilometers by February 13, 2025. This surpasses the previous five-day record of **15.93 million** square kilometers set in January-February 2023. The decline is attributed to rising global temperatures, warmer ocean waters, and winds breaking apart ice. These changes exacerbate climate change by increasing heat absorption from darker ocean surfaces.
 
-## Lifestyle, Entertainment, Culture
+## Entertainment & Culture
 ---
 
 **Cadillac** partnered with **COQODAQ**, a trendy **New York City** restaurant, to offer a unique dining experience inside the all-electric Escalade IQ. This collaboration, dubbed "The Cadillac of Reservations," allowed guests to dine on COQODAQ's signature dishes like Better Fried Chicken and caviar while seated in the vehicle's luxurious Executive Second Row. The setup featured heated and ventilated seats, massaging functionality, and an immersive audio system.

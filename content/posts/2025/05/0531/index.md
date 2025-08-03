@@ -5,7 +5,7 @@ description: "xx"
 tags: ["AI", "Technology", "Global News", "Science"]
 draft: false
 slug: "when-ai-swung-a-racket-and-nadal-hung-up-his"
-image: ""
+featured_image: ""
 ---
 
 ## Tech
@@ -32,12 +32,12 @@ A May 2025 Wall Street Journal article profiles Paul Marshall and Ian Wace, an u
 
 A May 2025 Science News article highlights a genetic study offering hope for the rare saola, an elusive antelope-like species discovered in 1992 in Southeast Asia’s Annamite mountains. The study reveals two saola populations diverged 20,000 to 5,000 years ago due to climate-driven habitat changes. Researchers estimate that a captive breeding program with 12 saolas, mixing these genetic groups, could prevent extinction. The Saola Foundation, led by experts like Rob Timmins, is committed to this effort despite the species’ critically low numbers. Only one living saola has been seen by Western scientists, underscoring the urgency of conservation efforts.
 
-## Nature, Environment
+## Nature & Environment
 ---
 
 A 2025 study in _Cell_ by Chinese researchers showed that rice exposed to cold could pass on the ability to handle frost to its offspring. Instead of changes in its DNA, the rice used a special trick called DNA methylation—think of it like adding sticky notes to a recipe book to change how it’s read, without rewriting the book. This ability lasted for five generations, similar to an old idea by **Lamarck** that traits learned during life can be passed on. This challenges **Darwin**’s idea that evolution only happens through random DNA changes, showing nature can adapt faster.
 
-## Lifestyle, Entertainment, Culture
+## Entertainment & Culture
 ---
 
 In May 2025, _**Helldivers II**_ players witnessed a rare collaboration between Chinese and U.S. gamers during the "Illuminate invasion" event on Super Earth. Chinese players fiercely defended Equality-on-Sea, a fictional Shanghai, against alien squids, achieving a **96.28%** defense rating. U.S. players from York (New York) abandoned their city to join the effort, inspired by the Chinese players' resolve. Memes of American and Chinese Helldivers locking arms went viral, symbolizing unity. Despite global efforts, the defense capped at **99.99%**, leading to over **3,000** negative Steam reviews accusing devs of scripting the event, sparking widespread community frustration.

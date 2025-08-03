@@ -1,0 +1,27 @@
+{{ define "main" }}
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <h1>Welcome to The Sunday Blender</h1>
+      <p>Making news interesting for kids</p>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-12">
+      <h2>Recent Posts</h2>
+      {{ range first 10 .Site.RegularPages }}
+        <article class="card mb-4">
+          <div class="card-body">
+            <h3 class="card-title">
+              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </h3>
+            <p class="card-text">{{ .Description }}</p>
+            <small class="text-muted">{{ .Date.Format "January 2, 2006" }}</small>
+          </div>
+        </article>
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }} 

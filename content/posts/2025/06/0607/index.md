@@ -5,7 +5,7 @@ description: "xx"
 tags: ["AI", "Technology", "Global News", "Science"]
 draft: false
 slug: "every-dog-has-its-day"
-image: ""
+featured_image: ""
 ---
 
 ## Tech
@@ -36,7 +36,7 @@ On June 7, 2025, **Geely** Chairman **Li Shufu** warned of "serious overcapacity
 
 A _**Biology Letters**_ study reveals Goffin’s cockatoos in **Sydney**, **Australia**, display remarkable problem-solving by using their beaks and claws to drink from public fountains. **University of Vienna** researchers tested eight cockatoos with a water-filled tube, inaccessible for direct sipping. All succeeded: four used beaks to dip objects like wood or straw to draw water, while four used claws to scoop it. This flexibility, observed in Sydney’s urban fountains, extends their known tool-use skills from food to water access, rivaling primate cognition. The findings highlight cockatoos’ adaptive intelligence in creatively solving environmental challenges in urban settings.
 
-## Lifestyle, Entertainment, Culture
+## Entertainment & Culture
 ---
 
 _**The New Yorker**_’s June 7, 2025, article features writers recommending long, immersive books for summer reading. Highlights include **Elizabeth Jane Howard**’s _**The Cazalet Chronicles**_, a five-volume saga of an English family during World War II, praised for its vivid prose. **A.S. Byatt**’s _**Possession**_ captivates with its dual-timeline romance and academic intrigue, while her _**The Children’s Book**_ explores Edwardian bohemia. Classics like _**Moby-Dick**_, _**The Lord of the Rings**_, and _**War and Peace**_ are lauded for their depth, despite slow pacing. These “mega-reads” offer rich, expansive narratives, perfect for deep engagement.

@@ -5,7 +5,7 @@ description: "xx"
 tags: ["AI", "Technology", "Global News", "Science"]
 draft: false
 slug: "flying-without-wings-seeing-without-eyes-and-driving-without-humans"
-image: ""
+featured_image: ""
 ---
 
 ## Tech
@@ -36,7 +36,7 @@ China has launched its first direct air cargo route between northwest China’s 
 
 Excessive screen time is changing the brain in surprising and harmful ways. Research shows that adults **aged 18 to 25** who spend too much time on screens may experience thinning of the cerebral cortex, the brain’s outer layer responsible for memory, problem-solving, and decision-making. This can reduce concentration and cognitive ability. High screen use also leads to lower gray matter volume, which accelerates brain aging and affects memory and emotional control. Additionally, blue light from screens disrupts sleep by delaying melatonin production, harming cognitive performance and mood. Constantly checking phones right after waking can trigger stress responses, keeping the brain in a hyper-alert state. Long hours of screen use have been linked to increased risks of dementia, stroke, and Parkinson’s disease. Experts recommend practical steps like the **20-20-20 rule**—looking at something 20 feet away for 20 seconds every 20 minutes—taking regular breaks, limiting late-night screen use, and engaging in physical and social activities to protect brain health and improve focus.
 
-## Nature, Environment
+## Nature & Environment
 ---
 
 On June 20, 2025, a severe storm outbreak hit southern and eastern **North Dakota**, USA, producing multiple tornadoes and extreme winds. The most powerful tornado was an EF3 near **Enderlin**, with winds reaching **160 mph** and a damage path nearly a mile wide. This tornado destroyed homes, overturned railcars, and tragically killed three people, marking the deadliest tornado in the state since **1978**. Within an hour, two more EF2 tornadoes struck nearby areas, adding to the destruction. The storm system also caused hurricane-force winds up to **111 mph**, uprooting trees, damaging buildings, and knocking out power for thousands. In total, the National Weather Service confirmed 13 tornadoes across North Dakota, including EF1 and EF2 tornadoes near Adrian, Jamestown, and Spiritwood. The damage was widespread, affecting grain storage, power lines, and even wind turbines. North Dakota’s governor declared a statewide disaster and praised first responders for their efforts during this historic and deadly weather event.
@@ -45,7 +45,7 @@ Heavy rains have caused severe flooding in **Guizhou** province, southwestern **
 
 A spectacular nova—designated **V462 Lupi**—has erupted suddenly in the constellation Lupus. First detected on June 12, 2025, this star was once dim (magnitude 22) but has soared in brightness by over **three million times**, reaching around magnitude 5–6. That puts it within naked‑eye visibility—a rare phenomenon often seen just once in a lifetime. Best viewed from mid‑southern latitudes of **North America**, it shines most brightly in early evening hours, visible through binoculars or a dark sky. This nova occurs in a binary system: a white dwarf siphons hydrogen from a companion until pressure triggers a thermonuclear explosion on its surface. The blast briefly lights up the star dramatically, then fades over weeks to months. Stargazers are encouraged to look southwest after dark, hopping from **Scorpius** toward **Lupus**—this unfolding celestial fireworks show won’t last long!
 
-## Lifestyle, Entertainment, Culture
+## Entertainment & Culture
 ---
 
 **Imagine Dragons**’ **LOOM World Tour** is their biggest and most electrifying stadium tour ever! Kicking off in July 2024 and running until September 2025, it spans **81 shows** across North America, South America, Asia, and Europe. Fans are thrilled to hear powerful new songs like _**Fire in These Hills**_, _**Take Me to the Beach**_, and _**Wake Up**_, mixed with their legendary hits _**Radioactive**_, _**Believer**_, and _**Demons**_. Each show is packed with stunning lights, giant screens, fireworks, and amazing live energy that gets everyone jumping and singing along. In Madrid on **June 28, 2025**, the band played an unforgettable 21-song set that lit up the night. With opening acts like **Declan McKenna** and **Cannons**, the tour is a full evening of great music and memories. For Imagine Dragons fans, the LOOM World Tour is not just a concert – it’s a celebration of their journey, passion, and dreams.
