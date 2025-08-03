@@ -1,11 +1,11 @@
 ---
 title: "An Exuberant Chinese New Year"
 date: 2025-02-01
-description: ""
+description: "xx"
 tags: ["AI", "Technology", "Global News", "Science"]
 draft: false
 slug: "an-exuberant-chinese-new-year"
-image: ""
+featured_image: ""
 ---
 
 ## Tech
@@ -68,7 +68,7 @@ A concerning study has found that microplastics can reach the brains of mice wit
 
 Scientists analyzing samples from asteroid Bennu have discovered a rich array of organic compounds, including key chemical building blocks of life. This finding suggests that molecules carried on meteorites may have contributed to the emergence of life on Earth around 4 billion years ago.
 
-## Nature, Environment
+## Nature & Environment
 ---
 
 India is preparing for an unusually warm February, which could threaten the country's wheat production. Elevated temperatures during the crucial grain-filling stage may adversely affect crop yields, potentially impacting both domestic supply and export capabilities. Authorities are monitoring the situation closely to implement necessary measures to mitigate the effects of the anticipated heatwave.
@@ -77,7 +77,7 @@ Recent studies indicate that ocean-surface temperatures are increasing at a rate
 
 Ghostly White Northern Lights: A rare phenomenon of white northern lights has puzzled scientists, leading to new investigations into the causes and mechanisms behind auroral displays.
 
-## Lifestyle, Entertainment, Culture
+## Entertainment & Culture
 ---
 
 The Lunar New Year commenced on January 29, 2025, ushering in the Year of the Wood Snake. In Chinese astrology, the Snake symbolizes wisdom, intuition, and transformation. The Wood element introduces themes of growth and renewal, suggesting a period favorable for personal development and embracing change. This year is characterized by Yin energy, promoting flexibility, tolerance, and peace. Individuals are encouraged to trust their instincts, pursue knowledge, and remain adaptable to navigate the year's dynamic opportunities and challenges.

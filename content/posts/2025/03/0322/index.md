@@ -5,7 +5,7 @@ description: "xx"
 tags: ["AI", "Technology", "Global News", "Science"]
 draft: false
 slug: "march-madness-to-mars"
-image: ""
+featured_image: ""
 ---
 
 ## Tech
@@ -63,14 +63,14 @@ Former Formula 1 chief **Bernie Ecclestone**, aged 94, sold his extensive collec
 
 A NASA spacecraft will make another close brush with the sun, the second of the three planned encounters through the sizzling solar atmosphere. **The Parker Solar Probe** made its record-breaking first pass within **6 million** kilometers of the scorching sun in December 2024, flying closer than any object sent before. It will attempt that journey again on Saturday, March 22, 2025. Parker is the fastest spacecraft built by humans and once recorded a **690,000** kilometers-per-hour speed.
 
-## Nature, Environment
+## Nature & Environment
 ---
 
 Between March 19 and 21, 2025, Singapore experienced a monsoon surge that brought heavy rainfall and cooler temperatures. Jurong West recorded **318mm** of rain, surpassing the average monthly rainfall of **209.7mm** for March. Temperatures dipped to as low as **21.9°C** in areas like Tuas South. The persistent downpour led to flooding at the intersection of Mountbatten Road and Jalan Seaview for about two hours on March 20. This unusual late-season monsoon surge, typically occurring between December and January, has raised concerns among scientists about the increasing frequency of such events and the potential for "burst flooding" in urban areas.
 
 The **elephant bird** (_Aepyornis maximus_), native to Madagascar and extinct since at least the 17th century, laid the largest known eggs of any species. These eggs measured over a foot in length and nine inches in diameter, with a volume approximately **100** times that of a chicken egg. Adult elephant birds stood around **10 feet** tall and weighed over **1,000 pounds**, resembling oversized ostriches but closely related to New Zealand's kiwi. Their extinction is attributed to human activities, including hunting and habitat destruction. Remarkably, intact elephant bird eggs have been discovered far from Madagascar, such as on Western Australian beaches, having floated across the Indian Ocean.
 
-## Lifestyle, Entertainment, Culture
+## Entertainment & Culture
 ---
 
 At the **AnimeJapan 2025 Expo** in Tokyo, Toho Co., Ltd. revealed a teaser trailer for the eighth and final season of the wildly popular superhero anime sensation “**My Hero Academia**”. Set in a world where approximately **80%** of the population possesses supernatural abilities known as Quirks, “My Hero Academia” chronicles the journey of Izuku Midoriya and his classmates at U.A. High School as they train to become professional heroes who protect society from villains who use their powers for nefarious purposes. Its final season will make its global debut this October.

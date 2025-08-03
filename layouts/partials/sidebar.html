@@ -1,0 +1,57 @@
+<div id="sideContainer" class="side-container">
+    {{ if eq .Title .Site.Title}}
+    <a class="a-block nav-head active" href="{{ "" | absLangURL }}">
+    {{ else }}
+    <a class="a-block nav-head false" href="{{ "" | absLangURL }}">
+    {{ end }}
+        {{ if .Site.Params.logo }}
+        <div class="nav-logo" style="text-align: right;">
+            <img src="{{ .Site.Params.logo }}" alt="{{ .Site.Title }}" style="width: 80px; height: 80px; margin-bottom: 10px;">
+        </div>
+        {{ end }}
+        <div class="nav-title">
+            {{.Site.Title}}
+        </div>
+        {{ with .Site.Params.subtitle }}
+        <div class="nav-subtitle">
+            {{.}}
+        </div>
+        {{ end }}
+        <div class="nav-description" style="font-size: 0.9em; line-height: 1.4; margin-top: 10px; color: #666;">
+            a curated weekly newspaper for curious kids who want to escape from short videos, develop a reading habit, and learn about the bigger world on technology, science, nature, history, culture, economy and sports, without any political or ideological lens
+        </div>
+    </a>
+
+    <div class="nav-link-list">
+        {{ $current := .RelPermalink | absLangURL }}
+        {{ range .Site.Menus.main }}
+            {{$actived := "false"}}
+            <!-- A problem caused by slash: if you use "eq" directly, you will get a result of "/tags/" and "/tags" -->
+            {{if hasPrefix  $current (.URL|absLangURL)}}
+                {{$actived = "active"}}
+            {{end}}
+            {{ if .HasChildren }}
+            <div class="a-block" class="nav-link-item {{$actived}}" v-on:click="isHidden = !isHidden">
+                {{ .Name }}
+                <div class="nav-link-subitem" v-if="!isHidden">
+                    {{ range .Children }}
+                    <li><a href="{{ .URL }}"> {{ .Name }}</a></li>
+                    {{ end }}
+                </div>
+            </div>
+            {{ else }}
+            <!--<a class="a-block nav-link-item {{$actived}}" href="{{ .URL }}">-->
+            <a class="a-block nav-link-item {{ $actived }}" href="{{ .URL }}">
+                {{ .Name }}
+            </a>
+            {{ end }}
+        {{ end }}
+    </div>
+
+    
+
+    <div class="nav-footer">
+        {{partial "copyright.html" .}}
+    </div>
+    
+</div> 

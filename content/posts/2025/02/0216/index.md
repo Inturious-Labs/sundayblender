@@ -1,11 +1,11 @@
 ---
 title: "Mega Snow and Mega Collison"
 date: 2025-02-16
-description: ""
+description: "xx"
 tags: ["AI", "Technology", "Global News", "Science"]
 draft: false
 slug: "mega-snow-and-mega-collision"
-image: "xx"
+featured_image: ""
 ---
 
 ## Tech
@@ -58,7 +58,7 @@ January 2025 has been officially recognized as the hottest January on record glo
 
 The Aesculapian snake, a non-venomous species native to central and southern Europe, has established itself in the **UK** after accidental introductions in north Wales and London. Measuring up to **6.5** feet, these snakes thrive by taking refuge in attics and compost bins, adapting well to the cooler climate. Despite concerns over non-native species, the Aesculapian snake poses no threat to humans or pets.
 
-## Nature, Environment
+## Nature & Environment
 ---
 
 Record-breaking snowfall hit **Japan**, particularly **Hokkaido**, in early February 2025. Obihiro recorded an unprecedented **1.29 meters (4 feet)** of snow in just **12** hours, setting a new national record. The severe weather disrupted transportation, closed schools, and delayed deliveries. Airports in Obihiro and Kushiro were shut down, and highways and train services were suspended. Residents were urged to avoid non-essential travel, with the heavy snow impacting regions that rarely see such accumulation.
@@ -71,7 +71,7 @@ Recent satellite data analysis has identified the top ten persistent sources of 
 
 This week, news broke that the legendary giant panda Yong Ming, also known as Eimei, passed away on January 25, 2025, at the age of **32.5**. He passed away due to multiple organ failure. Yong Ming was known for his contributions to panda reproduction. Many remember him fondly, with some saying he is now in "Panda Heaven" with other pandas.
 
-## Lifestyle, Entertainment, Culture
+## Entertainment & Culture
 ---
 
 "Ne Zha 2," an animated film rooted in Chinese mythology, has smashed box office records to become the highest-grossing film in a single market, earning over **$1 billion** in China. This makes it the first non-Hollywood production to achieve this milestone. It has grossed over **$1.4 billion** worldwide, surpassing animated hits such as _Avengers: Age of Ultron_, _Toy Story 4_, _Shrek 2_, and _Frozen_. The movie is set to debut in North American theaters on Friday.

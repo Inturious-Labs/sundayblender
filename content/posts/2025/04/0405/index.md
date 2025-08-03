@@ -5,7 +5,7 @@ description: "xx"
 tags: ["AI", "Technology", "Global News", "Science"]
 draft: false
 slug: "the-world-jitters-but-nintendo-glitters"
-image: ""
+featured_image: ""
 ---
 
 ## Tech
@@ -34,7 +34,7 @@ In early April 2025, U.S. stocks faced their steepest weekly decline since **202
 
 **Asteroid 2024 YR4**, once feared to have a **3.1%** chance of impacting Earth in **2032**, now poses minimal risk to our planet. However, recent observations by the J**ames Webb Space Telescope** indicate a **4%** probability of it colliding with the Moon on **December 22, 2032**. The asteroid, measuring approximately **174-220 feet** in diameter, could create a significant lunar crater if an impact occurs. Scientists are closely monitoring its trajectory to refine predictions and assess potential outcomes
 
-## Lifestyle, Entertainment, Culture
+## Entertainment & Culture
 ---
 
 In March 2025, Youtube influencer **IShowSpeed** stormed China, blending chaos and cultural curiosity. His **Chongqing** escapades—sweating over a fiery hotpot, gaping at **Hongya Cave’s** labyrinth, and hilariously lost in the “8D city”—trended globally. Viral clips of him cheering street performers and fumbling chopsticks countered Western stereotypes with unfiltered joy. Beyond spectacle, Speed’s raw interactions—bonding with locals, marveling at Sichuan opera—framed China’s vibrancy through relatable humanity, contrasting politicized narratives. “Never seen anything like this!” he tweeted, echoing fans worldwide. By spotlighting everyday culture over ideology, his whirlwind tour bridged divides, proving that authenticity could reshape global perceptions—one spicy bite at a time.

@@ -5,7 +5,7 @@ description: "xx"
 tags: ["AI", "Technology", "Global News", "Science"]
 draft: false
 slug: "from-labubu-viral-craze-to-glaciers-spiral-of-doom"
-image: ""
+featured_image: ""
 ---
 
 ## Tech
@@ -48,14 +48,14 @@ On June 14, 2025, **London** hosted the King's Birthday Parade, known as **Troop
 
 Spacecraft the **Solar Orbiter** just captured the first images of the sun’s south pole, revealing its magnetic poles have flipped, a normal event in the sun’s 11-year solar cycle. The sun is **93 million** miles away in space. At the beginning and end of its weather cycle, flares and sunspots calm down. But solar activity rises before it falls, and when it climaxes, the sun roils with giant eruptions. While a normal magnet has clear north and south poles, both of the sun's poles occupy the bottom now. This happens only for a short period during "solar maximum" before a single polarity eventually takes over, and the entire magnetic field reorders itself in the reversed configuration.
 
-## Nature, Environment
+## Nature & Environment
 ---
 
 A May 2025 **Guardian** article reported a study finding that nearly **40%** of the world’s glaciers are already doomed to melt due to past fossil fuel emissions, even if global warming stopped today. If current climate policies persist, leading to a **2.7°C** temperature rise, **75%** of glaciers could vanish, raising sea levels by **23cm** and threatening billions with water shortages and mass migration. Limiting warming to **1.5°C** could save half the ice, but rising emissions make this goal elusive. Every **0.1°C** avoided saves **2.7 trillion** tonnes of ice.
 
 In May 2025, the **World Meteorological Organization (WMO)** released a report predicting record-high global temperatures for 2025–2029, with an **86%** chance that at least one year will exceed **1.5°C** above pre-industrial levels and a **70%** chance the five-year average will surpass this threshold. Fueled by greenhouse gases and diminishing air pollution, these temperatures risk intensifying heatwaves, droughts, and floods. Arctic warming is expected to triple the global average, while precipitation shifts will bring wetter conditions to the **Sahel** in **Africa** and drier ones to the **Amazon**. Urgent climate action is needed to mitigate impacts.
 
-## Lifestyle, Entertainment, Culture
+## Entertainment & Culture
 ---
 
 On June 10, 2025, a 131cm mint-green **Labubu** figure sold for **$150,275** at Beijing’s Yongle International Auction, the first auction dedicated to these quirky toys, setting a record for the “blind box” collectible. Created by **Kasing Lung** and sold by **Pop Mart**, Labubu’s global craze exploded after endorsements from celebrities like **Blackpink**’s **Lisa** and **Rihanna**. Labubu’s mischievous, Nordic-inspired design has sparked frenzied demand, long queues, and even fights at stores, transforming it into a cultural and fashion phenomenon worldwide.

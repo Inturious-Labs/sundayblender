@@ -5,7 +5,7 @@ description: "xx"
 tags: ["AI", "Technology", "Global News", "Science"]
 draft: false
 slug: "flying-dutchman-sails-away"
-image: ""
+featured_image: ""
 ---
 
 ## Tech
@@ -36,12 +36,12 @@ On April 17, 2025, Chinese tea brand **Chagee** debuted on the **Nasdaq** under 
 
 A high-school student **Matteo Paz** from **Pasadena, California**, recently won the first place prize of **$250,000** in the **2025 Regeneron Science Talent Search** for combining machine learning with astronomy. Self-described as the nation’s “oldest and most prestigious science and math competition for high school seniors,” the contest recognized Paz for developing his A.I. algorithm. The young scientist’s tool processed **200 billion** data entries from NASA’s now-retired **Near-Earth Object Wide-field Infrared Survey Explorer (NEOWISE)** telescope. His model revealed **1.5 million** previously unknown potential celestial bodies.
 
-## Nature, Environment
+## Nature & Environment
 ---
 
 Mark your calendar! On the morning of **April 25, 2025**, a rare celestial event will grace the skies: a triple conjunction forming a "smiley face." **Venus** and **Saturn** will align with a slender crescent **moon**, creating a triangular formation resembling a smiling face. This spectacle will be visible worldwide around **5:30 a.m.** local time, just before sunrise, provided there's a clear eastern horizon. While Venus and Saturn serve as the "eyes," the crescent moon forms the "smile." Though visible to the naked eye, binoculars or a telescope can enhance the experience. This event follows the peak of the **Lyrid** meteor shower, offering stargazers a delightful morning show.
 
-## Lifestyle, Entertainment, Culture
+## Entertainment & Culture
 ---
 
 **Easter** (**April 20, 2025**), falling on the first Sunday after the first full moon following the spring equinox, is celebrated by Christians worldwide to honor the resurrection of **Jesus Christ**. Common traditions include attending church services, enjoying festive meals, and participating in Easter egg hunts, especially for children. People often decorate eggs, exchange chocolate bunnies, and gather with family. In many Western countries like the **United States, the UK, Canada, Australia, and Germany**, Easter Sunday is a widely observed cultural event, even if not always a formal public holiday. In **predominantly Christian nations** such as **Italy, Spain, and the Philippines**, Easter is a national holiday with several days off, including Good Friday and Easter Monday in many cases.
