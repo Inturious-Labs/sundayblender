@@ -55,7 +55,7 @@ The European Space Agency’s **Odysseus** rover has begun operations on the Moo
 
 The **James Webb Space Telescope** has captured images of brown dwarfs in the Flame Nebula, objects too small to be stars but larger than planets. These free-floating objects have masses as low as two to three times **Jupiter**'s. Webb's infrared capabilities allow it to detect these faint, low-mass objects previously hidden in dense star-forming regions. This research helps scientists understand the mass limitations of brown dwarfs and distinguish them from rogue planets. Webb's giant mirror and infrared view provide unprecedented insights into the cosmos, revealing previously unseen objects and revolutionizing our understanding of the universe.
 
-## Nature, Environment
+## Nature & Environment
 ---
 
 In the early hours of March 14, 2025, skywatchers across **Chile**, **Argentina**, and **Venezuela** gathered to witness a total lunar eclipse, popularly known as a "blood moon." This celestial event occurs when the Earth aligns directly between the sun and the moon, casting a shadow that gives the moon a reddish hue. In Chile, the eclipse began at 3:26 a.m., reached its maximum at 3:58 a.m., and concluded by 4:31 a.m., offering a spectacular display visible nationwide. The next opportunity to experience a total lunar eclipse in these regions will be in June 2029, making this event particularly special for enthusiasts and casual observers alike.
@@ -64,7 +64,7 @@ In early March, the **Kawazu Cherry Blossom Festival** in Shizuoka Prefecture, J
 
 In a mesmerizing display off the coast of **Rancho Palos Verdes, California**, Pacific gray whales recently delighted observers by creating rainbows with their spouts. As these majestic creatures exhaled, the sunlit mist produced vibrant, arched spectra, captivating onlookers. This natural phenomenon occurs when sunlight interacts with the moisture in the whales' spouts, refracting light into its constituent colors, much like a traditional rainbow. Such events highlight the intricate beauty of marine life and offer a unique spectacle for whale watchers and nature enthusiasts alike.
 
-## Lifestyle, Entertainment, Culture
+## Entertainment & Culture
 ---
 
 In 2025, Chinese architect **Liu Jiakun** was awarded the prestigious **Pritzker Architecture Prize**, becoming the third China-born laureate after **Wang Shu** (2012) and **I.M. Pei** (1983). Renowned for integrating traditional Chinese elements with modern design, Liu's notable works include the Luyeyuan Stone Sculpture Art Museum, the Shuijingfang Museum, and the West Village complex in **Chengdu**. His innovative use of "rebirth bricks," crafted from earthquake rubble, exemplifies his commitment to sustainability and cultural preservation. The Pritzker jury lauded Liu for his "reverence for culture, history, and nature," commending his ability to chronicle time and offer familiarity through modern interpretations of classic Chinese architecture.

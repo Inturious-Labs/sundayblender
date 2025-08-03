@@ -62,14 +62,14 @@ A study finds that short-term exposure to particulate matter (PM) air pollution 
 
 A study has found that bonobos can recognize when humans lack specific information and will communicate to fill in the gaps. This behavior demonstrates a level of social cognition previously unattributed to these primates.
 
-## Nature, Environment
+## Nature & Environment
 ---
 
 Gwadar, a coastal city in Pakistan, faces increasing climate change challenges. Extreme weather, including heavy rainfall, has caused devastating floods, destroying infrastructure and isolating the city. Rising sea levels and warming ocean temperatures lead to more forceful waves and coastal erosion, washing away homes and altering tidal patterns. The lack of proper drainage systems exacerbates flooding. Experts warn that if these issues are not addressed, Gwadar may become uninhabitable.
 
 Santorini, Greece, declared a state of emergency after experiencing a series of undersea earthquakes since late January. Thousands of tremors, some as strong as magnitude 5.2, have rattled the island, leading to mass evacuations. Around 11,000 locals and tourists have fled, and schools are closed. The seismic activity, described as an "earthquake swarm," is unusual due to its intensity and lack of a mainshock. Experts are unsure how long it will last, with some suggesting the biggest quake may be yet to come.
 
-## Lifestyle, Entertainment, Culture
+## Entertainment & Culture
 ---
 
 _**Ne Zha 2**_, a Chinese animated film, has become a global box office sensation, grossing over $932 million (¥6.79 billion) as of February 7, 2025. This has made it the highest-grossing film in a single market worldwide, surpassing _Star Wars: The Force Awakens_. It also overtook _The Battle at Lake Changjin_ to become the top film in China's box office history. Released on January 29, the film has captivated audiences with its animation, action, humor, and themes of family and identity. Some projections estimate it could reach $1.51 billion (¥10.85 billion) in China. _Ne Zha 2_ is scheduled for release in the United States and Canada on February 14.
