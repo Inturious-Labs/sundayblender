@@ -2,6 +2,7 @@ baseURL = '/'
 languageCode = 'en-us'
 title = 'The Sunday Blender'
 theme = "pehtheme-hugo"
+environment = "production"
 
 [permalinks]
 	posts = "/p/:slug/"
