@@ -68,8 +68,8 @@ jobs:
         export HUGO_ENVIRONMENT=production
         # Clean any existing build
         rm -rf public/
-        # Build for production with proper settings - force production mode
-        HUGO_ENV=production hugo --minify --environment production --disableLiveReload --gc --buildDrafts=false --buildFuture=false
+        # Build for production with proper settings
+        HUGO_ENV=production hugo --minify --environment production --gc --buildDrafts=false --buildFuture=false
         
     - name: Import DFX Identity
       run: |
