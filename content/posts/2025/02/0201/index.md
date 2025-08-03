@@ -1,11 +1,11 @@
 ---
 title: "An Exuberant Chinese New Year"
 date: 2025-02-01
-description: ""
+description: "xx"
 tags: ["AI", "Technology", "Global News", "Science"]
 draft: false
 slug: "an-exuberant-chinese-new-year"
-image: ""
+featured_image: ""
 ---
 
 ## Tech

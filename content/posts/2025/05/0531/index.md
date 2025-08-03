@@ -5,7 +5,7 @@ description: "xx"
 tags: ["AI", "Technology", "Global News", "Science"]
 draft: false
 slug: "when-ai-swung-a-racket-and-nadal-hung-up-his"
-image: ""
+featured_image: ""
 ---
 
 ## Tech

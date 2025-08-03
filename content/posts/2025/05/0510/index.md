@@ -5,7 +5,7 @@ description: "xx"
 tags: ["AI", "Technology", "Global News", "Science"]
 draft: false
 slug: "blaze-of-glory-and-sound-of-silence"
-image: ""
+featured_image: ""
 ---
 
 ## Tech

@@ -5,7 +5,7 @@ description: "xx"
 tags: ["AI", "Technology", "Global News", "Science"]
 draft: false
 slug: "the-end-game-for-technology"
-image: ""
+featured_image: ""
 ---
 
 ## Tech

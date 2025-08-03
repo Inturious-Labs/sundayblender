@@ -5,7 +5,7 @@ description: "xx"
 tags: ["AI", "Technology", "Global News", "Science"]
 draft: false
 slug: "space-oddities-on-the-moon-space"
-image: ""
+featured_image: ""
 ---
 
 ## Tech

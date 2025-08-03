@@ -5,7 +5,7 @@ description: "xx"
 tags: ["AI", "Technology", "Global News", "Science"]
 draft: false
 slug: "hello-darkness-my-old-friend"
-image: ""
+featured_image: ""
 ---
 
 ## Tech

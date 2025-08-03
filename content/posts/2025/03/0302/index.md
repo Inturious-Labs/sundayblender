@@ -5,7 +5,7 @@ description: "xx"
 tags: ["AI", "Technology", "Global News", "Science"]
 draft: false
 slug: "ancient-water-on-mars"
-image: ""
+featured_image: ""
 ---
 
 ## Tech

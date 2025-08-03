@@ -5,7 +5,7 @@ description: "xx"
 tags: ["AI", "Technology", "Global News", "Science"]
 draft: false
 slug: "flying-without-wings-seeing-without-eyes-and-driving-without-humans"
-image: ""
+featured_image: ""
 ---
 
 ## Tech

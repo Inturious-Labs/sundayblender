@@ -5,7 +5,7 @@ description: "xx"
 tags: ["AI", "Technology", "Global News", "Science"]
 draft: false
 slug: "a-tale-of-two-nations"
-image: ""
+featured_image: ""
 ---
 
 ## Tech

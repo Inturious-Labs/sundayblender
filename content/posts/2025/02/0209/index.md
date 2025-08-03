@@ -5,7 +5,7 @@ description: "xx"
 tags: ["AI", "Technology", "Global News", "Science"]
 draft: false
 slug: "chinese-film-ne-zha-2-shattered-record"
-image: "xx"
+featured_image: "xx"
 ---
 
 ## Tech

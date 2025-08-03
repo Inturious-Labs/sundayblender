@@ -5,7 +5,7 @@ description: "xxx"
 tags: ["news for kids", "kids news", "news", "education"]
 draft: false
 slug: "make-news-interesting-for-kids"
-image: ""
+featured_image: ""
 ---
 
 My wife and I have an eight-year old boy, studying in a bilingual school in Shanghai, China. He is becoming increasingly curious about the bigger world outside the school and wants to stay current to the major events happening around the globe. We liked this development and thought this could turn into another effective method to further elevate his English. We went on a mission to find quality English (or Chinese, for that matter) news reading materials for him. We searched high and low for more than a year, and could not find any.
