@@ -52,12 +52,12 @@ In February 2025, **David Webb**, the renowned **Hong Kong** activist investor a
 
 Scientists at **Colossal Biosciences** have created three wolf pups—Romulus, Remus, and Khaleesi—that carry DNA from the extinct dire wolf, famous from **Game of Thrones** as the fierce companions of the **Stark** family. Using ancient DNA from **13,000-** and **72,000**\-year-old fossils, they edited gray wolf genes to give these pups dire wolf traits like white fur and bigger bodies. Kept in a secret **2,000-acre** U.S. preserve, they’re not pure dire wolves but hybrids. Critics say it’s more about hype than true revival, but it could help save endangered wolves.
 
-## Nature, Environment
+## Nature & Environment
 ---
 
 In January 2025, a Chicago-sized iceberg, A-84, broke off **Antarctica**’s George VI Ice Shelf, revealing a hidden seafloor ecosystem. Scientists aboard the research vessel Falkor explored this untouched area using a remotely operated vehicle, discovering vibrant life including giant sponges, corals, icefish, octopuses, and sea spiders. The ecosystem, thriving under **500 feet** of ice for centuries, likely relies on ocean currents for nutrients. Unveiled on March 20, 2025, the findings offer insights into life in extreme environments and the impact of climate-driven ice loss on Antarctic ecosystems and global sea levels.
 
-## Lifestyle, Entertainment, Culture
+## Entertainment & Culture
 ---
 
 **Mission: Impossible – The Final Reckoning** premiered at the 78th **Cannes Film Festival** in **Cannes, France**. Superstar **Tom Cruise** returned to the **Croisette** to a live orchestra playing the iconic theme as he walked the red carpet. The film received a five-minute standing ovation inside the **Grand Théâtre Lumière.** Directed by **Christopher McQuarrie**, the eighth installment sees special agent **Ethan Hunt** battling a rogue AI. As one of Hollywood’s greatest action franchises, Mission: Impossible continues to redefine blockbuster filmmaking with daring stunts, global intrigue, and Cruise’s legendary commitment to cinematic spectacle.

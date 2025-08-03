@@ -54,14 +54,14 @@ Chinese researchers from **Tianjin University** and **Tsinghua University** unve
 
 Researchers have discovered that marmoset monkeys use names to refer to each other, a behavior previously observed only in humans, elephants, and dolphins. This finding suggests a complex level of social cognition and communication among these primates. The study reveals that marmosets can recognize and respond to specific vocalizations associated with individual group members, indicating a sophisticated naming system.
 
-## Nature, Environment
+## Nature & Environment
 ---
 
 India is bracing for a record-breaking hot March, with temperatures expected to remain above normal throughout the month. The India Meteorological Department (IMD) forecasts maximum temperatures to surpass **40°C (104°F)** in many states by the end of March. This heat poses a significant threat to India's wheat crop, which is already facing challenges from previous years of reduced yields due to high temperatures. This comes after February 2025 was recorded as the hottest month since 1901.
 
 **Cyclone Garance** devastated the French Indian Ocean island of La Reunion, causing at least four fatalities. The storm brought intense winds reaching up to **214 km/h** and torrential rains, leading to widespread destruction, including torn roofs and toppled trees. Over **180,000** households experienced power outages, and nearly **10%** of the population lacked access to clean water. The cyclone was classified as one of the most severe in nearly a century.
 
-## Lifestyle, Entertainment, Culture
+## Entertainment & Culture
 
 **Lewis Hamilton** has joined **Lululemon** as its newest global ambassador, marking a significant partnership in the athleisure and motorsport worlds. Hamilton will collaborate with Lululemon on future designs and global advocacy projects, focusing on promoting the brand's menswear range. Hamilton will feature in Lululemon's "No Holding Back" campaign. This partnership reflects Hamilton's growing influence in fashion and lifestyle beyond his racing career.
 

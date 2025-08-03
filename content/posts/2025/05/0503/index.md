@@ -42,11 +42,11 @@ On May 2, 2025, **President Donald Trump** ended the U.S. "**de minimis**" exemp
 
 Years ago, scientists found that certain kinds of bacteria appear to breathe by generating electricity, rather than taking in oxygen, but how they did so was a mystery. A new study published in the journal _**Cell**_ identifies how this happens: the microbes are using a group of chemicals called **naphthoquinones** in a manner similar to the way a battery discharges electricity. This is what enables bacteria to thrive in oxygen-deprived areas like deep sea vents. Armed with this knowledge, it may be possible for scientists to adapt these bacteria for use in a wide variety of applications, such as wastewater treatment or developing bioelectronic sensors. It could even be used as a method to turn atmospheric carbon dioxide into useful chemicals–a sustainability twofer.
 
-## Nature, Environment
+## Nature & Environment
 
 A devastating wildfire on the **Isle of Arran, Scotland**, destroyed approximately **27,000** trees, including rare whitebeams endemic to the island. The blaze, which occurred from April 10 to 13 in the **Glen Rosa valley**, also claimed the lives of hundreds of reptiles and amphibians, such as adders, slow worms, and frogs. Kate Sampson, a **National Trust for Scotland** ranger, described the loss as a decade of conservation efforts going up in flames. The fire, likely ignited by a discarded _glass bottle_ reflecting sunlight, underscores the escalating wildfire risks due to drier, warmer springs in Scotland.
 
-## Lifestyle, Entertainment, Culture
+## Entertainment & Culture
 ---
 
 **Victory in Europe (VE) Day**, observed on May 8, marks the formal end of World War II in Europe. On this day in 1945, **Germany**'s unconditional surrender was officially accepted by the Allies. The day is commemorated annually to honor the immense sacrifices made during the war and to celebrate the restoration of peace in Europe. The **80th** anniversary of VE Day in 2025 is being marked with significant events across Europe. In the **UK**, celebrations include a reenactment of **Winston Churchill**’s victory speech, a grand military procession, and cultural tributes such as a special two-part episode of "**The Archers**".

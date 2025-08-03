@@ -48,12 +48,12 @@ The Sunday Blender is a reader-supported publication. To receive new posts and s
 
 **NASA**'s **Mars Reconnaissance Orbiter (MRO)** captured an image of the **Curiosity** rover traversing Mars' surface recently. The rover, visible as a dark speck, is seen moving along a **1,050-foot**\-long path, a result of **11** separate drives. This marks a significant achievement, as it's one of the first instances where an MRO has observed a rover in motion. Curiosity, which landed on Mars in 2012, has since traveled over **21 miles**, investigating **Mount Sharp**'s geological history to understand Mars' past climate and potential habitability.
 
-## Nature, Environment
+## Nature & Environment
 ---
 
 ​South African National Parks (SANParks) has rejected **Kropz Plc**'s application to mine phosphate in the **West Coast National Park**, citing legal prohibitions against mining in protected areas. Kropz, **83.2%** owned by billionaire **Patrice Motsepe**’s **African Rainbow Capital** (ARC), had sought to extend its operations from the adjacent Elandsfontein mine into the park. The application faced strong opposition from conservation groups, including the **World Wide Fund for Nature (WWF)**, due to the park's ecological significance, housing over **250** bird species and ancient human footprints. This decision underscores the ongoing tension between economic development and environmental conservation in South Africa.
 
-## Lifestyle, Entertainment, Culture
+## Entertainment & Culture
 ---
 
 ​The 42nd **Weifang International Kite Festival** commenced on April 19, 2025, in **Weifang**, Shandong Province, drawing **257** teams from **51** countries. Celebrated as the "Kite Capital of the World," Weifang has hosted this annual spring event since **1984**, honoring its rich kite-making heritage dating back to the Song Dynasty. The festival features a vibrant array of activities, including the World Kite Championship, kite-flying competitions, creative exhibitions, and cultural performances. Kites of various shapes—ranging from pandas to dragons—fill the skies, symbolizing both artistic expression and cultural pride. This event not only showcases traditional craftsmanship but also fosters international cultural exchange and tourism.

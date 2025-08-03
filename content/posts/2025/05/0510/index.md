@@ -48,7 +48,7 @@ In their paper _**The Unbearable Slowness of Being: Why Do We Live at 10 Bits/s?
 
 In April and May 2025, **NASA** launched two super-pressure balloons from **Wānaka Airport, New Zealand**, as part of a campaign to test long-duration, high-altitude flight technology. The first balloon, carrying the HIWIND payload to study thermospheric winds, achieved a full circumnavigation of the Southern Hemisphere in 16 days. However, due to a suspected leak causing altitude instability, the mission was safely terminated after 17 days over the Pacific Ocean. The second balloon lifted off on May 3 and reached a float altitude of **108,000 feet**, aiming for a **100-day** flight to further validate the technology and support additional scientific experiments.
 
-## Nature, Environment
+## Nature & Environment
 ---
 
 After more than a century of restricted access, the **Octagon Earthworks** in **Newark, Ohio, USA** —a **2,000-year**\-old ceremonial site built by the **Hopewell** culture—officially opened to the public on January 1, 2025. This monumental site, featuring a **50-acre** octagon and a **20-acre** circle, served as a gathering place for thousands of indigenous people for celestial observations and religious ceremonies. Recognized as part of the Hopewell Ceremonial Earthworks, Ohio's first **UNESCO World Heritage Site**, the Octagon's opening follows a prolonged legal effort to reclaim the land from a private country club. Plans are underway to enhance the site with an interpretive center, honoring its historical and cultural significance.
@@ -59,7 +59,7 @@ In early May 2025, **Grizzly 1058**, a 5-year-old male bear and one of the four 
 
 In September 2023, Daniel Graham and Adam Carruthers illegally felled the iconic **Sycamore Gap** tree near **Hadrian's Wall** in **Northumberland**, **England**. The **150-year-old** tree, featured in the film _**Robin Hood: Prince of Thieves**_, was a cherished landmark. The men drove from Carlisle during a storm and cut down the tree with a chainsaw, recording the act on Graham's phone. They later exchanged messages expressing amusement over the public's outrage. On May 9, 2025, both were convicted of criminal damage to the tree and Hadrian's Wall. Sentencing is scheduled for July 15, with potential prison terms of up to 10 years.
 
-## Lifestyle, Entertainment, Culture
+## Entertainment & Culture
 ---
 
 **Mother's Day** is a celebration honoring the mother of the family or individual, as well as motherhood, maternal bonds, and the influence of mothers in society. It is celebrated on the second Sunday of May. In 2025, it falls on **May 11**. It was established in the United States in 1914 through the efforts of **Anna Jarvis** to honor her mother and all mothers. It complements similar celebrations honoring family members, such as **Father's Day**.

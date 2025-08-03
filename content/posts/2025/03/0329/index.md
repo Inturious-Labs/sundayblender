@@ -38,12 +38,12 @@ The **NFL** ma**y** be the world’s most lucrative sports league, but **Major L
 
 The UK has completed the construction of the **Rosalind Franklin rover**, its first Mars rover, aiming to search for signs of ancient life on the Red Planet. Originally set to launch aboard a Russian rocket, the mission was reassigned to **Airbus** UK following geopolitical tensions. The rover is now scheduled for a 2028 launch, with a landing on Mars anticipated in 2030. This **£1 billion** project is expected to sustain approximately **200** jobs in the British space sector.
 
-## Nature, Environment
+## Nature & Environment
 ---
 
 ​The San Silvestre wetlands in **Colombia** are facing severe pollution linked to a landfill operated by French multinational **Veolia** since 2019. Investigations reveal that employees have been discharging untreated leachate into protected wetlands, leading to the contamination of water sources. Tests downstream detected heavy metals, including mercury levels **25 times** above safe limits, posing serious health risks such as birth defects and developmental issues in children. ​
 
-## Lifestyle, Entertainment, Culture
+## Entertainment & Culture
 
 Disney's live-action remake of "**Snow White**," starring **Rachel Zegler**, debuted with a modest **$43 million** in domestic ticket sales against its **$250 million** budget. The film faced multiple controversies, including debates over Zegler's casting and her critical remarks about the 1937 original. Additionally, the depiction of the seven dwarfs, altered to avoid stereotypes, drew criticism from actors with dwarfism. These factors, combined with a **47%** critics' score on **Rotten Tomatoes** and a nearly unheard-of 1.5 (out of 10) score on **IMDB**, contributed to the film's underwhelming performance.
 

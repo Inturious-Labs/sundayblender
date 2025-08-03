@@ -56,12 +56,12 @@ Scientists at **Colossal Biosciences**, aiming to resurrect the woolly mammoth, 
 
 **​Firefly Aerospace**'s Blue Ghost lunar lander successfully touched down on the Moon on March 2, 2025, marking a significant milestone in commercial space exploration. Launched aboard a **SpaceX** Falcon 9 rocket on January 15, 2025, the mission is part of **NASA**'s Commercial Lunar Payload Services (CLPS) program, aiming to deliver scientific instruments and technology demonstrations to the lunar surface. Blue Ghost's payload includes experiments to analyze lunar regolith properties, geophysical characteristics, and the interaction of solar wind with Earth's magnetic field, providing valuable data for future human missions under NASA's Artemis program. This achievement underscores the growing role of private companies in advancing lunar exploration and supporting NASA's objectives.​
 
-## Nature, Environment
+## Nature & Environment
 ---
 
 On March 4, 2025, Kilauea volcano on Hawaii’s Big Island erupted, sending lava fountains soaring over **100 feet** into the air. The eruption, its 12th episode since December 23, began with small, sporadic flows in the morning before escalating into continuous fountaining by afternoon. Reaching heights of **150 to 165 feet**, the vibrant red lava illuminated Hawaii Volcanoes National Park, drawing crowds to overlook sites. The Hawaiian Volcano Observatory noted the fountains could grow larger, though no residential areas were threatened.
 
-## Lifestyle, Entertainment, Culture
+## Entertainment & Culture
 ---
 
 The 97th Academy Awards, held on March 2, 2025, at the Dolby Theatre in Los Angeles, celebrated outstanding achievements in cinema. Hosted by **Conan O'Brien**, the ceremony saw "**Anora**" dominate with five awards, including Best Picture and Best Director for **Sean Baker**, who matched Walt Disney's record by winning four Oscars in one night for a single film. Mikey Madison secured Best Actress for her role in "Anora," while Adrien Brody won Best Actor for "The **Brutalist**," marking his second Oscar in this category. **Zoe Saldaña** made history as the first American of Dominican origin to win an Oscar, earning Best Supporting Actress for "**Emilia Pérez**." "Dune: Part Two" and "Wicked" each garnered two awards, with "Dune" recognized for Best Visual Effects and Best Sound.
