@@ -63,13 +63,7 @@ jobs:
         
     - name: Build Hugo Site
       run: |
-        # Set environment for production build
-        export HUGO_ENV=production
-        export HUGO_ENVIRONMENT=production
-        # Clean any existing build
-        rm -rf public/
-        # Build for production with proper settings
-        HUGO_ENV=production hugo --minify --environment production --gc --buildDrafts=false --buildFuture=false
+        hugo --minify
         
     - name: Import DFX Identity
       run: |
