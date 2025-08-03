@@ -32,5 +32,5 @@ hugo --minify
 After creating the static HTML assets in `public/` folder, `git push` the current branch to the remote:
 
 ```
-git push --set-upstream main <local_branch_name>
+git push --set-upstream origin <local_branch_name>
 ```
