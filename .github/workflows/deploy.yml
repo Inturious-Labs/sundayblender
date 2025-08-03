@@ -80,7 +80,7 @@ jobs:
         rm -rf public/
         # Build for production with proper settings
         echo "=== Building Hugo Site ==="
-        HUGO_ENV=production hugo --minify --environment production --gc --buildDrafts=false --buildFuture=false --verbose
+        HUGO_ENV=production hugo --minify --environment production --gc --buildDrafts=false --buildFuture=false
         
         echo "=== Checking Build Output ==="
         echo "Public directory contents:"
