@@ -80,17 +80,30 @@ jobs:
         rm -rf public/
         # Build for production with proper settings
         echo "=== Building Hugo Site ==="
-        HUGO_ENV=production hugo --minify --environment production --gc --buildDrafts=false --buildFuture=false
+        HUGO_ENV=production hugo --minify --environment production --gc --buildDrafts=false --buildFuture=false --log --verboseLog
         
         echo "=== Checking Build Output ==="
         echo "Public directory contents:"
         ls -la public/
         echo "Index.html first 10 lines:"
         head -10 public/index.html || echo "index.html not found!"
+        echo "=== Build Debug ==="
+        echo "Hugo build summary:"
+        hugo list all
         echo "=== Hugo Debug Info ==="
         hugo --help | head -5
         echo "Theme path:"
         hugo config | grep theme || echo "No theme config found"
+        echo "=== Theme Debug ==="
+        echo "Theme directory structure:"
+        find themes/diary -name "*.html" | head -10
+        echo "Theme layouts:"
+        ls -la themes/diary/layouts/
+        echo "=== Content Debug ==="
+        echo "Content directory:"
+        ls -la content/
+        echo "=== Hugo Build Debug ==="
+        hugo --log --verboseLog
         
     - name: Import DFX Identity
       run: |
