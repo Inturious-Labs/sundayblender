@@ -7,12 +7,15 @@ theme = "diary"
 	posts = "/p/:slug/"
 
 [params]
-	subtitle = "Making news interesting for kids"
+	subtitle = "making news interesting for kids"
 	description = 'The Sunday Blender - A minimalist blog built with Hugo and Diary theme'
 	enableOpenGraph = true
 	enableTwitterCards = true
 	author = "Clayton Man"
 	author_bio = "A newsman making the best news for kids"
+	author_image = "/img/author.jpg"
+	logo = "/img/logo.png"
+	favicon = "/img/favicon.ico"
 
 [build]
 	writeStats = true
