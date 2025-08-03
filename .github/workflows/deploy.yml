@@ -30,7 +30,7 @@ jobs:
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
-        hugo-version: 'latest'
+        hugo-version: '0.148.2'
         extended: true
         
     - name: Install DFX via dfxvm
@@ -63,7 +63,13 @@ jobs:
         
     - name: Build Hugo Site
       run: |
+        hugo version
+        ls -la
+        ls -la content/
+        ls -la themes/
         hugo --environment production --minify
+        ls -la public/
+        wc -l public/index.html
         
     - name: Import DFX Identity
       run: |
