@@ -1,0 +1,87 @@
+---
+title: "The End Game for Technology"
+date: 2025-03-09
+description: "xx"
+tags: ["AI", "Technology", "Global News", "Science"]
+draft: false
+slug: "the-end-game-for-technology"
+image: ""
+---
+
+## Tech
+---
+
+On March 6, 2025, **SpaceX**’s Starship exploded during its eighth test flight, just minutes after launching from Boca Chica, Texas. The **403-foot** rocket, the most powerful ever built, successfully separated its Super Heavy booster, which returned to the launchpad as planned. However, the upper stage spun out of control, losing several engines due to an "energetic event" in its aft section, leading to a "rapid unscheduled disassembly." Debris rained over the Caribbean, disrupting **240** flights and prompting ground stops at Florida airports. The FAA is now investigating, marking SpaceX’s second consecutive Starship failure this year.
+
+**Intuitive Machines**' stock plummeted by **22%** after its second lunar lander, Athena, landed on its side, mirroring the fate of its predecessor, Odysseus. The lander, part of NASA's Commercial Lunar Payload Services program, tipped over in a crater near the moon's south pole, preventing it from recharging its batteries due to the sun's position and extreme cold. Despite gathering some data, the mission was cut short, raising concerns about the company's designs and NASA's approach to lunar exploration.
+
+**Xiaomi**'s SU7 Ultra has achieved remarkable sales success, exceeding initial targets. The electric super sedan, priced at approximately **$72,750**, garnered over **10,000** orders within **two hours** of its launch, meeting Xiaomi's annual sales target for 2025. Orders have since surged to **19,000** units, far surpassing expectations. The SU7 Ultra's competitive pricing and impressive performance, with **1,527** horsepower, have attracted buyers from traditional luxury brands like BMW and Mercedes-Benz. This success marks a significant milestone in Xiaomi's foray into the automotive market, positioning it as a formidable competitor in the EV sector.
+
+On March 3, 2025, a driverless **Maserati** MC20 Coupe, powered by AI from Politecnico di Milano, shattered the autonomous speed record, hitting **197.7 mph** at **NASA**’s Kennedy Space Center in Florida. Part of the Indy Autonomous Challenge, this feat eclipsed the prior **192.8 mph** mark set in 2022. The Maserati, modified with Lidar and sensors, ran on a **2.8-mile** runway once used by space shuttles. Experts hailed it as a leap for AI-driven mobility, with the convertible MC20 Cielo later joining a 1000 Miglia Florida event, showcasing real-world applications of autonomous tech.
+
+Since January 2025, **DeepSeek**’s AI services have faced severe server congestion as over **160** organizations globally integrated its models, triggering a surge in user demand. The free DeepSeek-R1 model, offering **671B** parameters and **90–95%** cost savings compared to rivals like **OpenAI**’s o1, became a top-downloaded app, with **16 million** downloads in **18 days**—outpacing ChatGPT’s **9 million** in the same period. This unexpected growth strained infrastructure, causing frequent "server busy" errors. Despite using cost-efficient training, the rapid adoption exposed limitations in scaling compute resources.
+
+At Mobile World Congress 2025 in Barcelona, **Honor** unveiled the Honor UI Agent, a groundbreaking AI assistant powered by **Google**’s Gemini 2 model. Launched on March 2, this “GUI-based mobile AI agent” reads and interprets smartphone screens to perform tasks like booking restaurant reservations via **OpenTable**, relying on on-device processing with **Qualcomm**’s support for privacy. Part of Honor’s **$10 billion** Alpha Plan, it aims to redefine user-device interaction by reducing app dependency. While promising, it struggled with tasks requiring credit card input, hinting at early limitations.
+
+On March 7, 2025, President Donald Trump hosted the first-ever White House Crypto Summit, welcoming industry leaders like Coinbase CEO Brian Armstrong, Ripple’s Brad Garlinghouse, and MicroStrategy’s Michael Saylor. The event followed Trump’s March 6 executive order establishing a Strategic Bitcoin Reserve, retaining **200,000** seized bitcoins (valued at **$17 billion**) as a “digital Fort Knox,” alongside a U.S. Digital Asset Stockpile for other cryptocurrencies. Trump pledged to make the U.S. the “crypto capital of the world”.
+
+On March 3, 2025, **Reddit** co-founder Alexis Ohanian joined billionaire **Frank McCourt**’s “People’s Bid” to acquire **TikTok**’s U.S. operations as a strategic adviser. Announced by McCourt’s Project Liberty, the bid aims to buy the app from ByteDance amid a U.S. divest-or-ban law. Ohanian, a social media pioneer, plans to integrate blockchain technology, creating a decentralized “TikTok: Freedom Edition” that prioritizes user data control. The consortium, including Kevin O’Leary, offered **$20 billion**, though TikTok’s value may exceed **$60 billion**. Facing a deadline extended to April by President Trump, the bid competes with groups like **Microsoft** and MrBeast’s consortium.
+
+**Microsoft** is shutting down **Skype**, a pioneering video and phone service, on May 5, 2025, after **23** years, to focus on Microsoft Teams. Acquired for **$8.5 billion** in 2011, Skype once boasted **300 million** users but struggled against rivals like Zoom and Slack. Starting in May, Skype will no longer be available, and users can migrate chats and contacts to Teams’ free version using their Skype credentials. The move phases out Skype’s telephony features, reflecting shifts in consumer trends toward mobile data and VoIP.
+
+Wired reviewed the **We Are Rewind** cassette player, a modern take on vintage tape decks. Encased in sturdy aluminum, it offers great sound and USB-C recharging, outshining fragile vintage Walkmans. Bluetooth compatibility pairs with wireless headphones, though it lacks auto-stop on rewind, causing a motor squeal. At **14 ounces**, it’s hefty but reliable, avoiding tape damage over a year of testing. Ideal for cassette collectors, it balances nostalgia with modern convenience, despite a muted Bluetooth output. Priced competitively, it’s a top choice for tape enthusiasts seeking quality over thrift store relics.
+
+## Global
+---
+
+**​Navi Mumbai International Airport** (NMIA), a **$2.1 billion** project developed by the **Adani Group**, is scheduled to commence operations on May 15, 2025, aiming to alleviate congestion at Mumbai's existing airport. In its initial phase, NMIA is designed to accommodate **20 million** passengers annually, with plans to expand capacity to **90 million** in subsequent phases. Major low-cost carriers, including IndiGo, Air India Express, SpiceJet, and Akasa Air, are in discussions to shift their operations to NMIA, capitalizing on the new infrastructure to enhance their services. International flights are anticipated to commence by August 2025, further boosting the airport's strategic importance in the region.
+
+A WIRED investigation revealed that scam compounds in **Myanmar**, enslaving tens of thousands and generating billions, rely on **SpaceX**’s Starlink for internet access. A trafficking victim from Tai Chang compound emailed anti-scam group GASO in June 2024, noting Starlink’s role after Thailand cut local connections. Despite crackdowns freeing thousands, Starlink’s use persists, raising ethical concerns as Elon Musk’s DOGE cuts victim support funding.
+
+## Economy & Finance
+---
+
+On March 5, 2025, Chinese Premier Li Qiang vowed to boost spending and deepen global openness during the National People’s Congress, setting a **5%** growth target for 2025. Facing U.S. tariffs under President Trump’s isolationist policies, China plans a **4%** deficit-to-GDP ratio, up from **3%**, and will issue **1.3 trillion** yuan (**$182 billion**) in special treasury bonds. Li emphasized multilateralism, rejecting protectionism, and pledged to expand market access, particularly in telecom and biotech, to attract foreign investment. This contrasts with Trump’s tariff hikes, aiming to counter economic slowdown and reinforce China’s role as a global economic stabilizer.
+
+Reuters reported that India’s **Tata Group** plans to invest **$90 billion** over the next decade to create **500,000** manufacturing jobs, aligning with Prime Minister Narendra Modi’s self-reliance vision. Chairman Natarajan Chandrasekaran outlined a shift from commodities to high-value sectors like semiconductors and electric vehicles, with **$14 billion** already committed this year for battery and chip plants. Facing competition from Gautam Adani and Mukesh Ambani, Tata aims to bolster India’s industrial base amid U.S.-China tensions. However, analysts question the feasibility of this ambitious job target given economic challenges and past overpromising.
+
+​Stefano Pessina, the Italian billionaire and largest shareholder of **Walgreens Boots Alliance**, has agreed to a **$10 billion** deal to sell the company to private equity firm **Sycamore Partners**. Pessina, 83, transformed a small family business into a global giant through over **1,000** acquisitions, culminating in Walgreens Boots Alliance, which once had a market capitalization exceeding **$100 billion**. However, challenges such as increased competition from e-commerce platforms like **Amazon** and strategic missteps, including a failed partnership with **Theranos**, led to a decline in Walgreens' value. The sale to Sycamore Partners is expected to result in the breakup of the conglomerate.
+
+## Science
+---
+
+Scientists at **Colossal Biosciences**, aiming to resurrect the woolly mammoth, have created a new species: the woolly mouse. Announced on March 4, 2025, these small, tuskless rodents boast thick, fluffy, golden-brown fur and enhanced fat metabolism, traits inspired by the extinct mammoth. Using advanced gene editing, researchers modified seven mouse genes to mimic mammoth characteristics, achieving longer, wavier coats. Born in October 2024 from genetically altered embryos, these adorable mice mark a step toward engineering mammoth-like Asian elephants by 2028. Critics argue it’s more novelty than true de-extinction.
+
+​China is advancing its nuclear fusion research with the goal of achieving commercial power generation by **2050**. A significant milestone was reached at the Experimental Advanced Superconducting Tokamak (EAST) facility, where scientists sustained plasma temperatures exceeding **100 million** degrees Celsius for **1,066 seconds**. This achievement demonstrates progress toward harnessing fusion energy, which mimics the sun's processes to provide a nearly limitless, clean power source. China's roadmap includes constructing an industrial prototype fusion reactor by **2035**, leading to large-scale commercial use by mid-century.
+
+**​Firefly Aerospace**'s Blue Ghost lunar lander successfully touched down on the Moon on March 2, 2025, marking a significant milestone in commercial space exploration. Launched aboard a **SpaceX** Falcon 9 rocket on January 15, 2025, the mission is part of **NASA**'s Commercial Lunar Payload Services (CLPS) program, aiming to deliver scientific instruments and technology demonstrations to the lunar surface. Blue Ghost's payload includes experiments to analyze lunar regolith properties, geophysical characteristics, and the interaction of solar wind with Earth's magnetic field, providing valuable data for future human missions under NASA's Artemis program. This achievement underscores the growing role of private companies in advancing lunar exploration and supporting NASA's objectives.​
+
+## Nature, Environment
+---
+
+On March 4, 2025, Kilauea volcano on Hawaii’s Big Island erupted, sending lava fountains soaring over **100 feet** into the air. The eruption, its 12th episode since December 23, began with small, sporadic flows in the morning before escalating into continuous fountaining by afternoon. Reaching heights of **150 to 165 feet**, the vibrant red lava illuminated Hawaii Volcanoes National Park, drawing crowds to overlook sites. The Hawaiian Volcano Observatory noted the fountains could grow larger, though no residential areas were threatened.
+
+## Lifestyle, Entertainment, Culture
+---
+
+The 97th Academy Awards, held on March 2, 2025, at the Dolby Theatre in Los Angeles, celebrated outstanding achievements in cinema. Hosted by **Conan O'Brien**, the ceremony saw "**Anora**" dominate with five awards, including Best Picture and Best Director for **Sean Baker**, who matched Walt Disney's record by winning four Oscars in one night for a single film. Mikey Madison secured Best Actress for her role in "Anora," while Adrien Brody won Best Actor for "The **Brutalist**," marking his second Oscar in this category. **Zoe Saldaña** made history as the first American of Dominican origin to win an Oscar, earning Best Supporting Actress for "**Emilia Pérez**." "Dune: Part Two" and "Wicked" each garnered two awards, with "Dune" recognized for Best Visual Effects and Best Sound.
+
+On January 23, 2025, **Robbie Williams** achieved his **15th** UK No. 1 album with the "Better Man" soundtrack, tying **The Beatles**’ record for the most chart-topping albums. The British pop star, previously with Take That, outsold the UK Top 5 combined, reinforcing his solo artist record. Including his **five** No. 1s with Take That, Williams has **20** chart-toppers, trailing only **Paul McCartne**y’s 23. The album, “The Better Man”, tied to his biopic where he’s portrayed as a CGI chimpanzee, features re-recorded hits like "Angels."
+
+Bloomberg reported on China’s **$6.91 billion** mini-drama industry, producing **60–90-second** professionally scripted episodes that outpaced China’s box office last year. These addictive series, with cliffhangers and low production costs, have captivated half of China’s billion-plus internet users. Now, companies like **ReelShort** are targeting the U.S., leveraging cheap Chinese production and Hollywood partnerships to expand a **$2 billion** global market. Facing potential U.S. scrutiny over security concerns akin to **TikTok**’s, the industry bets on flexible, bite-sized storytelling to disrupt American entertainment, challenging traditional streaming and film with its freemium model.
+
+On International Women’s Day, March 8, 2025, we should remember these unsung women in tech history. **Ada Lovelace** is considered the first computer programmer, having written algorithms for Charles Babbage's Analytical Engine in the 19th century. **Grace Hopper**, a pioneering computer scientist, developed the first compiler for a computer programming language and played a crucial role in the creation of COBOL, an early high-level programming language. **Katherine Johnson**, a mathematician at NASA, performed critical calculations that enabled the success of the first and subsequent U.S. manned spaceflights.
+
+## Sports
+
+​On March 7, 2025, **Nikola Jokić** made NBA history by recording the league's first triple-double featuring at least 30 points, 20 rebounds, and 20 assists. In the **Denver Nuggets**' **149-141** overtime victory against the Phoenix Suns, Jokić tallied **31** points, a career-high **22** assists, and **21** rebounds. This performance marked his **29th** triple-double of the season, tying the franchise record. Jokić also matched Oscar Robertson's record with his seventh game of at least **15** points, **15** rebounds, and **15** assists in a season. His exceptional play has solidified his status as a leading MVP candidate for the 2024-25 season.
+
+European football witnessed a historic UEFA Champions League match where **Arsenal** secured a **7-1** victory over **PSV Eindhoven**, setting multiple records. This win marked Arsenal's largest margin in a Champions League knockout stage, effectively securing their spot in the quarter-finals. Early goals from **Jurrien Timber**, **Ethan Nwaneri**, and **Mikel Merino** established a commanding lead, with **Martin Ødegaard** and **Leandro Trossard** adding two more within **99** seconds after halftime—a record for the quickest five away goals in the competition's history. **Ødegaard**'s brace and **Riccardo Calafiori**'s goal made Arsenal the first away team to net seven goals in a knockout tie, showcasing their attacking prowess on the European stage.​
+
+## Oddities
+
+​During the first round of the Cognizant Classic at PGA National in Palm Beach Gardens, Florida, professional golfer Billy Horschel encountered an unexpected hazard—a six-foot alligator on the course. Horschel calmly used a 60-degree wedge to gently prod the gator, guiding it back to the water without incident. This impromptu intervention earned him applause from spectators and accolades on social media, with some dubbing him the "gator whisperer." Horschel downplayed the encounter, noting that alligators are typically more afraid of humans and usually pose little threat unless during mating season or when protecting their nests. Despite the unusual interruption, Horschel maintained his composure, finishing the round with a five-under-par 66, positioning him well in the tournament standings.
+
+---
+
+Thanks for reading The Sunday Blender! It’s a curated weekly newspaper for curious kids who want to escape from short videos and learn about the bigger world. To receive new issues and support my work, consider becoming a free or paid subscriber.
