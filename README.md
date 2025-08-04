@@ -1,5 +1,7 @@
 # README
 
+The Sunday Blender's canister URL: [https://bf52x-nyaaa-aaaan-qz5aq-cai.icp0.io/](https://bf52x-nyaaa-aaaan-qz5aq-cai.icp0.io/)
+
 ## Deploy, Test & Publish
 
 Start Hugo's development server to view the hot-loaded site
