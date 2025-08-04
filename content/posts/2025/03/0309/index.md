@@ -1,11 +1,11 @@
 ---
 title: "The End Game for Technology"
 date: 2025-03-09
-description: "xx"
+description: "some became retro-styled collectables and some vanished without a trace"
 tags: ["AI", "Technology", "Global News", "Science"]
 draft: false
 slug: "the-end-game-for-technology"
-featured_image: ""
+featured_image: "header.webp"
 ---
 
 ## Tech

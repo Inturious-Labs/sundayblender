@@ -1,11 +1,11 @@
 ---
 title: "Mega Snow and Mega Collison"
 date: 2025-02-16
-description: "xx"
+description: "Record-breaking snowstorms hit Japan and Toronto, while major tech layoffs at Boeing and Meta reshape the industry"
 tags: ["AI", "Technology", "Global News", "Science"]
 draft: false
 slug: "mega-snow-and-mega-collision"
-featured_image: ""
+featured_image: "header.jpg"
 ---
 
 ## Tech

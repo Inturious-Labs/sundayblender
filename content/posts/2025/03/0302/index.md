@@ -1,11 +1,11 @@
 ---
 title: "Ancient Water on Mars"
 date: 2025-03-02
-description: "xx"
+description: "defunct Chinese rover found an ocean shoreline on the red planet"
 tags: ["AI", "Technology", "Global News", "Science"]
 draft: false
 slug: "ancient-water-on-mars"
-featured_image: ""
+featured_image: "mars.jpg"
 ---
 
 ## Tech
