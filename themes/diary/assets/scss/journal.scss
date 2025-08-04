@@ -292,6 +292,32 @@ a {
         color: #3f587d !important;
       }
     }
+    
+    .drawer-menu-item {
+      &:first-child {
+        font-weight: 600;
+        color: #8B4513 !important;
+        
+        &:hover {
+          color: #654321 !important;
+          background: rgba(139, 69, 19, 0.05);
+        }
+      }
+      
+      &[href*="/about/"] {
+        font-weight: 600;
+        color: #8B4513 !important;
+        
+        &:hover {
+          color: #654321 !important;
+          background: rgba(139, 69, 19, 0.05);
+        }
+        
+        &.active {
+          color: #654321 !important;
+        }
+      }
+    }
     .nav-darkmode-toggle {
       display: flex;
       align-content: center;
@@ -392,6 +418,28 @@ a {
           cursor: pointer;
           transition: all 0.2s linear;
           color: $deep-dark-accent;
+          
+          &:first-child {
+            font-weight: 700 !important;
+            color: #8B4513 !important;
+            font-size: 16px !important;
+            
+            &:hover {
+              color: #654321 !important;
+              background: rgba(139, 69, 19, 0.05) !important;
+            }
+          }
+          
+          &[href*="/about/"] {
+            font-weight: 700 !important;
+            color: #8B4513 !important;
+            font-size: 16px !important;
+            
+            &:hover {
+              color: #654321 !important;
+              background: rgba(139, 69, 19, 0.05) !important;
+            }
+          }
           .nav-link-subitem {
             font-size: $single-column-nav-link-size;
             padding: 2px;
