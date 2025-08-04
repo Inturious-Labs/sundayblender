@@ -85,13 +85,13 @@ Temperatures above 40°C (104°F) triggered fire bans in Victoria and NSW. **Aus
 
 Historic wildfires fueled by **Santa Ana** winds (80–100 mph) ravaged drought-stricken LA, displacing 70,000 residents. Scientists linked the fires to prolonged dryness from back-to-back wet winters, highlighting climate-driven disaster patterns.
 
-![LA Fire](LA_fire.webp)
+![LA Fire](la_fire1.webp)
 
 **Thailand** enforced a plastic import ban to curb environmental and health risks, addressing its role as a dumping ground for Western waste since China's 2018 ban. Critics question enforcement capacity amid rising global plastic trade.
 
 **Brazil** reported 6,068 dengue deaths in 2024, driven by climate-worsened mosquito breeding. The government allocated $50 million for containment, but 2025 cases are projected to rise, stressing global health-climate linkages.
 
-## Lifestyle, Entertainment, Culture
+## Entertainment & Culture
 ---
 
 Amid concerns over a potential TikTok ban in the U.S., millions of American users migrated to **RedNote**, a Chinese social media app known domestically as Xiaohongshu. This surge saw RedNote's U.S. daily active users skyrocket from fewer than 700,000 to approximately 3.4 million within days. RedNote, originally focused on lifestyle and shopping content, became a platform for cross-cultural exchange. American users shared various content from their daily lives, which sometimes clashed with Chinese cultural norms and created numerous LOL moments. In response to the influx, RedNote recruited American influencers to promote the app, aiming to highlight its user-friendly design and international appeal.
@@ -109,7 +109,7 @@ As of November 20, 2024, China's film sector reported a total box office revenue
 
 **Lewis Hamilton** completed his first official laps as a **Ferrari** driver at Fiorano, Italy, on February 19, ahead of pre-season testing. Fans and media dissected his transition from Mercedes, with Ferrari confirming a hybrid livery reveal at their Maranello event.
 
-![Hamilton](lewis-hamilton-ferrari.webp)
+![Hamilton](lewis-hami.webp)
 
 The FIA announced the 2025 Formula 1 calendar, featuring 24 races starting in Melbourne, Australia (March 14–16) for the first time since 2019. Bahrain and Saudi Arabia were moved to April due to Ramadan, with six Sprint weekends confirmed in China, Miami, Belgium, Austin, Brazil, and Qatar. **Lewis Hamilton**’s Ferrari debut and pre-season testing in Bahrain (Feb 26–28) are major talking points.
 
@@ -123,7 +123,7 @@ China’s **Zheng Qinwen** defeated Aryna Sabalenka in a thrilling semifinal to 
 
 The Lakers vs. Warriors game on January 25 drew 12.4 million viewers, the highest regular-season audience since 2018. **Stephen Curry**’s 45-point performance led Golden State to a 128–122 win, reigniting MVP debates.
 
-![Lakers vs Warriors](lakersandwarriors.jpg)
+![Lakers vs Warriors](lakersandw.jpg)
 
 **Patrick Mahomes**’ Kansas City Chiefs and Josh Allen’s Buffalo Bills secured spots in the AFC Championship after defeating the Texans (34–10) and Ravens (31–23), respectively. **The Chiefs** aim for a historic Super Bowl three-peat.
 
