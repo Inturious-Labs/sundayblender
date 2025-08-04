@@ -1,9 +1,11 @@
 ---
-title: "About The Sunday Blender "
-date: 2025-01-26
+title: "About The Sunday Blender"
 description: "best news for kids"
 draft: false
 disableReadingTime: true
+build:
+  list: false
+  render: true
 ---
 
 ## What is this?
