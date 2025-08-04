@@ -1,11 +1,11 @@
 ---
 title: "Blaze of Glory And Sound of Silence"
 date: 2025-05-10
-description: "xx"
+description: "from India's sky to New York's Newark Airport, stress test revealed surprising results"
 tags: ["AI", "Technology", "Global News", "Science"]
 draft: false
 slug: "blaze-of-glory-and-sound-of-silence"
-featured_image: ""
+featured_image: "fighter_jet.jpg"
 ---
 
 ## Tech

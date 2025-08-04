@@ -1,11 +1,11 @@
 ---
 title: "From Labubu Viral Craze to Glaciers Spiral of Dom"
 date: 2025-06-15
-description: "xx"
+description: "Clash of Titans between CEOs of NVIDIA and Anthropic, between Pogačar and Vingegaard, between Ronaldo and Yamal, and between 13 cities in Jiangsu, China"
 tags: ["AI", "Technology", "Global News", "Science"]
 draft: false
 slug: "from-labubu-viral-craze-to-glaciers-spiral-of-doom"
-featured_image: ""
+featured_image: "clash.webp"
 ---
 
 ## Tech

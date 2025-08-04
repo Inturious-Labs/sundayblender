@@ -1,11 +1,11 @@
 ---
 title: "AI Advances Scientific Discovery"
 date: 2025-05-17
-description: "xx"
+description: "with all the hype and mega data centers, AI is finding its use in scientific analysis"
 tags: ["AI", "Technology", "Global News", "Science"]
 draft: false
 slug: "ai-advances-scientific-discovery"
-featured_image: ""
+featured_image: "ai_advance.jpeg"
 ---
 
 ## Tech

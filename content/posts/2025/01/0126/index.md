@@ -1,7 +1,7 @@
 ---
 title: "DeepSeek Challenges AI Powerhouses"
 date: 2025-01-26
-description: "Latest developments in AI, global news, economy, and science - DeepSeek's breakthrough, Rubin Observatory, and more"
+description: "Latest in AI, global news, economy, and science - DeepSeek's breakthrough, Rubin Observatory"
 tags: ["AI", "Technology", "Global News", "Science"]
 draft: false
 slug: "deepseek-challenges-ai-powerhouses"

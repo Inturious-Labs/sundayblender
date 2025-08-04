@@ -1,11 +1,11 @@
 ---
 title: "Chinese New Film Ne Zha 2 Shattered Record"
 date: 2025-02-09
-description: "xx"
+description: "Ne Zha 2 breaks global box office records, while OpenAI expands data centers and AI research advances"
 tags: ["AI", "Technology", "Global News", "Science"]
 draft: false
 slug: "chinese-film-ne-zha-2-shattered-record"
-featured_image: "xx"
+featured_image: "header.jpg"
 ---
 
 ## Tech

@@ -1,11 +1,11 @@
 ---
 title: "We Come This Far - Now What?"
 date: 2025-05-09
-description: "xx"
+description: "Editor's notes for several questions on the creation of The Sunday Blender"
 tags: ["AI", "Technology", "Global News", "Science"]
 draft: false
 slug: "we-come-this-far-now-what"
-featured_image: ""
+featured_image: "climb.jpg"
 ---
 
 **15 issues** over **15 Saturdays** so far since the inaugural issue of **The Sunday Blender** on **January 27** during the Chinese New Year of 2025. I’m mildly surprised that I’ve come down on this path this far and kept doing this for so long.

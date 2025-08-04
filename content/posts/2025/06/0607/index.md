@@ -1,11 +1,11 @@
 ---
 title: "Every Dag Has Its Day"
 date: 2025-06-07
-description: "xx"
+description: "A hero's return for Yates on his old mountain of heartbreaking loss, a wildcard stuns the French Open, cockatoos outthink expectations, and Indiana steals Game 1"
 tags: ["AI", "Technology", "Global News", "Science"]
 draft: false
 slug: "every-dog-has-its-day"
-featured_image: ""
+featured_image: "dog.jpg"
 ---
 
 ## Tech
