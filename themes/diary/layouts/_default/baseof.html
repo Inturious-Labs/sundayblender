@@ -28,5 +28,39 @@
         <script src="{{"/js/journal.js" | relURL}}"></script>
     {{- end -}}
     
+    <!-- Lazy Loading Enhancement -->
+    <script>
+        // Simple lazy loading enhancement for better performance
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add loading="lazy" to any images that don't have it
+            const images = document.querySelectorAll('img:not([loading])');
+            images.forEach(img => {
+                img.setAttribute('loading', 'lazy');
+                img.setAttribute('decoding', 'async');
+            });
+            
+            // Add loaded class to images when they load
+            images.forEach(img => {
+                if (img.complete) {
+                    img.classList.add('loaded');
+                } else {
+                    img.addEventListener('load', function() {
+                        this.classList.add('loaded');
+                    });
+                }
+            });
+            
+            // Add error handling for images
+            document.addEventListener('error', function(e) {
+                if (e.target.tagName === 'IMG') {
+                    console.warn('Failed to load image:', e.target.src);
+                    e.target.style.display = 'none';
+                }
+            }, true);
+        });
+    </script>
+    
+
+    
     </body>
 </html>
