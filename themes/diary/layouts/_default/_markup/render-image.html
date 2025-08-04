@@ -1,0 +1,12 @@
+{{ $alt := .Text }}
+{{ $title := .Title }}
+
+<img 
+    src="{{ .Destination }}" 
+    alt="{{ $alt }}"
+    title="{{ $title }}"
+    loading="lazy"
+    decoding="async"
+    onerror="this.style.display='none'; console.warn('Failed to load image:', this.src);"
+    style="max-width: 100%; height: auto;"
+> 
