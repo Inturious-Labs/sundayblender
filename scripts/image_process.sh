@@ -37,7 +37,7 @@ resize_image() {
     # Only resize if width is greater than max_width
     if [ "$width" -gt "$max_width" ]; then
         echo -e "${YELLOW}Resizing $file from ${width}x${height} to max width ${max_width}px${NC}"
-        if convert "$file" -resize "${max_width}x" -quality 85 "$file"; then
+        if magick "$file" -resize "${max_width}x" -quality 85 "$file"; then
             echo -e "${GREEN}✓${NC} Successfully resized $file"
             return 0
         else
