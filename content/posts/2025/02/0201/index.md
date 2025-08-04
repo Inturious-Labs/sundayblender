@@ -1,11 +1,11 @@
 ---
 title: "An Exuberant Chinese New Year"
 date: 2025-02-01
-description: "xx"
+description: "Celebrating Chinese New Year 2025 with DeepSeek's AI advances to OneRepublic's historical Spring Festival performance on CCTV"
 tags: ["AI", "Technology", "Global News", "Science"]
 draft: false
 slug: "an-exuberant-chinese-new-year"
-featured_image: ""
+featured_image: "chinese_ne.jpg"
 ---
 
 ## Tech

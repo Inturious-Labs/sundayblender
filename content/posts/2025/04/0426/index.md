@@ -1,11 +1,11 @@
 ---
 title: "A Tale of Two Nations"
 date: 2025-04-26
-description: "xx"
+description: "one is working too hard and trying to chill; the other one is chilling too much and trying to work ... wait, what is that trade war about again?"
 tags: ["AI", "Technology", "Global News", "Science"]
 draft: false
 slug: "a-tale-of-two-nations"
-featured_image: ""
+featured_image: "hero.jpg"
 ---
 
 ## Tech

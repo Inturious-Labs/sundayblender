@@ -1,11 +1,11 @@
 ---
 title: "When AI Swung A Racket And Nadal Hung Up His"
 date: 2025-05-31
-description: "xx"
+description: "Mission Impossible Continues for Tom Cruise, gamers in Helldivers II, a cloud-riding paraglider, Chinese cycling brand XDS, and the elderly in Denmark"
 tags: ["AI", "Technology", "Global News", "Science"]
 draft: false
 slug: "when-ai-swung-a-racket-and-nadal-hung-up-his"
-featured_image: ""
+featured_image: "nadal.jpg"
 ---
 
 ## Tech

@@ -1,11 +1,11 @@
 ---
 title: "March Madness to Mars"
 date: 2025-03-29
-description: "xx"
+description: "All Ghibli Images (AGI) is taking over the Internet"
 tags: ["AI", "Technology", "Global News", "Science"]
 draft: false
 slug: "the-charming-arrival-of-agi"
-featured_image: ""
+featured_image: "ghibli-lal.jpg"
 ---
 
 ## Tech

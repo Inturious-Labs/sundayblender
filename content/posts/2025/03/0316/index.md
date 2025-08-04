@@ -1,11 +1,11 @@
 ---
 title: "Space Oddities On the Moon Space"
 date: 2025-03-16
-description: "xx"
+description: "take your protein pills and put your helmet on"
 tags: ["AI", "Technology", "Global News", "Science"]
 draft: false
 slug: "space-oddities-on-the-moon-space"
-featured_image: ""
+featured_image: "kakeya_con.jpg"
 ---
 
 ## Tech

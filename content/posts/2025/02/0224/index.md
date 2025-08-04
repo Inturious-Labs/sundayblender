@@ -1,11 +1,11 @@
 ---
 title: "Meeting of the Minds"
 date: 2025-02-24
-description: "xx"
+description: "Flying car and flying NBA dunk star"
 tags: ["AI", "Technology", "Global News", "Science"]
 draft: false
 slug: "meeting-of-the-minds"
-featured_image: ""
+featured_image: "leader_shake.jpg"
 ---
 
 ## Tech
