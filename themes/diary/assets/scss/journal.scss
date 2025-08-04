@@ -40,7 +40,7 @@ $color-text: $deep-dark-accent;
 
 $single-column-max-width: 1020px;
 $single-column-drawer-width: 260px;
-$single-column-nav-title-size: 28px;
+$single-column-nav-title-size: 32px;
 $single-column-nav-subtitle-size: 20px;
 $single-column-nav-link-size: 18px;
 $single-column-nav-footer-size: 13px;
@@ -259,6 +259,7 @@ a {
       opacity: 0;
       text-align: left;
       padding-left: 12px;
+      font-weight: 700;
       //padding-top: 8px;
       //justify-content: space-between;
       //align-items: stretch;
@@ -335,6 +336,7 @@ a {
     }
     .single-column-header-title {
       font-size: $single-column-nav-title-size;
+      font-weight: 700;
     }
     .single-column-header-subtitle {
       font-size: $single-column-nav-subtitle-size;
@@ -461,6 +463,7 @@ a {
     .nav-title {
       font-size: $nav-title-size;
       line-height: $nav-title-size * 1.4;
+      font-weight: 700;
     }
     border-right: 2px solid transparent;
     .nav-subtitle {
