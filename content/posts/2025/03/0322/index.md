@@ -1,11 +1,11 @@
 ---
 title: "March Madness to Mars"
 date: 2025-03-22
-description: "xx"
+description: "beat the odds of guessing the winning path of American college basketball champion for a ticket to Mars"
 tags: ["AI", "Technology", "Global News", "Science"]
 draft: false
 slug: "march-madness-to-mars"
-featured_image: ""
+featured_image: "mars_x.webp"
 ---
 
 ## Tech

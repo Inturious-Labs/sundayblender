@@ -1,11 +1,11 @@
 ---
 title: "The World Jitters But Nintendo Glitters"
 date: 2025-04-05
-description: "xx"
+description: "when we're back in the caves to save costs, at least we can still play Switch 2 and watch Zelda movie"
 tags: ["AI", "Technology", "Global News", "Science"]
 draft: false
 slug: "the-world-jitters-but-nintendo-glitters"
-featured_image: ""
+featured_image: "mario.jpg"
 ---
 
 ## Tech

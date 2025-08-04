@@ -1,11 +1,11 @@
 ---
 title: "Hello Darkness My Old Friend"
 date: 2025-05-03
-description: "xx"
+description: "the modern lifestyle we have become used to is a lot more fragile than we thought"
 tags: ["AI", "Technology", "Global News", "Science"]
 draft: false
 slug: "hello-darkness-my-old-friend"
-featured_image: ""
+featured_image: "hello_dark.webp"
 ---
 
 ## Tech

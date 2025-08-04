@@ -1,11 +1,11 @@
 ---
 title: "Shining Stars of the Last Generation"
 date: 2025-05-24
-description: "xx"
+description: "Cruise and Son Heung-min still blaze brightly; Modric, De Bruyne and Webb say farewell; Ive, Sun Yang and dire wolf (oh yes) come back for second act; Harvard faces"
 tags: ["AI", "Technology", "Global News", "Science"]
 draft: false
 slug: "shining-stars-of-the-last-generation"
-featured_image: ""
+featured_image: "anime-sky.jpg"
 ---
 
 ## Tech

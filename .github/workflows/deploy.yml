@@ -61,15 +61,7 @@ jobs:
         # Verify dfx installation
         $HOME/.local/share/dfx/versions/0.24.3/dfx --version
         
-    - name: Debug Hugo Environment
-      run: |
-        echo "=== Debugging Hugo Environment ==="
-        echo "Current directory: $(pwd)"
-        echo "Theme directory exists: $(ls -la themes/diary 2>/dev/null && echo "YES" || echo "NO")"
-        echo "Theme layouts exist: $(ls -la themes/diary/layouts 2>/dev/null && echo "YES" || echo "NO")"
-        echo "Hugo version: $(hugo version)"
-        echo "Hugo config:"
-        cat hugo.toml
+
         
     - name: Build Hugo Site
       run: |
@@ -79,31 +71,7 @@ jobs:
         # Clean any existing build
         rm -rf public/
         # Build for production with proper settings
-        echo "=== Building Hugo Site ==="
-        HUGO_ENV=production hugo --minify --environment production --gc --buildDrafts=false --buildFuture=false --logLevel debug
-        
-        echo "=== Checking Build Output ==="
-        echo "Public directory contents:"
-        ls -la public/
-        echo "Index.html first 10 lines:"
-        head -10 public/index.html || echo "index.html not found!"
-        echo "=== Build Debug ==="
-        echo "Hugo build summary:"
-        hugo list all
-        echo "=== Hugo Debug Info ==="
-        hugo --help | head -5
-        echo "Theme path:"
-        hugo config | grep theme || echo "No theme config found"
-        echo "=== Theme Debug ==="
-        echo "Theme directory structure:"
-        find themes/diary -name "*.html" | head -10
-        echo "Theme layouts:"
-        ls -la themes/diary/layouts/
-        echo "=== Content Debug ==="
-        echo "Content directory:"
-        ls -la content/
-        echo "=== Hugo Build Debug ==="
-        hugo --logLevel debug
+        HUGO_ENV=production hugo --minify --environment production --gc --buildDrafts=false --buildFuture=false
         
     - name: Import DFX Identity
       run: |

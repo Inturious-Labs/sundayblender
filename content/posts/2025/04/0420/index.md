@@ -1,11 +1,11 @@
 ---
 title: "Flying Dutchman Sails Away"
 date: 2025-04-20
-description: "xx"
+description: "in a world of chaos, human spirit of endurance and perseverance still carries the day"
 tags: ["AI", "Technology", "Global News", "Science"]
 draft: false
 slug: "flying-dutchman-sails-away"
-featured_image: ""
+featured_image: "flying_dut.jpg"
 ---
 
 ## Tech
