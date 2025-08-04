@@ -20,9 +20,9 @@ $nav-title-size: 30px;
 $nav-subtitle-size: 18px;
 $nav-link-size: 20px;
 $nav-footer-size: 12px;
-$post-title-size: 30px;
+$post-title-size: 22px;
 $post-subtitle-size: 14px;
-$post-summary-size: 16px;
+$post-summary-size: 15px;
 $post-body-size: 16px;
 $post-meta-size: 16px;
 $tag-category-title-size: 22px;
@@ -40,12 +40,12 @@ $color-text: $deep-dark-accent;
 
 $single-column-max-width: 1020px;
 $single-column-drawer-width: 260px;
-$single-column-nav-title-size: 28px;
+$single-column-nav-title-size: 32px;
 $single-column-nav-subtitle-size: 20px;
 $single-column-nav-link-size: 18px;
 $single-column-nav-footer-size: 13px;
-$single-column-post-title-size: 22px;
-$single-column-post-summary-size: 16px;
+$single-column-post-title-size: 18px;
+$single-column-post-summary-size: 14px;
 $single-column-post-body-size: 16px;
 $single-column-post-meta-size: 14px;
 $single-column-tag-category-title-size: 14px;
@@ -251,14 +251,29 @@ a {
       padding-left: 12px;
     }
     .nav-content {
-      padding: 12px 8px;
+      padding: 12px 8px 0 8px;
       justify-content: flex-start;
       max-width: unset !important;
     }
+    .nav-logo-mobile {
+      text-align: center;
+      padding: 10px 0 0 0;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      margin: 0 auto;
+      
+      img {
+        width: 60px;
+        height: 60px;
+      }
+    }
+    
     .navbar-brand {
       opacity: 0;
       text-align: left;
       padding-left: 12px;
+      font-weight: 700;
       //padding-top: 8px;
       //justify-content: space-between;
       //align-items: stretch;
@@ -275,6 +290,32 @@ a {
       //padding-top: 1px;
       &:hover {
         color: #3f587d !important;
+      }
+    }
+    
+    .drawer-menu-item {
+      &:first-child {
+        font-weight: 600;
+        color: #8B4513 !important;
+        
+        &:hover {
+          color: #654321 !important;
+          background: rgba(139, 69, 19, 0.05);
+        }
+      }
+      
+      &[href*="/about/"] {
+        font-weight: 600;
+        color: #8B4513 !important;
+        
+        &:hover {
+          color: #654321 !important;
+          background: rgba(139, 69, 19, 0.05);
+        }
+        
+        &.active {
+          color: #654321 !important;
+        }
       }
     }
     .nav-darkmode-toggle {
@@ -326,7 +367,7 @@ a {
   display: none !important;
   @media screen and (max-width: $single-column-max-width) {
     display: block !important;
-    padding: 50px 20px 80px 20px;
+    padding: 0 20px 20px 20px;
     transition: padding 0.5s ease-in-out, margin 0.5s ease-in-out;
     text-align: center;
     * {
@@ -335,6 +376,7 @@ a {
     }
     .single-column-header-title {
       font-size: $single-column-nav-title-size;
+      font-weight: 700;
     }
     .single-column-header-subtitle {
       font-size: $single-column-nav-subtitle-size;
@@ -376,6 +418,28 @@ a {
           cursor: pointer;
           transition: all 0.2s linear;
           color: $deep-dark-accent;
+          
+          &:first-child {
+            font-weight: 700 !important;
+            color: #8B4513 !important;
+            font-size: 16px !important;
+            
+            &:hover {
+              color: #654321 !important;
+              background: rgba(139, 69, 19, 0.05) !important;
+            }
+          }
+          
+          &[href*="/about/"] {
+            font-weight: 700 !important;
+            color: #8B4513 !important;
+            font-size: 16px !important;
+            
+            &:hover {
+              color: #654321 !important;
+              background: rgba(139, 69, 19, 0.05) !important;
+            }
+          }
           .nav-link-subitem {
             font-size: $single-column-nav-link-size;
             padding: 2px;
@@ -440,8 +504,20 @@ a {
   $nav-item-hover-color-darken: 30%;
   $nav-item-active-background-alpha: 0.03;
   $nav-item-active-color-darken: 20%;
+  .nav-logo {
+    text-align: right;
+    padding: 5px 0 0 28px;
+    margin-bottom: 5px;
+    
+    img {
+      display: inline-block;
+      width: 80px;
+      height: 80px;
+    }
+  }
+  
   .nav-head {
-    padding: 30px 28px 30px 20px;
+    padding: 30px 28px 30px 28px;
     cursor: hand;
     cursor: pointer;
     margin-bottom: 10px;
@@ -449,6 +525,7 @@ a {
     .nav-title {
       font-size: $nav-title-size;
       line-height: $nav-title-size * 1.4;
+      font-weight: 700;
     }
     border-right: 2px solid transparent;
     .nav-subtitle {
@@ -504,6 +581,38 @@ a {
     padding: 20px 30px 0 20px;
     font-size: $nav-footer-size;
   }
+  
+  .nav-link-item {
+    &:first-child {
+      font-weight: 600;
+      color: #8B4513 !important;
+      padding-left: 25px;
+      margin-left: 5px;
+      
+      &:hover {
+        color: #654321 !important;
+        background: rgba(139, 69, 19, 0.05);
+      }
+    }
+  }
+  
+  .nav-link-item[href*="/about/"] {
+    font-weight: 600;
+    color: #8B4513 !important;
+    padding-left: 25px;
+    margin-left: 5px;
+    
+    &:hover {
+      color: #654321 !important;
+      background: rgba(139, 69, 19, 0.05);
+    }
+    
+    &.active {
+      color: #654321 !important;
+    }
+  }
+  
+
   @media screen and (max-width: $single-column-max-width) {
     display: none;
   }
@@ -608,7 +717,7 @@ a {
   .post-list-container {
     width: 100%;
     min-height: 100vh;
-    padding: 20px 0 20px 0;
+    padding: 40px 0 20px 0;
     background: $front-container-background;
     box-shadow: 0 0 16px rgba(0, 0, 0, 0.12);
 
@@ -627,11 +736,13 @@ a {
           padding: 30px 0;
           display: flex;
           flex-direction: row;
-          align-items: center;
+          align-items: flex-start;
+          
+
 
           @media screen and (max-width: $single-column-max-width) {
             flex-direction: column-reverse;
-            margin: 0 0 15px 0;
+            margin: 0;
             padding: 0;
             box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
             background: $front-container-background;
@@ -645,10 +756,10 @@ a {
             }
             .post-item-title {
               font-size: $post-title-size;
-              font-weight: 500;
+              font-weight: 700;
               font-style: normal;
               margin-bottom: 10px;
-              line-height: 1.5em;
+              line-height: 1.3em;
 
               @media screen and (max-width: $single-column-max-width) {
                 font-size: $single-column-post-title-size;
@@ -669,6 +780,7 @@ a {
               font-size: $post-summary-size;
               line-height: 1.5em;
               margin-bottom: 10px;
+              color: rgba(0, 0, 0, 0.6);
               //font-weight:300;
 
               @media screen and (max-width: $single-column-max-width) {
@@ -677,10 +789,11 @@ a {
               }
             }
             .post-item-meta {
-              font-size: $post-meta-size;
+              font-size: 12px;
+              color: rgba(0, 0, 0, 0.4);
 
               @media screen and (max-width: $single-column-max-width) {
-                font-size: $single-column-post-meta-size;
+                font-size: 11px;
               }
             }
           }
@@ -906,6 +1019,8 @@ a {
           border-radius: 5px;
           overflow: hidden;
         }
+        
+
         @media screen and (max-width: $single-column-max-width) {
           font-size: $single-column-post-body-size;
         }

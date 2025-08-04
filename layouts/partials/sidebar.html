@@ -17,12 +17,13 @@
             {{.}}
         </div>
         {{ end }}
-        <div class="nav-description" style="font-size: 0.9em; line-height: 1.4; margin-top: 10px; color: #666;">
-            a curated weekly newspaper for curious kids who want to escape from short videos, develop a reading habit, and learn about the bigger world on technology, science, nature, history, culture, economy and sports, without any political or ideological lens
-        </div>
+
     </a>
 
     <div class="nav-link-list">
+        <a class="a-block nav-link-item" href="{{ "" | absLangURL }}">
+            Archive
+        </a>
         {{ $current := .RelPermalink | absLangURL }}
         {{ range .Site.Menus.main }}
             {{$actived := "false"}}

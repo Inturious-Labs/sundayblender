@@ -1,4 +1,9 @@
 <div id="sideContainer" class="side-container">
+    {{ if .Site.Params.logo }}
+    <div class="nav-logo">
+        <img src="{{ .Site.Params.logo }}" alt="{{ .Site.Title }}">
+    </div>
+    {{ end }}
     {{ if eq .Title .Site.Title}}
     <a class="a-block nav-head active" href="{{ "" | absLangURL }}">
     {{ else }}
@@ -12,6 +17,10 @@
             {{.}}
         </div>
         {{ end }}
+    </a>
+
+    <a class="a-block nav-link-item" href="{{ "" | absLangURL }}">
+        Archive
     </a>
 
     <div class="nav-link-list">

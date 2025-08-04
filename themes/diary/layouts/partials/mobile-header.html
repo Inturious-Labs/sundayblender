@@ -1,11 +1,14 @@
 <div class="single-column-drawer-container" id="drawer"
      v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
     <div class="drawer-content">
-        <div class="drawer-menu">
+                <div class="drawer-menu">
             {{ if and (isset .Site.Params "googlesearchcode") (.IsHome) }}
             <script async src="https://cse.google.com/cse.js?cx={{.Site.Params.googleSearchCode}}"></script>
             <div class="gcse-searchbox-only" mobileLayout="true"></div>
             {{ end }}
+            <a class="a-block drawer-menu-item" href="{{ "" | absLangURL }}">
+                Archive
+            </a>
             {{ $current := .RelPermalink | absLangURL }}
             {{ range .Site.Menus.main }}
                 {{$actived := "false"}}
@@ -19,7 +22,7 @@
                     <div class="nav-link-subitem" v-if="!isHidden">
                         {{ range .Children }}
                         <li><a href="{{ .URL }}"> {{ .Name }}</a></li>
-                    {{ end }}
+                        {{ end }}
                     </div>
                 </div>
                 {{ else }}
@@ -40,7 +43,7 @@
 <transition name="fade">
     <div id="drawer-mask" v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
 </transition>
-<nav id="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+<nav id="navBar" class="navbar navbar-light single-column-nav-container">
     <div id="navBackground" class="nav-background"></div>
     <div class="container container-narrow nav-content">
         <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
@@ -48,15 +51,10 @@
                 menu
             </i>
         </button>
-        <a id="navTitle" class="navbar-brand" href="{{ "" | absLangURL }}">
-            {{.Site.Title}}
-        </a>
-        {{ if not .Site.Params.disableDarkMode }}
-        <button type="button" class="nav-darkmode-toggle" id="darkModeToggleButton2">
-            <i class="material-icons" id="darkModeToggleIcon2">
-                dark_mode
-            </i>
-        </button>
+        {{ if .Site.Params.logo }}
+        <div class="nav-logo-mobile">
+            <img src="{{ .Site.Params.logo }}" alt="{{ .Site.Title }}">
+        </div>
         {{ end }}
     </div>
 </nav>
