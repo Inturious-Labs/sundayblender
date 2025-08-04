@@ -20,9 +20,9 @@ $nav-title-size: 30px;
 $nav-subtitle-size: 18px;
 $nav-link-size: 20px;
 $nav-footer-size: 12px;
-$post-title-size: 30px;
+$post-title-size: 22px;
 $post-subtitle-size: 14px;
-$post-summary-size: 16px;
+$post-summary-size: 15px;
 $post-body-size: 16px;
 $post-meta-size: 16px;
 $tag-category-title-size: 22px;
@@ -44,8 +44,8 @@ $single-column-nav-title-size: 28px;
 $single-column-nav-subtitle-size: 20px;
 $single-column-nav-link-size: 18px;
 $single-column-nav-footer-size: 13px;
-$single-column-post-title-size: 22px;
-$single-column-post-summary-size: 16px;
+$single-column-post-title-size: 18px;
+$single-column-post-summary-size: 14px;
 $single-column-post-body-size: 16px;
 $single-column-post-meta-size: 14px;
 $single-column-tag-category-title-size: 14px;
@@ -645,10 +645,10 @@ a {
             }
             .post-item-title {
               font-size: $post-title-size;
-              font-weight: 500;
+              font-weight: 700;
               font-style: normal;
               margin-bottom: 10px;
-              line-height: 1.5em;
+              line-height: 1.3em;
 
               @media screen and (max-width: $single-column-max-width) {
                 font-size: $single-column-post-title-size;
@@ -669,6 +669,7 @@ a {
               font-size: $post-summary-size;
               line-height: 1.5em;
               margin-bottom: 10px;
+              color: rgba(0, 0, 0, 0.6);
               //font-weight:300;
 
               @media screen and (max-width: $single-column-max-width) {
@@ -677,10 +678,11 @@ a {
               }
             }
             .post-item-meta {
-              font-size: $post-meta-size;
+              font-size: 12px;
+              color: rgba(0, 0, 0, 0.4);
 
               @media screen and (max-width: $single-column-max-width) {
-                font-size: $single-column-post-meta-size;
+                font-size: 11px;
               }
             }
           }
@@ -906,6 +908,8 @@ a {
           border-radius: 5px;
           overflow: hidden;
         }
+        
+
         @media screen and (max-width: $single-column-max-width) {
           font-size: $single-column-post-body-size;
         }

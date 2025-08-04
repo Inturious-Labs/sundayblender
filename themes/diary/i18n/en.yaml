@@ -1,7 +1,7 @@
 - id: last_mod_on
   translation: Last modified on {{ .Format "2006-01-02" }}
 - id: format_date
-  translation: '{{ .Format "2006-01-02" }}'
+  translation: '{{ .Format "Jan 2, 2006" }}'
 - id: format_date_tosec
   translation: '{{ .Format "2006-01-02 15:04" }}'
 - id: next_link
