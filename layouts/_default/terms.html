@@ -15,9 +15,13 @@
       </div>
     </div>
   </a>
+  
   <div class="tags">
     {{ $sortedTerms := sort .Data.Terms "Count" "desc" }}
-    {{ range $sortedTerms }}
+    {{ $popularTags := where $sortedTerms "Count" "gt" 1 }}
+    {{ $rareTags := where $sortedTerms "Count" "eq" 1 }}
+    
+    {{ range $popularTags }}
     <div class="tag">
       <a href="{{.Page.RelPermalink}}" class="btn btn-outline-secondary position-relative rounded-pill">
         {{.Page.Title}}
@@ -25,7 +29,72 @@
       </a>
     </div>
     {{ end }}
+    
+    {{ if $rareTags }}
+    <div class="tag">
+      <button id="showMoreBtn" class="btn btn-outline-secondary position-relative rounded-pill" onclick="toggleRareTags()">
+        Show more tags
+        <span class="badge">({{ len $rareTags }})</span>
+      </button>
+    </div>
+    
+    <div id="rareTags" class="tags" style="display: none;">
+      {{ range $rareTags }}
+      <div class="tag">
+        <a href="{{.Page.RelPermalink}}" class="btn btn-outline-secondary position-relative rounded-pill">
+          {{.Page.Title}}
+          <span class="badge">({{.Count}})</span>
+        </a>
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
   </div>
 </div>
+
+<script>
+function toggleRareTags() {
+  const rareTags = document.getElementById('rareTags');
+  const showMoreBtn = document.getElementById('showMoreBtn');
+  
+  if (rareTags.style.display === 'none') {
+    rareTags.style.display = 'flex';
+    showMoreBtn.innerHTML = 'Hide rare tags <span class="badge">({{ len $rareTags }})</span>';
+  } else {
+    rareTags.style.display = 'none';
+    showMoreBtn.innerHTML = 'Show more tags <span class="badge">({{ len $rareTags }})</span>';
+  }
+}
+</script>
+
+<style>
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px;
+}
+
+#rareTags {
+  margin-top: 10px;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+
+.tag button {
+  cursor: pointer;
+  border: 1px solid #ddd;
+  background: #f8f9fa;
+  color: #333;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.tag button:hover {
+  background: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+</style>
 
 {{ end }} 
