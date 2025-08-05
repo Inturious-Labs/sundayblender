@@ -1,8 +1,8 @@
 ---
-title: "March Madness to Mars"
+title: "The Charming Arrival of AGI"
 date: 2025-03-29
 description: "All Ghibli Images (AGI) is taking over the Internet"
-tags: ["AI", "Technology", "Global News", "Science"]
+tags: ["ai", "openai", "xai", "twitter", "fusion-tech", "electric-vehicles", "myanmar", "china", "mlb", "space-tech", "box-office", "disney", "facebook", "f1-racing", "cycling", "nba", "archaeology"]
 draft: false
 slug: "the-charming-arrival-of-agi"
 featured_image: "ghibli-lal.jpg"
