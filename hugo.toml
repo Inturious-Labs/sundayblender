@@ -55,3 +55,8 @@ uglyURLs = false
 	name = "Tags"
 	url = "/tags/"
 	weight = 1.5
+
+[[menu.main]]
+	name = "Subscribe"
+	url = "/subscribe/"
+	weight = 2

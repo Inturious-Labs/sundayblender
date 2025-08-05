@@ -1,0 +1,197 @@
+{{ if not .Params.hideNewsletter }}
+<div class="newsletter-signup">
+    <div class="newsletter-divider"></div>
+    <div class="newsletter-container">
+        <div class="newsletter-content">
+            <p>Get the Sunday Blender weekly newsletter delivered to your inbox</p>
+            
+            <form action="https://buttondown.com/api/emails/embed-subscribe/sundayblender" 
+                  method="post" 
+                  class="newsletter-form"
+                  target="_blank">
+                
+                <div class="form-group">
+                    <input type="email" 
+                           name="email" 
+                           id="newsletter-email" 
+                           placeholder="Enter your email address"
+                           required
+                           class="newsletter-input">
+                </div>
+                
+                <div class="form-group">
+                    <button type="submit" class="newsletter-button">
+                        Subscribe
+                    </button>
+                </div>
+                
+                <div class="newsletter-privacy">
+                    <small>We respect your privacy. Unsubscribe at any time.</small>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<style>
+.newsletter-signup {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: transparent;
+    border: none;
+    border-radius: 12px;
+    color: #333;
+    box-shadow: none;
+}
+
+.newsletter-divider {
+    height: 1px;
+    background: linear-gradient(to right, transparent, #8B4513, transparent);
+    margin-bottom: 1.5rem;
+    opacity: 0.6;
+}
+
+.newsletter-container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.newsletter-content h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #8B4513;
+}
+
+.newsletter-content p {
+    margin: 0 0 1.5rem 0;
+    opacity: 0.8;
+    line-height: 1.5;
+    color: #666;
+}
+
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter-input {
+    padding: 12px 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.95);
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+.newsletter-input:focus {
+    outline: none;
+    background: white;
+    border-color: #8B4513;
+    box-shadow: 0 0 0 2px rgba(139, 69, 19, 0.2);
+}
+
+.newsletter-input::placeholder {
+    color: #666;
+}
+
+.newsletter-button {
+    padding: 12px 24px;
+    background: #D2691E;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.newsletter-button:hover {
+    background: #CD853F;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(210, 105, 30, 0.4);
+}
+
+.newsletter-button:active {
+    transform: translateY(0);
+}
+
+.newsletter-privacy {
+    margin-top: 0.5rem;
+    text-align: center;
+    opacity: 0.8;
+    font-size: 0.85rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .newsletter-signup {
+        margin: 1.5rem 0;
+        padding: 1rem;
+    }
+    
+    .newsletter-content h3 {
+        font-size: 1.3rem;
+    }
+    
+    .newsletter-input,
+    .newsletter-button {
+        font-size: 16px; /* Prevents zoom on iOS */
+    }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+    .newsletter-input {
+        background: rgba(255, 255, 255, 0.9);
+        color: #333;
+    }
+    
+    .newsletter-input:focus {
+        background: white;
+    }
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const form = document.querySelector('.newsletter-form');
+    const emailInput = document.querySelector('#newsletter-email');
+    const submitButton = document.querySelector('.newsletter-button');
+    
+    if (form && emailInput && submitButton) {
+        form.addEventListener('submit', function(e) {
+            // Basic email validation
+            const email = emailInput.value.trim();
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            
+            if (!emailRegex.test(email)) {
+                e.preventDefault();
+                alert('Please enter a valid email address.');
+                return;
+            }
+            
+            // Show loading state
+            submitButton.textContent = 'Subscribing...';
+            submitButton.disabled = true;
+            
+            // Reset button after a delay (form will open in new tab)
+            setTimeout(() => {
+                submitButton.textContent = 'Subscribe';
+                submitButton.disabled = false;
+            }, 2000);
+        });
+    }
+});
+</script>
+{{ end }} 
