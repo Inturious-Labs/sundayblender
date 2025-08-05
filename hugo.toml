@@ -6,6 +6,10 @@ theme = "diary"
 [permalinks]
 	posts = "/p/:slug/"
 
+[taxonomies]
+	tag = "tags"
+	category = "categories"
+
 [params]
 	subtitle = "making news interesting for kids"
 	description = 'The Sunday Blender - A minimalist blog built with Hugo and Diary theme'
