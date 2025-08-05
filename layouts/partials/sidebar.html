@@ -21,9 +21,6 @@
     </a>
 
     <div class="nav-link-list">
-        <a class="a-block nav-link-item" href="{{ "" | absLangURL }}">
-            Archive
-        </a>
         {{ $current := .RelPermalink | absLangURL }}
         {{ range .Site.Menus.main }}
             {{$actived := "false"}}

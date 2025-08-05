@@ -27,6 +27,16 @@ theme = "diary"
 			unsafe = true
 
 [[menu.main]]
+	name = "Archive"
+	url = "/"
+	weight = 0
+
+[[menu.main]]
+	name = "RSS"
+	url = "/index.xml"
+	weight = 0.5
+
+[[menu.main]]
 	name = "About"
 	url = "/about/"
 	weight = 1

@@ -440,6 +440,28 @@ a {
               background: rgba(139, 69, 19, 0.05) !important;
             }
           }
+          
+          &[href="/"] {
+            font-weight: 700 !important;
+            color: #8B4513 !important;
+            font-size: 16px !important;
+            
+            &:hover {
+              color: #654321 !important;
+              background: rgba(139, 69, 19, 0.05) !important;
+            }
+          }
+          
+          &[href="/index.xml"] {
+            font-weight: 700 !important;
+            color: #8B4513 !important;
+            font-size: 16px !important;
+            
+            &:hover {
+              color: #654321 !important;
+              background: rgba(139, 69, 19, 0.05) !important;
+            }
+          }
           .nav-link-subitem {
             font-size: $single-column-nav-link-size;
             padding: 2px;
@@ -597,6 +619,38 @@ a {
   }
   
   .nav-link-item[href*="/about/"] {
+    font-weight: 600;
+    color: #8B4513 !important;
+    padding-left: 25px;
+    margin-left: 5px;
+    
+    &:hover {
+      color: #654321 !important;
+      background: rgba(139, 69, 19, 0.05);
+    }
+    
+    &.active {
+      color: #654321 !important;
+    }
+  }
+  
+  .nav-link-item[href="/"] {
+    font-weight: 600;
+    color: #8B4513 !important;
+    padding-left: 25px;
+    margin-left: 5px;
+    
+    &:hover {
+      color: #654321 !important;
+      background: rgba(139, 69, 19, 0.05);
+    }
+    
+    &.active {
+      color: #654321 !important;
+    }
+  }
+  
+  .nav-link-item[href="/index.xml"] {
     font-weight: 600;
     color: #8B4513 !important;
     padding-left: 25px;
