@@ -1,0 +1,200 @@
+{{ define "main" }}
+
+<div class="post-list-container post-list-container-shadow">
+  <a class="a-block">
+    <div class="post-item-wrapper post-item-wrapper-no-hover">
+      <div class="post-item post-item-no-gaps">
+        <div class="post-item-info-wrapper">
+          <div class="post-item-title post-item-title-small">
+            {{.Title}}
+          </div>
+          <div class="post-item-meta">
+            <span class="post-item-meta-text">Tags sorted by frequency</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </a>
+  
+  <div class="tags">
+    {{ $sortedTerms := sort .Data.Terms "Count" "desc" }}
+    {{ $popularTags := where $sortedTerms "Count" "gt" 1 }}
+    {{ $rareTags := where $sortedTerms "Count" "eq" 1 }}
+    
+    {{ range $popularTags }}
+    <div class="tag">
+      <a href="{{.Page.RelPermalink}}" class="btn btn-outline-secondary position-relative rounded-pill">
+        {{.Page.Title}}
+        <span class="badge">({{.Count}})</span>
+      </a>
+    </div>
+    {{ end }}
+    
+    {{ if $rareTags }}
+    <div class="tag">
+      <button id="showMoreBtn" class="btn btn-outline-secondary position-relative rounded-pill" onclick="toggleRareTags()">
+        Show more tags
+        <span class="badge">({{ len $rareTags }})</span>
+      </button>
+    </div>
+    
+    <div id="rareTags" class="tags" style="display: none;">
+      {{ range $rareTags }}
+      <div class="tag">
+        <a href="{{.Page.RelPermalink}}" class="btn btn-outline-secondary position-relative rounded-pill">
+          {{.Page.Title}}
+          <span class="badge">({{.Count}})</span>
+        </a>
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+</div>
+
+<script>
+function toggleRareTags() {
+  const rareTags = document.getElementById('rareTags');
+  const showMoreBtn = document.getElementById('showMoreBtn');
+  
+  if (rareTags.style.display === 'none') {
+    rareTags.style.display = 'flex';
+    showMoreBtn.innerHTML = 'Hide rare tags <span class="badge">({{ len $rareTags }})</span>';
+  } else {
+    rareTags.style.display = 'none';
+    showMoreBtn.innerHTML = 'Show more tags <span class="badge">({{ len $rareTags }})</span>';
+  }
+}
+</script>
+
+<style>
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+  padding: 4px 20px;
+  margin: 0;
+  align-items: flex-start;
+  line-height: 1;
+}
+
+.tag {
+  margin: 0;
+  line-height: 1;
+}
+
+.tag a, .tag button {
+  padding: 4px 10px;
+  font-size: 12px;
+  line-height: 1;
+  margin: 0;
+  font-variant: small-caps;
+  text-transform: lowercase;
+  letter-spacing: 0.4px;
+  font-weight: 600;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#rareTags {
+  margin-top: 6px;
+  border-top: 1px solid #eee;
+  padding-top: 8px;
+  gap: 4px;
+  line-height: 1;
+}
+
+.post-item-meta-text {
+  color: #666;
+  font-size: 13px;
+  font-style: italic;
+  margin-top: 4px;
+}
+
+.post-item-title-small {
+  margin-bottom: 4px;
+}
+
+.post-item-info-wrapper {
+  padding: 12px 20px;
+}
+
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+  .tags {
+    gap: 3px;
+    padding: 6px 12px;
+  }
+  
+  .tag a, .tag button {
+    padding: 3px 8px;
+    font-size: 11px;
+    line-height: 1;
+    font-variant: small-caps;
+    text-transform: lowercase;
+    letter-spacing: 0.3px;
+    font-weight: 600;
+  }
+  
+  .post-item-info-wrapper {
+    padding: 8px 12px;
+  }
+  
+  .post-item-title-small {
+    margin-bottom: 2px;
+    font-size: 16px;
+  }
+  
+  .post-item-meta-text {
+    font-size: 11px;
+    margin-top: 2px;
+  }
+  
+  #rareTags {
+    margin-top: 4px;
+    padding-top: 6px;
+    gap: 3px;
+  }
+  
+  .badge {
+    font-size: 9px;
+    padding: 1px 3px;
+  }
+}
+
+/* Extra small mobile devices */
+@media (max-width: 480px) {
+  .tags {
+    gap: 2px;
+    padding: 4px 8px;
+  }
+  
+  .tag a, .tag button {
+    padding: 2px 6px;
+    font-size: 10px;
+    font-variant: small-caps;
+    text-transform: lowercase;
+    letter-spacing: 0.2px;
+    font-weight: 600;
+  }
+  
+  .post-item-info-wrapper {
+    padding: 6px 8px;
+  }
+  
+  .post-item-title-small {
+    font-size: 14px;
+  }
+  
+  .post-item-meta-text {
+    font-size: 10px;
+  }
+  
+  .badge {
+    font-size: 8px;
+    padding: 1px 2px;
+  }
+}
+</style>
+
+{{ end }} 

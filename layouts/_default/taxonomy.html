@@ -1,0 +1,40 @@
+{{ define "main" }}
+
+<div class="post-list-container post-list-container-shadow">
+  <a class="a-block">
+    <div class="post-item-wrapper post-item-wrapper-no-hover">
+      <div class="post-item post-item-no-gaps">
+        <div class="post-item-info-wrapper">
+          <div class="post-item-title post-item-title-small">
+            Posts tagged with "{{.Title}}"
+          </div>
+          <div class="post-item-meta">
+            <span class="post-item-meta-text">{{ len .Pages }} posts</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </a>
+  
+  {{ range .Pages }}
+  <a href="{{.RelPermalink}}" class="a-block">
+    <div class="post-item-wrapper">
+      <div class="post-item">
+        <div class="post-item-info-wrapper">
+          <div class="post-item-title">
+            {{.Title}}
+          </div>
+          <div class="post-item-meta">
+            <span class="post-item-meta-text">{{.Date.Format "Jan 2, 2006"}}</span>
+          </div>
+          <div class="post-item-summary">
+            {{.Description}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </a>
+  {{ end }}
+</div>
+
+{{ end }} 

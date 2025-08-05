@@ -2,7 +2,7 @@
 title: "Make News Interesting For Kids"
 date: 2025-01-30
 description: "why I make this news digest"
-tags: ["news for kids", "kids news", "news", "education"]
+tags: ["education", "news-for-kids", "parenting", "english-learning", "media-literacy"]
 draft: false
 slug: "make-news-interesting-for-kids"
 featured_image: "deck.jpg"

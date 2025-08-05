@@ -2,7 +2,7 @@
 title: "Flying Without Wings, Seeing Without Eyes, and Driving Without Humans"
 date: 2025-06-28
 description: "B2 stealth bomber, jet suits for Iron Man, self-driving robotaxis and Neuralink's vision restoring implant unveil a new era in sky, street and self"
-tags: ["AI", "Technology", "Global News", "Science"]
+tags: ["brain-tech", "tesla", "defense", "tsmc", "singapore", "china", "africa", "usa", "game", "box-office", "nba"]
 draft: false
 slug: "flying-without-wings-seeing-without-eyes-and-driving-without-humans"
 featured_image: "b2.jpg"

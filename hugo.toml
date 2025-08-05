@@ -6,6 +6,10 @@ theme = "diary"
 [permalinks]
 	posts = "/p/:slug/"
 
+[taxonomies]
+	tag = "tags"
+	category = "categories"
+
 [params]
 	subtitle = "making news interesting for kids"
 	description = 'The Sunday Blender - A minimalist blog built with Hugo and Diary theme'
@@ -27,6 +31,21 @@ theme = "diary"
 			unsafe = true
 
 [[menu.main]]
+	name = "Archive"
+	url = "/"
+	weight = 0
+
+[[menu.main]]
+	name = "RSS"
+	url = "/index.xml"
+	weight = 0.5
+
+[[menu.main]]
 	name = "About"
 	url = "/about/"
 	weight = 1
+
+[[menu.main]]
+	name = "Tags"
+	url = "/tags/"
+	weight = 1.5
