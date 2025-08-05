@@ -2,7 +2,7 @@
 title: "March Madness to Mars"
 date: 2025-03-22
 description: "beat the odds of guessing the winning path of American college basketball champion for a ticket to Mars"
-tags: ["AI", "Technology", "Global News", "Science"]
+tags: ["nasa", "nvidia", "xai", "ai", "tencent", "microsoft", "africa", "germany", "england", "thailand", "nba", "space-exploration", "singapore", "anime", "twitter", "finland", "nba", "ncaa", "soccer"]
 draft: false
 slug: "march-madness-to-mars"
 featured_image: "mars_x.webp"

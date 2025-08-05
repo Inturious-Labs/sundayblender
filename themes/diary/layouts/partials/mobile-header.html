@@ -6,9 +6,6 @@
             <script async src="https://cse.google.com/cse.js?cx={{.Site.Params.googleSearchCode}}"></script>
             <div class="gcse-searchbox-only" mobileLayout="true"></div>
             {{ end }}
-            <a class="a-block drawer-menu-item" href="{{ "" | absLangURL }}">
-                Archive
-            </a>
             {{ $current := .RelPermalink | absLangURL }}
             {{ range .Site.Menus.main }}
                 {{$actived := "false"}}

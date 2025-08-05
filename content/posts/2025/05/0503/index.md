@@ -2,7 +2,7 @@
 title: "Hello Darkness My Old Friend"
 date: 2025-05-03
 description: "the modern lifestyle we have become used to is a lot more fragile than we thought"
-tags: ["AI", "Technology", "Global News", "Science"]
+tags: ["auto", "apple", "space-tech", "spain", "portugal", "singapore", "tesla", "china", "biotech", "scotland", "festival", "game", "rock-n-roll", "soccer", "snooker", "ironman", "badminton", "nba", "golf"]
 draft: false
 slug: "hello-darkness-my-old-friend"
 featured_image: "hello_dark.webp"
