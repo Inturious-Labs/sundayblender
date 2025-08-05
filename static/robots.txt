@@ -1,0 +1,46 @@
+# Allow all major crawlers
+User-agent: *
+Allow: /
+
+# ✅ Western AI + search bots
+User-agent: GPTBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: CCBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+User-agent: Googlebot
+Allow: /
+User-agent: Bingbot
+Allow: /
+User-agent: Applebot
+Allow: /
+User-agent: Yandex
+Allow: /
+
+# ✅ Chinese AI + search bots
+User-agent: QwenBot
+Allow: /
+User-agent: AliSpider
+Allow: /
+User-agent: AliyunSpider
+Allow: /
+User-agent: DeepSeekBot
+Allow: /
+User-agent: Baiduspider
+Allow: /
+User-agent: Sogou web spider
+Allow: /
+User-agent: 360Spider
+Allow: /
+User-agent: Bytespider
+Allow: /
+User-agent: YisouSpider
+Allow: /
+
+# Sitemap to speed up discovery
+Sitemap: https://weekly.sundayblender.com/sitemap.xml
