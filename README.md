@@ -262,3 +262,63 @@ git push
 hugo --minify
 htmltest public/ --conf .htmltest.yml --output-json results.json
 ```
+
+## Newsletter Sign-up Implementation
+
+This Hugo site includes a complete newsletter sign-up system that integrates with your Buttondown service (`sundayblender`).
+
+### How It Works
+
+The newsletter sign-up form automatically appears on:
+- **Individual blog posts** (after the content)
+- **Dedicated newsletter page** (`/subscribe/`)
+
+### Usage Options
+
+**1. Automatic Placement (Default)**
+The newsletter form automatically appears on all pages unless disabled. To hide it on a specific page, add this to the front matter:
+
+```yaml
+---
+title: "Your Post Title"
+hideNewsletter: true
+---
+```
+
+**2. Manual Placement with Shortcodes**
+You can manually place the newsletter form anywhere in your content using shortcodes:
+
+```markdown
+{{< newsletter >}}
+```
+
+**3. Dedicated Newsletter Page**
+A dedicated newsletter page is available at `/subscribe/` with:
+- Detailed benefits of subscribing
+- Privacy information
+- Professional sign-up form
+
+### Buttondown Integration
+
+The forms are configured to work with your Buttondown service:
+- **Endpoint**: `https://buttondown.com/api/emails/embed-subscribe/sundayblender`
+- **Method**: POST
+- **Target**: Opens in new tab for completion
+
+### Files Created
+
+1. **`layouts/partials/newsletter-signup.html`** - Main newsletter form
+2. **`layouts/shortcodes/newsletter.html`** - Shortcode for full form
+3. **`layouts/_default/newsletter.html`** - Dedicated newsletter page template
+4. **`content/subscribe.md`** - Subscribe page content
+
+### Testing
+
+
+### Privacy & Compliance
+
+The newsletter forms include:
+- Clear privacy messaging
+- Unsubscribe information
+- GDPR-compliant language
+- No unnecessary data collection
