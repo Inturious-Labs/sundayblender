@@ -15,7 +15,7 @@ theme = "diary"
 
 [params]
 	subtitle = "making news interesting for kids"
-	description = 'The Sunday Blender - A minimalist blog built with Hugo and Diary theme'
+	description = 'The Sunday Blender - the best news for kids to learn English and the world'
 	enableOpenGraph = true
 	enableTwitterCards = true
 	enableReadingTime = true
@@ -27,6 +27,11 @@ theme = "diary"
 
 [build]
 	writeStats = true
+
+[sitemap]
+	changefreq = "weekly"
+	priority = 0.5
+	entryLimit = 5000
 
 # Ensure trailing slashes for better URL structure
 uglyURLs = false
