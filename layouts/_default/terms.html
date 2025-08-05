@@ -71,30 +71,37 @@ function toggleRareTags() {
 .tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 6px;
-  padding: 12px 20px;
+  gap: 2px;
+  padding: 4px 20px;
   margin: 0;
+  align-items: flex-start;
+  line-height: 1;
 }
 
 .tag {
   margin: 0;
+  line-height: 1;
 }
 
 .tag a, .tag button {
-  padding: 6px 12px;
-  font-size: 13px;
-  line-height: 1.2;
+  padding: 4px 10px;
+  font-size: 12px;
+  line-height: 1;
   margin: 0;
   font-variant: small-caps;
   text-transform: lowercase;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.4px;
+  font-weight: 600;
+  display: inline-block;
+  vertical-align: top;
 }
 
 #rareTags {
-  margin-top: 8px;
+  margin-top: 6px;
   border-top: 1px solid #eee;
-  padding-top: 12px;
-  gap: 6px;
+  padding-top: 8px;
+  gap: 4px;
+  line-height: 1;
 }
 
 .post-item-meta-text {
@@ -115,17 +122,18 @@ function toggleRareTags() {
 /* Mobile-specific styles */
 @media (max-width: 768px) {
   .tags {
-    gap: 4px;
-    padding: 8px 12px;
+    gap: 3px;
+    padding: 6px 12px;
   }
   
   .tag a, .tag button {
-    padding: 4px 8px;
-    font-size: 12px;
-    line-height: 1.1;
+    padding: 3px 8px;
+    font-size: 11px;
+    line-height: 1;
     font-variant: small-caps;
     text-transform: lowercase;
     letter-spacing: 0.3px;
+    font-weight: 600;
   }
   
   .post-item-info-wrapper {
@@ -143,30 +151,31 @@ function toggleRareTags() {
   }
   
   #rareTags {
-    margin-top: 6px;
-    padding-top: 8px;
-    gap: 4px;
+    margin-top: 4px;
+    padding-top: 6px;
+    gap: 3px;
   }
   
   .badge {
-    font-size: 10px;
-    padding: 2px 4px;
+    font-size: 9px;
+    padding: 1px 3px;
   }
 }
 
 /* Extra small mobile devices */
 @media (max-width: 480px) {
   .tags {
-    gap: 3px;
-    padding: 6px 8px;
+    gap: 2px;
+    padding: 4px 8px;
   }
   
   .tag a, .tag button {
-    padding: 3px 6px;
-    font-size: 11px;
+    padding: 2px 6px;
+    font-size: 10px;
     font-variant: small-caps;
     text-transform: lowercase;
     letter-spacing: 0.2px;
+    font-weight: 600;
   }
   
   .post-item-info-wrapper {
@@ -182,8 +191,8 @@ function toggleRareTags() {
   }
   
   .badge {
-    font-size: 9px;
-    padding: 1px 3px;
+    font-size: 8px;
+    padding: 1px 2px;
   }
 }
 </style>
