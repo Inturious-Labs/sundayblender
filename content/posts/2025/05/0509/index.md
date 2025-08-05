@@ -2,7 +2,7 @@
 title: "We Come This Far - Now What?"
 date: 2025-05-09
 description: "Editor's notes for several questions on the creation of The Sunday Blender"
-tags: ["AI", "Technology", "Global News", "Science"]
+tags: ["news-for-kids", "substack", "twitter", "ai"]
 draft: false
 slug: "we-come-this-far-now-what"
 featured_image: "climb.jpg"
