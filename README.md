@@ -181,3 +181,84 @@ The base template includes a simple script that:
 - Adds lazy loading to any images without it
 - Provides error handling
 - Can be extended for custom functionality
+
+## Link Validation with htmltest
+
+This project uses [htmltest](https://github.com/wjdp/htmltest) to validate internal links and ensure a healthy site structure.
+
+### Setup
+
+1. **Install htmltest** (if not already installed):
+   ```bash
+   # macOS
+   brew install htmltest
+   
+   # Linux
+   wget https://github.com/wjdp/htmltest/releases/latest/download/htmltest_linux_amd64.tar.gz
+   tar -xzf htmltest_linux_amd64.tar.gz
+   sudo mv htmltest /usr/local/bin/
+   ```
+
+2. **Configuration**: The project includes a `.htmltest.yml` file configured for Hugo sites:
+   - Checks internal links only (skips external URLs for speed)
+   - Ignores development artifacts (livereload.js, etc.)
+   - Validates mailto links
+   - Checks internal hash links
+
+### Usage
+
+**Basic Link Check**
+```bash
+# Build the site first
+hugo
+
+# Check public/ folder directly
+htmltest
+
+# Check all internal links
+htmltest public/ --conf .htmltest.yml
+```
+
+**Skip External Links (Faster)**
+```bash
+htmltest public/ --skip-external
+```
+
+**Save Results to File**
+```bash
+htmltest public/ --conf .htmltest.yml --output-path link-check-results.log
+```
+
+**Check with Verbose Output**
+```bash
+htmltest public/ --conf .htmltest.yml --log-level 2
+```
+
+### What It Checks
+
+✅ **Internal Links**: All links within your site
+✅ **Hash Links**: Internal page anchors (e.g., `#section`)
+✅ **Mailto Links**: Email address validation
+✅ **Image Alt Text**: Missing alt attributes
+❌ **External Links**: Skipped for faster execution
+
+### Integration with Workflow
+
+**Pre-Deployment Check**
+```bash
+# Build and test before deploying
+hugo
+htmltest public/ --conf .htmltest.yml
+
+# If no errors, proceed with deployment
+git add .
+git commit -m "Update site"
+git push
+```
+
+**CI/CD Integration**
+```bash
+# For automated testing
+hugo --minify
+htmltest public/ --conf .htmltest.yml --output-json results.json
+```

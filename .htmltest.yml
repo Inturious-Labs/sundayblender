@@ -1,0 +1,33 @@
+# htmltest configuration for Hugo site
+# Check the public folder where Hugo generates the static site
+DirectoryPathToIgnore: ["node_modules", ".git", "vendor"]
+
+# Ignore development artifacts
+IgnoreURLs: [
+  "/livereload.js*",
+  "*.js?mindelay=*",
+  "*.js?v=*",
+  "*.js?port=*",
+  "*.js?path=*"
+]
+DirectoryPath: ./public
+
+# Link checking settings
+CheckExternal: false
+CheckInternal: true
+CheckInternalHash: true
+CheckMailto: true
+
+# Timeout and rate limiting
+Timeout: 10s
+RateLimit: 60
+
+# Skip certain checks
+SkipMissingAlt: false
+SkipCanonicalBroken: false
+SkipNoLocal: false
+SkipSSLVerify: false
+
+# Output settings
+LogLevel: 1
+OutputPath: "htmltest.log" 
