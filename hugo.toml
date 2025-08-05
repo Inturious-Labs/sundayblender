@@ -1,10 +1,13 @@
 baseURL = '/'
 languageCode = 'en-us'
 title = 'The Sunday Blender'
+canonifyURLs = true
 theme = "diary"
 
 [permalinks]
 	posts = "/p/:slug/"
+	tags = "/tags/:slug/"
+	categories = "/categories/:slug/"
 
 [taxonomies]
 	tag = "tags"
@@ -24,6 +27,9 @@ theme = "diary"
 
 [build]
 	writeStats = true
+
+# Ensure trailing slashes for better URL structure
+uglyURLs = false
 
 [markup]
 	[markup.goldmark]
