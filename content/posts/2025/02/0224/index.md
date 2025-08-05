@@ -2,7 +2,7 @@
 title: "Meeting of the Minds"
 date: 2025-02-24
 description: "Flying car and flying NBA dunk star"
-tags: ["AI", "Technology", "Global News", "Science"]
+tags: ["china", "xai", "microsoft", "sony", "adobe", "deepseek", "electric-vehicles", "religion", "india", "thailand", "huawei", "clean-energy", "semi-conductor", "space-exploration", "archaeology", "norway", "climate-change", "box-office", "olympics-2025", "soccer", "f1-racing", "cycling", "nba", "germany" ]
 draft: false
 slug: "meeting-of-the-minds"
 featured_image: "leader_shake.jpg"

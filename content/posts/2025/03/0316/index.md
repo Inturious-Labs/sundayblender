@@ -2,7 +2,7 @@
 title: "Space Oddities On the Moon Space"
 date: 2025-03-16
 description: "take your protein pills and put your helmet on"
-tags: ["AI", "Technology", "Global News", "Science"]
+tags: ["nasa", "openai", "ai", "intel", "brain-tech", "russia", "hong-kong", "new-zealand", "gold", "singapore", "japan", "mathematics", "space-exploration", "lunar-eclipse", "architecture", "uk", "denmark", "festival", "f1-racing", "nba", "cycling", "india"]
 draft: false
 slug: "space-oddities-on-the-moon-space"
 featured_image: "kakeya_con.jpg"
