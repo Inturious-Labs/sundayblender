@@ -3,6 +3,7 @@ title: "About The Sunday Blender"
 description: "best news for kids"
 draft: false
 disableReadingTime: true
+disableToC: true
 build:
   list: false
   render: true
