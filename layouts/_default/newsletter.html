@@ -2,10 +2,9 @@
 <div class="newsletter-page">
     <div class="newsletter-page-container">
         <div class="newsletter-page-content">
-            <h1>Stay In Touch</h1>
+            {{ .Content }}
             
             <div class="newsletter-benefits">
-                <h3>What you'll get:</h3>
                 <ul>
                     <li>✨ Weekly posts from Sunday Blender</li>
                     <li>🔍 Curated contents suitable for kids 8-15</li>
@@ -63,10 +62,11 @@
 
 .newsletter-benefits {
     text-align: left;
-    margin: 2rem 0;
-    padding: 1.5rem;
+    margin: 1rem auto;
+    padding: 1rem;
     background: #f8f9fa;
     border-radius: 12px;
+    max-width: 400px;
 }
 
 .newsletter-benefits h3 {
