@@ -11,72 +11,113 @@ featured_image: "cyber_doom.jpeg"
 ## Tech
 ---
 
+![leak](leak.jpg)
+
 Cybersecurity researchers at **Cybernews** uncovered a massive leak involving **16 billion** login credentials, including passwords for major platforms like **Apple**, **Google**, and **Facebook**. This unprecedented breach is not from a single hack but a compilation of data stolen over time through multiple incidents, primarily involving malicious software called infostealers that silently capture users' sensitive information. The datasets, consisting of URLs, usernames, and passwords, were briefly exposed online, allowing criminals "unprecedented access" to countless accounts. Given that 16 billion exceeds twice the global population, many users likely had multiple accounts compromised. Experts warn this leak serves as a "blueprint for mass exploitation," facilitating phishing, identity theft, and account takeovers across social media, VPNs, developer platforms, and even government services. While the data exposure was short-lived, the sheer volume and freshness of the information pose a significant ongoing risk, prompting calls for stronger cybersecurity measures like two-factor authentication and password management.
+
+![TSMC](tsmc.avif)
 
 **SoftBank** founder **Masayoshi Son** is proposing an ambitious **$1 trillion** project called "**Project Crystal Land**" to build a massive AI and robotics industrial hub in **Arizona, US**. The plan aims to transform Arizona into a high-tech manufacturing center akin to **Shenzhen, China**, focusing on AI-powered industrial robots and advanced manufacturing technologies. Son has engaged with major tech companies like Taiwan Semiconductor Manufacturing Co. (**TSMC**) and **Samsung Electronics**, as well as U.S. federal and state officials, seeking partnerships and tax incentives to support the development. The project aligns with U.S. efforts to bring high-tech production back domestically and reduce reliance on foreign manufacturing. While discussions are in early stages and the involvement of TSMC remains uncertain due to its existing U.S. commitments, SoftBank envisions this hub as a key player in the global AI race. The initiative complements SoftBank’s other AI investments, including a **$500 billion** data center project with **OpenAI** and **Oracle**.
 
+![google](google.avif)
+
 **Google**’s recent landmark deal with **The Associated Press** (AP) to supply real-time news for its **Gemini AI** chatbot marks a pivotal shift in the search business, fundamentally altering how users access information. Traditionally, search engines like Google directed users to news websites, driving significant traffic and ad revenue to publishers. Now, with AI chatbots delivering summarized, up-to-date news directly within their interfaces, users increasingly get answers without visiting original sites, reducing publishers’ web traffic and revenue streams. This partnership, Google’s first direct content licensing deal for generative AI, reflects a broader industry trend where publishers license content to AI firms, balancing revenue opportunities against the risk of diminished visibility. Google’s AI-driven approach disrupts the traditional search ecosystem by prioritizing instant, conversational responses over link-based discovery, challenging publishers to rethink monetization and content distribution in an AI-dominated landscape.
+
+![Internet](internet.jpeg)
 
 In early 2025, two iconic Chinese Internet startups, **Hupu** and **Ximalaya**, were acquired in deals signaling the twilight of the classical Internet era. Hupu, a leading sports community platform once boasting **55 million** monthly active users in 2017, was bought by **Xunlei** for just **$70 million**, far below its previous valuation. Meanwhile, **Tencent Music** acquired **Ximalaya**, a dominant long-audio platform with over a billion users, for **$2.9 billion**, a steep decline from its 2021 peak valuation near **$5 billion**. Both companies, founded over a decade ago and once thriving niche giants, struggled with declining user engagement, failed IPO attempts, and revenue challenges amid shifting consumer habits. These acquisitions reflect the broader demise of traditional content communities, overshadowed by mobile social media, short video platforms, and tech giants’ ecosystems. As users migrate to new formats and platforms, the classic Internet’s “golden age” fades, replaced by more integrated, AI-driven, and algorithmically curated digital experiences, marking the beginning of the end for the Internet as it was once known.
 
+![Audi](audi-q4-e.jpg)
+
 **Audi** has reversed its previous plan to end the development and sale of internal combustion engine (**ICE**) vehicles by 2033. Under new CEO **Gernot Döllner**, the company abandoned the fixed 2033 all-electric deadline, emphasizing flexibility in response to market demands. Audi will launch a new lineup of gas-powered and plug-in hybrid vehicles between 2024 and 2026, extending ICE production for at least another 7 to 10 years. This shift also includes future high-performance RS models, which will continue to feature combustion engines, possibly in hybrid form. The decision reflects a move away from the previous management’s strict electrification timeline, allowing Audi to adapt to evolving regulations and consumer preferences. Audi will still invest heavily in electric vehicle technology and lead Volkswagen Group’s development of new hardware and software platforms, including the upcoming Scalable Systems Platform (SSP) that supports both electric and combustion powertrains. This U-turn highlights Audi’s strategy to balance electrification with traditional engine offerings amid uncertain market conditions.
 
+![Model Y](modely.jpeg)
+
 **Tesla**’s **Model Y** secured the top spot as Europe’s best-selling electric vehicle (EV) for the first half of 2025, maintaining its popularity despite a significant sales contraction. In the first quarter, Model Y sales fell by **49%**, with a **43%** drop in March alone, yet it remained the continent’s favorite all-electric car. This performance highlights Tesla’s strong brand appeal amid increasing competition from **Volkswagen**, **BYD**, and others. Notably, Tesla’s sales surged dramatically in **Norway**, where the Model Y captured a **16.5%** market share in May 2025, boosted by incentives and the country’s strong EV adoption policies. However, in other European markets like **Sweden** and **France**, Tesla’s sales declined sharply due to growing competition, brand image challenges, and political controversies surrounding CEO **Elon Musk**. Tesla continues to offer new Model Y variants across Europe, aiming to sustain its leadership despite these challenges and shifting market dynamics.
+
+![Starship](starship.webp)
 
 On June 19, 2025, **SpaceX**’s **Starship Ship 36** exploded during a static‑fire test at **Starbase, Texas**. The test was part of preparations for its 10th flight, involving routine engine ignitions while the vehicle remained anchored to the stand. According to SpaceX, the cause was a “major anomaly” during liquid oxygen and methane fueling, likely involving a pressurized vessel failure in the nose cone. Despite the dramatic explosion and visible shaking of nearby areas, no injuries occurred. **Elon Musk** famously downplayed the blast with a casually dismissive “Just a scratch” on X, reflecting SpaceX’s culture of embracing failure as a means to accelerate progress. This setback marks Starship’s fourth major failure of 2025, but remains within SpaceX’s iterative “fail fast, learn faster” development philosophy.
 
 ## Global
 ---
 
+![war](war.jpeg)
+
 The **Iran-Israel** conflict escalated dramatically in June 2025, beginning with **Israel**’s surprise airstrikes on June 13 targeting Iranian nuclear and military sites, including the Isfahan Nuclear Technology Center and missile factories. Israel’s operation, dubbed “**Nation of Lions**,” aimed to halt Iran’s progress toward nuclear weapons, which Israel views as an existential threat. The strikes killed several top Iranian military officials and nuclear scientists, severely damaging key facilities. Iran responded by launching hundreds of missiles and drones at Israeli cities and military targets, causing casualties and damage despite Israel’s advanced air defenses intercepting most attacks. The conflict has resulted in hundreds of deaths on both sides, including civilians. Diplomatic efforts by European nations to de-escalate the crisis have so far failed, and Iran has refused to negotiate on its nuclear program during the fighting. The United States, under President Donald Trump, is weighing possible involvement, while warnings of a prolonged, intense conflict loom, raising global concerns about regional stability and nuclear proliferation.
 
+![rice](rice.jpg)
+
 For many **Japanese** families, rice isn’t just a staple—it’s a symbol of tradition and daily comfort. But lately, the price of this beloved grain has soared to levels unseen in over half a century, doubling in just a year. This sudden jump has hit households hard, especially as core inflation climbs to **3.7%**, stirring worries about the cost of living. The root of the problem lies in a poor harvest last year, when extreme heat damaged crops and left shelves emptier than usual. In response, the government stepped in, releasing emergency rice reserves and changing how rice is sold to retailers, hoping to ease the burden on shoppers. While prices have begun to soften slightly, many families still feel the pinch every time they shop. For Japan, rice is more than food—it’s a daily reminder of home, and the soaring prices have made this simple comfort a source of real concern.
+
+![North Korea](north_kore.jpeg)
 
 A unique figure in the gaming world, the lone **North Korean** **Steam** player known as “**NK\_Gamer**,” recently disappeared from the platform, ending a rare digital connection to one of the most isolated countries. For years, NK\_Gamer was the only known user from North Korea actively playing and purchasing games on Steam, a platform typically inaccessible there. His diverse game library included popular multiplayer titles like **Counter-Strike: Global Offensive**, **Dota 2**, and **Team Fortress 2**, alongside story-driven games such as **The Witcher 3** and **Skyrim**. This eclectic mix revealed a passion for both competitive and immersive gaming experiences, remarkable given North Korea’s strict internet censorship and limited access. NK\_Gamer’s sudden inactivity in early 2025 sparked speculation about increased government restrictions or technical issues. His brief presence offered a rare glimpse into the digital life behind North Korea’s digital curtain, symbolizing the challenges faced by isolated gamers and underscoring the country’s extreme limitations on internet freedom.
 
 ## Economy & Finance
 ---
 
+![JD.com](richard_li.jpg)
+
 One warm April evening in Beijing, **JD.com** founder billionaire **Richard Liu** surprised many by hopping on a scooter and personally delivering food orders alongside riders from rival companies. Later, over hotpot and beer, he welcomed delivery workers from competing firms, a bold move that reignited China’s fierce food delivery battle. JD.com’s rapid push into the market—offering zero commissions to merchants and social insurance for riders—has shaken **Meituan**, the longtime leader with over **60%** market share. Since launching JD Takeaway in February, JD has attracted millions of daily orders and hundreds of thousands of merchants, challenging Meituan’s dominance. But JD’s ambitious expansion has faced major hurdles, including system crashes and logistical strains, exposing cracks behind the flashy stunts. Meanwhile, Meituan focuses on rider welfare and AI-driven efficiency to maintain its edge. This intense rivalry reflects more than business—it’s about who can win the hearts of customers and delivery workers in China’s booming **$80 billion** food delivery world.
 
 ## Science
 ---
+
+![pluto](pluto.jpeg)
 
 **Pluto**, once the ninth planet of our solar system, is a fascinating dwarf planet located in the **Kuiper Belt**, a region beyond **Neptune** filled with icy bodies. Discovered in 1930 by Clyde Tombaugh, Pluto was classified as a planet until 2006, when the International Astronomical Union redefined it as a “dwarf planet” due to its inability to clear its orbit. Despite its small size—just two-thirds the diameter of Earth's Moon—Pluto has five moons, the largest being **Charon**, which is so big it forms a binary system with Pluto. In 2015, **NASA**’s **New Horizons** spacecraft made a historic flyby, revealing Pluto’s surprisingly complex surface, including vast nitrogen ice plains, towering ice mountains, and a possible subsurface ocean. Pluto has a highly elliptical orbit, taking **248 Earth years** to complete one revolution around the Sun. Sometimes, it's closer to the Sun than Neptune. Its thin atmosphere can freeze and collapse as it moves farther from the Sun.
 
 ## Nature & Environment
 ---
 
+![heat](heat_wave.png)
+
 A dangerous heat wave is sweeping across the central and eastern **United States**, bringing record-breaking temperatures and oppressive humidity. Starting Friday, a heat dome—a high-pressure system trapping hot air—formed over the central U.S., pushing temperatures into the triple digits in states like **Nebraska**, **Kansas**, and **Colorado**. The intense heat is expected to spread eastward over the weekend, affecting the Midwest, Great Lakes, Ohio Valley, and East Coast cities such as Chicago, New York, Philadelphia, and Washington, D.C. Many areas could see highs near or above **100°F**, with heat index values exceeding **105°F** due to high humidity, increasing risks of heat-related illnesses. Overnight lows will remain unusually warm, offering little relief. The National Weather Service has issued extreme heat warnings and advisories for dozens of states, urging people—especially vulnerable groups like children, the elderly, and those with health conditions—to take precautions such as staying hydrated, avoiding outdoor activities, and using air conditioning. This early-season heat wave is intensified by climate change, making it more severe and widespread.
 
 ## Entertainment & Culture
 ---
+
+![vidcon 2025](vidcon.jpg)
 
 At **VidCon 2025**, held in Anaheim, California, video creators and influencers gathered to celebrate digital culture and showcase the latest tech trends. Among the most popular products were the **Alix Earle** selfie light, praised for its powerful LED illumination, and the **DJI Osmo Pocket 3**, a compact 4K gimbal camera favored by vloggers for its portability and professional quality. Other fan favorites included the **Canon PowerShot V10** and **Sony’s ZV-1F** vlogging camera, both offering affordable, high-quality video options. Creators also highlighted **Final Cut Pro** as their go-to editing software, alongside essential gear like **SanDisk** portable SSDs and **Joby** tripods. The event featured lively panels, networking opportunities, and some controversy, such as a chaotic live podcast recording by creator **Hailey Welch**, which saw audience walkouts due to off-color remarks. Overall, VidCon 2025 underscored the evolving tools and challenges of content creation, blending innovation with the vibrant, sometimes unpredictable energy of the creator community.
 
 ## Sports
 ---
 
+![Messi](messi.jpg)
+
 At the **2025 FIFA Club World Cup**, **Lionel Messi** and **Harry Kane** delivered standout performances that energized their teams. Messi scored a stunning free-kick goal to lead **Inter Miami** to a **2-1** victory over **Porto**, securing Miami’s first win in the tournament and keeping their hopes alive in Group A. Messi’s curling shot over the wall was the game-winner after Porto initially took the lead. Meanwhile, Harry Kane continued to demonstrate his scoring prowess for **Al Hilal**, helping his team maintain a strong position in Group H as they battle for knockout stage qualification. **Kylian Mbappé** was sidelined for **Real Madrid**’s opener due to gastroenteritis and missed their **1‑1** draw with **Al‑Hilal**. He returned from the hospital but remains doubtful for their next fixture. Despite speculation, **Cristiano Ronaldo** isn’t participating, having declined offers to join any Club World Cup squad this year.
+
+![women basketball](240626-chi.jpg)
 
 Seventeen‑year‑old **Zhang Ziyu** from **Shandong, China**, is causing waves in women’s basketball. Standing an astounding **7′ 3″** (≈2.20 m), she dominated the 2024 FIBA U18 Women’s Asia Cup, earning MVP honors and leading China to the finals. In her debut, she scored **19 points** in just **13 minutes** (9-for-9 shooting), then posted **36 points** with **13 rebounds** and four blocks against **New Zealand**, followed by **44 points and 14 rebounds** versus **Japan**—a tournament record. Born to former professional basketball players and viral well before her teen years, she learned the sport from age five and already boasts exceptional court awareness. With record-breaking performances and viral footage, Zhang is viewed as a future global star, possibly the next **Yao Ming**, poised to enter the WNBA (Women’s National Basketball Association) when eligible.
 
+![Dogers](padres-dod.avif)
+
 On June 19, 2025, a Padres-Dodgers baseball game turned into a messy and disappointing display of poor sportsmanship. The trouble started when **Dodgers** pitcher **Jack Little** hit Padres star **Fernando Tatis Jr.** with a pitch, not just once, but three times this season. This made tensions rise, and the Padres’ manager, Mike Shildt, got into a heated argument with the Dodgers’ manager, Dave Roberts. Both were kicked out of the game after their angry exchange. Things got worse when **Padres**’ pitcher **Robert Suarez** intentionally hit Dodgers’ **Shohei Ohtani**, which caused players from both teams to rush onto the field in a fight. The league punished Suarez with a suspension and fined both managers. This kind of behavior isn’t a good example for young athletes because sports should be about respect, teamwork, and fair play, not fighting or trying to hurt others. True sportsmanship means playing hard but staying respectful.
+
+![homeruns](homeruns.jpg)
 
 **Seattle Mariners** catcher **Cal Raleigh** made history on June 20, 2025, by breaking a **55-year**\-old **MLB** (Major League Baseball) record held by Hall of Famer **Johnny Bench**. Raleigh hit his **29th** home run before the All-Star break during a **9-4** victory over the **Chicago Cubs** at **Wrigley Field**, surpassing Bench’s previous mark of **28** homers set in **1970**. Remarkably, Raleigh achieved this milestone in just **73** games, compared to Bench’s **87** games. In the game, Raleigh hit two home runs—a solo shot in the first inning and a go-ahead two-run homer in the seventh—contributing significantly to the Mariners’ win. At **28 years** old, Raleigh boasts a **.273** batting average with 63 RBIs (**Run Batted In**) and is on pace to challenge **Salvador Perez**’s single-season catcher home run record of **48**. His powerful hitting and durability have made him a leading candidate for the American League MVP.
 
 ## This Day in History
 ---
+![manchester baby](ssem_repli.jpg)
 
 The **Manchester Baby** was the world’s first computer to run a program stored in memory, marking the birth of modern computing. On **June 21, 1948**, it successfully executed a program that calculated the highest proper factor (it’s **18**) of **262,144** by subtracting successive integers and checking for divisibility. This demonstrated, for the first time, that a machine could store both data and instructions in memory and make decisions based on logical conditions—a concept developed by mathematician **John von Neumann** that was foundational to all modern computers. Though primitive, with just **32** words of memory and no input/output devices, the Baby proved the feasibility of the stored-program architecture, where instructions are treated as data. This breakthrough led directly to more advanced machines and established principles still used in computing today. Its successful run wasn’t just a technical achievement; it fundamentally reshaped how humans interact with machines, setting the stage for the digital revolution.
 
 ## Painting of the Week
 ---
 
+![painting](pierre.jpeg)
+
 During the late 19th century, boating became one of the most favored pastimes among Parisian artists. **Pierre-Auguste Renoir**’s _**The Luncheon of the Boating Party**_ (1880–81) is a celebrated masterpiece of French Impressionism that captures a lively moment among friends enjoying food, wine, and conversation on the balcony of the Maison Fournaise restaurant along the Seine in Chatou, a picturesque town in the western suburbs of Paris, France. The painting blends portraiture, still life, and landscape, showcasing Renoir’s signature warm palette, dappled light, and soft brushstrokes. The scene includes real figures from Renoir’s life—artists, actresses, and his future wife Aline Charigot, who plays with a small dog in the foreground. The relaxed atmosphere and subtle interactions among the figures convey summertime joy, leisure, and camaraderie in modern Parisian life. Renoir masterfully balances composition and light, using vibrant colors and shifting perspectives to guide the viewer’s eye across the canvas.
 
 ## Funny
 ---
+
+![Harry Potter joke](harrypotte.jpg)
 
 ## Previous Issues
 ---
