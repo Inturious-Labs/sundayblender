@@ -11,14 +11,22 @@ featured_image: "ai_war.jpg"
 ## Tech
 ---
 
+![meta](metaai.jpg)
+
 **Meta** has launched **Meta Superintelligence Labs**, a high-stakes unit led by 28-year old **Alexandr Wang** (ex-**Scale AI** CEO) and **Nat Fried**man (former **GitHub** CEO), aiming to fast-track artificial general intelligence (AGI) research and deliver groundbreaking AI products like meta AI apps and smart glasses. As part of a fierce talent acquisition strategy, Meta has aggressively recruited top researchers, including dozens from **OpenAI**, **Google**, **Anthropic**, and notably seven top hires who earned their undergraduate degrees in China at elite universities such as **Tsinghua** and **Peking University**. CEO **Mark Zuckerberg** personally drove the recruitment, offering eye-popping packages reportedly as high as **$100 million,** and the announcement helped push Meta’s stock to record highs around **$738**. Meta's bold bet on AGI is now visibly backed by one of tech's most diverse and ambitious research teams.
 
+![switch 2](switch_2.webp)
+
 **Nintendo**’s new **Switch 2**, released on June 5, 2025, has become the fastest-selling console in the company's history. In just four days, it sold over **3.5 million** units worldwide—surpassing all prior Nintendo hardware and outpacing even the PS4’s U.S. launch record of **1.1 million** units in a week. The rapid sales propelled the Switch 2 to a global restock frenzy, with U.S. and U.K. retailers struggling to meet demand. Priced at $449.99 (or $499.99 bundled with **Mario Kart World**), the hybrid handheld/home console attracted buyers with its upgraded 4K docked output, 1080p handheld screen, magnetic Joy‑Con 2 controllers, and GameChat features. The blockbuster launch not only boosted Nintendo shares and analyst forecasts but also set ambitious sales goals—**15 million** units expected by the next fiscal year.
+
+![anker](anker.webp)
 
 Global leader in mobile charging bank **Anker** has issued a second global recall, this time covering five additional power bank models due to potential fire and burn hazards from defective lithium‑ion batteries. The move follows an earlier June recall of the PowerCore 10000 (model A1263), which involved approximately 1.16 million units in the U.S., linked to 19 overheating/explosion incidents, including two minor injuries and over $60,000 in property damage. The newly recalled models include various Anker and Zolo power banks (A1257, A1647, A1652, A1681, A1689) that feature similar battery-cell concerns. Anker advises users to stop using affected units immediately, verify model and serial numbers on its website, and submit a claim for either a free replacement or a gift card. Consumers should dispose of recalled devices at certified e‑waste or hazardous waste facilities, not in regular trash or recycling, to avoid fire risks.
 
 ## Global
 ---
+
+![made in china 2025](made_in_ch.jpg)
 
 China’s decade-long _**Made in China 2025**_ initiative, launched in 2015, set more than **260** targets across ten strategic sectors—ranging from semiconductors and aerospace to EVs and robotics—to boost technological self-reliance and shift the country up the industrial value chain. Despite aggressive US tariffs, chip export controls, and trade sanctions from 2018 onward, **South China Morning Post** reports that by late 2024, China had achieved approximately **86 percent** of these goals. China now leads globally in high-speed rail, solar panels, drones, electric vehicles, and graphene, while narrowing the gap in AI, robotics, and biotech. However, it still trails in advanced photolithography, intercontinental aircraft, and satellite internet networks. Analysts argue the plan’s success proves that US economic pressure had limited impact, with China continuing to pour state capital—hundreds of billions of US dollars—into research and development. The overall result: China emerges as a rising powerhouse in high-tech manufacturing despite external constraints.
 
@@ -27,38 +35,64 @@ US Defense Secretary **Pete Hegseth** recently joined **Fox News** host **Lara T
 ## Economy & Finance
 ---
 
+![school](school.webp)
+
 On July 5, US lawmakers passed a new tax and budget package that changes how some private colleges are taxed. The law increases taxes on investment income earned by the largest university endowments, like those of **Harvard**, **Yale**, **Princeton**, and **MIT**. However, 26 smaller but wealthy private colleges will no longer have to pay this tax. These include schools like **Swarthmore**, **Amherst**, **Caltech**, and **Hillsdale**. The endowment tax, first introduced in 2017, currently charges universities **1.4%** on income from their investments if their endowment per student is very large. This money helps fund scholarships, research, and campus programs. Supporters of the change say it helps smaller colleges keep more money to support their students. Critics believe it unfairly benefits some schools over others. Overall, the new law means big universities will pay more tax, while these 26 smaller but rich colleges get a tax cut and keep more funds for their operations.
 
+![thnking machine](mira-murat.jpg)
+
 Founded in February 2025 by former **OpenAI** CTO **Mira Murati**, **Thinking Machines Lab** closed a record-breaking **$2 billion** seed round—valued at **$10 billion**—making it the largest seed financing in Silicon Valley history. The round was led by **Andreessen Horowitz**, with major participation from **Accel**, **Conviction Partners**, and even the **Albanian** government. Backers were drawn by Murati’s leadership on iconic AI projects like **ChatGPT** and **DALL‑E** and the star-studded team she assembled, including ex-OpenAI founders like John Schulman, Barret Zoph, and Bob McGrew. Structured as a public benefit corporation in San Francisco, the company emphasizes building interpretable, customizable, human-aligned AI. Despite lacking a public product or revenue, investors trusted in Murati’s vision—she holds majority control on the board, reflecting a new trend of backing “pre-plan” AI ventures based on pedigree alone. In just months, Thinking Machines emerged as a leading contender in the next wave of AI innovation.
+
+![ronaldo](ronaldo.JPG)
 
 **Cristiano Ronaldo** has signed a two-year extension with **Al Nassr**, keeping him at the **Saudi Pro League** club until June 2027, when he will be 42. Since joining in December 2022, he has scored **93** goals in **105** matches and won the league’s **Golden Boot** for the 2023–24 season. His new deal is worth around **$620 million**, including an annual salary of about **$180 million**, generous signing bonuses, and an unprecedented **15%** equity stake in the club, valued at approximately $45 million. This makes his contract one of the most lucrative in sports history. Ronaldo called it “A new chapter… same passion, same dream,” as he aims to help Al Nassr win more titles and achieve his personal goal of **1,000** career goals before retiring. The equity stake elevates him from superstar athlete to strategic partner, cementing his influence on the club’s future direction and Saudi football’s global ambitions.
 
 ## Nature, Environment
 ---
 
+![flood in texas](flood_all.png)
+
 Catastrophic flooding struck central **Texas**, especially the Hill Country and Kerr County, starting in the early hours of July 4, 2025, after intense rainfall caused the **Guadalupe River** to rise by **26 feet** in just **45 minutes**, reaching near-record levels. The sudden flash flood caught many off guard at night, including campers at Camp Mystic, a girls' Christian summer camp, where at least 27 children remain missing. Over **850** people have been rescued, some airlifted from flooded areas. Officials acknowledged the unprecedented volume of rain exceeded forecasts, and local emergency systems lacked adequate warning capabilities. The flooding has been described as an extraordinary catastrophe, with ongoing search and rescue efforts focused on finding survivors amid widespread devastation. Experts link the severity of such events to climate change, as warmer air holds more moisture, intensifying storms.
 
 ## Lifestyle, Entertainment, Culture
 ---
 
+![oasis concert](oasis-card.jpg)
+
 On **July 4, 2025**, legendary British rock band **Oasis** reignited their illustrious career with a triumphant reunion concert at **Cardiff**’s **Principality Stadium**, marking their first performance together in 16 years. Brothers **Liam and Noel Gallagher**, joined by original members Paul “Bonehead” Arthurs, Gem Archer, Andy Bell, and new drummer Joey Waronker, delivered a powerful two-hour set of classics such as “**Roll With It**,” “**Supersonic**,” “**Wonderwall**,” “**Don’t Look Back in Anger**,” and “**Champagne Supernova**”. The atmosphere was electric and emotional: the crowd of over **60,000–75,000** fans sang along fervently, while a symbolic half-hug between the brothers during the encore hinted at fraternal reconciliation. Reviewers praised the tight performance and nostalgic energy, calling it “the rock reunion to end them all”. The “Live ’25” tour comprises 41 dates spanning the UK, North America, Asia, Australia, and South America, shaping up to be one of the most anticipated musical events of the year.
+
+![ozzy](ozzy.jpg)
 
 On July 5, 2025, 76-year-old rock superstar **Ozzy Osbourne** delivered his **final live performance** at Villa Park in **Birmingham** alongside original **Black Sabbath** band members—Tony Iommi, Geezer Butler, and Bill Ward—for the first time in 20 years, in a monumental farewell dubbed **“Back to the Beginning”**. The star‑studded, all‑day event spanned ten hours, featuring epic sets from **Metallica**, **Guns N’ Roses**, **Slayer**, **Tool**, and **Pantera**, with **Jason Momoa** hosting and Tom Morello as musical director. Due to Parkinson’s, Ozzy performed seated on a ceremonial throne but delivered an emotional solo set—including classics like “Crazy Train,” “Mama, I’m Coming Home,” “Dreamer”, and “Mr. Crowley”—before rejoining Sabbath for four iconic songs. Seen by 40,000 fans live and millions via stream, the concert raised funds for charities including Cure Parkinson’s and Birmingham Children’s Hospital. Critics praised the show as a powerful, bittersweet celebration of metal’s legacy, marking the close of Ozzy’s storied era in live music.
 
+![apple music](apple_musi.webp)
+
 **Apple Music** has unveiled its top 500 most‑streamed songs of the past decade, crowning **Ed Sheeran**’s “_**Shape of You**_” as the No. 1 overall track. **The Weeknd**’s “_**Blinding Lights**_” follows at No. 2, while **Drake**’s “_**God’s Plan**_” claims No. 3—with Drake racking up an astonishing 27 entries, the most by any artist. **Taylor Swift** also has a massive presence, with 14 tracks featured, making her the second‑most represented artist after Drake. Songs like “_**Blank Space**,_” “_**Cruel Summer**_,” and “_**Shake It Off**_” all appear in the top 500, showcasing her enduring influence. **Post Malone**, **BTS**, **Billie Eilish**, and others also secured prominent placements. The full list celebrates a decade of streaming dominance and highlights how artists like Sheeran, Drake, Swift, and The Weeknd have shaped the global music landscape through repeated plays and cultural impact.
+
+![death stranding](death_stra.jpg)
 
 _**Death Stranding 2: On the Beach**_ launched on PS5 on **June 26, 2025**, cementing **Hideo Kojima**’s status as one of gaming’s most visionary creators. Known for pushing the boundaries of storytelling and gameplay since his _**Metal Gear**_ days, Kojima crafts a surreal, cinematic journey that continues Sam Porter Bridges’ mission to reconnect humanity in a fractured world. Set largely in post-apocalyptic Australia, the game expands the original’s innovative traversal system with enhanced combat, vehicles, bridges, and even monorails, all within a stunningly rendered dynamic world powered by the **Decima Engine**. Critics praise Kojima’s fearless creativity, from the haunting environments to eccentric new characters, including a glam-rock robot version of Higgs. Featuring **Norman Reedus**, **Elle Fanning**, and **Troy Baker**, the game weaves deep existential themes of connection and loss with playful absurdity. Early reviews hail it as a true next-generation masterpiece, reaffirming Kojima’s place as gaming’s boldest narrative auteur.
 
+![summer movies](summer_mov.jpg)
+
 The summer of 2025 promises a blockbuster lineup with several highly anticipated tentpole movies hitting theaters. Leading the pack is _**Jurassic World: Rebirth**_ (July 2), directed by Gareth Edwards and featuring Scarlett Johansson and Mahershala Ali, reviving the dinosaur saga with fresh thrills. Following closely is _**Superman**_ (July 11), James Gunn’s reboot starring David Corenswet, aiming to redefine the iconic superhero for a new generation. Horror fans will get a nostalgic jolt with the _**I Know What You Did Last Summer**_ reboot (July 18), reuniting original stars Jennifer Love Hewitt and Freddie Prinze Jr. For a darker, politically charged drama, Ari Aster’s _**Eddington**_ (July 18) stars Joaquin Phoenix and Pedro Pascal in a tense pandemic-era standoff. Other notable releases include _**The Fantastic Four: First Steps**_ and _**Happy Gilmore 2**_ (July 25 on Netflix). These films showcase a mix of action, horror, superhero, and drama genres, making summer 2025 a diverse and exciting cinematic season.
+
+![lorenzo](lorenzo.webp)
 
 **Lorenzo**, a **110‑year‑old**, **21‑pound** lobster who had lived for over a decade in the tank at **Peter’s Clam Bar** in **New York,** was ceremoniously pardoned and released back into the Atlantic Ocean on June 12, 2025, marking both **National Lobster Day** and **Father’s Day**. The event featured local officials escorting Lorenzo aboard a **Hempstead Bay Constable** boat, complete with flashing lights and sirens, before carefully returning him to the Atlantic Beach Reef. Restaurant owner Butch Yamali explained that Lorenzo had become a beloved mascot and that he couldn’t bear the thought of him dying in captivity or ending up on the menu. Social media buzzed with his triumphant send‑off: “clawing his way to freedom… soaking up the salty breeze (instead of butter)”.
 
 ## Sports
 ---
 
+![tennis](djokovic.jpg)
+
 The 138th **Wimbledon** is unfolding at South West London through 13 July, with prize money rising to a record **£53.55 million**. The tournament has been defined by massive upsets: eight top‑10 seeds, including Zverev, Gauff, Pegula, and Medvedev, bowed out in the first round—an Open Era record. On the men's side, **Jannik Sinner** and **Carlos Alcaraz** remain dominant into the second weekend, while **Novak Djokovic** notched his 100th Wimbledon match win en route to the fourth round. The women's draw features only one top‑5 seed—**Aryna Sabalenka**—into Week Two; **Coco Gauff**, **Jessica Pegula**, and **Madison Keys** have all exited. American hopes rest with **Emma Navarro** and **Amanda Anisimova**, both surviving to Round 4. British players are enjoying a resurgence—**Katie Boulter, Emma Raducanu, Sonay Kartal, and Cam Norrie** all advanced, creating a spirited home crowd atmosphere. The first week at Wimbledon has combined historic chaos, emerging talents, and marquee favorites threading through.
 
+![tour de france](stage1.jpg)
+
 The first stage of the **2025 Tour de France,** a **184.9 km** circuit around **Lille**, was won by Belgian sprinter **Jasper Philipsen** of **Alpecin-Deceuninck**. Philipsen emerged victorious from a reduced peloton after a late echelon split caused by strong winds and a high pace set by **Team Visma-Lease a Bike**, which dropped key contenders **Primož Roglič** and **Remco Evenepoel**, who lost 39 seconds. Philipsen’s teammates, including **Mathieu van der Poel** and **Kaden Groves**, expertly positioned him for the final sprint, where he edged out **Biniam Girmay** and **Søren Wærenskjold**. The stage was marked by crashes that forced early abandonments of time trial specialists **Filippo Ganna** and **Stefan Bissegger**. Philipsen’s win earned him the first yellow jersey and the green points jersey. Benjamin Thomas leads the mountains classification, while Biniam Girmay holds the best young rider classification after this opening day.
+
+![mbappe](mbappe.jpeg)
 
 **Kylian Mbappé** scored a spectacular bicycle kick goal in stoppage time to secure **Real Madrid**’s **3-2** victory over **Borussia Dortmund** in the **2025 FIFA Club World Cup** quarterfinals on July 5. Coming on as a substitute in the 67th minute, Mbappé connected with a precise cross from **Arda Güler** to execute an acrobatic overhead kick in the 94th minute, restoring Real Madrid’s two-goal lead. This stunning goal was a tribute to the late Portuguese forward **Diogo Jota**, with Mbappé dedicating it by forming Jota’s number 20 with his hands. Despite Dortmund’s late fightback with goals from **Maximilian Beier** and **Serhou Guirassy** (penalty), Real Madrid held on, aided by goalkeeper **Thibaut Courtois**’s crucial saves. This win advances Real Madrid to the semifinals against **PSG**, marking a memorable moment for Mbappé, both for its athletic brilliance and emotional dedication.
 
@@ -66,20 +100,27 @@ On July 5, 2025, **Lionel Messi** once again showcased his brilliance for **Inte
 
 At the 50th **Prefontaine Classic** in Eugene on July 5, Kenyan athletes rewrote history with back‑to‑back world records at the Wanda Diamond League. **Beatrice Chebet** became the first woman ever to run the 5,000 m under 14 minutes, blazing to a time of **13:58.06**, demolishing **Gudaf Tsegay**’s previous mark of 14:00.21. Just 90 minutes later, Olympic icon **Faith Kipyegon** claimed her fifth world record at Diamond League events by lowering her own 1,500 m record to **3:48.68**, cutting a full third of a second from her prior best. The feat capped a brilliant display of Kenyan distance running—Chebet’s gritty sub-14 performance followed by Kipyegon’s electrifying final 300 m stretch at **Hayward Field**. Emotions ran high as they embraced post-race, a testament to their friendship and shared pursuit of greatness. Together, they delivered one of the most memorable evenings in track history.
 
+![Hamilton](hamilton.avif)
+
 **Lewis Hamilton** qualified fifth at **Silverstone** ahead of his home **British Grand Prix**, as he continues chasing his first podium with **Ferrari**. The seven‑time world champion seemed poised for a stronger result, topping the second qualifying session before clipping time in the crucial shootout and narrowly missing out on a front-row start. Hamilton, renowned for winning nine British Grands Prix, expressed confidence in his upgraded Ferrari, highlighting improved feel from a recently introduced floor upgrade in Austria. He acknowledged that although the performance is close, an extra **tenth of a second** would push him toward the podium. Despite a season-long **13-race** podium drought, he remains upbeat: “I’ll dream of it tonight and try and execute tomorrow,” he said. At age 40, Hamilton hopes that Silverstone’s electrifying crowd and the car's progress can finally end his wait and deliver a standout performance at his home track.
 
 ## This Day in History
 ---
 
+![Serena Williams](serena_wil.png)
+
 On **July 6, 2002**, 20‑year‑old American **Serena Williams** captured her first **Wimbledon** singles title by defeating her sister, **Venus Williams**, the two‑time defending champion, in straight sets: 7–6 (7–4), 6–3. This landmark victory marked Serena’s third major singles title overall—after her **1999 US Open** and **2002 French Open**—and completed her first **Channel Slam**, the rare feat of winning both the French Open and Wimbledon in the same year, last achieved by **Steffi Graf** in 1996. In doing so, Serena ascended to world No. 1 in singles for the first time. Notably, she swept through the tournament without dropping a set. Their all‑Williams final showcased not only the height of their sibling rivalry but also signaled the rise of Serena Williams as a dominant force on grass courts, in one of the most remarkable tales in sports history.
 
 ## Art of the Week
 ---
+![Hiroshige](hiroshige.jpg)
 
 **"Sudden Shower over Shin-Ōhashi Bridge and Atake"** is a famous woodblock print by Japanese artist **Utagawa Hiroshige**, created in **1857** as part of his renowned series "**One Hundred Famous Views of Edo**." The artwork vividly captures a summer scene in **Tokyo** (then **Edo**) as a sudden downpour sweeps across the **Shin-Ōhashi Bridge**. Figures are seen hurrying across the bridge, sheltering under wide hats and umbrellas as rain streaks diagonally across the print. The striking composition combines natural beauty with daily life, showcasing Hiroshige’s mastery of mood, perspective, and weather effects. The play of dark clouds and shimmering water evokes the unpredictability and fleeting drama of summer storms. This print became famous not only in Japan but also inspired Western artists like **Vincent van Gogh**, who admired its dynamic energy and unique depiction of rain. Today, it stands as a quintessential image of Japanese **ukiyo-e** art.
 
 ## Funny
 ---
+
+![Ocean](ocean.webp)
 
 “Can’t we just wait a few years and let the ocean come to us?”
 
