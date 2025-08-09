@@ -9,9 +9,9 @@
 - id: prev_link
   translation: Previous
 - id: no_newer_posts
-  translation: No newer posts.
+  translation: No newer posts
 - id: no_older_posts
-  translation: No older posts.
+  translation: No older posts
 - id: comments_disabled
   translation: Comments Disabled.
 - id: comments_activate_js
