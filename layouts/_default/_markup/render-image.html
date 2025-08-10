@@ -1,0 +1,11 @@
+{{ $alt := .Text }}
+{{ $title := .Title }}
+
+<img 
+    src="{{ .Destination }}" 
+    alt="{{ $alt }}"
+    title="{{ $title }}"
+    loading="lazy"
+    decoding="async"
+    style="max-width: 100%; height: auto;"
+>
