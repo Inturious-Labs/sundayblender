@@ -1,6 +1,6 @@
 ---
 title: "Testing for Buttondown's RSS Automation"
-date: 2025-08-10
+date: 2025-08-11
 description: "Latest in AI, global news, economy, and science - DeepSeek's breakthrough, Rubin Observatory"
 tags: ["ai", "deepseek", "openai", "anthropic", "bytedance", "samsung", "germany", "davos-2025", "climate-change", "thailand", "brazil", "rednote", "oscar-2025", "f1-racing", "nba" ]
 draft: false
