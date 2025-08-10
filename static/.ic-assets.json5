@@ -2,5 +2,23 @@
   {
     "match": ".well-known",
     "ignore": false
+  },
+  {
+    "match": "index.xml",
+    "headers": {
+      "Content-Type": "application/rss+xml; charset=UTF-8"
+    }
+  },
+  {
+    "match": "rss.xsl",
+    "headers": {
+      "Content-Type": "text/xsl; charset=UTF-8"
+    }
+  },
+  {
+    "match": "sitemap.xml",
+    "headers": {
+      "Content-Type": "application/xml; charset=UTF-8"
+    }
   }
 ]
