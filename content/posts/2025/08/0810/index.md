@@ -1,10 +1,10 @@
 ---
-title: "Testing for Buttondown's RSS Automation"
+title: "Testing for Buttondown's RSS Automation - Take 2"
 date: 2025-08-10
 description: "Latest in AI, global news, economy, and science - DeepSeek's breakthrough, Rubin Observatory"
 tags: ["ai", "deepseek", "openai", "anthropic", "bytedance", "samsung", "germany", "davos-2025", "climate-change", "thailand", "brazil", "rednote", "oscar-2025", "f1-racing", "nba" ]
 draft: false
-slug: "testing-for-rss-feed"
+slug: "testing-for-rss-feed-take-2"
 featured_image: "deepseek.png"
 ---
 
