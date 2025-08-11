@@ -2,7 +2,7 @@
 {{ $title := .Title }}
 
 <img 
-    src="{{ .Destination }}" 
+    src="{{ .Destination | absURL }}" 
     alt="{{ $alt }}"
     title="{{ $title }}"
     loading="lazy"
