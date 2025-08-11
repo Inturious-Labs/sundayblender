@@ -48,7 +48,7 @@ uglyURLs = false
 
 [[menu.main]]
 	name = "RSS"
-	url = "/index.xml"
+	url = "/rss/"
 	weight = 0.5
 
 [[menu.main]]
