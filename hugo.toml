@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://weekly.sundayblender.com/'
 languageCode = 'en-us'
 title = 'The Sunday Blender'
 canonifyURLs = true
