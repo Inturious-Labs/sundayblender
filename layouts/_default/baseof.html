@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="{{ $.Site.Language }}">
+    {{- partial "head.html" . -}}
+    <body>
+    	<div id="app">
+            {{- partial "mobile-header.html" . -}}
+            <!-- mobile header -->
+            <div id="content">
+                <div id="streamContainer" class="stream-container">
+                    {{- block "main" . }}{{- end }}
+                    </div>
+            </div>
+
+            {{- partial "sidebar.html" . -}}
+            {{- partial "extrabar.html" . -}}
+
+            {{- partial "mobile-footer.html" . -}}
+            <!-- mobile footer -->
+            </div>
+    {{ partial "journal.html" .}}
+    <!-- For compatibility. View https://github.com/AmazingRise/hugo-theme-diary/pull/135 for details.-->
+    {{- $hugoVersion := split (replaceRE ".*([0-9]+)\\.([0-9]+)\\.([0-9]+).*" "$1 $2 $3" hugo.Version) " " -}}
+    {{- if and (eq (int (index $hugoVersion 0)) 0) (ge (int (index $hugoVersion 1)) 101) -}}
+        {{- /* no leading slash */ -}}
+        <script src="{{"js/journal.js" | relURL}}"></script>
+    {{- else -}}
+        {{- /* with leading slash */ -}}
+        <script src="{{"/js/journal.js" | relURL}}"></script>
+    {{- end -}}
+    
+    <!-- Lazy Loading Enhancement -->
+    <script>
+        // Simple lazy loading enhancement for better performance
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add loading="lazy" to any images that don't have it
+            const images = document.querySelectorAll('img:not([loading])');
+            images.forEach(img => {
+                img.setAttribute('loading', 'lazy');
+                img.setAttribute('decoding', 'async');
+            });
+            
+            // Add loaded class to images when they load
+            images.forEach(img => {
+                if (img.complete) {
+                    img.classList.add('loaded');
+                } else {
+                    img.addEventListener('load', function() {
+                        this.classList.add('loaded');
+                    });
+                }
+            });
+        });
+    </script>
+    
+    </body>
+</html>
