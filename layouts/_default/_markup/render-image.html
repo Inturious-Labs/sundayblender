@@ -1,8 +1,26 @@
 {{ $alt := .Text }}
 {{ $title := .Title }}
+{{ $dst := .Destination }}
+
+{{/* 1) Try to resolve as a page resource in the current page bundle */}}
+{{ $res := .Page.Resources.GetMatch (printf "**%s" $dst) }}
+
+{{/* 2) Decide the final src */}}
+{{ $src := "" }}
+{{ if $res }}
+  {{/* Resource found: use its permalink (already absolute) */}}
+  {{ $src = $res.Permalink }}
+{{ else if hasPrefix $dst "http" }}
+  {{/* External URL: keep as-is */}}
+  {{ $src = $dst }}
+{{ else }}
+  {{/* Not a resource: treat as site-relative/static and absolutize */}}
+  {{ $src = ($dst | relURL | absURL) }}
+{{ end }}
+
 
 <img 
-    src="{{ .Destination | absURL }}" 
+    src="{{ $src }}" 
     alt="{{ $alt }}"
     title="{{ $title }}"
     loading="lazy"
