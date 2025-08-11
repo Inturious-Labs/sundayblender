@@ -4,6 +4,8 @@ description: "best news for kids"
 draft: false
 disableReadingTime: true
 disableToC: true
+disableSubscribe: true
+disablePagination: true
 build:
   list: false
   render: true
