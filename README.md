@@ -322,3 +322,34 @@ The newsletter forms include:
 - Unsubscribe information
 - GDPR-compliant language
 - No unnecessary data collection
+
+## Data Management & Backup
+
+### Email List Backup
+
+The `data/` folder serves as a backup repository for your newsletter subscriber list and other important data.
+
+#### Current Data Files
+
+**`substack_export_emails.csv`**
+- **Purpose**: Backup of newsletter subscriber emails from Substack export
+- **Content**: CSV file containing subscriber email addresses
+- **Usage**: Periodic backup of your current subscriber base
+- **Privacy**: Contains only email addresses, no personal information
+
+#### Backup Strategy
+
+**Periodic Backups**
+- Export current subscriber list from Buttondown monthly
+- Store in `data/` folder with descriptive filename
+- Include date in filename for version tracking
+- Example: `buttondown_emails_2025_01.csv`
+
+**File Naming Convention**
+```
+data/
+├── substack_export_emails.csv          # Original Substack export
+├── buttondown_emails_2025_01.csv      # January 2025 backup
+├── buttondown_emails_2025_02.csv      # February 2025 backup
+└── ...
+```
