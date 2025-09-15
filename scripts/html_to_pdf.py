@@ -92,8 +92,8 @@ def clean_html_for_pdf(html_path):
 
     body {
         font-family: 'Times New Roman', serif;
-        font-size: 13px !important;
-        line-height: 1.5 !important;
+        font-size: 20px !important;
+        line-height: 1.6 !important;
         color: #000 !important;
         background: white !important;
         margin: 0 !important;
@@ -140,10 +140,10 @@ def clean_html_for_pdf(html_path):
     }
 
     p {
-        font-size: 13px !important;
-        line-height: 1.5 !important;
-        margin-bottom: 10px !important;
-        text-indent: 12px;
+        font-size: 20px !important;
+        line-height: 1.6 !important;
+        margin-bottom: 12px !important;
+        text-indent: 15px;
         orphans: 2;
         widows: 2;
         word-wrap: break-word !important;
