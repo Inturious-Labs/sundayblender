@@ -76,11 +76,138 @@ def get_pdf_name(working_dir):
     return f"The-Sunday-Blender-{date}-{clean_title}.pdf"
 
 def clean_html_for_pdf(html_path):
-    """Remove unwanted sections from HTML before PDF conversion"""
+    """Remove unwanted sections and optimize HTML for A4 print PDF"""
     with open(html_path, 'r', encoding='utf-8') as f:
         html_content = f.read()
 
     soup = BeautifulSoup(html_content, 'html.parser')
+
+    # Add print-friendly CSS styles
+    print_css = """
+    <style type="text/css" media="print">
+    @page {
+        size: A4;
+        margin: 0.75in;
+    }
+
+    body {
+        font-family: 'Times New Roman', serif;
+        font-size: 14px !important;
+        line-height: 1.6 !important;
+        color: #000 !important;
+        background: white !important;
+        column-count: 2;
+        column-gap: 0.5in;
+        column-rule: 1px solid #ddd;
+        text-align: justify;
+    }
+
+    h1 {
+        font-size: 24px !important;
+        margin-bottom: 16px !important;
+        column-span: all;
+        text-align: center;
+        border-bottom: 2px solid #000;
+        padding-bottom: 8px;
+    }
+
+    h2 {
+        font-size: 18px !important;
+        margin: 16px 0 10px 0 !important;
+        font-weight: bold !important;
+        break-after: avoid;
+    }
+
+    h3 {
+        font-size: 16px !important;
+        margin: 12px 0 8px 0 !important;
+        font-weight: bold !important;
+    }
+
+    p {
+        font-size: 14px !important;
+        line-height: 1.6 !important;
+        margin-bottom: 12px !important;
+        text-indent: 16px;
+        orphans: 2;
+        widows: 2;
+    }
+
+    img {
+        max-width: 100% !important;
+        height: auto !important;
+        display: block !important;
+        margin: 12px auto !important;
+        border: 1px solid #ddd;
+        break-inside: avoid;
+    }
+
+    /* Make images fit within column width */
+    .content img,
+    article img,
+    main img {
+        max-width: 100% !important;
+        width: auto !important;
+        height: auto !important;
+        max-height: 3in !important;
+    }
+
+    /* Avoid breaking articles across columns when possible */
+    article, section {
+        break-inside: avoid-column;
+        margin-bottom: 16px;
+    }
+
+    /* Hide any navigation, footer, sidebar elements */
+    nav, aside, .sidebar, .navigation, .menu, .footer {
+        display: none !important;
+    }
+
+    /* Remove any background colors or patterns */
+    * {
+        background: transparent !important;
+        box-shadow: none !important;
+    }
+
+    /* Better spacing for lists */
+    ul, ol {
+        margin: 12px 0;
+        padding-left: 24px;
+    }
+
+    li {
+        margin-bottom: 6px;
+        line-height: 1.6;
+    }
+
+    /* Strong and emphasis */
+    strong, b {
+        font-weight: bold !important;
+    }
+
+    em, i {
+        font-style: italic !important;
+    }
+
+    /* Remove any fixed positioning or absolute positioning */
+    * {
+        position: static !important;
+    }
+    </style>
+    """
+
+    # Add the print CSS to the head
+    head = soup.find('head')
+    if head:
+        head.append(BeautifulSoup(print_css, 'html.parser'))
+    else:
+        # If no head tag, create one
+        head_tag = soup.new_tag('head')
+        head_tag.append(BeautifulSoup(print_css, 'html.parser'))
+        if soup.html:
+            soup.html.insert(0, head_tag)
+        else:
+            soup.insert(0, head_tag)
 
     # Remove table of contents section
     # Look for elements containing "Section" or table of contents
@@ -129,16 +256,18 @@ def convert_html_to_pdf(html_path, output_path):
     progress_thread.start()
 
     try:
-        # Try Chrome headless first
+        # Try Chrome headless first with print-optimized settings
         cmd = [
             '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
             '--headless',
             '--disable-gpu',
             '--print-to-pdf=' + str(output_path),
-            '--no-margins',
             '--print-to-pdf-no-header',
             '--disable-print-preview',
             '--hide-scrollbars',
+            '--run-all-compositor-stages-before-draw',
+            '--virtual-time-budget=15000',
+            '--disable-background-timer-throttling',
             str(html_path)
         ]
 
