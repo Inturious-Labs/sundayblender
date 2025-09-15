@@ -181,6 +181,46 @@ def clean_html_for_pdf(html_path):
         display: none !important;
     }
 
+    /* Hide header metadata elements */
+    .tags, .tag-list, .post-tags, .article-tags,
+    .description, .post-description, .excerpt, .summary,
+    .meta, .post-meta, .article-meta, .metadata,
+    .author, .byline, .post-author,
+    .date, .publish-date, .post-date,
+    .reading-time, .read-time, .time-to-read,
+    .breadcrumb, .breadcrumbs,
+    .share, .sharing, .social-share,
+    .category, .categories, .post-category,
+    .lead, .intro, .subtitle, .subheading {
+        display: none !important;
+    }
+
+    /* Hide elements by common class patterns */
+    [class*="tag"], [class*="meta"], [class*="author"],
+    [class*="date"], [class*="share"], [class*="social"],
+    [class*="breadcrumb"], [class*="category"],
+    [class*="description"], [class*="excerpt"],
+    [class*="reading"], [class*="time"],
+    [class*="summary"], [class*="intro"],
+    [class*="lead"], [class*="subtitle"] {
+        display: none !important;
+    }
+
+    /* Hide post description/summary that comes from frontmatter */
+    .post-summary, .article-summary,
+    .post-excerpt, .article-excerpt,
+    .entry-summary, .entry-excerpt,
+    .content-summary, .page-description,
+    .post-description, .article-description {
+        display: none !important;
+    }
+
+    /* Hide header navigation and menu items */
+    header nav, header .menu, header .navigation,
+    .header-nav, .header-menu, .site-nav {
+        display: none !important;
+    }
+
     /* Remove any background colors or patterns */
     * {
         background: transparent !important;
