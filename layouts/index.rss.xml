@@ -17,7 +17,7 @@
     {{ range .Paginator.Pages }}
     {{ if and (.IsPage) (.Params.date) }}
         <item>
-        <title>{{ .Title }}</title>
+        <title>The Sunday Blender · {{ .Title }}</title>
         <link>{{ .Permalink }}</link>
         <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
         {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
