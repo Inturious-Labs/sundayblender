@@ -87,19 +87,34 @@ def clean_html_for_pdf(html_path):
     <style type="text/css" media="print">
     @page {
         size: A4;
-        margin: 0.75in;
+        margin: 0.6in 0.5in;
     }
 
     body {
         font-family: 'Times New Roman', serif;
-        font-size: 14px !important;
-        line-height: 1.6 !important;
+        font-size: 13px !important;
+        line-height: 1.5 !important;
         color: #000 !important;
         background: white !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+        max-width: none !important;
+    }
+
+    .content-wrapper {
         column-count: 2;
-        column-gap: 0.5in;
+        column-gap: 0.25in;
         column-rule: 1px solid #ddd;
+        column-fill: balance;
         text-align: justify;
+        word-wrap: break-word;
+        hyphens: auto;
+        overflow-wrap: break-word;
+        padding: 0 !important;
+        margin: 0 !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
     }
 
     h1 {
@@ -125,12 +140,15 @@ def clean_html_for_pdf(html_path):
     }
 
     p {
-        font-size: 14px !important;
-        line-height: 1.6 !important;
-        margin-bottom: 12px !important;
-        text-indent: 16px;
+        font-size: 13px !important;
+        line-height: 1.5 !important;
+        margin-bottom: 10px !important;
+        text-indent: 12px;
         orphans: 2;
         widows: 2;
+        word-wrap: break-word !important;
+        hyphens: auto !important;
+        overflow-wrap: break-word !important;
     }
 
     img {
@@ -192,6 +210,14 @@ def clean_html_for_pdf(html_path):
     /* Remove any fixed positioning or absolute positioning */
     * {
         position: static !important;
+        word-wrap: break-word !important;
+        overflow-wrap: break-word !important;
+    }
+
+    /* Prevent any element from exceeding column width */
+    div, span, section, article, p, h1, h2, h3, h4, h5, h6 {
+        max-width: 100% !important;
+        box-sizing: border-box !important;
     }
     </style>
     """
@@ -239,6 +265,26 @@ def clean_html_for_pdf(html_path):
                                          string=lambda text: text and 'Previous Issues' in text)
     for section in prev_issues_sections:
         section.decompose()
+
+    # Wrap the main content in a content-wrapper div for better column control
+    body = soup.find('body')
+    if body:
+        # Find the main content area (usually main, article, or the body contents)
+        main_content = body.find(['main', 'article']) or body
+
+        if main_content and main_content.name != 'body':
+            # Wrap the main content
+            wrapper = soup.new_tag('div', **{'class': 'content-wrapper'})
+            main_content.wrap(wrapper)
+        else:
+            # If no specific main content found, wrap all body contents
+            wrapper = soup.new_tag('div', **{'class': 'content-wrapper'})
+            body_contents = list(body.children)
+            for child in body_contents:
+                if child.name:  # Skip text nodes
+                    child.extract()
+                    wrapper.append(child)
+            body.append(wrapper)
 
     # Create a temporary cleaned HTML file
     temp_html_path = html_path.parent / 'temp_cleaned.html'
