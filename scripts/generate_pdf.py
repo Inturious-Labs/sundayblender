@@ -144,8 +144,10 @@ def convert_to_pdf(markdown_file, output_dir=None):
     with open(markdown_file, 'r', encoding='utf-8') as f:
         content = f.read()
 
-    # Get title for filename
+    # Get title and date for filename
     title = get_post_title_from_frontmatter(content)
+    date_match = re.search(r'^date:\s*(.*?)\s*$', content, re.MULTILINE)
+    date = date_match.group(1).strip() if date_match else ""
 
     # Remove front matter, Unicode characters, figure captions, and convert WebP images
     clean_content = remove_frontmatter(content)
@@ -158,11 +160,15 @@ def convert_to_pdf(markdown_file, output_dir=None):
     with open(temp_md, 'w', encoding='utf-8') as f:
         f.write(clean_content)
 
+    # Create PDF filename: The-Sunday-Blender-YYYY-MM-DD-Title.pdf
+    clean_title = title.replace(' ', '-').replace('"', '').replace("'", "")
+    pdf_filename = f"The-Sunday-Blender-{date}-{clean_title}.pdf"
+
     # Determine output path
     if output_dir:
-        output_path = Path(output_dir) / f"{Path(markdown_file).parent.name}.pdf"
+        output_path = Path(output_dir) / pdf_filename
     else:
-        output_path = Path(markdown_file).parent / f"{Path(markdown_file).parent.name}.pdf"
+        output_path = Path(markdown_file).parent / pdf_filename
 
     try:
         # Use pandoc to convert to PDF - run from the working directory
