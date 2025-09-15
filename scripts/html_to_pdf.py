@@ -104,7 +104,7 @@ def clean_html_for_pdf(html_path):
 
     .content-wrapper {
         column-count: 2;
-        column-gap: 0.25in;
+        column-gap: 0.5in;
         column-rule: 1px solid #ddd;
         column-fill: balance;
         text-align: justify;
