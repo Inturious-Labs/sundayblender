@@ -12,6 +12,7 @@ import time
 import threading
 from pathlib import Path
 from datetime import datetime
+from bs4 import BeautifulSoup
 
 def show_progress(message, stop_event):
     """Show animated progress indicator"""
@@ -73,6 +74,51 @@ def get_pdf_name(working_dir):
     clean_title = re.sub(r'[<>:"/\\|?*]', '', clean_title)
 
     return f"The-Sunday-Blender-{date}-{clean_title}.pdf"
+
+def clean_html_for_pdf(html_path):
+    """Remove unwanted sections from HTML before PDF conversion"""
+    with open(html_path, 'r', encoding='utf-8') as f:
+        html_content = f.read()
+
+    soup = BeautifulSoup(html_content, 'html.parser')
+
+    # Remove table of contents section
+    # Look for elements containing "Section" or table of contents
+    toc_elements = soup.find_all(['div', 'section', 'nav'],
+                                 string=lambda text: text and ('Section' in text or 'Contents' in text))
+    for elem in toc_elements:
+        elem.decompose()
+
+    # Remove any elements with class or id containing 'toc', 'contents', 'section'
+    for selector in ['[class*="toc"]', '[id*="toc"]', '[class*="contents"]', '[id*="contents"]', '[class*="section"]']:
+        for elem in soup.select(selector):
+            elem.decompose()
+
+    # Remove "Previous Issues" section and everything after it
+    # Look for heading containing "Previous Issues"
+    prev_issues_heading = soup.find(['h1', 'h2', 'h3', 'h4', 'h5', 'h6'],
+                                    string=lambda text: text and 'Previous Issues' in text)
+
+    if prev_issues_heading:
+        # Remove everything from this heading onwards
+        current = prev_issues_heading
+        while current:
+            next_sibling = current.next_sibling
+            current.decompose()
+            current = next_sibling
+
+    # Also check for divs or sections containing "Previous Issues"
+    prev_issues_sections = soup.find_all(['div', 'section'],
+                                         string=lambda text: text and 'Previous Issues' in text)
+    for section in prev_issues_sections:
+        section.decompose()
+
+    # Create a temporary cleaned HTML file
+    temp_html_path = html_path.parent / 'temp_cleaned.html'
+    with open(temp_html_path, 'w', encoding='utf-8') as f:
+        f.write(str(soup))
+
+    return temp_html_path
 
 def convert_html_to_pdf(html_path, output_path):
     """Convert HTML to PDF automatically using Chrome headless"""
@@ -184,15 +230,24 @@ def main():
         output_path = Path(working_dir) / pdf_name
         print(f"📄 Output: {pdf_name}")
 
+        print("✂️ Cleaning HTML content...")
+        cleaned_html_path = clean_html_for_pdf(html_path)
+        print("✅ Removed table of contents and Previous Issues section")
+
         # Convert to PDF
-        if convert_html_to_pdf(html_path, output_path):
-            print(f"🎉 Success! PDF created: {output_path}")
-        else:
-            print("❌ Failed to create PDF")
-            sys.exit(1)
+        try:
+            if convert_html_to_pdf(cleaned_html_path, output_path):
+                print(f"🎉 Success! PDF created: {output_path}")
+            else:
+                print("❌ Failed to create PDF")
+                sys.exit(1)
+        finally:
+            # Clean up temporary file
+            if cleaned_html_path.exists():
+                cleaned_html_path.unlink()
 
     except Exception as e:
-        print(f"Error: {e}")
+        print(f"❌ Error: {e}")
         sys.exit(1)
 
 if __name__ == "__main__":
