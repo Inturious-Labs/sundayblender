@@ -19,6 +19,20 @@ def remove_frontmatter(content):
     pattern = r'^---\n.*?\n---\n'
     return re.sub(pattern, '', content, flags=re.DOTALL | re.MULTILINE)
 
+def remove_previous_issues_section(content):
+    """Remove Previous Issues section and everything after it"""
+    # Remove everything from "## Previous Issues" onwards
+    pattern = r'^## Previous Issues.*$'
+    lines = content.split('\n')
+    filtered_lines = []
+
+    for line in lines:
+        if line.startswith('## Previous Issues'):
+            break
+        filtered_lines.append(line)
+
+    return '\n'.join(filtered_lines)
+
 def remove_unicode_characters(content):
     """Remove non-ASCII Unicode characters that cause LaTeX issues"""
     # Replace common Unicode characters with ASCII equivalents or remove them
@@ -151,9 +165,22 @@ def convert_to_pdf(markdown_file, output_dir=None):
 
     # Remove front matter, Unicode characters, figure captions, and convert WebP images
     clean_content = remove_frontmatter(content)
+    clean_content = remove_previous_issues_section(clean_content)
     clean_content = remove_unicode_characters(clean_content)
     clean_content = remove_figure_captions(clean_content)
     clean_content = convert_webp_images(clean_content, Path(markdown_file).parent)
+
+    # Format date for display
+    formatted_date = date
+    if date and re.match(r'^\d{4}-\d{2}-\d{2}$', date):
+        # Convert YYYY-MM-DD to readable format
+        from datetime import datetime
+        date_obj = datetime.strptime(date, '%Y-%m-%d')
+        formatted_date = date_obj.strftime('%b %d, %Y')
+
+    # Add header with publication name, combined title and date
+    header = f"# The Sunday Blender\n\n**Issue {formatted_date} · {title}**\n\n---\n\n"
+    clean_content = header + clean_content
 
     # Create temporary markdown file without front matter
     temp_md = Path(markdown_file).parent / "temp_clean.md"
@@ -177,9 +204,7 @@ def convert_to_pdf(markdown_file, output_dir=None):
             temp_md.name,
             '-o', output_path.name,
             '--variable', 'geometry:margin=1in',
-            '--variable', 'fontsize=11pt',
-            '--toc',
-            '--toc-depth=2'
+            '--variable', 'fontsize=11pt'
         ]
 
         result = subprocess.run(cmd, capture_output=True, text=True, cwd=Path(markdown_file).parent)
