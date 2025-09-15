@@ -8,8 +8,19 @@ import os
 import sys
 import re
 import subprocess
+import time
+import threading
 from pathlib import Path
 from datetime import datetime
+
+def show_progress(message, stop_event):
+    """Show animated progress indicator"""
+    spinner = ['⠋', '⠙', '⠹', '⠸', '⠼', '⠴', '⠦', '⠧', '⠇', '⠏']
+    i = 0
+    while not stop_event.is_set():
+        print(f'\r{spinner[i % len(spinner)]} {message}', end='', flush=True)
+        i += 1
+        time.sleep(0.1)
 
 def find_newsletter_html(working_dir):
     """Find the built HTML file for the newsletter"""
@@ -65,6 +76,12 @@ def get_pdf_name(working_dir):
 
 def convert_html_to_pdf(html_path, output_path):
     """Convert HTML to PDF automatically using Chrome headless"""
+
+    # Start progress indicator
+    stop_event = threading.Event()
+    progress_thread = threading.Thread(target=show_progress, args=("Converting HTML to PDF", stop_event))
+    progress_thread.start()
+
     try:
         # Try Chrome headless first
         cmd = [
@@ -82,7 +99,9 @@ def convert_html_to_pdf(html_path, output_path):
         result = subprocess.run(cmd, capture_output=True, text=True)
 
         if result.returncode == 0 and Path(output_path).exists():
-            print(f"PDF created successfully using Chrome: {output_path}")
+            stop_event.set()
+            progress_thread.join()
+            print(f"\r✅ PDF created successfully using Chrome: {output_path}")
             return True
 
     except FileNotFoundError:
@@ -142,7 +161,10 @@ def convert_html_to_pdf(html_path, output_path):
     except Exception as e:
         print(f"Pandoc failed: {e}")
 
-    print("All automatic conversion methods failed.")
+    # Stop progress indicator on failure
+    stop_event.set()
+    progress_thread.join()
+    print("\r❌ All automatic conversion methods failed.")
     return False
 
 def main():
@@ -153,21 +175,20 @@ def main():
         working_dir = Path.cwd()
 
     try:
-        # Find the HTML file
+        print("🔍 Finding newsletter HTML file...")
         html_path = find_newsletter_html(working_dir)
-        print(f"Found HTML file: {html_path}")
+        print(f"✅ Found HTML file: {html_path}")
 
-        # Generate PDF filename
+        print("📝 Generating PDF filename...")
         pdf_name = get_pdf_name(working_dir)
         output_path = Path(working_dir) / pdf_name
-
-        print(f"Converting to: {output_path}")
+        print(f"📄 Output: {pdf_name}")
 
         # Convert to PDF
         if convert_html_to_pdf(html_path, output_path):
-            print(f"Success! PDF created: {output_path}")
+            print(f"🎉 Success! PDF created: {output_path}")
         else:
-            print("Failed to create PDF")
+            print("❌ Failed to create PDF")
             sys.exit(1)
 
     except Exception as e:
