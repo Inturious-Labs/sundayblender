@@ -25,6 +25,7 @@ https://www.nber.org/papers/w34255
 All-In Summit
 
 Meta Connect 2025 on Sep 17/18 on AI glasses
+https://x.com/mashable/status/1968117768760238166
 https://mashable.com/article/meta-connect-2025-what-to-expect?taid=68c9fa0a579bf30001e35bb8&utm_campaign=trueAnthem%3A+Trending+Content&utm_medium=trueAnthem&utm_source=twitter
 
 ## Global
@@ -32,10 +33,19 @@ https://mashable.com/article/meta-connect-2025-what-to-expect?taid=68c9fa0a579bf
 Why Shanghai is now more popular than Hong Kong for young Koreans
 https://www.scmp.com/lifestyle/travel-leisure/article/3325601/why-shanghai-now-more-popular-hong-kong-or-tokyo-young-koreans?utm_medium=Social&utm_source=Twitter#Echobox=1758066084
 
+Hong Kong's new policy to boost economy
+https://x.com/SCMPNews/status/1968144050411725254
+
 ## Economy & Finance
 
 The best investors in the world
 https://x.com/TheEconomist/status/1968102803336737091
+
+Power-hungry industries across Asia are ramping up investments in the energy transition
+https://x.com/business/status/1968123312438931622
+
+As the Arctic region thaws, there’s surging demand for icebreaker ships that can open it to business
+https://x.com/business/status/1968116472686714935
 
 
 ## Nature & Environment
@@ -65,6 +75,10 @@ https://x.com/SCMPNews/status/1968096611155792179
 
 
 ## This Day in History
+
+![Battle of the Sexes](./battle-of-the-sexes.jpg)
+Sep 20, 1973, Battle of the Sexes
+https://www.britannica.com/topic/Battle-of-the-Sexes-tennis
 
 ## Art of the Week
 
