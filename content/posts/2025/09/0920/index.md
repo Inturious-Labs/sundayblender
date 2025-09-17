@@ -42,6 +42,12 @@ https://x.com/TheEconomist/status/1968102803336737091
 
 ## Science
 
+Giant star blasting jets
+https://x.com/mashable/status/1968110186297520306
+
+Earth is going through changes
+https://x.com/Nature/status/1968108882883993877
+
 ## Lifestyle, Entertainment & Culture
 
 77th Emmy Award 2025
