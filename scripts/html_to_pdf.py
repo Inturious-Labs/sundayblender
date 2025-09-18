@@ -127,16 +127,29 @@ def clean_html_for_pdf(html_path):
     }
 
     h2 {
-        font-size: 18px !important;
-        margin: 16px 0 10px 0 !important;
+        font-size: 20px !important;
+        margin: 20px 0 12px 0 !important;
         font-weight: bold !important;
         break-after: avoid;
+        text-transform: uppercase !important;
+        letter-spacing: 1.5px !important;
+        background: linear-gradient(135deg, #8B4513 0%, #ffffff 100%) !important;
+        color: #000 !important;
+        padding: 8px 12px !important;
+        text-align: center !important;
+        border-radius: 3px !important;
+        font-family: 'Arial', sans-serif !important;
     }
 
     h3 {
-        font-size: 16px !important;
-        margin: 12px 0 8px 0 !important;
+        font-size: 18px !important;
+        margin: 16px 0 10px 0 !important;
         font-weight: bold !important;
+        text-transform: uppercase !important;
+        letter-spacing: 1px !important;
+        border-bottom: 3px solid #000 !important;
+        padding-bottom: 4px !important;
+        font-family: 'Arial', sans-serif !important;
     }
 
     p {
