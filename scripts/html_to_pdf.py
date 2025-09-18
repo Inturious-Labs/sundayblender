@@ -206,15 +206,21 @@ def clean_html_for_pdf(html_path, working_dir):
         letter-spacing: 1px !important;
         max-width: 80% !important;
         line-height: 1.3 !important;
+        text-align: center !important;
     }
 
     .issue-date {
-        font-family: 'Arial', sans-serif !important;
-        font-size: 16px !important;
+        font-family: 'Georgia', serif !important;
+        font-size: 18px !important;
         font-weight: normal !important;
+        font-style: italic !important;
         margin: 10px 0 0 0 !important;
         letter-spacing: 1px !important;
-        text-transform: uppercase !important;
+        max-width: 80% !important;
+        line-height: 1.3 !important;
+        text-align: center !important;
+        color: white !important;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8) !important;
     }
 
     .content-wrapper {
@@ -460,23 +466,21 @@ def clean_html_for_pdf(html_path, working_dir):
             else:
                 elem.decompose()
 
-    # Remove redundant article title and metadata (since we have magazine header now)
-    # Look for the main article title (usually h1) that matches our issue title
-    article_title = soup.find(['h1'], string=lambda text: text and text.strip() == header_info['title'])
-    if article_title:
-        article_title.decompose()
+    # Remove redundant newsletter name and issue title from content area (since we have magazine header now)
 
-    # Remove any metadata elements that might appear before the first section
-    # Look for elements containing date, author, or other metadata
-    metadata_patterns = [
-        lambda text: text and any(keyword in text.lower() for keyword in ['published', 'author', 'by ', 'date:']),
-        lambda text: text and header_info['date'] in text if header_info['date'] else False
-    ]
+    # Remove the post title div
+    for elem in soup.find_all('div', class_='post-title'):
+        elem.decompose()
 
-    for pattern in metadata_patterns:
-        metadata_elements = soup.find_all(['p', 'div', 'span'], string=pattern)
-        for elem in metadata_elements:
-            elem.decompose()
+    # Remove the single column header container
+    for elem in soup.find_all('div', class_='single-column-header-container'):
+        elem.decompose()
+
+    # Remove any elements containing the issue title text
+    if header_info['title']:
+        for elem in soup.find_all(['h1', 'h2', 'h3', 'div']):
+            if elem.get_text().strip() == header_info['title']:
+                elem.decompose()
 
     # Remove "Previous Issues" section and everything after it
     # Look for heading containing "Previous Issues"
@@ -524,11 +528,11 @@ def clean_html_for_pdf(html_path, working_dir):
         issue_title.string = header_info['title']
         header_content.append(issue_title)
 
-        # Issue date (if available)
-        if header_info['date']:
-            issue_date = soup.new_tag('div', **{'class': 'issue-date'})
-            issue_date.string = header_info['date']
-            header_content.append(issue_date)
+        # Issue date - create a copy of title styling but smaller
+        formatted_date = datetime.strptime(header_info['date'], '%Y-%m-%d').strftime('%b %d, %Y')
+        issue_date = soup.new_tag('div', **{'class': 'issue-title', 'style': 'font-size: 18px !important; margin-top: 10px !important; opacity: 0.8 !important;'})
+        issue_date.string = formatted_date
+        header_content.append(issue_date)
 
         header_div.append(header_content)
 
