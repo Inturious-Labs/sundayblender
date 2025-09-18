@@ -170,7 +170,7 @@ def clean_html_for_pdf(html_path, working_dir):
     }
 
     body {
-        font-family: 'Times New Roman', serif;
+        font-family: 'Georgia', serif;
         font-size: 20px !important;
         line-height: 1.6 !important;
         color: #000 !important;
