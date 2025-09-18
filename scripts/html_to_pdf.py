@@ -75,19 +75,53 @@ def get_pdf_name(working_dir):
 
     return f"The-Sunday-Blender-{date}-{clean_title}.pdf"
 
-def clean_html_for_pdf(html_path):
+def get_header_info(working_dir):
+    """Extract header information from frontmatter"""
+    working_path = Path(working_dir)
+    index_md = working_path / "index.md"
+
+    with open(index_md, 'r', encoding='utf-8') as f:
+        content = f.read()
+
+    # Extract title, featured image, and date
+    title_match = re.search(r'^title:\s*["\']?(.*?)["\']?\s*$', content, re.MULTILINE)
+    featured_match = re.search(r'^featured_image:\s*["\']?(.*?)["\']?\s*$', content, re.MULTILINE)
+    date_match = re.search(r'^date:\s*(.*?)\s*$', content, re.MULTILINE)
+
+    title = title_match.group(1).strip() if title_match else "Newsletter Issue"
+    featured_image = featured_match.group(1).strip() if featured_match else ""
+    date = date_match.group(1).strip() if date_match else ""
+
+    return {
+        'title': title,
+        'featured_image': featured_image,
+        'date': date
+    }
+
+def clean_html_for_pdf(html_path, working_dir):
     """Remove unwanted sections and optimize HTML for A4 print PDF"""
     with open(html_path, 'r', encoding='utf-8') as f:
         html_content = f.read()
 
     soup = BeautifulSoup(html_content, 'html.parser')
 
+    # Get header information
+    header_info = get_header_info(working_dir)
+
     # Add print-friendly CSS styles
+    # Get the absolute path to the featured image in the built HTML directory
+    if header_info['featured_image']:
+        # Extract directory from html_path to get the built directory
+        html_dir = Path(html_path).parent
+        featured_image_path = html_dir / header_info['featured_image']
+        featured_image_url = f"file://{featured_image_path}"
+    else:
+        featured_image_url = ""
     print_css = """
     <style type="text/css" media="print">
     @page {
         size: A4;
-        margin: 0.6in 0.5in 0.8in 0.5in;
+        margin: 0.3in 0.3in 0.8in 0.3in;
         @bottom-center {
             content: counter(page) "/" counter(pages);
             font-family: 'Arial', sans-serif;
@@ -106,6 +140,81 @@ def clean_html_for_pdf(html_path):
         padding: 0 !important;
         width: 100% !important;
         max-width: none !important;
+    }
+
+    .magazine-header {
+        width: 100% !important;
+        height: 4in !important;
+        position: relative !important;
+        margin: 0 0 0.3in 0 !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        page-break-inside: avoid !important;
+        overflow: hidden !important;
+    }
+
+    .magazine-header .background-image {
+        position: absolute !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+        z-index: 0 !important;
+    }
+
+    .magazine-header::before {
+        content: "" !important;
+        position: absolute !important;
+        top: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        bottom: 0 !important;
+        background: rgba(0, 0, 0, 0.7) !important;
+        z-index: 1 !important;
+    }
+
+    .header-content {
+        position: relative !important;
+        z-index: 2 !important;
+        text-align: center !important;
+        color: white !important;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8) !important;
+    }
+
+    .newsletter-name {
+        font-family: 'Times New Roman', serif !important;
+        font-size: 48px !important;
+        font-weight: bold !important;
+        margin: 0 0 10px 0 !important;
+        letter-spacing: 2px !important;
+        text-transform: uppercase !important;
+        border-top: 3px solid white !important;
+        border-bottom: 3px solid white !important;
+        padding: 15px 0 !important;
+        line-height: 1.1 !important;
+    }
+
+    .issue-title {
+        font-family: 'Georgia', serif !important;
+        font-size: 28px !important;
+        font-weight: normal !important;
+        font-style: italic !important;
+        margin: 15px 0 0 0 !important;
+        letter-spacing: 1px !important;
+        max-width: 80% !important;
+        line-height: 1.3 !important;
+    }
+
+    .issue-date {
+        font-family: 'Arial', sans-serif !important;
+        font-size: 16px !important;
+        font-weight: normal !important;
+        margin: 10px 0 0 0 !important;
+        letter-spacing: 1px !important;
+        text-transform: uppercase !important;
     }
 
     .content-wrapper {
@@ -351,6 +460,24 @@ def clean_html_for_pdf(html_path):
             else:
                 elem.decompose()
 
+    # Remove redundant article title and metadata (since we have magazine header now)
+    # Look for the main article title (usually h1) that matches our issue title
+    article_title = soup.find(['h1'], string=lambda text: text and text.strip() == header_info['title'])
+    if article_title:
+        article_title.decompose()
+
+    # Remove any metadata elements that might appear before the first section
+    # Look for elements containing date, author, or other metadata
+    metadata_patterns = [
+        lambda text: text and any(keyword in text.lower() for keyword in ['published', 'author', 'by ', 'date:']),
+        lambda text: text and header_info['date'] in text if header_info['date'] else False
+    ]
+
+    for pattern in metadata_patterns:
+        metadata_elements = soup.find_all(['p', 'div', 'span'], string=pattern)
+        for elem in metadata_elements:
+            elem.decompose()
+
     # Remove "Previous Issues" section and everything after it
     # Look for heading containing "Previous Issues"
     prev_issues_heading = soup.find(['h1', 'h2', 'h3', 'h4', 'h5', 'h6'],
@@ -370,22 +497,59 @@ def clean_html_for_pdf(html_path):
     for section in prev_issues_sections:
         section.decompose()
 
-    # Wrap the main content in a content-wrapper div for better column control
+    # Create magazine-style header and wrap the main content
     body = soup.find('body')
     if body:
+        # Create magazine header
+        header_div = soup.new_tag('div', **{'class': 'magazine-header'})
+
+        # Add background image if available
+        if header_info['featured_image']:
+            bg_img = soup.new_tag('img', **{
+                'class': 'background-image',
+                'src': header_info['featured_image'],
+                'alt': 'Featured image'
+            })
+            header_div.append(bg_img)
+
+        header_content = soup.new_tag('div', **{'class': 'header-content'})
+
+        # Newsletter name
+        newsletter_name = soup.new_tag('div', **{'class': 'newsletter-name'})
+        newsletter_name.string = "The Sunday Blender"
+        header_content.append(newsletter_name)
+
+        # Issue title
+        issue_title = soup.new_tag('div', **{'class': 'issue-title'})
+        issue_title.string = header_info['title']
+        header_content.append(issue_title)
+
+        # Issue date (if available)
+        if header_info['date']:
+            issue_date = soup.new_tag('div', **{'class': 'issue-date'})
+            issue_date.string = header_info['date']
+            header_content.append(issue_date)
+
+        header_div.append(header_content)
+
         # Find the main content area (usually main, article, or the body contents)
         main_content = body.find(['main', 'article']) or body
 
         if main_content and main_content.name != 'body':
-            # Wrap the main content
+            # Insert header before main content and wrap main content
+            main_content.insert_before(header_div)
             wrapper = soup.new_tag('div', **{'class': 'content-wrapper'})
             main_content.wrap(wrapper)
         else:
-            # If no specific main content found, wrap all body contents
+            # If no specific main content found, create structure
+            # First add the header
+            body.insert(0, header_div)
+
+            # Then wrap remaining content
             wrapper = soup.new_tag('div', **{'class': 'content-wrapper'})
             body_contents = list(body.children)
             for child in body_contents:
-                if child.name:  # Skip text nodes
+                if child.name and child != header_div:  # Skip text nodes and header
                     child.extract()
                     wrapper.append(child)
             body.append(wrapper)
@@ -523,7 +687,7 @@ def main():
             print(f"📄 Output: \033[96m{pdf_name}\033[0m")
 
         print("✂️ Cleaning HTML content...")
-        cleaned_html_path = clean_html_for_pdf(html_path)
+        cleaned_html_path = clean_html_for_pdf(html_path, working_dir)
 
         # Convert to PDF
         try:
