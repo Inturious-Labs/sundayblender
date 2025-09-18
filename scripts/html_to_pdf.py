@@ -8,6 +8,7 @@ import os
 import sys
 import re
 import subprocess
+import shutil
 import time
 import threading
 from pathlib import Path
@@ -699,6 +700,19 @@ def main():
         try:
             if convert_html_to_pdf(cleaned_html_path, output_path):
                 print(f"🎉 Success! PDF created: \033[96m{output_path.name}\033[0m")
+
+                # Copy to static/pdf folder (always use original name, overwrite existing)
+                original_pdf_name = pdf_name  # Use original name without counter
+                static_pdf_path = Path("../../../../../static/pdf") / original_pdf_name
+                static_pdf_path.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copy2(output_path, static_pdf_path)
+
+                public_url = f"/pdf/{original_pdf_name}"
+                print(f"📂 Copied to static folder: \033[92mstatic/pdf/{original_pdf_name}\033[0m")
+                print(f"🌐 Public URL: \033[94m{public_url}\033[0m")
+                print(f"\n💡 Add this link to your newsletter:")
+                print(f"   \033[93m[Download PDF]({public_url})\033[0m")
+
             else:
                 print("❌ Failed to create PDF")
                 sys.exit(1)
