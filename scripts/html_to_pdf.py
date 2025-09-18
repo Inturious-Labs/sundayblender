@@ -202,11 +202,12 @@ def clean_html_for_pdf(html_path, working_dir):
         font-size: 28px !important;
         font-weight: normal !important;
         font-style: italic !important;
-        margin: 15px 0 0 0 !important;
+        margin: 15px auto 0 auto !important;
         letter-spacing: 1px !important;
         max-width: 80% !important;
         line-height: 1.3 !important;
         text-align: center !important;
+        width: 100% !important;
     }
 
     .issue-date {
@@ -214,11 +215,12 @@ def clean_html_for_pdf(html_path, working_dir):
         font-size: 18px !important;
         font-weight: normal !important;
         font-style: italic !important;
-        margin: 10px 0 0 0 !important;
+        margin: 10px auto 0 auto !important;
         letter-spacing: 1px !important;
         max-width: 80% !important;
         line-height: 1.3 !important;
         text-align: center !important;
+        width: 100% !important;
         color: white !important;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8) !important;
     }
