@@ -71,8 +71,10 @@ def get_pdf_name(working_dir):
     date = date_match.group(1).strip() if date_match else ""
 
     # Clean title for filename
-    clean_title = title.replace(' ', '-').replace('"', '').replace("'", "")
+    clean_title = title.replace(' ', '-').replace('"', '').replace("'", "").replace(',', '-')
     clean_title = re.sub(r'[<>:"/\\|?*]', '', clean_title)
+    # Remove consecutive hyphens
+    clean_title = re.sub(r'-+', '-', clean_title)
 
     return f"The-Sunday-Blender-{date}-{clean_title}.pdf"
 
