@@ -100,4 +100,7 @@ hugo_modules/
 .hugo_extended/
 
 # Local development files
-.local/ 
+.local/
+
+# PDF files in content folders (keep only static/pdf/ versions)
+content/**/*.pdf 
