@@ -42,7 +42,7 @@ def find_newsletter_html(working_dir):
     if not slug_match:
         raise ValueError("No slug found in frontmatter")
 
-    slug = slug_match.group(1).strip()
+    slug = slug_match.group(1).strip().strip('"\'')  # Strip quotes and whitespace
 
     # Look for the built HTML file - navigate to project root
     # From content/posts/2025/09/0913 -> go up to sundayblender root (5 levels up)
