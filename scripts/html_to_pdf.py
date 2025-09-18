@@ -78,6 +78,27 @@ def get_pdf_name(working_dir):
 
     return f"The-Sunday-Blender-{date}-{clean_title}.pdf"
 
+def get_base_url(working_dir):
+    """Get base URL from Hugo config"""
+    try:
+        # Find Hugo root and read config
+        current_dir = Path(working_dir).resolve()
+        for parent in [current_dir] + list(current_dir.parents):
+            hugo_config = parent / 'hugo.toml'
+            if hugo_config.exists():
+                with open(hugo_config, 'r', encoding='utf-8') as f:
+                    config_content = f.read()
+
+                # Extract baseURL
+                url_match = re.search(r"baseURL\s*=\s*['\"](.+?)['\"]", config_content)
+                if url_match:
+                    return url_match.group(1).rstrip('/')
+                break
+
+        return "weekly.sundayblender.com"  # fallback
+    except:
+        return "weekly.sundayblender.com"  # fallback
+
 def get_header_info(working_dir):
     """Extract header information from frontmatter"""
     working_path = Path(working_dir)
@@ -111,6 +132,9 @@ def clean_html_for_pdf(html_path, working_dir):
     # Get header information
     header_info = get_header_info(working_dir)
 
+    # Get base URL from Hugo config
+    base_url = get_base_url(working_dir)
+
     # Add print-friendly CSS styles
     # Get the absolute path to the featured image in the built HTML directory
     if header_info['featured_image']:
@@ -125,10 +149,22 @@ def clean_html_for_pdf(html_path, working_dir):
     @page {
         size: A4;
         margin: 0.3in 0.3in 0.8in 0.3in;
+        @bottom-left {
+            content: "© 2025 Clayton Man";
+            font-family: 'Arial', sans-serif;
+            font-size: 10px;
+            color: #666;
+        }
         @bottom-center {
             content: counter(page) "/" counter(pages);
             font-family: 'Arial', sans-serif;
             font-size: 12px;
+            color: #666;
+        }
+        @bottom-right {
+            content: """ + f'"{base_url}"' + """;
+            font-family: 'Arial', sans-serif;
+            font-size: 10px;
             color: #666;
         }
     }
@@ -505,6 +541,11 @@ def clean_html_for_pdf(html_path, working_dir):
                                          string=lambda text: text and 'Previous Issues' in text)
     for section in prev_issues_sections:
         section.decompose()
+
+    # Move copyright to page footer by hiding it from content (it's now in @bottom-left)
+    for elem in soup.find_all(string=lambda text: text and 'Clayton Man' in text):
+        if elem.parent:
+            elem.parent['style'] = 'display: none;'
 
     # Create magazine-style header and wrap the main content
     body = soup.find('body')
