@@ -87,7 +87,13 @@ def clean_html_for_pdf(html_path):
     <style type="text/css" media="print">
     @page {
         size: A4;
-        margin: 0.6in 0.5in;
+        margin: 0.6in 0.5in 0.8in 0.5in;
+        @bottom-center {
+            content: counter(page) "/" counter(pages);
+            font-family: 'Arial', sans-serif;
+            font-size: 12px;
+            color: #666;
+        }
     }
 
     body {
