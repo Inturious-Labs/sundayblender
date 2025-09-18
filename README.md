@@ -329,6 +329,47 @@ The newsletter forms include:
 - GDPR-compliant language
 - No unnecessary data collection
 
+## PDF Generation
+
+Generate PDF versions of your newsletter posts for easy sharing and archiving.
+
+### Quick Command
+
+From any newsletter directory (containing `index.md`), simply run:
+
+```bash
+tsb-make-pdf
+```
+
+### Prerequisites
+
+- **Hugo site must be built first**: Run `hugo` to generate HTML files
+- **Chrome browser**: For best PDF quality (fallbacks to Safari and pandoc available)
+
+### How It Works
+
+1. **Find Built HTML**: Locates the Hugo-generated HTML file in `public/p/slug/index.html`
+2. **Clean Content**: Removes table of contents and "Previous Issues" sections for cleaner PDF
+3. **Convert to PDF**: Uses Chrome headless for high-quality conversion
+4. **Smart Naming**: Generates filename like `The-Sunday-Blender-2025-09-13-Newsletter-Title.pdf`
+
+### Complete Workflow
+
+```bash
+# 1. Navigate to newsletter directory
+cd content/posts/2025/09/0913
+
+# 2. Build the site (if not already built)
+hugo
+
+# 3. Generate PDF
+tsb-make-pdf
+```
+
+### Output
+
+The PDF will be saved in the same directory as your `index.md` file with a descriptive filename based on your post's title and date.
+
 ## Data Management & Backup
 
 ### Email List Backup
