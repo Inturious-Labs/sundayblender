@@ -394,6 +394,7 @@ def convert_html_to_pdf(html_path, output_path):
             '--disable-gpu',
             '--print-to-pdf=' + str(output_path),
             '--print-to-pdf-no-header',
+            '--no-pdf-header-footer',
             '--disable-print-preview',
             '--hide-scrollbars',
             '--run-all-compositor-stages-before-draw',
