@@ -5,7 +5,8 @@ description: "Latest in AI, global news, economy, and science - DeepSeek's break
 tags: ["ai", "deepseek", "openai", "anthropic", "bytedance", "samsung", "germany", "davos-2025", "climate-change", "thailand", "brazil", "rednote", "oscar-2025", "f1-racing", "nba" ]
 draft: false
 slug: "deepseek-challenges-ai-powerhouses"
-featured_image: "deepseek.png"
+featured_image: "deepseek.jpg"
+images: ["deepseek.jpg"]
 ---
 
 ## Tech
@@ -13,7 +14,7 @@ featured_image: "deepseek.png"
 
 **DeepSeek**, a Chinese AI startup initially part of the hedge fund High-Flyer, has released an open-source model, *DeepSeek-R1*, that outperforms leading AI models from Western companies like OpenAI on several benchmarks, despite limited resources. DeepSeek refined their AI using software-driven resource optimization and innovative model architecture rather than relying on extensive hardware. By open-sourcing their model, DeepSeek fosters collaborative innovation crucial for their advancements, potentially challenging current US AI export limitations.
 
-![deepseek](deepseek.png)
+![deepseek](deepseek.jpg)
 
 **Rubin Observatory** is a new telescope under construction in Chile, atop a mountain that is 2,682-meters (8,800-feet) tall. The telescope will catalogue billions of new objects and produce a new map of the entire night sky every three days with the largest digital camera ever made. By the end of the survey, this 3.2-gigapixel camera will have catalogued 20 billion galaxies and collected up to 60 petabytes of data—roughly three times the amount currently stored by the US Library of Congress.
 
@@ -29,7 +30,7 @@ Google is investing an additional $1 billion in **Anthropic**, an OpenAI competi
 
 Startup **Stegra** began constructing the world's first industrial-scale green steel plant in Sweden, using hydrogen produced via renewable energy. This initiative aims to cut CO₂ emissions from steel production, which currently surpasses India's total output. The project aligns with EU mandates for carbon-neutral heavy industries by 2030.
 
-![Stegra](stegra.png)
+![Stegra](stegra.jpg)
 
 **Samsung** launched its latest AI-powered smartphone, the **S25**, in an attempt to challenge Apple's dominance in the US market. Despite a market share of 23% compared to Apple's 53%, Samsung is aiming to leverage its AI advancements to capture more market share. The S25 boasts improved performance with a 40% boost in neural processing, and enhanced integration with third-party apps like WhatsApp and Spotify. Samsung's S25 introduces a shift from traditional touchscreens to an AI voice assistant-driven experience.
 
@@ -68,7 +69,7 @@ Towana Looney from Alabama has become the longest-living recipient of a pig orga
 
 Firefly Aerospace's lunar lander, **Blue Ghost**, launched on January 15, has sent back spectacular images of Earth as it journeys to the moon. Carrying NASA experiments, the spacecraft is expected to land on the lunar surface on March 2.
 
-![Firefly](firefly.png)
+![Firefly](firefly.jpg)
 
 President Donald Trump has suspended $300 billion in federal loans designated for **clean energy projects**, affecting manufacturing and renewable energy initiatives across the U.S. This move has raised concerns within the clean energy sector about the future of such projects.
 
@@ -96,7 +97,7 @@ Historic wildfires fueled by **Santa Ana** winds (80–100 mph) ravaged drought-
 
 Amid concerns over a potential TikTok ban in the U.S., millions of American users migrated to **RedNote**, a Chinese social media app known domestically as Xiaohongshu. This surge saw RedNote's U.S. daily active users skyrocket from fewer than 700,000 to approximately 3.4 million within days. RedNote, originally focused on lifestyle and shopping content, became a platform for cross-cultural exchange. American users shared various content from their daily lives, which sometimes clashed with Chinese cultural norms and created numerous LOL moments. In response to the influx, RedNote recruited American influencers to promote the app, aiming to highlight its user-friendly design and international appeal.
 
-![Rednote](rednote.png)
+![Rednote](rednote.jpg)
 
 The 2025 **Oscar** nominations, announced on January 23, highlight a significant international presence. Leading with 13 nominations, "Emilia Pérez" has set a record for non-English-language films. Following closely, "The Brutalist" and "Wicked" each received 10 nominations. Sebastian Stan earned a Best Actor nod for portraying Donald Trump in "The Apprentice." The nominations reflect a shift towards global cinema and diverse storytelling in Hollywood.
 
@@ -142,4 +143,4 @@ A **British** choir with an average age of 94 was officially recognized by Guinn
 
 ---
 
-Thanks for reading The Sunday Blender! Subscribe for free to receive new posts and support my work.
+Thanks for reading! If you enjoy this newsletter, please share it with friends who might also find it interesting and refreshing, if not for themselves, at least for their kids. Send your suggestions and feedback to `clayton.man@sundayblender.com`. I can use your help to make news interesting for kids, together.

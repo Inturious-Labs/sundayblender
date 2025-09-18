@@ -6,6 +6,7 @@ tags: ["ai", "deepseek", "huawei", "crypto", "space-tech", "one-republic", "taiw
 draft: false
 slug: "an-exuberant-chinese-new-year"
 featured_image: "chinese_ne.jpg"
+images: ["chinese_ne.jpg"]
 ---
 
 ## Tech
@@ -15,15 +16,21 @@ featured_image: "chinese_ne.jpg"
 
 The **U.S. Department of Defense** has restricted access to DeepSeek, a Chinese AI application, after discovering that employees connected to Chinese servers. The move underscores growing apprehension about data security and foreign technology influence within government agencies.
 
+![Huawei](huawei-mat.jpg)
+
 **Huawei**'s launch of the Mate 70 smartphone, featuring its proprietary HarmonyOS Next operating system, marks a significant move towards reducing reliance on U.S. technology. This development underscores the deepening tech divide between the U.S. and China. HarmonyOS Next is designed to rival Apple's iOS and Google's Android, aiming to establish itself as a third major mobile operating system. Huawei has been actively preparing developers to adapt their apps, with 15,000 native applications ready, including Tencent's WeChat and Alibaba's Taobao.
 
 **Skild AI**, a Pittsburgh-based robotics startup founded in 2023, is in discussions with SoftBank to lead a $500 million funding round, potentially elevating its valuation to nearly $4 billion. This follows a $300 million Series A round in July 2024, which valued the company at $1.5 billion. Skild AI is developing a scalable foundation model for robotics, aiming to create a general-purpose "brain" enabling various robots to operate safely and effectively alongside humans.
 
 Former Senator Kyrsten Sinema and Chris LaCivita, President Trump's 2024 co-campaign manager, have joined cryptocurrency **Coinbase**'s Global Advisory Council. This move comes as the crypto industry seeks legitimacy under the new Trump administration, which has signaled a friendlier approach compared to previous regulations.
 
+![Unitree](unitree-h1.jpg)
+
 During the 2025 Spring Festival Gala, held on January 28, 2025, in Beijing, China showcased its advancements in robotics with a captivating performance featuring 16 humanoid robots developed by Hangzhou Yushu Technology (**Unitree**). The robots, dressed in red jackets, performed a traditional Chinese folk dance alongside human dancers, impressively spinning, tossing, and catching red handkerchiefs in perfect synchronization.
 
 In December 2024, China's Chang Guang Satellite Technology achieved a significant milestone by attaining a 100 gigabit-per-second data transmission rate in satellite-to-ground laser communication. This breakthrough surpasses previous records and positions China ahead of SpaceX's Starlink in this domain. The achievement was accomplished using the Jilin-1 satellite constellation and a mobile ground station equipped with an optical telescope. This advancement is a major step toward 6G technology, highlighting China's rapid progress in satellite communications and its competitive stance against global players like SpaceX.
+
+![Renault](renault-5.webp)
 
 The all-electric **Renault 5**, a modern remake of the iconic 1970s hatchback, has been awarded the WhatCar’s Car of the Year Award for 2025. Priced from £22,995, it combines nostalgic design with advanced technology and impressive performance.
 
@@ -32,13 +39,19 @@ Anticipation builds for **Range Rover**'s inaugural electric SUV, set to debut t
 ## Global
 ---
 
+![One Republic](one_republ.jpg)
+
 On January 28, 2025, American pop rock band OneRepublic performed their hit song "Counting Stars" at **China**'s Spring Festival Gala. Broadcast live from Wuhan's Yellow Crane Tower, this event marked a rare appearance by a U.S. band on China's most-watched annual TV program. The Spring Festival Gala, hosted by China Central Television (CCTV), is an annual tradition featuring musical performances, comedy sketches, and cultural showcases. With viewership in the hundreds of millions, the gala is one of the biggest televised events worldwide, symbolizing unity and celebration for the Lunar New Year. OneRepublic's inclusion in the gala is significant as it reflects China's cultural openness and a desire to showcase international talent during a major national event. This move can be seen as an effort to strengthen cultural exchange and mutual understanding between China and the United States.
 
 On January 21, 2025, a magnitude 6.4 earthquake struck Chiayi County in southern **Taiwan**, with its epicenter located 38 kilometers southeast of Chiayi at a depth of 10 kilometers. The quake resulted in 27 minor injuries and caused structural damage. Taiwan Semiconductor Manufacturing Co. (TSMC) temporarily evacuated workers for safety inspections but reported normal operations resuming shortly after. Taiwan, situated on the Pacific "Ring of Fire," experiences frequent seismic activity, necessitating strict building codes and public safety measures.
 
+![Mahakumbh](mahakumbh.jpeg)
+
 During the Maha Kumbh Mela in Prayagraj, Uttar Pradesh in Northern **India**, a tragic stampede occurred in the early morning hours as millions of Hindu devotees gathered for a ritual bath at the confluence of the Ganges, Yamuna, and Saraswati rivers. The incident resulted in at least 30 deaths and 60 injuries. Witnesses reported that pilgrims pleaded with police to open more routes to alleviate overcrowding, but their requests went unheeded, leading to panic and chaos.
 
 An Air Busan Airbus A321-231, caught fire at Gimhae International Airport in Busan, **South Korea**, while preparing for departure to Hong Kong. The fire originated in the aircraft's tail section and spread to the fuselage. All 176 individuals on board—169 passengers and seven crew members—were evacuated using inflatable slides. Seven people sustained minor injuries during the evacuation and were treated at local hospitals. This incident follows a recent Jeju Air crash at Muan International Airport, which resulted in 179 fatalities.
+
+![mid-air](mid-air-ca.jpg)
 
 On January 29, 2025, an American Eagle Bombardier CRJ700, operating as Flight 5342 from Wichita, Kansas, collided mid-air with a **U.S.** Army Black Hawk helicopter near Ronald Reagan Washington National Airport. All 67 individuals aboard both aircraft perished. Preliminary investigations suggest the helicopter was flying above its authorized altitude and lacked Automatic Dependent Surveillance-Broadcast (ADS-B) technology, which could have alerted air traffic control to its position.
 
@@ -62,6 +75,8 @@ The **eurozone** economy showed zero growth at the end of 2024, with Germany, it
 
 Scientists have developed detailed maps revealing ice-free regions of Antarctica, offering valuable information about the continent's unique ecosystems. These areas, though limited in extent, harbor diverse biological communities and provide critical insights into life adaptation in extreme environments. The new maps are expected to aid in conservation efforts and guide future research initiatives.
 
+![Hand Axe](handaxe_11.jpeg)
+
 Archaeologists have uncovered hand axes in the Iraqi desert that may date back 1.5 million years. This finding could provide valuable insights into early human tool-making and migration patterns in the region.
 
 A concerning study has found that microplastics can reach the brains of mice within hours of consumption, raising questions about the potential health impacts of microplastic pollution.
@@ -84,16 +99,21 @@ The Lunar New Year commenced on January 29, 2025, ushering in the Year of the Wo
 
 During the 2025 Chinese New Year holiday, China's film industry experienced a remarkable resurgence. On January 29, the first day of the Spring Festival, the box office reached a record-breaking 1.805 billion yuan (approximately $249 million), with 35.15 million moviegoers nationwide, surpassing previous records set in 2021.
 
+![fire aid](fireaid1.jpg)
+
 On January 30, 2025, Los Angeles hosted the FireAid benefit concert to support communities affected by recent wildfires. The event spanned two venues—Intuit Dome and Kia Forum—and featured over 20 artists, including Billie Eilish, Lady Gaga, Green Day, and Dr. Dre. Notably, surviving members of Nirvana reunited for a special performance. The concert raised significant funds through ticket sales and donations, with U2 contributing $1 million and Steve Ballmer pledging to match all donations made during the event.
 
 Communal living, or co-living, is gaining popularity as individuals seek affordable housing and a sense of community. This model offers shared spaces and amenities, fostering social connections and reducing living costs. The global co-living market was valued at approximately $13.3 billion in 2022 and is projected to grow significantly, reaching around $63.8 billion by 2031. Factors driving this trend include rising urban housing costs, increased loneliness, and a desire for flexible living arrangements. Co-living appeals to various demographics, including young professionals and students, by providing a balance between privacy and community engagement.
 
 ## Sports
 ---
+![NBA](nba.jpg)
 
 In a recent matchup, the Golden State Warriors overcame the Oklahoma City Thunder with a 116-109 victory at the Chase Center. Andrew Wiggins led the Warriors with 27 points. Despite the Thunder's Shai Gilgeous-Alexander achieving an impressive 52-point game, the Warriors, led by Stephen Curry, secured a crucial comeback in the second half. Curry contributed decisive plays, including a key three-pointer, to clinch the win.
 
 McLaren's CEO, Zak Brown, predicts an intense championship contest among four teams in the upcoming 2025 season. Following McLaren's first constructors' championship win in 26 years, Brown foresees a competitive battle involving McLaren, Red Bull, and Ferrari. Notable drivers expected to contend include Lando Norris and Oscar Piastri for McLaren, Max Verstappen for Red Bull, and Lewis Hamilton and Charles Leclerc for Ferrari. Hamilton, who recently transitioned from Mercedes to Ferrari, is aiming for his eighth title at the age of 40.
+
+![Hamilton](hamilton.webp)
 
 Lewis Hamilton, now driving for Ferrari after his move from Mercedes, was involved in a crash during pre-season testing at the Circuit de Barcelona-Catalunya. While Hamilton was unharmed, the incident caused significant damage to the car and disrupted teammate Charles Leclerc's testing schedule. This event has led to discussions about Hamilton's adaptation to his new team and machinery.
 
@@ -104,10 +124,12 @@ David Beckham, co-owner of Inter Miami, has revealed that Lionel Messi plans to 
 ## Funny
 ---
 
+![Chess](chess_mast.jpg)
+
 Norwegian Chess grandmaster Magnus Carlsen withdrew from the World Rapid and Blitz Chess Championships in New York after being fined $200 for wearing jeans, which violated the event's dress code. Offered the chance to change attire, Carlsen declined, citing it as a matter of principle.
 
 After being missing for nine days, Athena, a 4-year-old German Shepherd mix from Green Cove Springs, Florida, returned home on Christmas Eve. At 2:30 a.m., she rang the doorbell, alerting her owner, Brooke Comer. The heartwarming reunion was captured on their Ring camera.
 
 ---
 
-Thanks for reading The Sunday Blender! Subscribe for free to receive new posts and support my work.
+Thanks for reading! If you enjoy this newsletter, please share it with friends who might also find it interesting and refreshing, if not for themselves, at least for their kids. Send your suggestions and feedback to `clayton.man@sundayblender.com`. I can use your help to make news interesting for kids, together.
