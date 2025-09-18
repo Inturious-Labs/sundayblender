@@ -362,7 +362,7 @@ def convert_html_to_pdf(html_path, output_path):
         if result.returncode == 0 and Path(output_path).exists():
             stop_event.set()
             progress_thread.join()
-            print(f"\r✅ PDF created successfully using Chrome: {output_path}")
+            print("\r", end="")  # Clear the progress indicator
             return True
 
     except FileNotFoundError:
@@ -395,7 +395,6 @@ def convert_html_to_pdf(html_path, output_path):
         result = subprocess.run(['osascript', '/tmp/safari_pdf.scpt'], capture_output=True)
 
         if result.returncode == 0:
-            print(f"PDF created using Safari: {output_path}")
             return True
 
     except:
@@ -414,7 +413,6 @@ def convert_html_to_pdf(html_path, output_path):
                               env={**os.environ, 'PATH': '/usr/local/texlive/2025basic/bin/universal-darwin:' + os.environ.get('PATH', '')})
 
         if result.returncode == 0:
-            print(f"PDF created using pandoc: {output_path}")
             return True
         else:
             print(f"Pandoc error: {result.stderr}")
@@ -443,16 +441,29 @@ def main():
         print("📝 Generating PDF filename...")
         pdf_name = get_pdf_name(working_dir)
         output_path = Path(working_dir) / pdf_name
-        print(f"📄 Output: {pdf_name}")
+
+        # If file exists, add counter to avoid overwriting
+        if output_path.exists():
+            base_name = output_path.stem  # filename without extension
+            extension = output_path.suffix  # .pdf
+            counter = 1
+
+            while output_path.exists():
+                new_name = f"{base_name}_{counter:02d}{extension}"
+                output_path = Path(working_dir) / new_name
+                counter += 1
+
+            print(f"📄 Output: \033[96m{output_path.name}\033[0m (file exists, using counter)")
+        else:
+            print(f"📄 Output: \033[96m{pdf_name}\033[0m")
 
         print("✂️ Cleaning HTML content...")
         cleaned_html_path = clean_html_for_pdf(html_path)
-        print("✅ Removed table of contents and Previous Issues section")
 
         # Convert to PDF
         try:
             if convert_html_to_pdf(cleaned_html_path, output_path):
-                print(f"🎉 Success! PDF created: {output_path}")
+                print(f"🎉 Success! PDF created: \033[96m{output_path.name}\033[0m")
             else:
                 print("❌ Failed to create PDF")
                 sys.exit(1)
