@@ -1,14 +1,16 @@
 {{ if not .Params.hideNewsletter }}
-<div class="newsletter-signup">
+<div class="newsletter-signup" data-ab-test="newsletter-position">
     <div class="newsletter-divider"></div>
     <div class="newsletter-container">
         <div class="newsletter-content">
             <p>Get the Sunday Blender weekly newsletter delivered to your inbox</p>
-            
-            <form action="https://buttondown.com/api/emails/embed-subscribe/sundayblender" 
-                  method="post" 
+
+            <form action="https://buttondown.com/api/emails/embed-subscribe/sundayblender"
+                  method="post"
                   class="newsletter-form"
-                  target="_blank">
+                  target="_blank"
+                  data-ab-variant=""
+                  data-ab-position="">
                 
                 <div class="form-group">
                     <input type="email" 
@@ -168,28 +170,111 @@ document.addEventListener('DOMContentLoaded', function() {
     const form = document.querySelector('.newsletter-form');
     const emailInput = document.querySelector('#newsletter-email');
     const submitButton = document.querySelector('.newsletter-button');
-    
+    const newsletterSignup = document.querySelector('.newsletter-signup');
+
+    // A/B Test Logic - Newsletter Position
+    function initializeABTest() {
+        // Check if user already has a test assignment
+        let testVariant = localStorage.getItem('newsletter_ab_variant');
+        let testPosition = localStorage.getItem('newsletter_ab_position');
+
+        if (!testVariant) {
+            // Randomly assign user to variant A (bottom) or B (top)
+            testVariant = Math.random() < 0.5 ? 'A' : 'B';
+            testPosition = testVariant === 'A' ? 'bottom' : 'top';
+
+            // Store assignment
+            localStorage.setItem('newsletter_ab_variant', testVariant);
+            localStorage.setItem('newsletter_ab_position', testPosition);
+
+            // Track assignment in GA4
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'newsletter_ab_test_assigned', {
+                    'custom_parameter_1': testVariant,
+                    'custom_parameter_2': testPosition,
+                    'event_category': 'Newsletter A/B Test',
+                    'event_label': `Variant ${testVariant} - ${testPosition}`
+                });
+            }
+        }
+
+        // Set form attributes
+        if (form) {
+            form.setAttribute('data-ab-variant', testVariant);
+            form.setAttribute('data-ab-position', testPosition);
+        }
+
+        // Move form to correct position
+        if (testPosition === 'top') {
+            const topPlacement = document.getElementById('newsletter-top-placement');
+            const bottomPlacement = document.getElementById('newsletter-bottom-placement');
+
+            if (topPlacement && bottomPlacement && newsletterSignup) {
+                topPlacement.appendChild(newsletterSignup);
+                topPlacement.style.display = 'block';
+                bottomPlacement.style.display = 'none';
+            }
+        }
+
+        return { testVariant, testPosition };
+    }
+
+    // Initialize A/B test
+    const { testVariant, testPosition } = initializeABTest();
+
     if (form && emailInput && submitButton) {
         form.addEventListener('submit', function(e) {
             // Basic email validation
             const email = emailInput.value.trim();
             const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-            
+
             if (!emailRegex.test(email)) {
                 e.preventDefault();
                 alert('Please enter a valid email address.');
                 return;
             }
-            
+
+            // Track newsletter signup conversion in GA4
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'newsletter_signup_attempt', {
+                    'custom_parameter_1': testVariant,
+                    'custom_parameter_2': testPosition,
+                    'event_category': 'Newsletter A/B Test',
+                    'event_label': `Conversion - Variant ${testVariant} - ${testPosition}`,
+                    'value': 1
+                });
+            }
+
             // Show loading state
             submitButton.textContent = 'Subscribing...';
             submitButton.disabled = true;
-            
+
             // Reset button after a delay (form will open in new tab)
             setTimeout(() => {
                 submitButton.textContent = 'Subscribe';
                 submitButton.disabled = false;
+
+                // Track successful signup after delay
+                if (typeof gtag !== 'undefined') {
+                    gtag('event', 'newsletter_signup_success', {
+                        'custom_parameter_1': testVariant,
+                        'custom_parameter_2': testPosition,
+                        'event_category': 'Newsletter A/B Test',
+                        'event_label': `Success - Variant ${testVariant} - ${testPosition}`,
+                        'value': 1
+                    });
+                }
             }, 2000);
+        });
+    }
+
+    // Track page view with A/B test info
+    if (typeof gtag !== 'undefined') {
+        gtag('event', 'newsletter_ab_test_exposure', {
+            'custom_parameter_1': testVariant,
+            'custom_parameter_2': testPosition,
+            'event_category': 'Newsletter A/B Test',
+            'event_label': `Exposure - Variant ${testVariant} - ${testPosition}`
         });
     }
 });

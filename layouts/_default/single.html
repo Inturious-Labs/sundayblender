@@ -61,6 +61,11 @@
                 </div>
             </div>
             
+            <!-- Newsletter Sign-up Form - Top placement for A/B testing -->
+            <div id="newsletter-top-placement" style="display: none;">
+                <!-- Newsletter form will be moved here by JavaScript for Variant B -->
+            </div>
+
             <div class="post-body-wrapper">
                 {{ if .Params.enableVue }}
                 <div class="post-body">
@@ -75,10 +80,12 @@
                 </div>
             </div>
             
-            <!-- Newsletter Sign-up Form - Only show if not disabled -->
-            {{ if not .Params.disableSubscribe }}
-                {{- partial "newsletter-signup.html" . -}}
-            {{ end }}
+            <!-- Newsletter Sign-up Form - Bottom placement (default) -->
+            <div id="newsletter-bottom-placement">
+                {{ if not .Params.disableSubscribe }}
+                    {{- partial "newsletter-signup.html" . -}}
+                {{ end }}
+            </div>
             
             <!-- Post pagination - Only show if not disabled -->
             {{ if not .Params.disablePagination }}
