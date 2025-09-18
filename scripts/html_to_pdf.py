@@ -287,6 +287,39 @@ def clean_html_for_pdf(html_path):
         for elem in soup.select(selector):
             elem.decompose()
 
+    # Remove newsletter signup forms/boxes
+    # Look for forms with action containing 'buttondown' or 'newsletter'
+    signup_forms = soup.find_all('form', action=lambda x: x and ('buttondown' in x.lower() or 'newsletter' in x.lower()))
+    for form in signup_forms:
+        form.decompose()
+
+    # Remove elements with newsletter-related classes or IDs
+    newsletter_selectors = [
+        '[class*="newsletter"]', '[id*="newsletter"]',
+        '[class*="signup"]', '[id*="signup"]',
+        '[class*="subscribe"]', '[id*="subscribe"]',
+        '[class*="email"]', '[id*="email"]'
+    ]
+    for selector in newsletter_selectors:
+        for elem in soup.select(selector):
+            # Only remove if it contains signup-related text
+            elem_text = elem.get_text().lower() if elem.get_text() else ''
+            if any(keyword in elem_text for keyword in ['subscribe', 'newsletter', 'email', 'signup', 'join']):
+                elem.decompose()
+
+    # Look for divs/sections containing newsletter signup text
+    signup_keywords = ['subscribe', 'newsletter signup', 'join our newsletter', 'get updates', 'email updates']
+    for keyword in signup_keywords:
+        signup_elements = soup.find_all(['div', 'section', 'form'],
+                                       string=lambda text: text and keyword.lower() in text.lower())
+        for elem in signup_elements:
+            # Find the parent container that likely contains the whole signup box
+            parent = elem.parent
+            if parent and parent.name in ['div', 'section', 'aside']:
+                parent.decompose()
+            else:
+                elem.decompose()
+
     # Remove "Previous Issues" section and everything after it
     # Look for heading containing "Previous Issues"
     prev_issues_heading = soup.find(['h1', 'h2', 'h3', 'h4', 'h5', 'h6'],
