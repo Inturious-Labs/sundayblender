@@ -287,6 +287,18 @@ def clean_html_for_pdf(html_path):
         for elem in soup.select(selector):
             elem.decompose()
 
+    # Remove navigation elements
+    # Remove nav elements and elements with nav-related classes
+    nav_selectors = [
+        'nav',
+        '[class*="nav"]', '[id*="nav"]',
+        '[class*="menu"]', '[id*="menu"]',
+        'header nav', 'header ul', '.header-nav', '.site-nav'
+    ]
+    for selector in nav_selectors:
+        for elem in soup.select(selector):
+            elem.decompose()
+
     # Remove newsletter signup forms/boxes
     # Look for forms with action containing 'buttondown' or 'newsletter'
     signup_forms = soup.find_all('form', action=lambda x: x and ('buttondown' in x.lower() or 'newsletter' in x.lower()))
