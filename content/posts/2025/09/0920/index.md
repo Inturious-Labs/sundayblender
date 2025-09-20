@@ -2,13 +2,13 @@
 title: "All You Need Is Another AI Research Report"
 date: 2025-09-20
 slug: "all-you-need-is-another-ai-research-report"
-description: "TBD, placeholder for now"
-tags: [news]
-keywords: []
+description: "It's a busy week of AI reports and summits. OpenAI, DeepSeek, and Anthropic all published reports that reveal interesting findings about how AI is being used. More traditional companies like Meta and Huawei used their muscles to host DevCon events that drew tens of thousands. All-in Podcast crew placed itself firmly in the center of crypto + AI for America."
+tags: ["openai", "deepseek", "anthropic", "meta", "huawei", "china", "japan", "nasa", "cycling", "table tennis"]
+keywords: ["chatGPT", "deepseek", "anthropic", "meta", "huawei", "Emmy's Awards 2025", "Robert Redford", "Noah Lyles", "parafencing", "Christina's World", "Andrew Wyeth" ]
 draft: true
+featured_image: "hero-ray-ban.jpg"
+images: ["hero-ray-ban.jpg"]
 ---
-
-![Hero Image](hero-ray-ban.jpg)
 
 ## Editor's Notes
 
@@ -40,7 +40,7 @@ Of course, the biggest help you can do for The Sunday Blender, is to share it wi
 
 The All-In Summit 2025 was held September 7-10 in Los Angeles. The event was organized by the **All-In Podcast** hosts. The 2025 summit marked a decisive shift from 2024's speculation to conviction. AI evolved from experimental apps to core infrastructure, with leaders from **DeepMind**, **Tesla**, and **Eric Schmidt** positioning AI as the ultimate accelerator for scientific discovery and productivity. Discussions moved from "if AI will matter" to "where profits will accrue" - focusing on edge AI, robotics integration, and domain-specific applications. Notable absences included **Mark Zuckerberg**, **Nvidia**, **Microsoft**, and **Amazon** representatives, while **Elon Musk** appeared more focused and described **Optimus** as potentially "the most valuable product in history". The `$7,500`-per-ticket event reflected industry consensus that disruption is inevitable - the only question being who captures the profit pools.
 
-![Ray Ban](ray-ban.jpg)
+![Ray Ban](ray-ban-glass.jpg)
 
 **Meta**'s Connect 2025 showcased the company's vision for AI-powered smart glasses as the next computing platform. The flagship Meta **Ray-Ban** Display features a built-in lens display and revolutionary Neural Band wristband controller using electromyography to detect hand gestures for text input. Ray-Ban Meta Gen 2 offers double battery life, 3K video recording, and conversation focus technology. **Oakley** Meta Vanguard targets athletes with fitness integration and automatic workout highlights. Hyperscape technology creates photorealistic VR replicas of real rooms. **Zuckerberg** positioned glasses as "personal superintelligence" vessels, representing Meta's clearest post-smartphone strategy. However, the live AI demo embarrassingly failed during the keynote.
 
