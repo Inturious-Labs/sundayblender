@@ -19,6 +19,12 @@ hugo server --buildDrafts
 hugo server -D
 ```
 
+To view draft content with future dates (specific to The Sunday Blender workflow):
+
+```
+hugo server -D -F
+```
+
 When publish the site, typically you do *NOT* want to include `draft`, `future`, or `expired content`, just do:
 
 ```

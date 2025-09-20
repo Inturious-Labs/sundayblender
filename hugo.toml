@@ -15,13 +15,13 @@ googleAnalytics = "G-9WB2PSGYTC"
 	category = "categories"
 
 [params]
-	subtitle = "making news interesting for kids"
+	subtitle = "make news interesting for kids"
 	description = 'The Sunday Blender - the best news for kids to learn English and the world'
 	enableOpenGraph = true
 	enableTwitterCards = true
 	enableReadingTime = true
 	author = "Clayton Man"
-	author_bio = "A newsman making the best news for kids"
+	author_bio = "A newsman making the best news for kids with AI tools"
 	author_image = "/img/author.jpg"
 	logo = "/img/logo.png"
 	favicon = "/img/favicon.ico"
