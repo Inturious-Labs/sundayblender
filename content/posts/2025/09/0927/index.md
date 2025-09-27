@@ -102,6 +102,8 @@ English superstar **Harry Kane** has had an extraordinary start to the 2025/26 B
 
 ## This Day in History
 
+![Model T](model-t.jpg)
+
 On **September 27, 1908**, automotive history was made when the first **Ford Model T** rolled off the assembly line at the Piquette Avenue Plant in Detroit, Michigan. Henry Ford's revolutionary "Tin Lizzie" was designed to be affordable, reliable, and simple enough for ordinary Americans to own and maintain. Priced at `$825`, the Model T featured a `20-horsepower`, four-cylinder engine and could reach speeds of `40-45 mph`. Ford's vision was to create "a motor car for the great multitude," democratizing transportation that had previously been a luxury for the wealthy. The Model T's durability, ease of repair, and mass production techniques would transform it into the world's first truly popular automobile, eventually selling over `15 million` units and fundamentally changing American society, culture, and the global economy.
 
 ## Art of the Week
