@@ -46,8 +46,11 @@
 <link rel="manifest" href="{{.Site.Params.manifest}}">
 {{end}}
   
+<!-- Canonical URL: use custom if set, otherwise generate automatically -->
 {{if .Params.canonicalUrl}}
 <link rel="canonical" href="{{.Params.canonicalUrl}}" />
+{{else}}
+<link rel="canonical" href="{{ .Permalink }}" />
 {{end}}
 
 <!-- favicon -->
