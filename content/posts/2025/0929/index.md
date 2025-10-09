@@ -14,17 +14,43 @@ draft: true
 
 ## Global
 
+Israel and Hamas have agreed to implement the first phase of a peace plan
+https://x.com/USATODAY/status/1976072263880352106
+https://x.com/AP/status/1976069026125152281
+
+More air traffic controllers called in sick as shutdown grinds on
+https://x.com/Forbes/status/1976071368086261989
+
+
 ## Economy & Finance
+
+China's golden week consumer spending
 
 ## Nature & Environment
 
 ## Science
 
+Nobel Prize
+
 ## Lifestyle, Entertainment & Culture
+
+The row between JR Rowling and Emma Watson
+
+Oktoberfest
+
 
 ## Sports
 
+Pogaacha's epic 5-wins in a row
+
+Chinese basketball player joined NBA's Portland Trailblazers
+
+Chicago marathon
+
 ## This Day in History
+
+Imagine was released on Oct 11, 1971
+https://en.wikipedia.org/wiki/Imagine_(song)
 
 ## Art of the Week
 
