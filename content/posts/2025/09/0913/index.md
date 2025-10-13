@@ -7,6 +7,7 @@ tags: ["Apple", "Nissan", "Japan", "China", "AI", "McLaren", "Tesla", "Oracle", 
 featured_image: "apple.webp"
 images: ["apple.webp"]
 draft: false
+enable_rapport: true
 ---
 
 ## Tech

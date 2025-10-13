@@ -108,6 +108,23 @@
                 {{- end }}
             {{- end }}
             
+            <!-- Rapport Comments Widget -->
+            {{ if .Params.enable_rapport }}
+            <div style="margin: 3rem 0; padding: 2rem; background: #f8f9fa; border-radius: 8px;">
+                <h3 style="margin-bottom: 1.5rem;">Comments & Discussion</h3>
+                <script src="https://kdcro-gqaaa-aaaai-q34gq-cai.icp0.io/ic-agent-bundle.js"></script>
+                <script src="https://kdcro-gqaaa-aaaai-q34gq-cai.icp0.io/ic-agent.js"></script>
+                <script src="https://kdcro-gqaaa-aaaai-q34gq-cai.icp0.io/widget.js"></script>
+                <div id="rapport"></div>
+                <script>
+                  ICComments.init({
+                    canisterId: 'kedx2-liaaa-aaaai-q34ga-cai',
+                    pageUrl: '{{ .Permalink }}'
+                  });
+                </script>
+            </div>
+            {{ end }}
+
             <!-- Newsletter Sign-up Form - Bottom placement (default) -->
             <div id="newsletter-bottom-placement">
                 {{ if not .Params.disableSubscribe }}
