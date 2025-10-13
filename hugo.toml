@@ -17,6 +17,7 @@ googleAnalytics = "G-9WB2PSGYTC"
 [params]
 	subtitle = "make news interesting for kids"
 	description = 'The Sunday Blender - the best news for kids to learn English and the world'
+	googleSiteVerification = "JxPX7y3VViNkvKcIUZV1Mm0afi-kVQ8c2dI4QaVXZJM"
 	enableOpenGraph = true
 	enableTwitterCards = true
 	enableReadingTime = true
