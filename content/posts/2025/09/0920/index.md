@@ -8,6 +8,7 @@ keywords: ["chatGPT", "deepseek", "anthropic", "meta", "huawei", "Emmy's Awards 
 draft: false
 featured_image: "hero-ray-ban.jpg"
 images: ["hero-ray-ban.jpg"]
+enable_rapport: true
 ---
 
 ## Editor's Notes
