@@ -103,4 +103,7 @@ hugo_modules/
 .local/
 
 # PDF files in content folders (keep only static/pdf/ versions)
-content/**/*.pdf 
+content/**/*.pdf
+
+# Project planning (to avoid triggering CI/CD on plan updates)
+PLAN.md 

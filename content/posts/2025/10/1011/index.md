@@ -8,6 +8,7 @@ keywords: ["Djokovic", "Vacherot", "Sora 2", "EvenUp", "HavocAI", "government sh
 featured_image: "djokovic.jpg"
 images: ["djokovic.jpg"]
 draft: false
+enable_rapport: true
 ---
 
 ## Editor's Words
