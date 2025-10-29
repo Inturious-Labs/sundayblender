@@ -13,9 +13,19 @@ enable_rapport: true
 
 ## Tech
 
+2 million fusion-powered homes by 2035 for China
+
+The burst of vibe coding
+
+The launch of Grokipedia
+
+Visa is adding new stablecoins across 4 different blockchains
+
 ## Global
 
 Trump-Xi meeting
+
+FII sumit in Saudi Arabia
 
 ## Economy & Finance
 
@@ -27,11 +37,21 @@ Trump-Xi meeting
 
 Tradition of Holloween
 
+Tradition of 重阳节
+
 ## Sports
 
 Cristiano Ronaldo Jr. 's drafting into U-16 squad 
 
+Australia woman's 733 push-ups in one hour world record
+
+Real Madrid vs Barcelona 2:1
+
+patrick Mahomes shook off the worst start to a game in his career to win over Washington Commanders
+
 ## This Day in History
+
+Titanic had its world premiere at the Tokyo International Film Festival on November 1, 1997. 
 
 ## Art of the Week
 
