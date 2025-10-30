@@ -21,6 +21,8 @@ The launch of Grokipedia
 
 Visa is adding new stablecoins across 4 different blockchains
 
+Nvidia GTC Conference
+
 ## Global
 
 Trump-Xi meeting
