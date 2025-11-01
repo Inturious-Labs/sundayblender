@@ -343,7 +343,9 @@ tsb-make-pdf
 
 ### Prerequisites
 
-- **Hugo site must be built first**: Run `hugo` to generate HTML files
+- **Hugo development server must be running**: Run `hugo server` in a separate terminal
+  - The PDF generation script loads images from `http://localhost:1313`
+  - If the server isn't running, images won't display in the PDF
 - **Chrome browser**: For best PDF quality (fallbacks to Safari and pandoc available)
 
 ### How It Works
@@ -356,13 +358,13 @@ tsb-make-pdf
 ### Complete Workflow
 
 ```bash
-# 1. Navigate to newsletter directory
+# 1. Start Hugo development server (in a separate terminal)
+hugo server
+
+# 2. Navigate to newsletter directory
 cd content/posts/2025/09/0913
 
-# 2. Build the site (if not already built)
-hugo
-
-# 3. Generate PDF
+# 3. Generate PDF (while Hugo server is running)
 tsb-make-pdf
 ```
 
