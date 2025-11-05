@@ -3,7 +3,7 @@
     <div class="newsletter-divider"></div>
     <div class="newsletter-container">
         <div class="newsletter-content">
-            <p>Get the Sunday Blender weekly newsletter delivered to your inbox</p>
+            <p>Get the weekly issues delivered to your inbox</p>
 
             <form action="https://buttondown.com/api/emails/embed-subscribe/sundayblender"
                   method="post"
@@ -37,7 +37,7 @@
 
 <style>
 .newsletter-signup {
-    margin: 1rem 0;
+    margin: 0.5rem 0;
     padding: 1.5rem;
     background: transparent;
     border: none;
@@ -70,12 +70,13 @@
     opacity: 0.8;
     line-height: 1.5;
     color: #666;
+    text-align: center;
 }
 
 .newsletter-form {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 0.75rem;
 }
 
 .form-group {
@@ -129,7 +130,7 @@
 }
 
 .newsletter-privacy {
-    margin-top: 0.5rem;
+    margin-top: 0.1rem;
     text-align: center;
     opacity: 0.8;
     font-size: 0.85rem;
@@ -138,7 +139,7 @@
 /* Responsive design */
 @media (max-width: 768px) {
     .newsletter-signup {
-        margin: 1.5rem 0;
+        margin: 0.75rem 0;
         padding: 1rem;
     }
     
@@ -152,13 +153,20 @@
     }
 }
 
+/* Reduce space between site subtitle and newsletter */
+@media screen and (max-width: 768px) {
+    .single-column-header-container {
+        padding-bottom: 8px !important;
+    }
+}
+
 /* Dark mode support */
 @media (prefers-color-scheme: dark) {
     .newsletter-input {
         background: rgba(255, 255, 255, 0.9);
         color: #333;
     }
-    
+
     .newsletter-input:focus {
         background: white;
     }
