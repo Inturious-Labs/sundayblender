@@ -1,5 +1,16 @@
 {{ define "main" }}
 
+    <!-- Newsletter signup placement -->
+    <div id="newsletter-top-placement" style="display: none;">
+        <!-- A/B test will move the newsletter here if user is in top variant -->
+    </div>
+
+    {{ partial "newsletter-signup.html" . }}
+
+    <div id="newsletter-bottom-placement">
+        <!-- Default placement for newsletter (bottom variant) -->
+    </div>
+
     <div class="post-list-container post-list-container-no-background">
         {{ $paginator := .Paginate (where .Site.RegularPages "Params.hidden" "!=" true) }}
         {{range $paginator.Pages }}
