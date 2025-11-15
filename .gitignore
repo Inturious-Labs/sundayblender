@@ -105,5 +105,10 @@ hugo_modules/
 # PDF files in content folders (keep only static/pdf/ versions)
 content/**/*.pdf
 
+# Sensitive data - email lists and personal information
+data/**/*.csv
+data/**/*.xlsx
+data/**/*.json
+
 # Project planning (to avoid triggering CI/CD on plan updates)
 PLAN.md 
