@@ -318,7 +318,6 @@ def clean_html_for_pdf(html_path, working_dir):
         font-size: 20px !important;
         line-height: 1.6 !important;
         margin-bottom: 12px !important;
-        text-indent: 15px;
         orphans: 2;
         widows: 2;
         word-wrap: break-word !important;
