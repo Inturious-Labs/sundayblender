@@ -53,6 +53,7 @@ In November 2025, a Czech shepherd led his flock of sheep and goats on a four-da
 ## Nature & Environment
 
 ![Northern Light](light.jpg)
+*by [Lu Wei, Massachusetts, USA](https://imluwei.wixsite.com/photos)*
 
 This week's spectacular northern lights were triggered by an X5.1 solar flare—2025's strongest—that sent charged particles hurtling toward Earth. When these particles collided with atmospheric gases, they created breathtaking displays of green, pink, purple, and red dancing across the night sky Tuesday and Wednesday nights. The auroras were so intense they reached unusually far south to Florida and Texas, stunning residents unaccustomed to seeing this typically Arctic phenomenon. Even urban skygazers in Chicago, Boston, and Denver witnessed glowing skies from downtown locations. Social media exploded with breathtaking photos showing shimmering curtains of color, while smartphone cameras revealed delicate hues invisible to the naked eye.
 
