@@ -308,26 +308,31 @@ The composer automatically truncates tweets to 280 chars. If you see issues:
 ### Common Commands
 
 ```bash
-# Interactive menu (most common)
+# Interactive menu (most common - use this!)
+cd ~/sundayblender
+source venv/bin/activate
 ./scripts/schedule_tweets.sh
 
 # Check queue status
 python scripts/lib/check_queue_status.py
 
-# Manual cron run (testing)
-python scripts/post_scheduled_tweets.py
-
-# Test Twitter connection
-python scripts/test_twitter_connection.py
-
-# Post a test tweet
-python scripts/post_test_tweet.py "Test message" --yes
-
-# View logs
+# View logs in real-time
 tail -f logs/twitter_bot.log
+
+# Manual cron run (testing)
+./run_twitter_bot.sh
 
 # Check if paused
 python scripts/lib/manage_queue.py --status
+
+# Pause posting
+./scripts/schedule_tweets.sh  # Select option 2
+
+# Resume posting
+./scripts/schedule_tweets.sh  # Select option 3
+
+# Clear queue
+./scripts/schedule_tweets.sh  # Select option 4
 ```
 
 ### Queue Data Location
