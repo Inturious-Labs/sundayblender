@@ -4,6 +4,11 @@
 
 The Sunday Blender's canister URL: [https://bf52x-nyaaa-aaaan-qz5aq-cai.icp0.io/](https://bf52x-nyaaa-aaaan-qz5aq-cai.icp0.io/)
 
+## Additional Documentation
+
+- [PLAN.md](PLAN.md) - Project roadmap and planning
+- [TWITTER_BOT_README.md](TWITTER_BOT_README.md) - Twitter bot documentation
+
 ## Deploy, Test & Publish
 
 Start Hugo's development server to view the hot-loaded site
