@@ -78,6 +78,42 @@ Get The Sunday Blender delivered to your inbox every Saturday:
 
 </div>
 
+### Prefer RSS?
+
+Subscribe using your favorite RSS reader:
+
+<div style="background: #f5f5f5; padding: 20px; border-radius: 8px; margin: 20px 0;">
+  <input type="text" id="rssUrl" value="https://weekly.sundayblender.com/index.xml" readonly style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px; font-family: monospace; background: white;">
+  <button onclick="copyRssUrl()" style="margin-top: 10px; padding: 8px 16px; background: #007cba; color: white; border: none; border-radius: 4px; cursor: pointer;">
+    Copy URL
+  </button>
+</div>
+
+Popular RSS readers: [Feedly](https://feedly.com/), [Feeder](https://feeder.co/), [Inoreader](https://www.inoreader.com/), [NetNewsWire](https://netnewswire.com/)
+
+<script>
+function copyRssUrl() {
+  const rssUrl = document.getElementById('rssUrl');
+  rssUrl.select();
+  rssUrl.setSelectionRange(0, 99999);
+
+  try {
+    document.execCommand('copy');
+    const button = event.target;
+    const originalText = button.textContent;
+    button.textContent = 'Copied!';
+    button.style.background = '#28a745';
+
+    setTimeout(() => {
+      button.textContent = originalText;
+      button.style.background = '#007cba';
+    }, 2000);
+  } catch (err) {
+    console.log('Copy failed');
+  }
+}
+</script>
+
 ## How You Can Contribute
 
 - If you find this weekly newsletter useful, it would be very cool if you could **share** it with your friends who have similar needs and encourage them to subscribe
