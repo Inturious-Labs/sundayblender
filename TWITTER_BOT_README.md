@@ -1,6 +1,6 @@
 # Twitter Bot for The Sunday Blender
 
-Automated tweet scheduling system that posts stories from your weekly newsletter to @SundayBlender over 7 days.
+Automated tweet scheduling system that posts stories to [@SundayBlender](https://x.com/SundayBlender) over 7 days.
 
 ## 📋 Table of Contents
 
@@ -16,6 +16,7 @@ Automated tweet scheduling system that posts stories from your weekly newsletter
 ## Overview
 
 This bot automatically:
+
 1. Parses stories from your Sunday Blender articles
 2. Generates tweets with smart truncation (280 char limit)
 3. Schedules tweets over 7 days at optimal times (8 AM, 12 PM, 6 PM UTC+8)
@@ -24,13 +25,13 @@ This bot automatically:
 
 ## Features
 
-✅ **Interactive Menu** - View queue status, create schedules, pause/resume
-✅ **Smart Truncation** - Automatically fits stories to 280 characters
-✅ **Image Support** - Attaches story images to tweets
-✅ **Flexible Scheduling** - Spread tweets over customizable days
-✅ **Pause/Resume** - Stop and restart posting without losing progress
-✅ **Progress Tracking** - See what's posted, what's pending
-✅ **Error Handling** - Robust retry logic and logging
+- ✅ **Interactive Menu** - View queue status, create schedules, pause/resume
+- ✅ **Smart Truncation** - Automatically fits stories to 280 characters
+- ✅ **Image Support** - Attaches story images to tweets
+- ✅ **Flexible Scheduling** - Spread tweets over customizable days
+- ✅ **Pause/Resume** - Stop and restart posting without losing progress
+- ✅ **Progress Tracking** - See what's posted, what's pending
+- ✅ **Error Handling** - Robust retry logic and logging
 
 ---
 
@@ -45,7 +46,7 @@ You've already set up:
 ### 2. Install Dependencies
 
 ```bash
-pip install tweepy python-dotenv pyyaml
+pip3 install tweepy python-dotenv pyyaml
 ```
 
 ### 3. Verify Setup
@@ -53,7 +54,7 @@ pip install tweepy python-dotenv pyyaml
 Test your Twitter connection:
 
 ```bash
-python scripts/test_twitter_connection.py
+python3 scripts/test_twitter_connection.py
 ```
 
 You should see: ✅ SUCCESS! Connected to Twitter API
@@ -64,7 +65,7 @@ You should see: ✅ SUCCESS! Connected to Twitter API
 
 ### Interactive Menu
 
-Run the interactive scheduler:
+On `Dalaran`, run the interactive scheduler:
 
 ```bash
 ./scripts/schedule_tweets.sh
@@ -95,12 +96,14 @@ This will:
 ### Pausing/Resuming
 
 **To Pause:**
+
 ```bash
 ./scripts/schedule_tweets.sh
 # Select option 2
 ```
 
 **To Resume:**
+
 ```bash
 ./scripts/schedule_tweets.sh
 # Select option 3
@@ -109,7 +112,7 @@ This will:
 ### Checking Queue Status
 
 ```bash
-python scripts/lib/check_queue_status.py
+python3 scripts/lib/check_queue_status.py
 ```
 
 Shows:
@@ -121,70 +124,10 @@ Shows:
 
 ---
 
-## Dalaran Server Setup
-
-### 1. Clone Repository
-
-On your Dalaran server:
+### Monitor the Log
 
 ```bash
-cd /path/to/your/projects
-git clone <your-repo-url> sundayblender
-cd sundayblender
-```
-
-### 2. Copy Environment File
-
-Copy `.env` file with your Twitter credentials to Dalaran:
-
-```bash
-# On your local machine
-scp .env user@dalaran:/path/to/sundayblender/
-
-# Or manually create on Dalaran
-nano /path/to/sundayblender/.env
-# Paste your credentials
-```
-
-### 3. Install Dependencies on Dalaran
-
-```bash
-pip install tweepy python-dotenv pyyaml
-```
-
-### 4. Test on Dalaran
-
-```bash
-cd /path/to/sundayblender
-python scripts/test_twitter_connection.py
-```
-
-### 5. Set Up Cron Job
-
-The cron job runs every 15 minutes to check for due tweets:
-
-```bash
-crontab -e
-```
-
-Add this line (replace `/path/to/sundayblender` with actual path):
-
-```cron
-*/15 * * * * cd /path/to/sundayblender && python scripts/post_scheduled_tweets.py >> logs/twitter_bot.log 2>&1
-```
-
-This runs every 15 minutes and logs output to `logs/twitter_bot.log`.
-
-### 6. Create Logs Directory
-
-```bash
-mkdir -p /path/to/sundayblender/logs
-```
-
-### 7. Monitor the Log
-
-```bash
-tail -f /path/to/sundayblender/logs/twitter_bot.log
+tail -f logs/twitter_bot.log
 ```
 
 ---
@@ -195,7 +138,8 @@ tail -f /path/to/sundayblender/logs/twitter_bot.log
 
 1. **Publish new article** to your Sunday Blender website
 
-2. **Run scheduler on your local machine or Dalaran:**
+2. **Run scheduler on `Dalaran`:**
+
    ```bash
    ./scripts/schedule_tweets.sh
    ```
@@ -205,8 +149,9 @@ tail -f /path/to/sundayblender/logs/twitter_bot.log
 4. **Tweets are queued** and will post automatically via cron
 
 5. **Monitor progress:**
+
    ```bash
-   python scripts/lib/check_queue_status.py
+   python3 scripts/lib/check_queue_status.py
    ```
 
 ### Posting Schedule
@@ -218,6 +163,7 @@ Tweets post at optimal times for English-speaking Asian families (UTC+8):
 - **6:00 PM** - Evening commute/dinner
 
 For 18 stories over 7 days:
+
 - Days 1-6: 3 tweets/day (8 AM, 12 PM, 6 PM)
 - Day 7: 2 tweets/day (8 AM, 12 PM)
 
@@ -252,88 +198,65 @@ sundayblender/
 
 ## Troubleshooting
 
+All actions shall be performed on `Dalaran`.
+
 ### Tweets Not Posting
 
 1. **Check if paused:**
+
    ```bash
-   python scripts/lib/manage_queue.py --status
+   python3 scripts/lib/manage_queue.py --status
    ```
 
 2. **Check cron is running:**
+
    ```bash
    crontab -l
    ```
 
 3. **Check logs:**
+
    ```bash
    tail -50 logs/twitter_bot.log
    ```
 
 4. **Manual test:**
+
    ```bash
-   python scripts/post_scheduled_tweets.py
+   python3 scripts/post_scheduled_tweets.py
    ```
 
 ### Authentication Errors
 
 1. **Verify credentials:**
+
    ```bash
-   python scripts/test_twitter_connection.py
+   python3 scripts/test_twitter_connection.py
    ```
 
-2. **Check .env file exists and has correct values**
+2. **Check `.env` file exists and has correct values**
 
 3. **Regenerate tokens** in Twitter Developer Portal if needed
 
 ### Queue Issues
 
 **Clear and restart:**
+
 ```bash
 ./scripts/schedule_tweets.sh
 # Select option 4 (Clear queue)
-# Then create new schedule
+# Then create a new schedule
 ```
 
 ### Tweet Too Long
 
-The composer automatically truncates tweets to 280 chars. If you see issues:
+The composer automatically truncates tweets to `280` chars. If you see issues:
+
 - Story content is truncated smartly at sentence boundaries
 - Link is always included
 - Hashtags removed if needed to fit
 
 ---
-
-## Quick Reference
-
-### Common Commands
-
-```bash
-# Interactive menu (most common - use this!)
-cd ~/sundayblender
-source venv/bin/activate
-./scripts/schedule_tweets.sh
-
-# Check queue status
-python scripts/lib/check_queue_status.py
-
-# View logs in real-time
-tail -f logs/twitter_bot.log
-
-# Manual cron run (testing)
-./run_twitter_bot.sh
-
-# Check if paused
-python scripts/lib/manage_queue.py --status
-
-# Pause posting
-./scripts/schedule_tweets.sh  # Select option 2
-
-# Resume posting
-./scripts/schedule_tweets.sh  # Select option 3
-
-# Clear queue
-./scripts/schedule_tweets.sh  # Select option 4
-```
 
 ### Queue Data Location
 
@@ -343,31 +266,10 @@ python scripts/lib/manage_queue.py --status
 
 ---
 
-## Security Notes
-
-⚠️ **IMPORTANT:**
-
-- `.env` file contains your Twitter API secrets
-- **NEVER** commit `.env` to git (already in `.gitignore`)
-- **Keep** `.env` file permissions restricted: `chmod 600 .env`
-- **Copy** `.env` securely to Dalaran server (use `scp` or secure method)
-
----
-
-## Support
-
-If you encounter issues:
-
-1. Check logs: `logs/twitter_bot.log`
-2. Run status check: `python scripts/lib/check_queue_status.py`
-3. Test connection: `python scripts/test_twitter_connection.py`
-4. Review this README
-
----
-
 ## Future Enhancements
 
 Potential improvements:
+
 - Hashtag strategy optimization
 - Analytics tracking (UTM parameters)
 - Tweet performance metrics
@@ -376,5 +278,3 @@ Potential improvements:
 - Thread support for long stories
 
 ---
-
-**Happy Tweeting! 🐦**
