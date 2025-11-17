@@ -112,4 +112,16 @@ data/**/*.xlsx
 data/**/*.json
 
 # Project planning (to avoid triggering CI/CD on plan updates)
-PLAN.md 
+PLAN.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+*.egg
