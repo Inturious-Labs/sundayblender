@@ -15,7 +15,7 @@ googleAnalytics = "G-9WB2PSGYTC"
 	category = "categories"
 
 [params]
-	subtitle = "make news interesting for kids"
+	subtitle = "interesting weekly news for curious kids"
 	description = 'The Sunday Blender - the best news for kids to learn English and the world'
 	googleSiteVerification = "JxPX7y3VViNkvKcIUZV1Mm0afi-kVQ8c2dI4QaVXZJM"
 	enableOpenGraph = true
@@ -44,26 +44,21 @@ uglyURLs = false
 			unsafe = true
 
 [[menu.main]]
-	name = "Archive"
-	url = "/"
-	weight = 0
-
-[[menu.main]]
-	name = "RSS"
-	url = "/rss/"
-	weight = 0.5
-
-[[menu.main]]
 	name = "About"
 	url = "/about/"
 	weight = 1
 
 [[menu.main]]
-	name = "Tags"
-	url = "/tags/"
-	weight = 1.5
+	name = "Archive"
+	url = "/"
+	weight = 2
 
 [[menu.main]]
-	name = "Subscribe"
-	url = "/subscribe/"
-	weight = 2
+	name = "Tags"
+	url = "/tags/"
+	weight = 3
+
+[[menu.main]]
+	name = "Terms & Privacy"
+	url = "/terms/"
+	weight = 4
