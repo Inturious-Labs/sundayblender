@@ -69,6 +69,6 @@ uglyURLs = false
 	weight = 2
 
 [[menu.main]]
-	name = "Terms"
+	name = "Terms & Privacy"
 	url = "/terms/"
 	weight = 3

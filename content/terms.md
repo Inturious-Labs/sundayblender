@@ -1,9 +1,9 @@
 ---
-title: "Terms and Conditions"
-description: "Terms of use for The Sunday Blender"
+title: "Terms & Privacy"
+description: "Terms of use and privacy policy for The Sunday Blender"
 draft: false
 disableReadingTime: true
-disableToC: true
+disableToC: false
 disableSubscribe: true
 disablePagination: true
 build:
@@ -40,13 +40,53 @@ Parents and educators should:
 - Encourage critical thinking and fact-checking skills
 - Verify important information through additional reputable sources
 
-## Changes to Terms
+## Privacy & Subscriber Data
 
-We reserve the right to update these terms at any time. Continued use of The Sunday Blender constitutes acceptance of any changes.
+We respect your privacy and are committed to protecting your personal information.
+
+### What We Collect
+
+When you subscribe to The Sunday Blender newsletter, we collect:
+- Your email address
+- Subscription date and preferences
+- Basic engagement metrics (opens, clicks) to improve our content
+
+### How We Use Your Data
+
+- **Email delivery**: To send you our weekly newsletter
+- **Content improvement**: To understand what topics resonate with our readers
+- **Communication**: To respond to your questions or feedback
+
+### What We Don't Do
+
+- **We do not sell your data**: Your email and information will never be sold, rented, or shared with third parties for marketing purposes
+- **We do not spam**: You will only receive the weekly newsletter and occasional important updates
+- **We do not track you across the web**: We only collect basic analytics on our own website
+
+### Data Security
+
+- Email subscriber data is stored securely with our email service provider
+- We implement reasonable security measures to protect your information
+- We retain your data only as long as you remain subscribed
+
+### Your Rights
+
+You have the right to:
+- **Unsubscribe** at any time using the link in every email
+- **Request data deletion** by contacting us
+- **Update your information** or preferences
+
+### Third-Party Services
+
+We use trusted third-party services to manage subscriptions and website analytics. These services have their own privacy policies and security measures in place.
 
 ## Contact
 
-If you have questions or concerns about our content or these terms, please reach out through our contact channels.
+If you have questions or concerns about our content or these terms, please contact us at [clayton.man@sundayblender.com](mailto:clayton.man@sundayblender.com).
+
+## Changes to Terms
+
+We reserve the right to update these terms at any time. Continued use of The Sunday Blender constitutes acceptance of any changes.
 
 ---
 
