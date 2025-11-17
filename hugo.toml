@@ -44,21 +44,21 @@ uglyURLs = false
 			unsafe = true
 
 [[menu.main]]
-	name = "Archive"
-	url = "/"
-	weight = 0
-
-[[menu.main]]
 	name = "About"
 	url = "/about/"
 	weight = 1
 
 [[menu.main]]
+	name = "Archive"
+	url = "/"
+	weight = 2
+
+[[menu.main]]
 	name = "Tags"
 	url = "/tags/"
-	weight = 1.5
+	weight = 3
 
 [[menu.main]]
 	name = "Terms & Privacy"
 	url = "/terms/"
-	weight = 2
+	weight = 4
