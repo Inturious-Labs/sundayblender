@@ -64,11 +64,6 @@ uglyURLs = false
 	weight = 1.5
 
 [[menu.main]]
-	name = "Subscribe"
-	url = "/subscribe/"
-	weight = 2
-
-[[menu.main]]
 	name = "Terms & Privacy"
 	url = "/terms/"
-	weight = 3
+	weight = 2

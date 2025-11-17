@@ -1,10 +1,12 @@
 ---
 title: "About The Sunday Blender"
-description: "best news for kids"
+description: "interesting weekly news for curious kids"
+featured_image: "/img/about-hero.jpg"
+images: ["/img/about-hero.jpg"]
 draft: false
 disableReadingTime: true
 disableToC: true
-disableSubscribe: true
+disableSubscribe: false
 disablePagination: true
 build:
   list: false
@@ -13,23 +15,31 @@ build:
 
 ## What is this?
 
-The Sunday Blender is a weekly newsletter that reports top trending news around the world in the last seven days. It includes several columns such as Tech, Global, Economy & Finance, Science, Nature & Environment, Entertainment & Culture, Sports, and Funny. Its new issue is scheduled for delivery by mid-night Saturday.
+The Sunday Blender is a weekly newsletter that reports top trending news around the world. It's made for curious English-speaking kids aged 8~15 who aspire for a bigger world and nurture a life-long habit of reading. Every new issue is delivered to your email inbox on Saturday. At present, this newsletter is free.
 
-## Who is this for?
+## Out of Scope
 
-It is for curious kids in elementary school.
+This newsletter does NOT work for kids who like to:
+
+- watch an endless feed of short videos
+- indulge in non-stop video-gaming
+- limit his/her English proficiency only to a rudimentary level
 
 ## Why do this?
 
-My wife and I have an eight-year old boy, studying in a bilingual school in Shanghai, China. He is becoming increasingly curious about the bigger world outside the school and wants to stay current to the major events happening around the globe. We went on a mission to find quality English (or Chinese) news reading materials for him. We searched high and low for more than a year, and could not find any.
+Because we love the smell of flipping through a freshly printed newspaper on Sunday morning. 
 
-News used to be simple and easy. The Economist used to just give you the download you need but not any more. Nowadays, from The New York Times, The Washington Post, The Wall Street Journal, Financial Times, BBC, NPR, Associated Press, Bloomberg to the Guardian, they are all too biased with too many ideological lens imposed. It is very hard to find a media outlet that can serve balanced views and try to preserve human stories in their raw form.
+Our nine-year-old boy studies in a bilingual school in **Shanghai, China**. About a year ago, he started becoming curious about current affairs outside the school. We went on a mission to find quality English (or Chinese, for that matter) news-reading materials for him. We searched high and low and could not find any that would meet our standards.
 
-Also, it is not easy to find the right format for such a news service. Many Youtubers produce excellent news for adults but not for kids. We don't want our kid to watch videos either. Podcast has become a major source of news for us in the last 10 years but all the Fridmans, Ferrisses, and Rogans are getting longer and longer with episodes running up to 3 hours routinely. It is getting out of control, even for us.
+News used to be simple and easy. The Economist used to just give you the download needed for the day, but not anymore. Nowadays, from The New York Times, The Washington Post, The Wall Street Journal, Financial Times, BBC, NPR, Associated Press, Bloomberg, to The Guardian, they are all too biased with too many ideological lenses imposed. It is very hard to find a media outlet that can still serve balanced views and try to preserve human stories in their raw spirit.
 
-So we figured we might as well take things into our own hands and create a newsletter for our son and his many little buddies. AI is becoming a very powerful tool to automate this laborious workflow of sourcing news, curating stories and editing texts/pictures. I use chatGPT and DeepSeek to get the top trending news in tech, economy, culture, science, sports, etc; compare their results and pick the ones that resonate with me.
+Or, their contents are just too childish - OMG! A bear jumps out of the woods! They tend to grossly underestimate how smart the kids of today are.
 
-Our son liked the first issue very much. We hope you, or your son/daughter would enjoy this series too. We find it an intellectually joyful process to compose each issue as we catch up with the world after a week of busy working and living.
+Or, they still live in their own echo chambers with little coverage of China (Western media lost that capability long ago). Major topics in technology and the economy are increasingly shaped by AI and energy. If they cannot grasp what's happening in China on these fronts, they're missing half the picture.
+
+So we figured we might as well take things into our own hands and create a newsletter for our son and his many little buddies. AI has become an extremely powerful tool to automate this laborious workflow of sourcing news, curating stories, and editing texts/pictures. I've used all the major LLMs (large language models) in this endeavor. My current favorite is **[claude.ai](https://claude.ai/)**. Its summation strikes the right tone and information density, better than **chatGPT**, **Gemini**, **Grok**, and definitely **DeepSeek**.
+
+Our boy has been a big fan of The Sunday Blender, so is his friends at school. We find it an intellectually joyful process to compose each issue as we catch up with the world after a week of busy working and living.
 
 ## What We Cover
 
@@ -52,6 +62,21 @@ Each week, we curate stories from around the world covering:
 - **Inspiring**: We highlight the positive aspects of our world
 - **Balanced**: We present diverse perspectives and global viewpoints
 - **AI-powered**: We use AI tools like ChatGPT and DeepSeek to source and curate stories efficiently
+
+## Subscribe to Our Newsletter
+
+Get The Sunday Blender delivered to your inbox every Saturday:
+
+<div style="background: #f8f9fa; padding: 1.5rem; border-radius: 12px; margin: 1.5rem 0;">
+
+✨ **Weekly posts from Sunday Blender**
+🔍 **Curated contents suitable for kids 8-15**
+🎯 **No spam, just quality content**
+📱 **Mobile-friendly reading experience**
+🔒 **Privacy-first approach**
+🚫 **Unsubscribe anytime**
+
+</div>
 
 ## How You Can Contribute
 
