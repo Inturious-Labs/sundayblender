@@ -3,7 +3,17 @@ languageCode = 'en-us'
 title = 'The Sunday Blender'
 canonifyURLs = true
 theme = "diary"
-googleAnalytics = "G-9WB2PSGYTC" 
+googleAnalytics = "G-9WB2PSGYTC"
+
+[outputs]
+  home = ["HTML", "RSS", "podcast"]
+
+[outputFormats]
+  [outputFormats.podcast]
+    mediaType = "application/rss+xml"
+    baseName = "podcast"
+    isPlainText = false
+    rel = "alternate" 
 
 [permalinks]
 	posts = "/p/:slug/"
