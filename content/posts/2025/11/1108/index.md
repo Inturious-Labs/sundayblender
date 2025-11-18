@@ -8,6 +8,11 @@ featured_image: "ai_bubble.jpg"
 images: ["ai_bubble.jpg"]
 draft: false
 enable_rapport: true
+podcast:
+  enabled: true
+  file: "2025-11-08-podcast.mp3"
+  duration: 821
+  filesize: 13141608
 ---
 
 ## Editor's Words

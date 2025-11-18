@@ -8,6 +8,11 @@ featured_image: "concert.jpg"
 images: ["concert.jpg"]
 draft: false
 enable_rapport: true
+podcast:
+  enabled: true
+  file: "2025-11-15-podcast.mp3"
+  duration: 662
+  filesize: 10598327
 ---
 
 ## Editor's Words

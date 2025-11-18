@@ -1,0 +1,81 @@
+{{- printf "<?xml version=\"1.0\" encoding=\"UTF-8\"?>" | safeHTML }}
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>{{ .Site.Title }} Podcast</title>
+    <link>{{ .Site.BaseURL }}</link>
+    <language>{{ .Site.LanguageCode }}</language>
+    <copyright>Copyright {{ now.Format "2006" }} {{ .Site.Title }}</copyright>
+    <description>{{ .Site.Params.description }}</description>
+
+    <!-- iTunes Podcast Tags -->
+    <itunes:author>{{ .Site.Params.author }}</itunes:author>
+    <itunes:summary>{{ .Site.Params.description }}</itunes:summary>
+    <itunes:subtitle>{{ .Site.Params.subtitle }}</itunes:subtitle>
+    <itunes:owner>
+      <itunes:name>{{ .Site.Params.author }}</itunes:name>
+      <itunes:email>hello@sundayblender.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="{{ .Site.BaseURL }}{{ .Site.Params.logo }}" />
+    <itunes:category text="Education">
+      <itunes:category text="Educational Technology"/>
+    </itunes:category>
+    <itunes:category text="Kids &amp; Family">
+      <itunes:category text="Education for Kids"/>
+    </itunes:category>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+
+    <atom:link href="{{ .Site.BaseURL }}podcast.xml" rel="self" type="application/rss+xml" />
+
+    {{ $podcastPages := where .Site.RegularPages "Params.podcast.enabled" true }}
+    {{ if $podcastPages }}
+    <lastBuildDate>{{ (index $podcastPages 0).Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
+    {{ end }}
+
+    {{ range $podcastPages }}
+    <item>
+      <title>{{ .Title }}</title>
+      <link>{{ .Permalink }}</link>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+      <guid isPermaLink="true">{{ .Permalink }}</guid>
+
+      <!-- Podcast Episode Description -->
+      <description>{{ .Params.description | html }}</description>
+
+      <!-- iTunes Episode Tags -->
+      <itunes:title>{{ .Title }}</itunes:title>
+      <itunes:author>{{ .Site.Params.author }}</itunes:author>
+      <itunes:summary>{{ .Params.description }}</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      {{ with .Params.podcast.duration }}
+      {{ $hours := div . 3600 }}
+      {{ $minutes := div (mod . 3600) 60 }}
+      {{ $seconds := mod . 60 }}
+      {{ if gt $hours 0 }}
+      <itunes:duration>{{ printf "%d:%02d:%02d" $hours $minutes $seconds }}</itunes:duration>
+      {{ else }}
+      <itunes:duration>{{ printf "%d:%02d" $minutes $seconds }}</itunes:duration>
+      {{ end }}
+      {{ end }}
+      {{ with .Params.featured_image }}
+      <itunes:image href="{{ $.Permalink }}{{ . }}" />
+      {{ end }}
+      <itunes:episodeType>full</itunes:episodeType>
+
+      <!-- Audio Enclosure (Required for Podcast) -->
+      {{ with .Params.podcast.file }}
+      <enclosure
+        url="{{ $.Permalink }}{{ . }}"
+        length="{{ $.Params.podcast.filesize }}"
+        type="audio/mpeg" />
+      {{ end }}
+
+      <!-- Full Content -->
+      <content:encoded>{{ printf "<![CDATA[%s]]>" .Content | safeHTML }}</content:encoded>
+    </item>
+    {{ end }}
+  </channel>
+</rss>
