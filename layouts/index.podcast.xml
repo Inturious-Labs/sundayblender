@@ -20,11 +20,12 @@
       <itunes:email>hello@sundayblender.com</itunes:email>
     </itunes:owner>
     <itunes:image href="{{ .Site.BaseURL }}img/logo_chatGPT_1400x1400.jpg" />
-    <itunes:category text="Education">
-      <itunes:category text="Language Learning"/>
-    </itunes:category>
+    <itunes:category text="News"/>
     <itunes:category text="Kids &amp; Family">
       <itunes:category text="Stories for Kids"/>
+    </itunes:category>
+    <itunes:category text="Education">
+      <itunes:category text="Language Learning"/>
     </itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
