@@ -26,7 +26,8 @@ googleAnalytics = "G-9WB2PSGYTC"
 
 [params]
 	subtitle = "interesting weekly news for curious kids"
-	description = 'The Sunday Blender - the best news for kids to learn English and the world'
+	description = 'The Sunday Blender is a weekly newsletter that curates the most interesting news from around the world, designed to help kids learn English and understand global events through engaging stories about technology, science, culture, and more.'
+	podcastDescription = 'The Sunday Blender Podcast brings you weekly audio editions of our curated news newsletter, helping kids learn English and explore the world through engaging stories about technology, science, culture, sports, and global events.'
 	googleSiteVerification = "JxPX7y3VViNkvKcIUZV1Mm0afi-kVQ8c2dI4QaVXZJM"
 	enableOpenGraph = true
 	enableTwitterCards = true

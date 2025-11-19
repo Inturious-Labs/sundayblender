@@ -1,6 +1,7 @@
 {{- printf "<?xml version=\"1.0\" encoding=\"UTF-8\"?>" | safeHTML }}
 <rss version="2.0"
      xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:podcast="https://podcastindex.org/namespace/1.0"
      xmlns:atom="http://www.w3.org/2005/Atom"
      xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
@@ -8,17 +9,17 @@
     <link>{{ .Site.BaseURL }}</link>
     <language>{{ .Site.LanguageCode }}</language>
     <copyright>Copyright {{ now.Format "2006" }} {{ .Site.Title }}</copyright>
-    <description>{{ .Site.Params.description }}</description>
+    <description>{{ with .Site.Params.podcastDescription }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}</description>
 
     <!-- iTunes Podcast Tags -->
     <itunes:author>{{ .Site.Params.author }}</itunes:author>
-    <itunes:summary>{{ .Site.Params.description }}</itunes:summary>
+    <itunes:summary>{{ with .Site.Params.podcastDescription }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}</itunes:summary>
     <itunes:subtitle>{{ .Site.Params.subtitle }}</itunes:subtitle>
     <itunes:owner>
       <itunes:name>{{ .Site.Params.author }}</itunes:name>
       <itunes:email>hello@sundayblender.com</itunes:email>
     </itunes:owner>
-    <itunes:image href="{{ .Site.BaseURL }}{{ .Site.Params.logo }}" />
+    <itunes:image href="{{ .Site.BaseURL }}{{ strings.TrimPrefix "/" .Site.Params.logo }}" />
     <itunes:category text="Education">
       <itunes:category text="Educational Technology"/>
     </itunes:category>
@@ -60,16 +61,16 @@
       <itunes:duration>{{ printf "%d:%02d" $minutes $seconds }}</itunes:duration>
       {{ end }}
       {{ end }}
-      {{ with .Params.featured_image }}
-      <itunes:image href="{{ $.Permalink }}{{ . }}" />
+      {{ if .Params.featured_image }}
+      <itunes:image href="{{ .Permalink }}{{ .Params.featured_image }}" />
       {{ end }}
       <itunes:episodeType>full</itunes:episodeType>
 
       <!-- Audio Enclosure (Required for Podcast) -->
-      {{ with .Params.podcast.file }}
+      {{ if .Params.podcast.file }}
       <enclosure
-        url="{{ $.Permalink }}{{ . }}"
-        length="{{ $.Params.podcast.filesize }}"
+        url="{{ .Permalink }}{{ .Params.podcast.file }}"
+        length="{{ if .Params.podcast.filesize }}{{ .Params.podcast.filesize }}{{ else }}0{{ end }}"
         type="audio/mpeg" />
       {{ end }}
 
