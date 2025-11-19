@@ -30,6 +30,10 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
 
+    <!-- Podcast 2.0 Tags -->
+    <podcast:locked>no</podcast:locked>
+    <podcast:guid>ac1fe0ec-0a34-4f21-9a08-d010337a1011</podcast:guid>
+
     <atom:link href="{{ .Site.BaseURL }}podcast.xml" rel="self" type="application/rss+xml" />
 
     {{ $podcastPages := where .Site.RegularPages "Params.podcast.enabled" true }}
