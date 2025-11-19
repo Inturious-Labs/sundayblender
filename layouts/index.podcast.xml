@@ -7,7 +7,7 @@
   <channel>
     <title>{{ .Site.Title }} Podcast</title>
     <link>{{ .Site.BaseURL }}</link>
-    <language>{{ .Site.LanguageCode }}</language>
+    <language>en</language>
     <copyright>Copyright {{ now.Format "2006" }} {{ .Site.Title }}</copyright>
     <description>{{ with .Site.Params.podcastDescription }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}</description>
 
@@ -59,14 +59,7 @@
       <itunes:summary>{{ .Params.description }}</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       {{ with .Params.podcast.duration }}
-      {{ $hours := div . 3600 }}
-      {{ $minutes := div (mod . 3600) 60 }}
-      {{ $seconds := mod . 60 }}
-      {{ if gt $hours 0 }}
-      <itunes:duration>{{ printf "%d:%02d:%02d" $hours $minutes $seconds }}</itunes:duration>
-      {{ else }}
-      <itunes:duration>{{ printf "%d:%02d" $minutes $seconds }}</itunes:duration>
-      {{ end }}
+      <itunes:duration>{{ . }}</itunes:duration>
       {{ end }}
       {{ if .Params.featured_image }}
       <itunes:image href="{{ .Permalink }}{{ .Params.featured_image }}" />
