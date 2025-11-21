@@ -150,7 +150,7 @@ def clean_html_for_pdf(html_path, working_dir):
         size: A4;
         margin: 0.3in 0.3in 0.8in 0.3in;
         @bottom-left {
-            content: "© 2025 Clayton Man";
+            content: "© 2025 Inturious Labs";
             font-family: 'Arial', sans-serif;
             font-size: 10px;
             color: #666;
@@ -344,6 +344,28 @@ def clean_html_for_pdf(html_path, working_dir):
         max-height: 3in !important;
     }
 
+    /* Make Internet Computer logo readable but fit inline with text */
+    img[alt*="Internet Computer"],
+    img[src*="ic_logo"] {
+        height: 32px !important;
+        width: auto !important;
+        max-height: 32px !important;
+        max-width: none !important;
+        vertical-align: middle !important;
+        display: inline !important;
+        border: none !important;
+    }
+
+    /* Keep "powered by" section inline and prevent wrapping */
+    a[href*="internetcomputer.org"] {
+        display: inline !important;
+        white-space: nowrap !important;
+    }
+
+    div[style*="white-space: nowrap"] {
+        white-space: nowrap !important;
+    }
+
     /* Avoid breaking articles across columns when possible */
     article, section {
         break-inside: avoid-column;
@@ -494,9 +516,9 @@ def clean_html_for_pdf(html_path, working_dir):
                 elem.decompose()
 
     # Look for divs/sections containing newsletter signup text
-    signup_keywords = ['subscribe', 'newsletter signup', 'join our newsletter', 'get updates', 'email updates']
+    signup_keywords = ['subscribe', 'newsletter signup', 'join our newsletter', 'get updates', 'email updates', 'get the weekly issues delivered']
     for keyword in signup_keywords:
-        signup_elements = soup.find_all(['div', 'section', 'form'],
+        signup_elements = soup.find_all(['div', 'section', 'form', 'p'],
                                        string=lambda text: text and keyword.lower() in text.lower())
         for elem in signup_elements:
             # Find the parent container that likely contains the whole signup box
@@ -541,10 +563,21 @@ def clean_html_for_pdf(html_path, working_dir):
     for section in prev_issues_sections:
         section.decompose()
 
-    # Move copyright to page footer by hiding it from content (it's now in @bottom-left)
-    for elem in soup.find_all(string=lambda text: text and 'Clayton Man' in text):
-        if elem.parent:
-            elem.parent['style'] = 'display: none;'
+    # Remove "Thanks for reading" paragraph
+    for elem in soup.find_all('p', string=lambda text: text and 'Thanks for reading' in text):
+        elem.decompose()
+
+    # Remove copyright links and convert "Inturious Labs" to plain text
+    for link in soup.find_all('a', href=lambda x: x and 'inturious.com' in x):
+        # Get the text content
+        link_text = link.get_text()
+        # Replace the link with plain text (no bold, no link)
+        link.replace_with(link_text)
+
+    # Remove social media icon links (X and Github)
+    for link in soup.find_all('a', href=True):
+        if 'twitter.com' in link['href'] or 'x.com' in link['href'] or 'github.com' in link['href']:
+            link.decompose()
 
     # Create magazine-style header and wrap the main content
     body = soup.find('body')
