@@ -36,59 +36,43 @@ Chinese astronauts aboard the **Tiangong** space station achieved a first by usi
 
 Beijing's **Yitu School**, founded in 2016 by former **McKinsey** partner and **Gates Foundation** China head **Li Yinuo**, recently "imploded" amid financial crisis. In November 2025, Li revealed the school couldn't pay teachers' salaries starting October, with her co-founder borrowing personally to cover half of October's wages. Li blamed their partner school Zhizhi for borrowing over `50 million` yuan using the school's cash flow as collateral, then diverting funds to related companies. Li admitted "poor management capability" led to the crisis and acknowledged pursuing legal action to recover misappropriated funds. Once dubbed the "pioneer of innovative schools",  Yitu attracted elite families with its slogan of cultivating "children with fulfilled hearts", but faced teacher layoffs, management chaos, and enrollment losses.
 
-Bhutan's effort to lure young people back
+Europe's first rare-earth magnet plant officially opened September 19, 2025, in **Narva, Estonia**, built by Canadian company Neo Performance Materials with a `$75 million` investment. Supported by `€14.5 million` from the EU's Just Transition Fund, the facility has an annual capacity of `2,000` metric tonnes—enough to supply magnets for over one million electric vehicles or 1,000 offshore wind turbines. This addresses Europe's critical dependence on China, which currently supplies `90%` of EU permanent magnet demand. The plant is expected to create up to `1,000` jobs in Narva, a city transitioning from oil shale extraction, marking a significant step toward European strategic autonomy in green technology supply chains.
 
-A new rare-earth plant in Estonia
+A French court ruled November 19 that **Perrier** can continue marketing as "natural mineral water" despite an ongoing scandal over **Nestlé**'s use of banned water treatments. The controversy erupted in 2024 when media revealed Nestlé Waters had illegally used ultraviolet treatment and activated carbon filters on multiple brands including **Perrier**, **Vittel**, and **Contrex**. A Senate inquiry found French government officials had concealed these unauthorized treatments for years. The ruling allows one of France's most iconic beverage exports to remain on shelves, though Nestlé now acknowledges on its website that "Perrier water carries the designation 'natural mineral water,' even though it may not fully qualify as such". The decision raises questions about consumer trust in "natural" labeling standards and European water quality regulations.
 
-Japanese seafood caught up in escalating diplomatic dispute with China
-https://x.com/Reuters/status/1991120527457452475
-
-Google DeeMind open new AI research lab in Singapore
-
-French court rejects case against Perrier over its claims as 'natural' mineral water
+**Google DeepMind** announced November 19, 2025, the opening of a new AI research lab in Singapore, its first built entirely from the ground up in Southeast Asia. The expansion follows Google DeepMind more than doubling its Asia-Pacific team over the past year. The lab will focus on advancing **Gemini AI** capabilities with emphasis on linguistic and cultural inclusivity for the region's diverse populations. The facility aims to position Asia-Pacific as an AI creator rather than merely a consumer, working with governments, businesses, and academic institutions. Singapore's **National AI Strategy 2.0** and **Smart Nation 2.0** initiatives, along with openness to global talent, made it an ideal location. The lab will collaborate on applications spanning healthcare, cybersecurity, and public services.
 
 ## Economy & Finance
 
-The penny is no longer being produced by the US government
-
-Softbank cleared its holding of NVIDIA
-
-xAI is said to raise $15 billion at $230 billion valuation
-https://x.com/Reuters/status/1991118025810907542
-
-Low-altitude economy is taking off in China
-
-Drop in Chinese tourists could cost Japan $9.59 billion
+**The US Mint** stamped its final penny on November 12, 2025, in **Philadelphia** after `230` years of production, following President Trump's February directive to halt production due to mounting losses. Each penny cost `3.69 cents` to produce, resulting in an `$85.3 million`  loss in 2024. This marks the first US coin elimination since the half-cent in 1857. While existing pennies remain legal tender, the abrupt cessation without federal guidance has created shortages nationwide, forcing retailers to round cash transactions. The government expects to save `$56 million` annually, though cash transactions now comprise only `14%` of all US transactions.
 
 ## Nature & Environment
 
-Where to see the Leonid meteor shower peak
-
-200 river dolphins died in Amazon as lake reached hot tub levels in 2023
+**The Leonid meteor shower** is an annual event occurring from November 3 through December 2, peaking this year on November 17-18 with 10-15 meteors per hour visible under dark skies. The shower occurs when Earth passes through debris left by Comet 55P/Tempel-Tuttle. With favorable viewing conditions this year—a waning crescent moon providing minimal light interference—the best viewing window is between midnight and dawn on November 17-18. While the comet takes 33 years to orbit the sun, occasionally producing spectacular meteor storms with thousands per hour, the last major storm occurred in 2002. The shower's name comes from meteors appearing to radiate from the constellation Leo.
 
 ## Science
+
+At **Web Summit** in **Lisbon, Portugal** this month, Théau Peronnin, CEO of Alice & Bob (**Nvidia**'s quantum computing partner), warned that quantum computers will be powerful enough to crack Bitcoin's encryption shortly after `2030`. Google's `105-qubit` Willow chip demonstrated in January 2025 showed significant error reduction, making quantum threats feel increasingly practical. A Federal Reserve study warned about "harvest now, decrypt later" attacks, where adversaries collect encrypted blockchain data today for future decryption. Approximately `6.51 million` Bitcoin—worth over `$700 billion`—remains quantum vulnerable in older address formats. Peronnin stated Bitcoin "needs to fork by 2030, basically", though implementing quantum-safe transitions could take seven years.
 
 ## Lifestyle, Entertainment & Culture
 
 **Tom Cruise** received his first **Oscar** - an honorary Academy Award—at the Governors Awards on November 16, 2025, recognizing his unwavering commitment to filmmaking, vital support of the theatrical experience, and unmatched body of work. Cruise's films have grossed over `$11 billion` worldwide as lead actor, with box office hits spanning four decades since the late 1980s, making him one of Hollywood's most bankable stars. From his 1986 breakthrough with **Top Gun**—the year's highest-grossing film—through the **Mission: Impossible** franchise he's led since 1996, to 2022's **Top Gun: Maverick** earning over `$1.4 billion`, Cruise remains Hollywood's last true action superstar. Presenter director **Alejandro González Iñárritu** declared "Tom Cruise doesn't just make movies, he is movies". In his emotional speech, Cruise humbly celebrated fellow honorees before paying tribute to cinema's unifying power.
 
-Nintendo released the first official set photos from the live-action Legend of Zelda movie on November 17, 2025, showing Link and Zelda in full costume against New Zealand's lush landscapes. The images sparked an overwhelming fan frenzy, with reaction videos, comment threads, and social posts filled with excitement as longtime fans said seeing the characters in live action made the project "feel real for the first time". Fans praised the costume accuracy and applauded details like the pointed Hylian ears, relieved Hollywood wouldn't tone down fantasy elements. Social media immediately lit up with reactions about how faithful the adaptation appears, with fans expressing they're "already hyped" while questioning whether it can capture the games' magic without feeling "too Hollywood". The hashtag #ZeldaMovieCasting trended for hours, with some fans declaring they'd "been waiting 20 years for a Zelda movie", though cautious viewers remain nervous about Hollywood's involvement with the beloved franchise.
+**Nintendo** released the first official set photos from the live-action Legend of **Zelda** movie on November 17, 2025, showing Link and Zelda in full costume against New Zealand's lush landscapes. The images sparked an overwhelming fan frenzy, with reaction videos, comment threads, and social posts filled with excitement as longtime fans said seeing the characters in live action made the project "feel real for the first time". Fans praised the costume accuracy and applauded details like the pointed Hylian ears, relieved Hollywood wouldn't tone down fantasy elements. Social media immediately lit up with reactions about how faithful the adaptation appears, with fans expressing they're "already hyped" while questioning whether it can capture the games' magic without feeling "too Hollywood". The hashtag #ZeldaMovieCasting trended for hours, with some fans declaring they'd "been waiting 20 years for a Zelda movie", though cautious viewers remain nervous about Hollywood's involvement with the beloved franchise.
 
 **Call of Duty: Black Ops 7** sparked controversy at launch over AI-generated calling cards featuring Studio **Ghibli**-style artwork that players deemed "AI slop". **Activision** confirmed via Steam disclosure that it uses "generative AI tools to help develop some in-game assets," after players spotted telltale signs like a zombie Santa with six fingers. The backlash was severe enough that some players secured **Steam** refunds, with one completing the entire campaign before citing undisclosed AI content. **Reddit** users expressed frustration at being fed AI content in a full-price AAA title already packed with microtransactions. The controversy drew political attention when US Congressman Ro Khanna called for regulations preventing companies from using AI to eliminate creative jobs. Black Ops 7 plummeted to a `1.7/10` **Metacritic** user score, the lowest in franchise history.
 
-Black Friday in US (Nov 28)
-
-Thanksgiving Day in US (Nov 27)
-
-Christkindlmarkt in Bethlehem, Pennsylvania
-https://x.com/Forbes/status/1991123064881656018
-
+**Collins Dictionary** named "`vibe coding`" as its **Word of the Year 2025**, a term describing software development that uses AI and natural language to write computer code. The term was coined by AI pioneer **Andrej Karpathy**, former **Tesla** AI director and **OpenAI** founding engineer, to describe creating apps while being able to "forget that the code even exists". Lexicographers monitored the 24-billion-word Collins Corpus and noted a large uptick in usage since the term's first appearance in February 2025. Collins managing director Alex Beecroft said the selection "perfectly captures how language is evolving alongside technology" and signals "a major shift in software development, where AI is making coding more accessible". The shortlist reflected society grappling with authenticity in an increasingly AI-dominated, performative world.
 
 A silver titanium **Speedwell** bicycle ridden by German electronic band **Kraftwerk**'s Florian Schneider in the 1984 "**Tour de France**" music video recently sold at auction for `$57,600`—over `14` times its initial estimate. The 1983 electronic anthem became synonymous with cycling culture, serving as Channel 4's theme music for UK Tour de France broadcasts, cementing its status as the race's unofficial soundtrack. The innovative track used sampled cycling sounds like chain rattles and gear shifts, becoming a blueprint for later techno and house genres while positioning itself as a timeless electronic sports anthem. Kraftwerk's celebration captured the race's spirit through hypnotic rhythms mirroring cycling's mechanical nature, with references to mountains, valleys, and the coveted yellow jersey. The band released a full album for the race's 100th anniversary in 2003, which became their first number-one album in Germany.
 
-Clair Obscur: Expedition 33 got 12 nominations at the Game Awards 2025
-
 **David Szalay** won the **2025 Booker Prize** on November 10 for his sixth novel, **Flesh**, becoming the first Hungarian-British author to win the award. The Booker Prize is regarded as one of the most prestigious literary awards in the world, with winners receiving `£50,000` and international publicity that usually leads to significant sales boosts. The spare, propulsive novel follows protagonist István from adolescence to old age through events beyond his control. Judging panel chair Roddy Doyle said judges kept returning to Flesh "because of its singularity," noting they'd "never read anything quite like it". Szalay wanted to explore Europe's cultural divides while writing "about life as a physical experience, about what it's like to be a living body". This was his second Booker nomination.
+
+**Thanksgiving** 2025 falls on **Thursday, November 27**, celebrated on the fourth Thursday of November, a tradition established by US Congress in 1941. The holiday traces back to 1621 when **Pilgrims** and **Wampanoag** people shared a harvest feast after the Native Americans helped colonists survive a harsh winter. President **Abraham Lincoln** proclaimed it a national holiday in 1863 to unite Americans during the Civil War. Traditional celebrations include family gatherings with roast turkey, stuffing, potatoes, cranberry sauce, and pumpkin pie, while parades like the Macy's Thanksgiving Day Parade mark the festivities. This year's late Thanksgiving date creates a shorter holiday season with less than four weeks until Christmas, making it one of the busiest travel periods.
+
+**Black Friday** falls on **November 28, 2025**, the day after Thanksgiving, traditionally marking the start of the Christmas shopping season and the busiest shopping day in the United States. The term originated in 1950s Philadelphia when police used it to describe post-Thanksgiving shopping chaos, later rebranded by retailers as the day businesses move from financial losses "in the red" to profits "in the black". This year's event has evolved into "Black November," with retailers hosting weeks-long sales rather than one-day doorbusters, blurring lines between Black Friday and **Cyber Monday**. In 2025, US shoppers are expected to spend over `$100 billion`. Experts note sales may be weaker this year due to limited inventories, making early shopping more important than ever.
+
+**Koroshigaki**(枯露柿) is a premium Japanese dried persimmon specialty from Yamanashi Prefecture, particularly the Matsuri district of Kōshū. Made from large Kōshū Hyakume persimmons weighing 350-400 grams each, production begins in early November when the fruit is carefully peeled and hung to sun-dry for approximately 40 days. Premium koroshigaki develops a beautiful amber color adorned with white crystallized sugar coating called "ko," creating an appearance like a delicate veil. The tradition dates back 500 years to warlord **Takeda Shingen**, who promoted dried persimmon as portable provisions. During autumn, strings of orange persimmons hanging from eaves create iconic curtains throughout the region, symbolizing Japanese patience and artisanal craftsmanship in preserving seasonal bounty.
 
 ## Sports
 
@@ -102,7 +86,13 @@ Table tennis star **Fan Zhendong** successfully defended his men's singles title
 
 ## This Day in History
 
+![JFK](jfk.jpg)
+
+On **November 22, 1963**, President **John F. Kennedy** was assassinated in Dallas, Texas, sending shockwaves across America and the world. The nation entered a period of profound mourning as television networks broadcast continuous coverage of the tragedy. Kennedy's state funeral drew leaders from over 90 countries, reflecting his global stature. His death marked the end of an era characterized by youthful optimism and the promise of a "New Frontier." Kennedy's legacy endures through his vision for civil rights advancement, the space program that would land Americans on the moon, and the Peace Corps. His eloquent calls for public service—"Ask not what your country can do for you; ask what you can do for your country"—continue to inspire generations, cementing his place as an iconic figure in American history.
+
 ## Art of the Week
+
+"**Freedom from Want**", painted by **Norman Rockwell** in 1943, depicts an idealized Thanksgiving dinner scene featuring a grandmother presenting a golden turkey to a multigenerational family gathered around a table. Part of Rockwell's "Four Freedoms" series inspired by President **Franklin D. Roosevelt**'s 1941 State of the Union address, the painting became one of America's most recognizable images. Published in The Saturday Evening Post, it resonated deeply during World War II, symbolizing American abundance and domestic harmony. The warm, detailed portrayal of middle-class prosperity embodied what Americans were fighting to preserve. Though sometimes criticized for its sentimentalized vision, the painting remains a powerful cultural touchstone representing American values of family, gratitude, and plenty.
 
 ## Funny
 
@@ -121,4 +111,3 @@ November 01, 2025, **[When Yang Meets Yang: Celebrating Life at the Peak of Autu
 ---
 
 Thanks for reading! If you enjoy this newsletter, please share it with friends who might also find it interesting and refreshing, if not for themselves, at least for their kids.
-
