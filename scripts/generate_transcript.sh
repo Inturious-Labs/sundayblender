@@ -110,8 +110,9 @@ NF == 0 && !printed { next; }
     gsub(/<!--.*-->/, "", line);
 
     # Convert headers to uppercase plain text
-    if (match(line, /^#+\s+(.*)/, arr)) {
-        line = toupper(arr[1]);
+    if (line ~ /^#+\s+/) {
+        gsub(/^#+\s+/, "", line);
+        line = toupper(line);
         print "";
         print line;
         print "";
@@ -122,18 +123,34 @@ NF == 0 && !printed { next; }
     gsub(/!\[[^\]]*\]\([^\)]*\)/, "", line);
 
     # Convert links [text](url) to just text
-    while (match(line, /\[([^\]]+)\]\([^\)]+\)/, arr)) {
-        gsub(/\[[^\]]+\]\([^\)]+\)/, arr[1], line);
+    while (line ~ /\[([^\]]+)\]\([^\)]+\)/) {
+        # Extract the text between brackets
+        match(line, /\[([^\]]+)\]/);
+        link_text = substr(line, RSTART+1, RLENGTH-2);
+        # Replace the whole link with just the text
+        sub(/\[[^\]]+\]\([^\)]+\)/, link_text, line);
     }
 
-    # Remove bold
-    gsub(/\*\*([^*]+)\*\*/, "\\1", line);
+    # Remove bold (keep the text inside)
+    while (line ~ /\*\*[^*]+\*\*/) {
+        match(line, /\*\*[^*]+\*\*/);
+        bold_text = substr(line, RSTART+2, RLENGTH-4);
+        sub(/\*\*[^*]+\*\*/, bold_text, line);
+    }
 
-    # Remove italic
-    gsub(/\*([^*]+)\*/, "\\1", line);
+    # Remove italic (keep the text inside)
+    while (line ~ /\*[^*]+\*/) {
+        match(line, /\*[^*]+\*/);
+        italic_text = substr(line, RSTART+1, RLENGTH-2);
+        sub(/\*[^*]+\*/, italic_text, line);
+    }
 
-    # Remove code ticks
-    gsub(/`([^`]+)`/, "\\1", line);
+    # Remove code ticks (keep the text inside)
+    while (line ~ /`[^`]+`/) {
+        match(line, /`[^`]+`/);
+        code_text = substr(line, RSTART+1, RLENGTH-2);
+        sub(/`[^`]+`/, code_text, line);
+    }
 
     # Clean up extra spaces
     gsub(/  +/, " ", line);
