@@ -7,6 +7,7 @@ draft: false
 slug: "deepseek-challenges-ai-powerhouses"
 featured_image: "deepseek.jpg"
 images: ["deepseek.jpg"]
+enable_rapport: true
 ---
 
 ## Tech
