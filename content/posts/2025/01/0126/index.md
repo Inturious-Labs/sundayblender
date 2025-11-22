@@ -8,6 +8,11 @@ slug: "deepseek-challenges-ai-powerhouses"
 featured_image: "deepseek.jpg"
 images: ["deepseek.jpg"]
 enable_rapport: true
+podcast:
+  enabled: true
+  file: "2025-01-26-podcast.mp3"
+  duration: 963
+  filesize: 13732001
 ---
 
 ## Tech
