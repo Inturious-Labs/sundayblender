@@ -7,8 +7,13 @@ tags: [Google, AI, Programming, SpaceTech, Education, Estonia, China, France, Si
 keywords: [AI, Google, News for Kids, Tiobe, Python, Estonia, Blue Origin, Perrier, Penny, Leonid Meteor, Tom Cruise, Nintendo, Zelda, Call of Duty, Vibe Coding, Collins Dictionary, Speewell, David Szalay, Thanksgiving 2025, Koroshigaki, Japan, Fan Zhendong, LeBron James, Curacao, World Cup, Roger Federer, JFK, Freedom from Want, Norman Rockwell]
 featured_image: "hero.jpg"
 images: ["hero.jpg"]
-draft: true
+draft: false
 enable_rapport: true
+podcast:
+  enabled: true
+  file: "2025-11-22-podcast.mp3"
+  duration: 986
+  filesize: 14432973
 ---
 
 ## Editor's Words
