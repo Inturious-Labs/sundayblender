@@ -18,7 +18,7 @@ echo
 echo "📊 Checking current tweet queue status..."
 echo
 
-python scripts/lib/check_queue_status.py
+python3 scripts/lib/check_queue_status.py
 
 echo
 echo "----------------------------------------"

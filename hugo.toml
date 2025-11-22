@@ -3,7 +3,17 @@ languageCode = 'en-us'
 title = 'The Sunday Blender'
 canonifyURLs = true
 theme = "diary"
-googleAnalytics = "G-9WB2PSGYTC" 
+googleAnalytics = "G-9WB2PSGYTC"
+
+[outputs]
+  home = ["HTML", "RSS", "podcast"]
+
+[outputFormats]
+  [outputFormats.podcast]
+    mediaType = "application/rss+xml"
+    baseName = "podcast"
+    isPlainText = false
+    rel = "alternate" 
 
 [permalinks]
 	posts = "/p/:slug/"
@@ -15,13 +25,14 @@ googleAnalytics = "G-9WB2PSGYTC"
 	category = "categories"
 
 [params]
-	subtitle = "make news interesting for kids"
-	description = 'The Sunday Blender - the best news for kids to learn English and the world'
+	subtitle = "interesting weekly news for curious kids"
+	description = 'The Sunday Blender is a weekly newsletter that curates the most interesting news from around the world, designed to help kids learn English and understand global events through engaging stories about technology, science, culture, and more.'
+	podcastDescription = 'The Sunday Blender Podcast brings you weekly audio editions of our curated news newsletter, helping kids learn English and explore the world through engaging stories about technology, science, culture, sports, and global events.'
 	googleSiteVerification = "JxPX7y3VViNkvKcIUZV1Mm0afi-kVQ8c2dI4QaVXZJM"
 	enableOpenGraph = true
 	enableTwitterCards = true
 	enableReadingTime = true
-	author = "Clayton Man"
+	author = "Inturious Labs"
 	author_bio = "A newsman making the best news for kids with AI tools"
 	author_image = "/img/author.jpg"
 	logo = "/img/logo.png"
@@ -44,26 +55,21 @@ uglyURLs = false
 			unsafe = true
 
 [[menu.main]]
-	name = "Archive"
-	url = "/"
-	weight = 0
-
-[[menu.main]]
-	name = "RSS"
-	url = "/rss/"
-	weight = 0.5
-
-[[menu.main]]
 	name = "About"
 	url = "/about/"
 	weight = 1
 
 [[menu.main]]
-	name = "Tags"
-	url = "/tags/"
-	weight = 1.5
+	name = "Archive"
+	url = "/"
+	weight = 2
 
 [[menu.main]]
-	name = "Subscribe"
-	url = "/subscribe/"
-	weight = 2
+	name = "Tags"
+	url = "/tags/"
+	weight = 3
+
+[[menu.main]]
+	name = "Terms & Privacy"
+	url = "/terms/"
+	weight = 4

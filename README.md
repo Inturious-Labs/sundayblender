@@ -1,6 +1,13 @@
 # README
 
+[![Deploy to IC Mainnet](https://github.com/Inturious-Labs/sundayblender/actions/workflows/deploy.yml/badge.svg)](https://github.com/Inturious-Labs/sundayblender/actions/workflows/deploy.yml)
+
 The Sunday Blender's canister URL: [https://bf52x-nyaaa-aaaan-qz5aq-cai.icp0.io/](https://bf52x-nyaaa-aaaan-qz5aq-cai.icp0.io/)
+
+## Additional Documentation
+
+- [PLAN.md](PLAN.md) - Project roadmap and planning
+- [TWITTER_BOT_README.md](TWITTER_BOT_README.md) - Twitter bot documentation
 
 ## Deploy, Test & Publish
 
@@ -42,292 +49,6 @@ After creating the static HTML assets in `public/` folder, `git push` the curren
 ```
 git push --set-upstream origin <local_branch_name>
 ```
-
-## Image Processing Workflow
-
-This project includes an automated image processing workflow to optimize images for web publishing while maintaining quality and performance.
-
-### Workflow Steps:
-
-1. **Image Collection**: Author grabs images from various online resources and saves them into the post's subfolder under `content/posts/YYYY/MM/DDDD/`
-
-2. **Draft Linking**: Link images into the `index.md` during draft stage using standard Markdown syntax:
-   ```markdown
-   ![Alt text](image_filename.jpg)
-   ```
-
-3. **Image Processing**: When draft is complete and ready for publishing, run the image processing script:
-   ```bash
-   ./scripts/image_process.sh content/posts/YYYY/MM/DDDD/
-   ```
-
-   The script will:
-   - Convert filenames to lowercase
-   - Replace spaces with underscores
-   - Truncate filenames to 10 characters maximum
-   - Resize images to max width of 1200px (maintaining aspect ratio)
-   - Display a comprehensive summary with before/after comparison
-
-4. **Link Updates**: After processing, update the image links in `index.md` to match the new filenames. The script provides a detailed summary showing the original and new filenames.
-
-### Example:
-
-**Before processing:**
-```
-content/posts/2025/01/0126/
-├── index.md
-├── LA_fire.webp
-├── cofee table.jpg
-├── lakersandwarriors.jpg
-└── ...
-```
-
-**After processing:**
-```
-content/posts/2025/01/0126/
-├── index.md
-├── la_fire.webp
-├── cofee_tabl.jpg
-├── lakersandw.jpg
-└── ...
-```
-
-### Script Features:
-
-- **Automatic resizing**: Images wider than 1200px are automatically resized
-- **File size optimization**: Reduces file sizes while maintaining quality
-- **Duplicate handling**: Automatically adds numbers to prevent filename conflicts
-- **Comprehensive reporting**: Shows total size savings and individual file changes
-- **Safe processing**: Asks for confirmation before making changes
-
-## Lazy Loading Implementation
-
-This Hugo site has automatic lazy loading implemented using the native `loading="lazy"` attribute, which is supported by all modern browsers.
-
-### How It Works
-
-**Automatic Lazy Loading**
-- All images in your markdown content automatically get `loading="lazy"` added
-- The render hook (`layouts/_default/_markup/render-image.html`) handles this automatically
-- No need to manually add attributes to your images
-
-**Image Optimization**
-- Images maintain their original sizes (up to 1200px as per image processing workflow)
-- Responsive styling ensures images scale properly on all devices
-- Fallback for external images
-
-**Error Handling**
-- Failed images are hidden gracefully
-- Console warnings for debugging
-- No broken image placeholders
-
-### Usage
-
-**In Markdown Content**
-Simply use regular markdown image syntax:
-
-```markdown
-![Alt text](image.jpg)
-```
-
-The render hook automatically adds:
-- `loading="lazy"`
-- `decoding="async"`
-- Error handling
-- Responsive sizing
-
-**Using the Shortcode (Optional)**
-For more control, you can use the custom shortcode:
-
-```markdown
-{{< img src="image.jpg" alt="Alt text" class="custom-class" >}}
-```
-
-### Benefits
-
-1. **Performance**: Images only load when they're about to enter the viewport
-2. **Bandwidth**: Saves data for users on slow connections
-3. **SEO**: Better Core Web Vitals scores
-4. **User Experience**: Faster page loads, especially on mobile
-
-### Browser Support
-
-- **Chrome**: 76+ ✅
-- **Firefox**: 75+ ✅
-- **Safari**: 15.4+ ✅
-- **Edge**: 79+ ✅
-
-For older browsers, images load normally without lazy loading.
-
-### Testing
-
-**Method 1: Browser Dev Tools (Recommended)**
-1. Open browser dev tools (F12)
-2. Go to Network tab
-3. Enable "Slow 3G" or "Fast 3G" throttling
-4. Scroll down the page
-5. Watch images load as you scroll
-
-**Method 2: Network Throttling**
-1. In Chrome Dev Tools → Network tab
-2. Click the "No throttling" dropdown
-3. Select "Slow 3G" or "Fast 3G"
-4. Refresh the page and scroll
-
-### Customization
-
-**CSS Styling**
-Edit `themes/diary/static/css/lazy-loading.css` to customize:
-- Loading animations
-- Image styling
-- Error states
-
-**JavaScript Enhancement**
-The base template includes a simple script that:
-- Adds lazy loading to any images without it
-- Provides error handling
-- Can be extended for custom functionality
-
-## Link Validation with htmltest
-
-This project uses [htmltest](https://github.com/wjdp/htmltest) to validate internal links and ensure a healthy site structure.
-
-### Setup
-
-1. **Install htmltest** (if not already installed):
-   ```bash
-   # macOS
-   brew install htmltest
-   
-   # Linux
-   wget https://github.com/wjdp/htmltest/releases/latest/download/htmltest_linux_amd64.tar.gz
-   tar -xzf htmltest_linux_amd64.tar.gz
-   sudo mv htmltest /usr/local/bin/
-   ```
-
-2. **Configuration**: The project includes a `.htmltest.yml` file configured for Hugo sites:
-   - Checks internal links only (skips external URLs for speed)
-   - Ignores development artifacts (livereload.js, etc.)
-   - Validates mailto links
-   - Checks internal hash links
-
-### Usage
-
-**Basic Link Check**
-```bash
-# Build the site first
-hugo
-
-# Check public/ folder directly
-htmltest
-
-# Check all internal links
-htmltest public/ --conf .htmltest.yml
-```
-
-**Skip External Links (Faster)**
-```bash
-htmltest public/ --skip-external
-```
-
-**Save Results to File**
-```bash
-htmltest public/ --conf .htmltest.yml --output-path link-check-results.log
-```
-
-**Check with Verbose Output**
-```bash
-htmltest public/ --conf .htmltest.yml --log-level 2
-```
-
-### What It Checks
-
-✅ **Internal Links**: All links within your site
-✅ **Hash Links**: Internal page anchors (e.g., `#section`)
-✅ **Mailto Links**: Email address validation
-✅ **Image Alt Text**: Missing alt attributes
-❌ **External Links**: Skipped for faster execution
-
-### Integration with Workflow
-
-**Pre-Deployment Check**
-```bash
-# Build and test before deploying
-hugo
-htmltest public/ --conf .htmltest.yml
-
-# If no errors, proceed with deployment
-git add .
-git commit -m "Update site"
-git push
-```
-
-**CI/CD Integration**
-```bash
-# For automated testing
-hugo --minify
-htmltest public/ --conf .htmltest.yml --output-json results.json
-```
-
-## Newsletter Sign-up Implementation
-
-This Hugo site includes a complete newsletter sign-up system that integrates with your Buttondown service (`sundayblender`).
-
-### How It Works
-
-The newsletter sign-up form automatically appears on:
-- **Individual blog posts** (after the content)
-- **Dedicated newsletter page** (`/subscribe/`)
-
-### Usage Options
-
-**1. Automatic Placement (Default)**
-The newsletter form automatically appears on all pages unless disabled. To hide it on a specific page, add this to the front matter:
-
-```yaml
----
-title: "Your Post Title"
-hideNewsletter: true
----
-```
-
-**2. Manual Placement with Shortcodes**
-You can manually place the newsletter form anywhere in your content using shortcodes:
-
-```markdown
-{{< newsletter >}}
-```
-
-**3. Dedicated Newsletter Page**
-A dedicated newsletter page is available at `/subscribe/` with:
-- Detailed benefits of subscribing
-- Privacy information
-- Professional sign-up form
-
-### Buttondown Integration
-
-The forms are configured to work with your Buttondown service:
-- **Endpoint**: `https://buttondown.com/api/emails/embed-subscribe/sundayblender`
-- **Method**: POST
-- **Target**: Opens in new tab for completion
-
-### Files Created
-
-1. **`layouts/partials/newsletter-signup.html`** - Main newsletter form
-2. **`layouts/shortcodes/newsletter.html`** - Shortcode for full form
-3. **`layouts/_default/newsletter.html`** - Dedicated newsletter page template
-4. **`content/subscribe.md`** - Subscribe page content
-
-### Testing
-
-
-### Privacy & Compliance
-
-The newsletter forms include:
-- Clear privacy messaging
-- Unsubscribe information
-- GDPR-compliant language
-- No unnecessary data collection
 
 ## PDF Generation
 
@@ -372,33 +93,40 @@ tsb-make-pdf
 
 The PDF will be saved in the same directory as your `index.md` file with a descriptive filename based on your post's title and date.
 
-## Data Management & Backup
+## Content Update Progress
 
-### Email List Backup
-
-The `data/` folder serves as a backup repository for your newsletter subscriber list and other important data.
-
-#### Current Data Files
-
-**`substack_export_emails.csv`**
-- **Purpose**: Backup of newsletter subscriber emails from Substack export
-- **Content**: CSV file containing subscriber email addresses
-- **Usage**: Periodic backup of your current subscriber base
-- **Privacy**: Contains only email addresses, no personal information
-
-#### Backup Strategy
-
-**Periodic Backups**
-- Export current subscriber list from Buttondown monthly
-- Store in `data/` folder with descriptive filename
-- Include date in filename for version tracking
-- Example: `buttondown_emails_2025_01.csv`
-
-**File Naming Convention**
-```
-data/
-├── substack_export_emails.csv          # Original Substack export
-├── buttondown_emails_2025_01.csv      # January 2025 backup
-├── buttondown_emails_2025_02.csv      # February 2025 backup
-└── ...
-```
+| Date | Images | PDF | Transcript | Apple | Spotify | 小宇宙 | 喜马拉雅 | Inline 🎧 |
+|------|:------:|:---:|:----------:|:-----:|:-------:|:------:|:--------:|:---------:|
+| [2025-11-15](https://weekly.sundayblender.com/p/the-return-of-chinese-rock-in-kuala-kumpur/) | 🟢 | 🟢 | 🔴 | 🟢 | 🟢 | 🟢 | 🔴 | 🟢 |
+| [2025-11-08](https://weekly.sundayblender.com/p/who-wins-in-this-ai-bonanza/) | 🟢 | 🟢 | 🔴 | 🟢 | 🟢 | 🟢 | 🔴 | 🟢 |
+| [2025-11-01](https://weekly.sundayblender.com/p/when-yang-meets-yang-celebrating-life-at-the-peak-of-autumn/) | | | | | | | | |
+| [2025-10-25](https://weekly.sundayblender.com/p/the-greatest-performance-in-baseball-history/) | | | | | | | | |
+| [2025-10-11](https://weekly.sundayblender.com/p/djokovic-falls-to-vacherot-at-2025-shanghai-masters/) | | | | | | | | |
+| [2025-09-27](https://weekly.sundayblender.com/p/1500x-acceleration-from-ford-model-to-to-byd-yangwang-u9-extreme/) | | | | | | | | |
+| [2025-09-20](https://weekly.sundayblender.com/p/all-you-need-is-another-ai-research-report/) | | | | | | | | |
+| [2025-09-13](https://weekly.sundayblender.com/p/good-old-apple-strikes-back/) | | | | | | | | |
+| [2025-07-06](https://weekly.sundayblender.com/p/while-young-talents-trailblaze-ai-frontier-legendary-icons-write-new-chapters/) | | | | | | | | |
+| [2025-06-28](https://weekly.sundayblender.com/p/flying-without-wings-seeing-without-eyes-and-driving-without-humans/) | | | | | | | | |
+| [2025-06-21](https://weekly.sundayblender.com/p/cyber-doomsday-meets-ai-boomtown/) | | | | | | | | |
+| [2025-06-15](https://weekly.sundayblender.com/p/from-labubu-viral-craze-to-glaciers-spiral-of-doom/) | | | | | | | | |
+| [2025-06-07](https://weekly.sundayblender.com/p/every-dog-has-its-day/) | | | | | | | | |
+| [2025-05-31](https://weekly.sundayblender.com/p/when-ai-swung-a-racket-and-nadal-hung-up-his/) | | | | | | | | |
+| [2025-05-24](https://weekly.sundayblender.com/p/shining-stars-of-the-last-generation/) | | | | | | | | |
+| [2025-05-17](https://weekly.sundayblender.com/p/ai-advances-scientific-discovery/) | | | | | | | | |
+| [2025-05-10](https://weekly.sundayblender.com/p/blaze-of-glory-and-sound-of-silence/) | | | | | | | | |
+| [2025-05-09](https://weekly.sundayblender.com/p/we-come-this-far-now-what/) | | | | | | | | |
+| [2025-05-03](https://weekly.sundayblender.com/p/hello-darkness-my-old-friend/) | | | | | | | | |
+| [2025-04-26](https://weekly.sundayblender.com/p/a-tale-of-two-nations/) | | | | | | | | |
+| [2025-04-20](https://weekly.sundayblender.com/p/flying-dutchman-sails-away/) | | | | | | | | |
+| [2025-04-05](https://weekly.sundayblender.com/p/the-world-jitters-but-nintendo-glitters/) | | | | | | | | |
+| [2025-03-29](https://weekly.sundayblender.com/p/the-charming-arrival-of-agi/) | | | | | | | | |
+| [2025-03-22](https://weekly.sundayblender.com/p/march-madness-to-mars/) | | | | | | | | |
+| [2025-03-16](https://weekly.sundayblender.com/p/space-oddities-on-the-moon-space/) | | | | | | | | |
+| [2025-03-09](https://weekly.sundayblender.com/p/the-end-game-for-technology/) | | | | | | | | |
+| [2025-03-02](https://weekly.sundayblender.com/p/ancient-water-on-mars/) | | | | | | | | |
+| [2025-02-24](https://weekly.sundayblender.com/p/meeting-of-the-minds/) | | | | | | | | |
+| [2025-02-16](https://weekly.sundayblender.com/p/mega-snow-and-mega-collision/) | | | | | | | | |
+| [2025-02-09](https://weekly.sundayblender.com/p/chinese-film-ne-zha-2-shattered-record/) | | | | | | | | |
+| [2025-02-01](https://weekly.sundayblender.com/p/an-exuberant-chinese-new-year/) | | | | | | | | |
+| [2025-01-30](https://weekly.sundayblender.com/p/make-news-interesting-for-kids/) | | | | | | | | |
+| [2025-01-26](https://weekly.sundayblender.com/p/deepseek-challenges-ai-powerhouses/) | | | | | | | | |
