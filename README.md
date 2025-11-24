@@ -50,48 +50,135 @@ After creating the static HTML assets in `public/` folder, `git push` the curren
 git push --set-upstream origin <local_branch_name>
 ```
 
-## PDF Generation
+## Publishing Workflow
 
-Generate PDF versions of your newsletter posts for easy sharing and archiving.
+Complete workflow for creating and publishing a new issue of The Sunday Blender newsletter.
 
-### Quick Command
+### 1. Create Draft Branch
 
-From any newsletter directory (containing `index.md`), simply run:
+Create a draft branch for the next issue and start editing content:
 
 ```bash
+git checkout -b drafts/YYYYMMDD
+```
+
+### 2. Weekly Content Updates
+
+Update the draft branch throughout Monday to Friday with additional stories, materials, and content refinements.
+
+### 3. Complete Saturday Editing
+
+Complete editing of the `index.md` file in Cursor on Saturday. Keep the `draft: true` flag in the frontmatter at this stage.
+
+### 4. Start Hugo Development Server
+
+Ensure Hugo development server is running for PDF generation:
+
+```bash
+hugo server -D -F
+```
+
+Keep this running in a separate terminal throughout the publishing process. The `-D` flag includes draft content and `-F` includes future-dated posts.
+
+### 5. Generate PDF Version
+
+Navigate to the draft issue directory and create the PDF version:
+
+```bash
+cd content/posts/drafts/YYYYMMDD
 tsb-make-pdf
 ```
 
-### Prerequisites
+This generates a PDF file in the same directory, which will be used for podcast creation.
 
-- **Hugo development server must be running**: Run `hugo server` in a separate terminal
-  - The PDF generation script loads images from `http://localhost:1313`
-  - If the server isn't running, images won't display in the PDF
-- **Chrome browser**: For best PDF quality (fallbacks to Safari and pandoc available)
+### 6. Create Audio Podcast with NotebookLM
 
-### How It Works
+- Upload the generated PDF to [Google NotebookLM](https://notebooklm.google.com/)
+- Generate an audio file (m4a format)
+- Download and place the m4a file in the issue folder
 
-1. **Find Built HTML**: Locates the Hugo-generated HTML file in `public/p/slug/index.html`
-2. **Clean Content**: Removes table of contents and "Previous Issues" sections for cleaner PDF
-3. **Convert to PDF**: Uses Chrome headless for high-quality conversion
-4. **Smart Naming**: Generates filename like `The-Sunday-Blender-2025-09-13-Newsletter-Title.pdf`
+### 7. Process Podcast Audio
 
-### Complete Workflow
+Run the podcast processing script to:
+- Convert m4a to mp3 format
+- Update frontmatter fields with podcast metadata (duration, file size, etc.)
 
 ```bash
-# 1. Start Hugo development server (in a separate terminal)
-hugo server
-
-# 2. Navigate to newsletter directory
-cd content/posts/2025/09/0913
-
-# 3. Generate PDF (while Hugo server is running)
-tsb-make-pdf
+tsb-process-podcast
 ```
 
-### Output
+### 8. Generate Podcast Show Notes
 
-The PDF will be saved in the same directory as your `index.md` file with a descriptive filename based on your post's title and date.
+Update the podcast RSS XML feed with enhanced show notes:
+
+```bash
+tsb-generate-shownotes
+```
+
+This creates AI-enhanced show notes with structured sections (Overview, Key Topics, Notable Quotes, etc.) in the RSS feed.
+
+### 9. Finalize and Push Changes
+
+- Change `draft: false` in the frontmatter
+- Move the draft folder from `content/posts/drafts/YYYYMMDD/` to the proper date-based path `content/posts/YYYY/MM/MMDD/`
+- Commit all changes:
+
+```bash
+git add content/posts/YYYY/MM/MMDD/
+git commit -m "Add YYYY-MM-DD issue with podcast and show notes"
+git push --set-upstream origin drafts/YYYYMMDD
+```
+
+### 10. Create Pull Request
+
+Create a PR to merge the commits into `main`, which triggers the GitHub Actions deploy workflow to Internet Computer (IC) mainnet.
+
+### 11. Merge and Clean Up Remote
+
+- Merge the PR on GitHub
+- Delete the remote draft branch after successful merge
+
+### 12. Update Local Main Branch
+
+Switch to main and pull the latest changes:
+
+```bash
+git checkout main
+git pull
+```
+
+### 13. Delete Local Draft Branch
+
+Clean up the local draft branch:
+
+```bash
+git branch -d drafts/YYYYMMDD
+```
+
+### 14. Schedule Twitter Bot
+
+Initiate the Twitter bot schedule script to promote the new issue across social media.
+
+On Dalaran, run the interactive scheduler:
+
+```bash
+./scripts/schedule_tweets.sh
+```
+
+Refer to [TWITTER_BOT_README.md](TWITTER_BOT_README.md) for detailed Twitter bot instructions.
+
+### 15. Update Content Update Progress Chart
+
+Update the "Content Update Progress" table in the README with the new issue status. Mark completed items with 🟢 and incomplete items with 🔴:
+
+- Images: 🟢 (if images are included)
+- PDF: 🟢 (PDF was generated in step 5)
+- Show Notes: 🟢 (show notes were generated in step 8)
+- Apple: 🟢 (if uploaded to Apple Podcasts)
+- Spotify: 🟢 (if uploaded to Spotify)
+- 小宇宙: 🟢 (if uploaded to Xiaoyuzhou)
+- 喜马拉雅: 🔴 (or 🟢 if uploaded)
+- Inline 🎧: 🟢 (podcast is inline in the post)
 
 ## Content Update Progress
 
