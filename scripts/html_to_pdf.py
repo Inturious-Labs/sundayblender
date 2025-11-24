@@ -579,6 +579,33 @@ def clean_html_for_pdf(html_path, working_dir):
         if 'twitter.com' in link['href'] or 'x.com' in link['href'] or 'github.com' in link['href']:
             link.decompose()
 
+    # Remove Rapport comments section
+    # Look for the div containing "Comments & Discussion" heading
+    for elem in soup.find_all('h3', string=lambda text: text and 'Comments & Discussion' in text):
+        # Find parent div and remove it
+        parent = elem.find_parent('div')
+        if parent:
+            parent.decompose()
+
+    # Also remove by id and script tags related to Rapport
+    rapport_div = soup.find('div', id='rapport')
+    if rapport_div:
+        # Find the parent container div
+        parent = rapport_div.find_parent('div')
+        if parent:
+            parent.decompose()
+        else:
+            rapport_div.decompose()
+
+    # Remove Rapport-related script tags
+    for script in soup.find_all('script', src=lambda x: x and 'rapport' in x.lower()):
+        script.decompose()
+
+    # Remove Rapport initialization scripts
+    for script in soup.find_all('script'):
+        if script.string and 'Rapport.init' in script.string:
+            script.decompose()
+
     # Create magazine-style header and wrap the main content
     body = soup.find('body')
     if body:
