@@ -191,7 +191,7 @@ Update the "Content Update Progress" table in the README with the new issue stat
 
 ## Content Update Progress
 
-| Date | Images | PDF | Transcript | Apple | Spotify | 小宇宙 | 喜马拉雅 | Inline 🎧 |
+| Date | Images | PDF | Show Notes | Apple | Spotify | 小宇宙 | 喜马拉雅 | Inline 🎧 |
 |------|:------:|:---:|:----------:|:-----:|:-------:|:------:|:--------:|:---------:|
 | [2025-11-15](https://weekly.sundayblender.com/p/the-return-of-chinese-rock-in-kuala-kumpur/) | 🟢 | 🟢 | 🔴 | 🟢 | 🟢 | 🟢 | 🔴 | 🟢 |
 | [2025-11-08](https://weekly.sundayblender.com/p/who-wins-in-this-ai-bonanza/) | 🟢 | 🟢 | 🔴 | 🟢 | 🟢 | 🟢 | 🔴 | 🟢 |
