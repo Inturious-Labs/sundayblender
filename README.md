@@ -155,7 +155,16 @@ Clean up the local draft branch:
 git branch -d drafts/YYYYMMDD
 ```
 
-### 14. Schedule Twitter Bot
+### 14. Post Announcement Tweet
+
+Post an announcement tweet on [@SundayBlender](https://x.com/SundayBlender) to announce the new issue:
+
+- Log in to X.com with the @SundayBlender account
+- Compose a tweet announcing the new issue with the article link
+- Include relevant hashtags and a brief teaser about the content
+- Attach the featured image if applicable
+
+### 15. Schedule Twitter Bot
 
 Initiate the Twitter bot schedule script to promote the new issue across social media.
 
@@ -167,7 +176,7 @@ On Dalaran, run the interactive scheduler:
 
 Refer to [TWITTER_BOT_README.md](TWITTER_BOT_README.md) for detailed Twitter bot instructions.
 
-### 15. Update Content Update Progress Chart
+### 16. Update Content Update Progress Chart
 
 Update the "Content Update Progress" table in the README with the new issue status. Mark completed items with 🟢 and incomplete items with 🔴:
 
@@ -182,7 +191,7 @@ Update the "Content Update Progress" table in the README with the new issue stat
 
 ## Content Update Progress
 
-| Date | Images | PDF | Transcript | Apple | Spotify | 小宇宙 | 喜马拉雅 | Inline 🎧 |
+| Date | Images | PDF | Show Notes | Apple | Spotify | 小宇宙 | 喜马拉雅 | Inline 🎧 |
 |------|:------:|:---:|:----------:|:-----:|:-------:|:------:|:--------:|:---------:|
 | [2025-11-15](https://weekly.sundayblender.com/p/the-return-of-chinese-rock-in-kuala-kumpur/) | 🟢 | 🟢 | 🔴 | 🟢 | 🟢 | 🟢 | 🔴 | 🟢 |
 | [2025-11-08](https://weekly.sundayblender.com/p/who-wins-in-this-ai-bonanza/) | 🟢 | 🟢 | 🔴 | 🟢 | 🟢 | 🟢 | 🔴 | 🟢 |
