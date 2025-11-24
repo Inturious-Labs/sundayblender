@@ -183,10 +183,10 @@ def generate_schedule(
     Generate evenly distributed posting times over a period.
 
     Args:
-        num_tweets: Number of tweets to schedule
+        num_tweets: Number of tweets to schedule (A)
         start_time: When to start (defaults to now)
-        days: Number of days to spread tweets over
-        posts_per_day: Target posts per day
+        days: Number of days to spread tweets over (B)
+        posts_per_day: Unused, kept for compatibility
 
     Returns:
         List of datetime objects for posting times
@@ -194,36 +194,18 @@ def generate_schedule(
     if start_time is None:
         start_time = datetime.now()
 
-    # Optimal posting hours for English-speaking Asian families (UTC+8)
-    # 8 AM: Morning commute/breakfast
-    # 12 PM: Lunch break
-    # 6 PM: Evening commute/dinner time
-    posting_hours = [8, 12, 18]
+    # Simple math: B * 24 * 60 / A = average interval in minutes
+    total_minutes = days * 24 * 60
+    interval_minutes = total_minutes / num_tweets
 
     schedule = []
-    tweets_per_day = num_tweets // days
-    remainder = num_tweets % days
+    current_time = start_time
 
-    current_day = start_time.replace(hour=8, minute=0, second=0, microsecond=0)
+    for i in range(num_tweets):
+        schedule.append(current_time)
+        current_time += timedelta(minutes=interval_minutes)
 
-    # If start time is after 6 PM, start tomorrow
-    if start_time.hour >= 18:
-        current_day += timedelta(days=1)
-
-    for day in range(days):
-        # Distribute tweets for this day
-        day_tweets = tweets_per_day + (1 if day < remainder else 0)
-
-        # Select hours for this day's tweets
-        hours = posting_hours[:day_tweets] if day_tweets <= len(posting_hours) else posting_hours
-
-        for i, hour in enumerate(hours[:day_tweets]):
-            post_time = current_day.replace(hour=hour)
-            schedule.append(post_time)
-
-        current_day += timedelta(days=1)
-
-    return schedule[:num_tweets]  # Ensure exact count
+    return schedule
 
 
 def main():
