@@ -13,6 +13,21 @@ podcast:
   file: "2025-11-08-podcast.mp3"
   duration: 821
   filesize: 13141608
+  shownotes: |
+    The Sunday Blender is a weekly newsletter that reports top trending news around the world. It's made for curious English-speaking kids aged 8~15 who aspire for a bigger world and nurture a life-long habit of reading. Every new issue is delivered to your email inbox on Saturday. Each issue comes with 20~25 stories. Each story has no more than 100 words, in plain English with a picture. These stories cover Technology, Global, Economy & Finance, Nature & Environment, Science, Lifestyle & Culture, Sports, History, Art, and Comedy. It's about 10~15 minutes of reading time.
+    
+    In the issue of Nov 08, As every big tech except Google is selling compute power to OpenAI, are we entering into an AI bubble, or just accelerating a historical bonanza?
+    
+    📖 Read the full newsletter article with pictures, comments, and likes:
+    https://weekly.sundayblender.com/p/who-wins-in-this-ai-bonanza/
+    
+    📧 Subscribe to The Sunday Blender newsletter with email:
+    https://weekly.sundayblender.com
+    
+    🎧 Listen on:
+    • Apple Podcasts: https://podcasts.apple.com/us/podcast/the-sunday-blender-podcast/id1853996806
+    • Spotify: https://open.spotify.com/show/0p6Boxgcyy9eJzdBQlu4CG
+    • 小宇宙 (Xiaoyuzhou): https://www.xiaoyuzhoufm.com/podcast/691d248b88967822c085fda5
 ---
 
 ## Editor's Words
