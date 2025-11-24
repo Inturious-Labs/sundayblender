@@ -52,13 +52,13 @@ case $menu_choice in
     2)
         echo
         echo "⏸️  PAUSING tweet schedule..."
-        python scripts/lib/manage_queue.py --pause
+        python3 scripts/lib/manage_queue.py --pause
         exit 0
         ;;
     3)
         echo
         echo "▶️  RESUMING tweet schedule..."
-        python scripts/lib/manage_queue.py --resume
+        python3 scripts/lib/manage_queue.py --resume
         exit 0
         ;;
     4)
@@ -73,7 +73,7 @@ case $menu_choice in
 
         echo
         echo "🗑️  Clearing queue..."
-        python scripts/lib/manage_queue.py --clear
+        python3 scripts/lib/manage_queue.py --clear
         exit 0
         ;;
     5)
@@ -147,7 +147,7 @@ echo "🚀 Generating tweet schedule for $days days..."
 echo
 
 # Run the Python script
-python scripts/lib/schedule_article.py "$selected_article" --days "$days"
+python3 scripts/lib/schedule_article.py "$selected_article" --days "$days"
 
 echo
 echo "✅ Done! Your tweets are scheduled."
