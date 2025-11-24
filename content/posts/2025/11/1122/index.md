@@ -14,6 +14,32 @@ podcast:
   file: "2025-11-22-podcast.mp3"
   duration: 986
   filesize: 14432973
+  shownotes: |
+    Google released the highly anticipated AI model Gemini 3 with much fanfare, challenging OpenAI's chatGPT and Anthropic's Claude. Google becomes the first full-stack AI superpower that boasts a complete lineup of large language model, code editor, chip, cloud, and consumer apps.
+    
+    📖 Read the full newsletter article:
+    https://weekly.sundayblender.com/p/the-most-intelligent-ai-model-yet/
+    
+    Subscribe to The Sunday Blender newsletter:
+    https://weekly.sundayblender.com
+    
+    🎧 Listen on:
+    • Apple Podcasts: https://podcasts.apple.com/us/podcast/the-sunday-blender-podcast/id1853996806
+    • Spotify: https://open.spotify.com/show/0p6Boxgcyy9eJzdBQlu4CG
+    • 小宇宙 (Xiaoyuzhou): https://www.xiaoyuzhoufm.com/podcast/691d248b88967822c085fda5
+  shownotes: |
+    Google released the highly anticipated AI model Gemini 3 with much fanfare, challenging OpenAI's chatGPT and Anthropic's Claude. Google becomes the first full-stack AI superpower that boasts a complete lineup of large language model, code editor, chip, cloud, and consumer apps.
+    
+    📖 Read the full newsletter article:
+    https://weekly.sundayblender.com/p/the-most-intelligent-ai-model-yet/
+    
+    Subscribe to The Sunday Blender newsletter:
+    https://weekly.sundayblender.com
+    
+    🎧 Listen on:
+    • Apple Podcasts: https://podcasts.apple.com/us/podcast/the-sunday-blender-podcast/id1853996806
+    • Spotify: https://open.spotify.com/show/0p6Boxgcyy9eJzdBQlu4CG
+    • 小宇宙 (Xiaoyuzhou): https://www.xiaoyuzhoufm.com/podcast/691d248b88967822c085fda5
 ---
 
 ## Editor's Words

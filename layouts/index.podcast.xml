@@ -51,12 +51,12 @@
       <guid isPermaLink="true">{{ .Permalink }}</guid>
 
       <!-- Podcast Episode Description -->
-      <description>{{ .Params.description | html }}</description>
+      <description>{{ if .Params.podcast.shownotes }}{{ .Params.podcast.shownotes | html }}{{ else }}{{ .Params.description | html }}{{ end }}</description>
 
       <!-- iTunes Episode Tags -->
       <itunes:title>{{ .Title }}</itunes:title>
       <itunes:author>{{ .Site.Params.author }}</itunes:author>
-      <itunes:summary>{{ .Params.description }}</itunes:summary>
+      <itunes:summary>{{ if .Params.podcast.shownotes }}{{ .Params.podcast.shownotes }}{{ else }}{{ .Params.description }}{{ end }}</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       {{ with .Params.podcast.duration }}
       <itunes:duration>{{ . }}</itunes:duration>
