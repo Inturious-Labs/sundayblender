@@ -199,7 +199,8 @@ def generate_schedule(
     interval_minutes = total_minutes / num_tweets
 
     schedule = []
-    current_time = start_time
+    # Start from next slot, not current time
+    current_time = start_time + timedelta(minutes=interval_minutes)
 
     for i in range(num_tweets):
         schedule.append(current_time)
