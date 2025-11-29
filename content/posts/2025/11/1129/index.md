@@ -8,6 +8,26 @@ featured_image: "hero.jpeg"
 images: ["hero.jpeg"]
 draft: false
 enable_rapport: true
+podcast:
+  enabled: true
+  file: "2025-11-29-podcast.mp3"
+  duration: 957
+  filesize: 14020996
+  shownotes: |
+    The Sunday Blender is a weekly newsletter that reports top trending news around the world. It's made for curious English-speaking kids aged 8~15 who aspire for a bigger world and nurture a life-long habit of reading. Every new issue is delivered to your email inbox on Saturday. Each issue comes with 20~25 stories. Each story has no more than 100 words, in plain English with a picture. These stories cover Technology, Global, Economy & Finance, Nature & Environment, Science, Lifestyle & Culture, Sports, History, Art, and Comedy. It's about 10~15 minutes of reading time.
+    
+    In the issue of Nov 29, While 33-year-old Neymar is injured again and will miss the rest of the 2025 season if not the 2026 World Cup, 18-year old rookie Estevao is buzzing in the Champions League,
+    
+    📖 Read the full newsletter article with pictures, comments, and likes:
+    https://weekly.sundayblender.com/p/who-will-lead-brazil-at-2026-world-cup-neymay-or-estevao/
+    
+    📧 Subscribe to The Sunday Blender newsletter with email:
+    https://weekly.sundayblender.com
+    
+    🎧 Listen on:
+    • Apple Podcasts: https://podcasts.apple.com/us/podcast/the-sunday-blender-podcast/id1853996806
+    • Spotify: https://open.spotify.com/show/0p6Boxgcyy9eJzdBQlu4CG
+    • 小宇宙 (Xiaoyuzhou): https://www.xiaoyuzhoufm.com/podcast/691d248b88967822c085fda5
 ---
 
 ## Tech
