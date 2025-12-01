@@ -65,7 +65,7 @@
             {{ if .Params.podcast.enabled }}
             <div class="podcast-player" style="background: #f5f5f5; padding: 20px; border-radius: 8px; margin: 20px;">
                 <h3 style="margin-top: 0;">🎧 Listen to this article</h3>
-                <audio controls style="width: 100%;">
+                <audio controls preload="none" style="width: 100%;">
                     <source src="{{ .Params.podcast.file }}" type="audio/mpeg">
                     Your browser does not support the audio element.
                 </audio>
