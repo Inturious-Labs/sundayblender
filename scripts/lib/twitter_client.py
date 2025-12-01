@@ -13,12 +13,13 @@ from dotenv import load_dotenv
 class TwitterClient:
     """Wrapper for Twitter API operations."""
 
-    def __init__(self, env_path: Optional[Path] = None):
+    def __init__(self, env_path: Optional[Path] = None, verify: bool = True):
         """
         Initialize Twitter client.
 
         Args:
             env_path: Path to .env file (defaults to project root)
+            verify: Whether to verify credentials on init (default True, set False for cron jobs)
         """
         # Load environment variables
         if env_path is None:
@@ -43,24 +44,28 @@ class TwitterClient:
         auth.set_access_token(access_token, access_token_secret)
 
         # Create API client (v1.1 for media upload)
-        self.api = tweepy.API(auth, wait_on_rate_limit=True)
+        # wait_on_rate_limit=False: fail fast instead of sleeping (prevents zombie processes)
+        self.api = tweepy.API(auth, wait_on_rate_limit=False)
 
         # Create client for API v2 (for posting)
+        # wait_on_rate_limit=False: fail fast instead of sleeping (prevents zombie processes)
         self.client = tweepy.Client(
             consumer_key=api_key,
             consumer_secret=api_secret,
             access_token=access_token,
             access_token_secret=access_token_secret,
-            wait_on_rate_limit=True
+            wait_on_rate_limit=False
         )
 
-        # Verify credentials
-        try:
-            user = self.api.verify_credentials()
-            self.username = user.screen_name
-            print(f"✓ Authenticated as @{self.username}")
-        except tweepy.TweepyException as e:
-            raise Exception(f"Authentication failed: {e}")
+        # Verify credentials (optional - skip for cron jobs to reduce API calls)
+        self.username = None
+        if verify:
+            try:
+                user = self.api.verify_credentials()
+                self.username = user.screen_name
+                print(f"✓ Authenticated as @{self.username}")
+            except tweepy.TweepyException as e:
+                raise Exception(f"Authentication failed: {e}")
 
     def post_tweet(
         self,
@@ -110,13 +115,16 @@ class TwitterClient:
             )
 
             tweet_id = response.data['id']
+            # Use 'i' as generic user path if username not verified
+            url_user = self.username or 'i'
+            tweet_url = f"https://twitter.com/{url_user}/status/{tweet_id}"
             print(f"✅ Tweet posted: {tweet_id}")
-            print(f"   URL: https://twitter.com/{self.username}/status/{tweet_id}")
+            print(f"   URL: {tweet_url}")
 
             return {
                 'id': tweet_id,
                 'text': text,
-                'url': f"https://twitter.com/{self.username}/status/{tweet_id}"
+                'url': tweet_url
             }
 
         except tweepy.TweepyException as e:
