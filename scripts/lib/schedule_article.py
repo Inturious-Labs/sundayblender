@@ -27,6 +27,9 @@ def schedule_article_tweets(article_path: Path, days: int = 7):
     Args:
         article_path: Path to article index.md
         days: Number of days to spread tweets
+
+    Returns:
+        True if schedule was saved, False if cancelled
     """
     print("=" * 70)
     print("GENERATING TWEET SCHEDULE")
@@ -58,32 +61,13 @@ def schedule_article_tweets(article_path: Path, days: int = 7):
     print(f"   Last:  {schedule[-1].strftime('%a, %b %d at %I:%M %p')}")
     print()
 
-    # Add to queue
-    print("💾 Adding tweets to queue...")
-    queue = TweetQueue()
-
-    for i, (tweet, post_time) in enumerate(zip(tweets, schedule)):
-        story_section = article.stories[i].section if i < len(article.stories) else None
-
-        queue.add_tweet(
-            text=tweet['text'],
-            scheduled_time=post_time,
-            image_path=tweet['image_path'],
-            story_section=story_section
-        )
-
-    print(f"✓ Queued {len(tweets)} tweets")
-    print()
-
-    # Summary
-    stats = queue.get_stats()
+    # Preview (before saving)
     print("=" * 70)
-    print("SCHEDULE SUMMARY")
+    print("SCHEDULE PREVIEW")
     print("=" * 70)
-    print(f"Total queued: {stats['total']}")
-    print(f"Pending: {stats['pending']}")
-    next_time = datetime.fromisoformat(stats['next_scheduled'])
-    print(f"Next post: {next_time.strftime('%a, %b %d at %I:%M %p')}")
+    print(f"Total tweets: {len(tweets)}")
+    print(f"First post: {schedule[0].strftime('%a, %b %d at %I:%M %p')}")
+    print(f"Last post:  {schedule[-1].strftime('%a, %b %d at %I:%M %p')}")
     print()
 
     # Preview first 5
@@ -102,6 +86,45 @@ def schedule_article_tweets(article_path: Path, days: int = 7):
         print(f"  ... and {len(tweets) - 5} more")
 
     print("=" * 70)
+    print()
+
+    # Ask for confirmation
+    confirm = input("Save this schedule? (y/n): ").strip().lower()
+    if confirm != 'y':
+        print("\n❌ Cancelled. No changes made.")
+        return False
+
+    # Clear existing queue and add new tweets
+    print()
+    print("💾 Saving tweets to queue...")
+    queue = TweetQueue()
+    queue.tweets = []  # Clear existing queue
+
+    for i, (tweet, post_time) in enumerate(zip(tweets, schedule)):
+        story_section = article.stories[i].section if i < len(article.stories) else None
+
+        queue.add_tweet(
+            text=tweet['text'],
+            scheduled_time=post_time,
+            image_path=tweet['image_path'],
+            story_section=story_section
+        )
+
+    print(f"✓ Queued {len(tweets)} tweets (replaced previous queue)")
+    print()
+
+    # Summary
+    stats = queue.get_stats()
+    print("=" * 70)
+    print("SCHEDULE SAVED")
+    print("=" * 70)
+    print(f"Total queued: {stats['total']}")
+    print(f"Pending: {stats['pending']}")
+    next_time = datetime.fromisoformat(stats['next_scheduled'])
+    print(f"Next post: {next_time.strftime('%a, %b %d at %I:%M %p')}")
+    print("=" * 70)
+
+    return True
 
 
 def main():
