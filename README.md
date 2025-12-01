@@ -191,6 +191,7 @@ tsb-update-progress
 ```
 
 Options:
+
 - `--sync` - Add new articles from production RSS (no status check)
 - `--date YYYY-MM-DD` - Check specific article
 - `--all` - Check all articles in table
