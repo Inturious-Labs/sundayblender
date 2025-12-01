@@ -54,13 +54,23 @@ git push --set-upstream origin <local_branch_name>
 
 Complete workflow for creating and publishing a new issue of The Sunday Blender newsletter.
 
-### 1. Create Draft Branch
+### 1. Create Draft Branch and Article Folder
 
-Create a draft branch for the next issue and start editing content:
+Create a draft branch for the next issue:
 
 ```bash
-git checkout -b drafts/YYYYMMDD
+git checkout -b draft/YYYYMMDD
 ```
+
+Create the article folder and initialize:
+
+```bash
+mkdir -p content/posts/YYYY/MM/MMDD
+cd content/posts/YYYY/MM/MMDD
+tsb-init-article
+```
+
+The initializer prompts for title, slug, description, and tags, then generates `index.md` with all frontmatter fields, section headers, and links to the 3 most recent published articles.
 
 ### 2. Weekly Content Updates
 
@@ -82,10 +92,10 @@ Keep this running in a separate terminal throughout the publishing process. The 
 
 ### 5. Generate PDF Version
 
-Navigate to the draft issue directory and create the PDF version:
+Navigate to the article directory and create the PDF version:
 
 ```bash
-cd content/posts/drafts/YYYYMMDD
+cd content/posts/YYYY/MM/MMDD
 tsb-make-pdf
 ```
 
@@ -120,13 +130,12 @@ This creates AI-enhanced show notes with structured sections (Overview, Key Topi
 ### 9. Finalize and Push Changes
 
 - Change `draft: false` in the frontmatter
-- Move the draft folder from `content/posts/drafts/YYYYMMDD/` to the proper date-based path `content/posts/YYYY/MM/MMDD/`
 - Commit all changes:
 
 ```bash
 git add content/posts/YYYY/MM/MMDD/
 git commit -m "Add YYYY-MM-DD issue with podcast and show notes"
-git push --set-upstream origin drafts/YYYYMMDD
+git push --set-upstream origin draft/YYYYMMDD
 ```
 
 ### 10. Create Pull Request
@@ -152,7 +161,7 @@ git pull
 Clean up the local draft branch:
 
 ```bash
-git branch -d drafts/YYYYMMDD
+git branch -d draft/YYYYMMDD
 ```
 
 ### 14. Post Announcement Tweet
