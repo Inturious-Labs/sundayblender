@@ -184,13 +184,29 @@ Refer to [TWITTER_BOT_README.md](TWITTER_BOT_README.md) for detailed Twitter bot
 
 ### 10. Update Content Update Progress Chart
 
-Update the "Content Update Progress" table below with the new issue status. Mark completed items with 🟢 and incomplete items with 🔴.
+Run the progress checker to automatically update the table:
+
+```
+tsb-update-progress
+```
+
+Options:
+- `--sync` - Add new articles from production RSS (no status check)
+- `--date YYYY-MM-DD` - Check specific article
+- `--all` - Check all articles in table
+- `--dry-run` - Show results without updating
+
+The script automatically discovers and adds new articles from the production site.
+
+Note: 喜马拉雅 (Ximalaya) requires manual verification.
 
 ## Content Update Progress
 
 | Date | Images | PDF | Show Notes | Apple | Spotify | 小宇宙 | 喜马拉雅 | Inline 🎧 |
 |------|:------:|:---:|:----------:|:-----:|:-------:|:------:|:--------:|:---------:|
-| [2025-11-15](https://weekly.sundayblender.com/p/the-return-of-chinese-rock-in-kuala-kumpur/) | 🟢 | 🟢 | 🔴 | 🟢 | 🟢 | 🟢 | 🔴 | 🟢 |
+| [2025-11-22](https://weekly.sundayblender.com/p/the-most-intelligent-ai-model-yet/) |  |  |  |  |  |  |  |  |
+| [2025-11-29](https://weekly.sundayblender.com/p/who-will-lead-brazil-at-2026-world-cup-neymay-or-estevao/) |  |  |  |  |  |  |  |  |
+| [2025-11-15](https://weekly.sundayblender.com/p/the-return-of-chinese-rock-in-kuala-kumpur/) | 🟢 | 🟢 | 🟢 | 🟢 | 🟢 | 🟢 |  | 🟢 |
 | [2025-11-08](https://weekly.sundayblender.com/p/who-wins-in-this-ai-bonanza/) | 🟢 | 🟢 | 🔴 | 🟢 | 🟢 | 🟢 | 🔴 | 🟢 |
 | [2025-11-01](https://weekly.sundayblender.com/p/when-yang-meets-yang-celebrating-life-at-the-peak-of-autumn/) | | | | | | | | |
 | [2025-10-25](https://weekly.sundayblender.com/p/the-greatest-performance-in-baseball-history/) | | | | | | | | |
