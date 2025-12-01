@@ -70,64 +70,55 @@ cd content/posts/YYYY/MM/MMDD
 tsb-init-article
 ```
 
-The initializer prompts for title, slug, description, and tags, then generates `index.md` with all frontmatter fields, section headers, and links to the 3 most recent published articles.
+The initializer generates `index.md` with all frontmatter fields (with placeholders), section headers, and links to the 3 most recent published articles.
 
 ### 2. Weekly Content Updates
 
-Update the draft branch throughout Monday to Friday with additional stories, materials, and content refinements.
+Update the article throughout the week with additional stories, materials, and content refinements.
 
-### 3. Complete Saturday Editing
+- Make all changes in the `draft/YYYYMMDD` branch, NOT the `main` branch
+- Keep `draft: true` in frontmatter throughout the week
+- Commit changes locally, but no need to push to remote until ready to publish
+- Preview with `hugo server -D -F` to display draft articles with future dates
 
-Complete editing of the `index.md` file in Cursor on Saturday. Keep the `draft: true` flag in the frontmatter at this stage.
+### 3. Audit Text Content
 
-### 4. Start Hugo Development Server
-
-Ensure Hugo development server is running for PDF generation:
+Run a text audit to ensure the article is ready for PDF generation:
 
 ```bash
-hugo server -D -F
+tsb-audit-text
 ```
 
-Keep this running in a separate terminal throughout the publishing process. The `-D` flag includes draft content and `-F` includes future-dated posts.
+This verifies frontmatter fields, images, section content, and reading time before proceeding to PDF/podcast generation.
 
-### 5. Generate PDF Version
+### 4. Generate PDF Version
 
-Navigate to the article directory and create the PDF version:
+Ensure Hugo dev server is running (`hugo server -D -F`), then generate the PDF:
 
 ```bash
-cd content/posts/YYYY/MM/MMDD
 tsb-make-pdf
 ```
 
-This generates a PDF file in the same directory, which will be used for podcast creation.
+This generates a PDF in the article folder for podcast creation. If run again, it creates `name_01.pdf`, `name_02.pdf`, etc. without overwriting previous versions. However, `static/pdf/` always gets the latest version with the original filename (overwrites older versions).
 
-### 6. Create Audio Podcast with NotebookLM
+### 5. Create and Process Podcast
 
-- Upload the generated PDF to [Google NotebookLM](https://notebooklm.google.com/)
-- Generate an audio file (m4a format)
-- Download and place the m4a file in the issue folder
+**Generate audio:**
+- Upload the PDF to [Google NotebookLM](https://notebooklm.google.com/)
+- Use "Audio Overview" and select "Deep Dive" mode
+- Download the m4a file to the article folder
 
-### 7. Process Podcast Audio
-
-Run the podcast processing script to:
-- Convert m4a to mp3 format
-- Update frontmatter fields with podcast metadata (duration, file size, etc.)
-
+**Process audio:**
 ```bash
-tsb-process-podcast
+tsb-make-podcast
 ```
 
-### 8. Generate Podcast Show Notes
+This single command:
+- Converts m4a to mp3 (`YYYY-MM-DD-podcast.mp3`)
+- Updates frontmatter: `enabled: true`, `file`, `duration`, `filesize`
+- Regenerates `shownotes` with the actual description
 
-Update the podcast RSS XML feed with enhanced show notes:
-
-```bash
-tsb-generate-shownotes
-```
-
-This creates AI-enhanced show notes with structured sections (Overview, Key Topics, Notable Quotes, etc.) in the RSS feed.
-
-### 9. Finalize and Push Changes
+### 6. Finalize and Push Changes
 
 - Change `draft: false` in the frontmatter
 - Commit all changes:
