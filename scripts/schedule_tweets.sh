@@ -150,9 +150,10 @@ echo
 python3 scripts/lib/schedule_article.py "$selected_article" --days "$days"
 
 echo
-echo "✅ Done! Your tweets are scheduled."
+echo "✅ Done! Tweets will be posted automatically via cron job on Dalaran."
 echo
 echo "Next steps:"
-echo "  1. Review the queue: cat data/tweet_queue.json"
-echo "  2. Set up cron job on Dalaran server (see README.md)"
+echo "  - Review the queue: cat data/tweet_queue.json"
+echo "  - Verify cron is set up on Dalaran: \`crontab -l\`"
+echo "  - Check status anytime: ./scripts/schedule_tweets.sh"
 echo
