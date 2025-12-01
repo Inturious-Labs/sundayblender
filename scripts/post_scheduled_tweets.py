@@ -62,9 +62,9 @@ def post_due_tweets():
 
     print(f"\n📬 Found {len(due_tweets)} tweet(s) ready to post\n")
 
-    # Initialize Twitter client
+    # Initialize Twitter client (skip verify to reduce API calls)
     try:
-        client = TwitterClient()
+        client = TwitterClient(verify=False)
     except Exception as e:
         print(f"❌ Failed to initialize Twitter client: {e}")
         print(f"{'=' * 70}\n")
