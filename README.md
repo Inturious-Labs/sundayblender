@@ -54,108 +54,114 @@ git push --set-upstream origin <local_branch_name>
 
 Complete workflow for creating and publishing a new issue of The Sunday Blender newsletter.
 
-### 1. Create Draft Branch
+### 1. Create Draft Branch and Article Folder
 
-Create a draft branch for the next issue and start editing content:
+Create a draft branch for the next issue:
 
 ```bash
-git checkout -b drafts/YYYYMMDD
+git checkout -b draft/YYYYMMDD
 ```
+
+Create the article folder and initialize:
+
+```bash
+mkdir -p content/posts/YYYY/MM/MMDD
+cd content/posts/YYYY/MM/MMDD
+tsb-init-article
+```
+
+The initializer generates `index.md` with all frontmatter fields (with placeholders), section headers, and links to the 3 most recent published articles.
 
 ### 2. Weekly Content Updates
 
-Update the draft branch throughout Monday to Friday with additional stories, materials, and content refinements.
+Update the article throughout the week with additional stories, materials, and content refinements.
 
-### 3. Complete Saturday Editing
+- Make all changes in the `draft/YYYYMMDD` branch, NOT the `main` branch
+- Keep `draft: true` in frontmatter throughout the week
+- Commit changes locally, but no need to push to remote until ready to publish
+- Preview with `hugo server -D -F` to display draft articles with future dates
+- For Cursor editor, use theme "Quiet Light" for better readability
 
-Complete editing of the `index.md` file in Cursor on Saturday. Keep the `draft: true` flag in the frontmatter at this stage.
+### 3. Audit Text Content
 
-### 4. Start Hugo Development Server
-
-Ensure Hugo development server is running for PDF generation:
+Run a text audit to ensure the article is ready for PDF generation:
 
 ```bash
-hugo server -D -F
+tsb-audit-text
 ```
 
-Keep this running in a separate terminal throughout the publishing process. The `-D` flag includes draft content and `-F` includes future-dated posts.
+This verifies frontmatter fields, images, section content, and reading time before proceeding to PDF/podcast generation.
 
-### 5. Generate PDF Version
+### 4. Generate PDF Version
 
-Navigate to the draft issue directory and create the PDF version:
+Ensure Hugo dev server is running (`hugo server -D -F`), then generate the PDF:
 
 ```bash
-cd content/posts/drafts/YYYYMMDD
 tsb-make-pdf
 ```
 
-This generates a PDF file in the same directory, which will be used for podcast creation.
+This generates a PDF in the article folder for podcast creation. If run again, it creates `name_01.pdf`, `name_02.pdf`, etc. without overwriting previous versions. However, `static/pdf/` always gets the latest version with the original filename (overwrites older versions).
 
-### 6. Create Audio Podcast with NotebookLM
+### 5. Create and Process Podcast
 
-- Upload the generated PDF to [Google NotebookLM](https://notebooklm.google.com/)
-- Generate an audio file (m4a format)
-- Download and place the m4a file in the issue folder
+**Generate audio:**
+- Upload the PDF to [Google NotebookLM](https://notebooklm.google.com/)
+- Use "Audio Overview" and select "Deep Dive" mode
+- Download the m4a file to the article folder
 
-### 7. Process Podcast Audio
-
-Run the podcast processing script to:
-- Convert m4a to mp3 format
-- Update frontmatter fields with podcast metadata (duration, file size, etc.)
-
-```bash
-tsb-process-podcast
+**Process audio:**
+```
+tsb-make-podcast
 ```
 
-### 8. Generate Podcast Show Notes
+This single command:
 
-Update the podcast RSS XML feed with enhanced show notes:
+- Converts m4a to mp3 (`YYYY-MM-DD-podcast.mp3`)
+- Updates frontmatter: `enabled: true`, `file`, `duration`, `filesize`
+- Regenerates `shownotes` with the actual description
 
-```bash
-tsb-generate-shownotes
+### 6. Final Audit and Push
+
+**Step 1:** Change `draft: false` in the frontmatter
+
+**Step 2:** Run final audit to verify everything is ready:
+
+```
+tsb-audit-final
 ```
 
-This creates AI-enhanced show notes with structured sections (Overview, Key Topics, Notable Quotes, etc.) in the RSS feed.
+This checks:
 
-### 9. Finalize and Push Changes
+- draft is set to false
+- PDF and MP3 files exist
+- Podcast frontmatter is complete (enabled, duration, filesize)
+- Twitter card meta tags are correct (summary_large_image)
+- Hero image is displayed
+- Main RSS feed includes the article
+- Podcast RSS feed includes the episode
 
-- Change `draft: false` in the frontmatter
-- Move the draft folder from `content/posts/drafts/YYYYMMDD/` to the proper date-based path `content/posts/YYYY/MM/MMDD/`
-- Commit all changes:
+**Step 3:** Commit and push:
 
-```bash
+```
 git add content/posts/YYYY/MM/MMDD/
-git commit -m "Add YYYY-MM-DD issue with podcast and show notes"
-git push --set-upstream origin drafts/YYYYMMDD
+git commit -m "Add YYYY-MM-DD issue"
+git push --set-upstream origin draft/YYYYMMDD
 ```
 
-### 10. Create Pull Request
+### 7. Create PR, Merge, and Clean Up
 
-Create a PR to merge the commits into `main`, which triggers the GitHub Actions deploy workflow to Internet Computer (IC) mainnet.
+- Create a PR to merge `draft/YYYYMMDD` into `main`
+- This triggers the GitHub deploy action to deploy the production canister on the Internet Computer
+- Once the merge is completed, the remote draft branch is deleted automatically
+- Update local:
 
-### 11. Merge and Clean Up Remote
-
-- Merge the PR on GitHub
-- Delete the remote draft branch after successful merge
-
-### 12. Update Local Main Branch
-
-Switch to main and pull the latest changes:
-
-```bash
+```
 git checkout main
 git pull
+git branch -d draft/YYYYMMDD
 ```
 
-### 13. Delete Local Draft Branch
-
-Clean up the local draft branch:
-
-```bash
-git branch -d drafts/YYYYMMDD
-```
-
-### 14. Post Announcement Tweet
+### 8. Post Announcement Tweet
 
 Post an announcement tweet on [@SundayBlender](https://x.com/SundayBlender) to announce the new issue:
 
@@ -164,7 +170,7 @@ Post an announcement tweet on [@SundayBlender](https://x.com/SundayBlender) to a
 - Include relevant hashtags and a brief teaser about the content
 - Attach the featured image if applicable
 
-### 15. Schedule Twitter Bot
+### 9. Schedule Twitter Bot
 
 Initiate the Twitter bot schedule script to promote the new issue across social media.
 
@@ -176,24 +182,32 @@ On Dalaran, run the interactive scheduler:
 
 Refer to [TWITTER_BOT_README.md](TWITTER_BOT_README.md) for detailed Twitter bot instructions.
 
-### 16. Update Content Update Progress Chart
+### 10. Update Content Update Progress Chart
 
-Update the "Content Update Progress" table in the README with the new issue status. Mark completed items with 🟢 and incomplete items with 🔴:
+Run the progress checker to automatically update the table:
 
-- Images: 🟢 (if images are included)
-- PDF: 🟢 (PDF was generated in step 5)
-- Show Notes: 🟢 (show notes were generated in step 8)
-- Apple: 🟢 (if uploaded to Apple Podcasts)
-- Spotify: 🟢 (if uploaded to Spotify)
-- 小宇宙: 🟢 (if uploaded to Xiaoyuzhou)
-- 喜马拉雅: 🔴 (or 🟢 if uploaded)
-- Inline 🎧: 🟢 (podcast is inline in the post)
+```
+tsb-update-progress
+```
+
+Options:
+
+- `--sync` - Add new articles from production RSS (no status check)
+- `--date YYYY-MM-DD` - Check specific article
+- `--all` - Check all articles in table
+- `--dry-run` - Show results without updating
+
+The script automatically discovers and adds new articles from the production site.
+
+Note: 喜马拉雅 (Ximalaya) requires manual verification.
 
 ## Content Update Progress
 
 | Date | Images | PDF | Show Notes | Apple | Spotify | 小宇宙 | 喜马拉雅 | Inline 🎧 |
 |------|:------:|:---:|:----------:|:-----:|:-------:|:------:|:--------:|:---------:|
-| [2025-11-15](https://weekly.sundayblender.com/p/the-return-of-chinese-rock-in-kuala-kumpur/) | 🟢 | 🟢 | 🔴 | 🟢 | 🟢 | 🟢 | 🔴 | 🟢 |
+| [2025-11-22](https://weekly.sundayblender.com/p/the-most-intelligent-ai-model-yet/) |  |  |  |  |  |  |  |  |
+| [2025-11-29](https://weekly.sundayblender.com/p/who-will-lead-brazil-at-2026-world-cup-neymay-or-estevao/) |  |  |  |  |  |  |  |  |
+| [2025-11-15](https://weekly.sundayblender.com/p/the-return-of-chinese-rock-in-kuala-kumpur/) | 🟢 | 🟢 | 🟢 | 🟢 | 🟢 | 🟢 |  | 🟢 |
 | [2025-11-08](https://weekly.sundayblender.com/p/who-wins-in-this-ai-bonanza/) | 🟢 | 🟢 | 🔴 | 🟢 | 🟢 | 🟢 | 🔴 | 🟢 |
 | [2025-11-01](https://weekly.sundayblender.com/p/when-yang-meets-yang-celebrating-life-at-the-peak-of-autumn/) | | | | | | | | |
 | [2025-10-25](https://weekly.sundayblender.com/p/the-greatest-performance-in-baseball-history/) | | | | | | | | |
