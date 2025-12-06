@@ -1,12 +1,12 @@
 ---
-title: "Title Placeholder"
+title: "Humans Are No Longer the Only Species to Use Fiber Optics"
 date: 2025-12-06
-slug: title-placeholder-1206
-description: "Description placeholder - brief summary of this issue"
-tags: ["Tag1", "Tag2", "Tag3", "Tag4", "Tag5", "Tag6", "Tag7", "Tag8", "Tag9", "Tag10"]
-keywords: ["news for kids", "kids news", "children's news", "news for tweens", "news for teens", "kid-friendly news", "weekly news for kids", "current events for kids", "world news for children", "educational news", "topic1", "topic2", "topic3", "topic4", "topic5", "topic6", "topic7", "topic8", "topic9", "topic10"]
-featured_image: "hero.jpeg"
-images: ["hero.jpeg"]
+slug: human-are-no-longer-the-only-species-to-use-fiber-optics
+description: "Bird's nests have been discovered in Ukraine that are constructed by the debris of war-fighting drones."
+tags: ["AI", "Smartphone", "Electric Car", "Sri Lanka", "South Korea", "Hong Kong", "Ukraine", "Music", "Game", "Literature", "Lottery", "Travel", "NBA", "Snooker", "NFL"]
+keywords: ["news for kids", "kids news", "children's news", "news for tweens", "news for teens", "kid-friendly news", "weekly news for kids", "current events for kids", "world news for children", "educational news", "Genesis Mission", "Moore Threads", "Galaxy Z TriFold", "ElevenLabs", "Xpeng", "Cyclone Ditwah", "Hermès", "Cold Moon", "Spotify", "The Jonas Brothers", "Death Stranding", "The Tainted Cup", "Powerball", "TSA", "Chris Paul", "Zinedine Zidane", “Drake Maye”, “Thomas Edison”, "江干雪霁图"]
+featured_image: "hero.jpg"
+images: ["hero.jpg"]
 draft: true
 enable_rapport: true
 podcast:
@@ -33,6 +33,16 @@ podcast:
 
 ## Editor's Words
 
+A few days ago, while driving to a badminton court, my wife and I were listening to the podcast episode of the Nov 29 issue of The Sunday Blender from Spotify. The 15-minute show is moderated by a duo of male and female cohosts. 
+
+They speak native English and are very eloquent. They finish each other's sentences, delivering a spirited and snappy dialogue. It would be hard to distinguish them from Anderson Cooper and Megyn Kelly. They identified quite a number of patterns in the 20+ stories, for similarities and contrasts. 
+
+I planted some of those hidden cues when selecting the stories. It was satisfying to see that the podcast cohosts were actually able to detect them and weave them into a holistic and engaging narrative. They even re-arranged the order of the stories from the original issue to align news with common themes together. That is very smart and a pleasant surprise.
+
+What's more impressive is that they are AI-generated voices, by this AI tool NotebookLM from Google. All I had to do, was to feed the PDF version to Google, and it generated the mp3 file of this dynamic podcast show in 5 minutes. 
+
+Try it out yourself on Apple Podcast (https://podcasts.apple.com/us/podcast/the-sunday-blender-podcast/id1853996806). 
+
 ## Tech
 
 ![Genesis](genesis.jpg)
@@ -57,7 +67,7 @@ President Trump signed an executive order launching the "**Genesis Mission**", d
 
 ![Xpeng](xpeng.jpg)
 
-Chinese smart electric vehicle company **Xpeng** held its 2025 AI Day on November 5 in Guangzhou, themed "Emergence", unveiling breakthrough "Physical AI" technologies. The company launched VLA 2.0, a `72-billion`-parameter vision-language-action model that revolutionizes autonomous driving by eliminating traditional language translation steps. Xpeng announced three purpose-built robotaxi vehicles launching in 2026 with `3,000` TOPS computing power using vision-only systems. The next-generation IRON humanoid robot was also showcased. Volkswagen became the first automaker partner to adopt VLA 2.0 technology. CEO He Xiaopeng positioned Xpeng's transition from mobility company to Physical AI leader, with pilot testing beginning late December 2025 for select users.
+Chinese smart electric vehicle company **Xpeng** held its 2025 AI Day on November 5 in Guangzhou, themed "Emergence", unveiling breakthrough "Physical AI" technologies. The company launched VLA 2.0, a `72-billion`-parameter vision-language-action model that revolutionizes autonomous driving by eliminating traditional language translation steps. Xpeng announced three purpose-built robotaxi vehicles launching in 2026 with `3,000` TOPS computing power using vision-only systems. The next-generation IRON humanoid robot was also showcased. **Volkswagen** became the first automaker partner to adopt VLA 2.0 technology. CEO He Xiaopeng positioned Xpeng's transition from mobility company to Physical AI leader, with pilot testing beginning late December 2025 for select users.
 
 ## Global
 
@@ -95,7 +105,7 @@ A 14-foot male thresher shark died on December 3, 2025, after becoming stranded 
 
 ![Drunken Racoon](racoon.jpeg)
 
-During Thanksgiving weekend in Ashland, Virginia, a raccoon broke into a local liquor store and threw itself quite the party. The ambitious creature managed to open multiple bottles and drank until passing out in the bathroom. Store staff discovered the chaos on Saturday morning—shelves ransacked and their uninvited guest unconscious among the bottles. Hanover County Animal Control safely transported the intoxicated raccoon to their shelter, where it slept off its hangover for several hours. After confirming the party animal suffered no injuries from its wild night, officials released it back into the wilderness - hopefully having learned a valuable lesson about breaking and entering.
+During Thanksgiving weekend in Ashland, Virginia, a raccoon broke into a local liquor store and threw itself quite the party. The ambitious creature managed to open multiple bottles and drank until passing out in the bathroom. Store staff discovered the chaos on Saturday morning—shelves ransacked and their uninvited guest unconscious among the bottles. Hanover County Animal Control safely transported the intoxicated raccoon to their shelter, where it slept off its hangover for several hours. After confirming the party animal suffered no injuries from its wild night, officials released it back into the wilderness - hopefully having learned a valuable lesson about breaking and drinking.
 
 ## Science
 
@@ -142,7 +152,7 @@ The **Powerball** jackpot surged to `$820 million` for Saturday's December 6 dra
 
 ![Ding Junhui](Ding-Junhui.jpg)
 
-[Snooker] Chinese players dominated the **2025 UK Championshi**p at York's Barbican Centre, with a record-breaking `12` reaching the last 32—matching England's total for the first time. This smashed the previous record of nine set in 2020. Five Chinese players were seeded in the world's top 16, another record. The surge reflects the combined impact of pioneer **Ding Junhui**'s 2005 UK Championship victory and **Zhao Xintong** becoming Asia's first World Snooker Champion in May 2025. However, by the semifinals on December 6, all Chinese players had been eliminated. The final four are Judd Trump versus Neil Robertson, and Mark Selby versus Shaun Murphy, with the final scheduled for December 7.
+[Snooker] Chinese players dominated the **2025 UK Championship** at York's Barbican Centre, with a record-breaking `12` reaching the last 32—matching England's total for the first time. This smashed the previous record of nine set in 2020. Five Chinese players were seeded in the world's top 16, another record. The surge reflects the combined impact of pioneer **Ding Junhui**'s 2005 UK Championship victory and **Zhao Xintong** becoming Asia's first World Snooker Champion in May 2025. However, by the semifinals on December 6, all Chinese players had been eliminated. The final four are Judd Trump versus Neil Robertson, and Mark Selby versus Shaun Murphy, with the final scheduled for December 7.
 
 ![Drake Maye](drake.jpeg)
 
@@ -167,8 +177,6 @@ On **December 6, 1877**, **Thomas Edison** achieved a breakthrough at his **Menl
 *"How is Spotify supposed to know who I am, when I’ve played ‘Wheels on the Bus’ five hundred times for our son?"*
 
 -- Cartoon by Chris Gural, December 4, 2025, The New Yorker
-
----
 
 ## Previous Issues
 
