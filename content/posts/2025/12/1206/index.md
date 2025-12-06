@@ -43,28 +43,35 @@ President Trump signed an executive order launching the "**Genesis Mission**", d
 
 **Moore Threads**, dubbed "China's Nvidia," made a spectacular stock market debut on December 5, 2025, surging over `400%` on Shanghai's STAR Market. Shares closed at 600.5 yuan, over five times the IPO price of 114.28 yuan, following a `$1.1 billion` listing. Founded in 2020 by Zhang Jianzhong, a former Nvidia executive, the GPU startup represents Beijing's push for semiconductor self-reliance amid US sanctions. The IPO gained approval in a record `88` days. Despite being unprofitable with cumulative losses of `4.6 billion RMB`, early investors saw returns exceeding 6,262 times their initial investment. The company develops AI chips, graphics processors, and aims to challenge **Nvidia**'s dominance in China's booming AI market.
 
-India scrapped its plan to preload a state-run cybersecurity app on smartphones
+![Samsung](samsung.jpg)
 
-Cloudflare stopped the largest DDoS attack ever
-https://thehackernews.com/2025/12/record-297-tbps-ddos-attack-linked-to.html
+**Samsung** unveiled its first multi-folding smartphone, the **Galaxy Z TriFold**, marking a major expansion in foldable technology. Built on a decade of foldable category innovation, the device uses an inward-folding design that reveals an immersive 10-inch display when unfolded twice. At just `3.9mm` thick at its thinnest point, the device features Snapdragon 8 Elite processor, a `200MP` camera, and a `5,600mAh` three-cell battery. Priced at `$2,450`, it launches in South Korea on December 12 with US availability in Q1 2026. The Galaxy Z TriFold is the first mobile device to feature standalone Samsung DeX, enabling desktop-like productivity from anywhere.
 
 ![Cyber Attack](cyberattack.jpg)
 
 **Anthropic** recently released alarming research showing AI agents can autonomously hack blockchain smart contracts and steal cryptocurrency with terrifying efficiency. Testing advanced models on 34 smart contracts deployed after March 2025—beyond the AI's training data—the systems successfully exploited 19 contracts, generating `$4.6 million` in simulated theft. The AI discovered previously unknown "zero-day" vulnerabilities, scanning 2,849 new contracts for just $3,476 in under 48 hours—averaging `$1.22` per exploit attempt. Profits exceeded costs, making automated AI hacking economically viable. Anthropic warns that AI may already be behind half of 2025's cryptocurrency hacks, signaling a dangerous new era where anyone can deploy autonomous hacking agents.
 
+![Eleven Labs](elevenlabs.jpg)
+
+**ElevenLabs**, a voice AI startup founded in 2022, has raised over `$300 million` in total funding, reaching a `$6.6 billion` valuation in September 2025, making it one of Europe's most valuable startups. The company initiated a $100 million employee tender offer led by Sequoia Capital and ICONIQ Growth, doubling its valuation from January's $3.3 billion Series C round. ElevenLabs has seen its annual recurring revenue surpass $200 million this year and is aiming to reach $300 million by the end of 2025. The startup's voice synthesis technology serves over `60%` of Fortune 500 companies, with enterprise revenue growing over `200%` year-over-year.
+
+![Xpeng](xpeng.jpg)
+
+Chinese smart electric vehicle company **Xpeng** held its 2025 AI Day on November 5 in Guangzhou, themed "Emergence", unveiling breakthrough "Physical AI" technologies. The company launched VLA 2.0, a `72-billion`-parameter vision-language-action model that revolutionizes autonomous driving by eliminating traditional language translation steps. Xpeng announced three purpose-built robotaxi vehicles launching in 2026 with `3,000` TOPS computing power using vision-only systems. The next-generation IRON humanoid robot was also showcased. Volkswagen became the first automaker partner to adopt VLA 2.0 technology. CEO He Xiaopeng positioned Xpeng's transition from mobility company to Physical AI leader, with pilot testing beginning late December 2025 for select users.
+
 ## Global
+
+![Sri Lanka](srilanka.jpg)
 
 **Cyclone Ditwah** struck **Sri Lanka** in late November 2025, unleashing the country's deadliest natural disaster since 2017. The cyclone killed at least `607` people, damaged more than `50,000` homes and pushed `170,000` people into relief centers, with `214` people still missing. President Anura Kumara Dissanayake called it the most difficult rescue operation the country has ever seen, stating "this is the first time the entire country has been struck by such a disaster". The cyclone triggered catastrophic flooding and landslides across nearly the entire island, with some neighborhoods completely buried under mud. Economic losses are estimated at `$6-7 billion`.
 
+![Malaysia](korea.jpg)
+
 Chinese tourists are rapidly redirecting travel plans from **Japan** to **South Korea** and **Thailand** following Beijing's November 14 travel warning. Around `30%` of 1.44 million scheduled Chinese trips to Japan have been cancelled, threatening to wipe out `$1.2 billion` in revenue by year-end. South Korea emerged as the top destination for Chinese travelers over the November 15-16 weekend, surpassing Japan for the first time in months. Thailand became the top destination for winter vacation bookings (January 15-February 10, 2026), while Russia saw flight bookings surge `1.5` times year-on-year. Singapore and South Korea saw up to `15%` jumps in new bookings, while Thailand, Malaysia, and Vietnam saw increases up to `11%`. Airlines swiftly expanded routes to capitalize on the shift.
 
-Lithusania airport shut down because of balloons
+![Hong Kong](hongkong.jpg)
 
-
-
-Scaffolding nets removed across Hong Kong to meet 3-day deadline
-
-
+**Hong Kong**'s government ordered the immediate removal of scaffolding nets from over 200 buildings by Saturday, December 6, following the devastating Tai Po fire at Wang Fuk Court that killed `159` people. The deadline came after suspected false safety certificates for mesh were found at two building sites, with authorities discovering that contractors had installed cheaper, non-fire-resistant netting to deceive inspectors, accelerating the fire's spread. A Shandong manufacturer allegedly falsified documents. Construction firms scrambled to meet the three-day deadline while repair work ceased. Seven out of 20 samples from Wang Fuk Court failed fire safety tests. Police arrested 15 people for suspected manslaughter.
 
 ## Economy & Finance
 
@@ -115,18 +122,51 @@ Powerball Jackpot crosses $800 million
 
 The 2025 **Hugo** and **Nebula** Awards for Best Science Fiction/Fantasy Novel went to different works. The Hugo honored **Robert Jackson Bennett**'s *The Tainted Cup*, a fantasy mystery where a detective investigates murders in which trees erupt from victims' bodies. The Nebula went to debut author **John Wiswell**'s *Someone You Can Build a Nest In*, described as a "creepy, charming" fantasy romance told entirely from the monster's perspective as the creature seeks love and connection. This divergence is notable, as these two prestigious awards often recognize the same work. Both selections showcase innovative storytelling that pushes genre boundaries and challenges traditional narrative perspectives.
 
+![Powerball](powerball.jpg)
+
+The **Powerball** jackpot surged to `$820 million` for Saturday's December 6 drawing after no one won Wednesday's $775 million prize. Winners can choose between the jackpot amount paid in 30 annual payments or a one-time cash option of about `$383.5 million`. This marks the second-largest Powerball prize of 2025, following the `$1.787 billion` jackpot split between two winners in Missouri and Texas on September 6. Wednesday's winning numbers were 1-14-20-46-51, Powerball 26. The jackpot ranks among the top 10 largest Powerball prizes in history, with odds of winning at 1 in 292 million. This marks the third time Powerball has crossed $800 million in 2025, showing unprecedented lottery excitement this year.
+
+![TSA](tsa.jpg)
+
+**The Transportation Security Administration** issued warnings urging airport travelers to avoid public USB charging stations and unsecured WiFi networks due to cybersecurity threats. The TSA warns about "juice jacking," where hackers install malicious software in public USB ports that infects or steals data from plugged-in devices. The agency recommends travelers bring their own TSA-compliant power adapters or battery packs instead. Additionally, the TSA warned against using public Wi-Fi in airports, with an added warning to never make online purchases while using it. Cybercriminals create "evil twin" networks that mimic legitimate airport WiFi to capture banking credentials and private messages, making travelers vulnerable to identity theft and fraud.
 
 ## Sports
 
 ![Chris Paul](chris_paul.jpeg)
 
-**Chris Paul**, one of the NBA's greatest point guards, was abruptly cut by the **LA Clippers** on December 3, 2025, just four months into what was meant to be a celebratory retirement season. The 40-year-old legend is a 12-time All-Star, second on the all-time assists list with over `12,500`, and known as "The Point God". He led the league in assists five times and steals six times. Paul is a five-time All-NBA First Teamer, member of the NBA's 75th anniversary team, and a surefire first-ballot Hall of Famer. He transformed the Clippers during his 2011-2017 tenure, becoming the franchise leader in assists and steals. Despite averaging just 2.9 points in 16 games this season, the abrupt split shocked the basketball world and ended an otherwise legendary career unceremoniously.
+[NBA] **Chris Paul**, one of the NBA's greatest point guards, was abruptly cut by the **LA Clippers** on December 3, 2025, just four months into what was meant to be a celebratory retirement season. The 40-year-old legend is a 12-time All-Star, second on the all-time assists list with over `12,500`, and known as "The Point God". He led the league in assists five times and steals six times. Paul is a five-time All-NBA First Teamer, member of the NBA's 75th anniversary team, and a surefire first-ballot Hall of Famer. He transformed the Clippers during his 2011-2017 tenure, becoming the franchise leader in assists and steals. Despite averaging just 2.9 points in 16 games this season, the abrupt split shocked the basketball world and ended an otherwise legendary career unceremoniously.
+
+![Zidane in Shanghai](zidane_shanghai.jpg)
+
+[Soccer] French football legend **Zinedine Zidane** visited China in late November 2025 for a 7-day promotional tour, his first trip in seven years. The 53-year-old traveled to Shanghai, Beijing, and Hangzhou for World Cup promotional events and gave a masterclass to young players at Shanghai Jiao Tong University. The trip's viral moment came when Zidane spontaneously joined local residents on Shanghai's Bund to play Chinese street sport shuttlecock. Videos of him skillfully kicking the shuttlecock with Chinese aunties went viral on social media, delighting fans. Zidane also appeared on CCTV's football program and expressed genuine interest in Chinese culture, including mahjong, demonstrating his approachable nature beyond football.
+
+![Ding Junhui](Ding-Junhui.jpg)
+
+[Snooker] Chinese players dominated the **2025 UK Championshi**p at York's Barbican Centre, with a record-breaking `12` reaching the last 32—matching England's total for the first time. This smashed the previous record of nine set in 2020. Five Chinese players were seeded in the world's top 16, another record. The surge reflects the combined impact of pioneer **Ding Junhui**'s 2005 UK Championship victory and **Zhao Xintong** becoming Asia's first World Snooker Champion in May 2025. However, by the semifinals on December 6, all Chinese players had been eliminated. The final four are Judd Trump versus Neil Robertson, and Mark Selby versus Shaun Murphy, with the final scheduled for December 7.
+
+![Drake Maye](drake.jpeg)
+
+[American Football] **The New England Patriots**' turnaround is one of the NFL's most remarkable stories. After consecutive 4-13 seasons in 2023-24, New England sits at 11-2 with a 10-game winning streak in 2025—the best record in football. They're the first team since 1999 to win 10 straight after losing 13+ games the previous season. Second-year quarterback **Drake Maye** is leading the charge, emerging as the MVP favorite with `3,412` passing yards while completing `71.5%` of passes. Under coach Mike Vrabel, the Patriots have transformed from worst-to-first, clinching their division hopes and positioning themselves as legitimate Super Bowl contenders.
 
 ## This Day in History
 
+![Thomas Edison](edison.jpg)
+
+On **December 6, 1877**, **Thomas Edison** achieved a breakthrough at his **Menlo Park** laboratory by successfully recording and playing back sound for the first time. Edison spoke the nursery rhyme "Mary had a little lamb" into his newly invented phonograph, creating the first known audio recording in history. The device used a tinfoil-wrapped cylinder to capture sound vibrations, which could then be reproduced. This invention fundamentally transformed how humans could preserve and share audio, establishing the groundwork for the entire recording industry. Edison's phonograph made it possible to capture moments in time through sound, launching decades of innovation in music, broadcasting, and communications technology. Later Edison founded **General Electric**, one of the most iconic American industrial conglomerate companies. 
+
 ## Art of the Week
 
+![Winter](winter.jpg)
+
+"Clearing Snow Along the Riverbank" (江干雪霁图) is attributed to Wang Wei (699-761), the legendary Tang Dynasty poet-painter known as the "Poet Buddha." This silk handscroll depicts a serene post-snowfall riverscape using ink wash and white space techniques to convey the ethereal quality of snow. The composition shows snow-laden houses, conversing figures, and distant mountains shrouded in mist, embodying Wang Wei's Buddhist-influenced aesthetic. It pioneered monochrome snow landscape painting and exemplifies Su Shi's famous description: "poetry within painting, painting within poetry." Though authentication remains debated, this work profoundly influenced Chinese landscape painting traditions and currently resides in Japan's Kotoin Temple in Kyoto.
+
 ## Funny
+
+![Funny](funny.jpeg)
+
+*"How is Spotify supposed to know who I am, when I’ve played ‘Wheels on the Bus’ five hundred times for our son?"*
+
+-- Cartoon by Chris Gural, December 4, 2025, The New Yorker
 
 ---
 
