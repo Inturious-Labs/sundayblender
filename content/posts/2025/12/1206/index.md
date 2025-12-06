@@ -7,24 +7,24 @@ tags: ["AI", "Smartphone", "Electric Car", "Sri Lanka", "South Korea", "Hong Kon
 keywords: ["news for kids", "kids news", "children's news", "news for tweens", "news for teens", "kid-friendly news", "weekly news for kids", "current events for kids", "world news for children", "educational news", "Genesis Mission", "Moore Threads", "Galaxy Z TriFold", "ElevenLabs", "Xpeng", "Cyclone Ditwah", "Hermès", "Cold Moon", "Spotify", "The Jonas Brothers", "Death Stranding", "The Tainted Cup", "Powerball", "TSA", "Chris Paul", "Zinedine Zidane", “Drake Maye”, “Thomas Edison”, "江干雪霁图"]
 featured_image: "hero.jpg"
 images: ["hero.jpg"]
-draft: true
+draft: false
 enable_rapport: true
 podcast:
-  enabled: false
+  enabled: true
   file: "2025-12-06-podcast.mp3"
-  duration: 0
-  filesize: 0
+  duration: 914
+  filesize: 13133929
   shownotes: |
     The Sunday Blender is a weekly newsletter that reports top trending news around the world. It's made for curious English-speaking kids aged 8~15 who aspire for a bigger world and nurture a life-long habit of reading. Every new issue is delivered to your email inbox on Saturday. Each issue comes with 20~25 stories. Each story has no more than 100 words, in plain English with a picture. These stories cover Technology, Global, Economy & Finance, Nature & Environment, Science, Lifestyle & Culture, Sports, History, Art, and Comedy. It's about 10~15 minutes of reading time.
-
-    In the issue of 2025-12-06, Description placeholder - brief summary of this issue
-
+    
+    In the issue of Dec 06, Bird's nests have been discovered in Ukraine that are constructed by the debris of war-fighting drones.
+    
     📖 Read the full newsletter article with pictures, comments, and likes:
-    https://weekly.sundayblender.com/p/title-placeholder-1206/
-
+    https://weekly.sundayblender.com/p/human-are-no-longer-the-only-species-to-use-fiber-optics/
+    
     📧 Subscribe to The Sunday Blender newsletter with email:
     https://weekly.sundayblender.com
-
+    
     🎧 Listen on:
     • Apple Podcasts: https://podcasts.apple.com/us/podcast/the-sunday-blender-podcast/id1853996806
     • Spotify: https://open.spotify.com/show/0p6Boxgcyy9eJzdBQlu4CG
