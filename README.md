@@ -80,13 +80,14 @@ Update the article throughout the week with additional stories, materials, and c
 - Keep `draft: true` in frontmatter throughout the week
 - Commit changes locally, but no need to push to remote until ready to publish
 - Preview with `hugo server -D -F` to display draft articles with future dates
-- For Cursor editor, use theme "Quiet Light" for better readability
+- For Cursor editor, use theme `Quiet Light` for better readability
 
 ### 3. Audit Text Content
 
 Run a text audit to ensure the article is ready for PDF generation:
 
 ```bash
+cd content/posts/YYYY/MM/MMDD
 tsb-audit-text
 ```
 
@@ -97,6 +98,7 @@ This verifies frontmatter fields, images, section content, and reading time befo
 Ensure Hugo dev server is running (`hugo server -D -F`), then generate the PDF:
 
 ```bash
+cd content/posts/YYYY/MM/MMDD
 tsb-make-pdf
 ```
 
@@ -106,17 +108,18 @@ This generates a PDF in the article folder for podcast creation. If run again, i
 
 **Generate audio:**
 - Upload the PDF to [Google NotebookLM](https://notebooklm.google.com/)
-- Use "Audio Overview" and select "Deep Dive" mode
-- Download the m4a file to the article folder
+- Use `Audio Overview` and select `Deep Dive` mode
+- Download the `m4a` file to the article folder
 
 **Process audio:**
-```
+```bash
+cd content/posts/YYYY/MM/MMDD
 tsb-make-podcast
 ```
 
 This single command:
 
-- Converts m4a to mp3 (`YYYY-MM-DD-podcast.mp3`)
+- Converts `m4a` to `mp3` and name that as `YYYY-MM-DD-podcast.mp3`
 - Updates frontmatter: `enabled: true`, `file`, `duration`, `filesize`
 - Regenerates `shownotes` with the actual description
 
@@ -126,25 +129,26 @@ This single command:
 
 **Step 2:** Run final audit to verify everything is ready:
 
-```
+```bash
+cd content/posts/YYYY/MM/MMDD
 tsb-audit-final
 ```
 
 This checks:
 
-- draft is set to false
+- draft is set to `false`
 - PDF and MP3 files exist
 - Podcast frontmatter is complete (enabled, duration, filesize)
-- Twitter card meta tags are correct (summary_large_image)
+- Twitter card meta tags are correct (`summary_large_image`)
 - Hero image is displayed
 - Main RSS feed includes the article
 - Podcast RSS feed includes the episode
 
 **Step 3:** Commit and push:
 
-```
+```bash
 git add content/posts/YYYY/MM/MMDD/
-git commit -m "Add YYYY-MM-DD issue"
+git commit -m "Publish YYYY-MM-DD issue"
 git push --set-upstream origin draft/YYYYMMDD
 ```
 
@@ -155,7 +159,7 @@ git push --set-upstream origin draft/YYYYMMDD
 - Once the merge is completed, the remote draft branch is deleted automatically
 - Update local:
 
-```
+```bash
 git checkout main
 git pull
 git branch -d draft/YYYYMMDD
@@ -165,7 +169,7 @@ git branch -d draft/YYYYMMDD
 
 Post an announcement tweet on [@SundayBlender](https://x.com/SundayBlender) to announce the new issue:
 
-- Log in to X.com with the @SundayBlender account
+- Log in to X.com with the `@SundayBlender` account
 - Compose a tweet announcing the new issue with the article link
 - Include relevant hashtags and a brief teaser about the content
 - Attach the featured image if applicable
@@ -174,9 +178,12 @@ Post an announcement tweet on [@SundayBlender](https://x.com/SundayBlender) to a
 
 Initiate the Twitter bot schedule script to promote the new issue across social media.
 
-On Dalaran, run the interactive scheduler:
+On Dalaran, update the `main` branch there and then run the interactive scheduler:
 
 ```bash
+ssh dalaran
+cd sundayblender
+git pull
 ./scripts/schedule_tweets.sh
 ```
 
@@ -186,7 +193,8 @@ Refer to [TWITTER_BOT_README.md](TWITTER_BOT_README.md) for detailed Twitter bot
 
 Run the progress checker to automatically update the table:
 
-```
+```bash
+cd matrix/github_zire/sundayblender
 tsb-update-progress
 ```
 
