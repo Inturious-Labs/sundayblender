@@ -48,17 +48,19 @@ def extract_field(frontmatter, field):
     return ""
 
 
-def check_draft_status(frontmatter, errors, warnings):
+def check_draft_status(frontmatter, errors, warnings, passed):
     """Check draft is set to false."""
     draft_match = re.search(r'^draft:\s*(true|false)', frontmatter, re.MULTILINE)
     if draft_match:
         if draft_match.group(1) == 'true':
             errors.append("draft is still 'true' - change to 'false' before publishing")
+        else:
+            passed.append("draft is set to 'false'")
     else:
         warnings.append("draft field not found in frontmatter")
 
 
-def check_twitter_card(html_path, errors, warnings):
+def check_twitter_card(html_path, errors, warnings, passed):
     """Check Twitter card meta tags in HTML."""
     if not html_path.exists():
         errors.append(f"HTML file not found: {html_path}")
@@ -75,6 +77,8 @@ def check_twitter_card(html_path, errors, warnings):
         card_type = card_match.group(1)
         if card_type != 'summary_large_image':
             warnings.append(f"Twitter card is '{card_type}', expected 'summary_large_image'")
+        else:
+            passed.append("Twitter card is 'summary_large_image'")
     else:
         errors.append("Twitter card meta tag not found")
 
@@ -87,6 +91,8 @@ def check_twitter_card(html_path, errors, warnings):
         image_url = image_match.group(1)
         if not image_url or image_url == '':
             errors.append("Twitter image URL is empty")
+        else:
+            passed.append("Twitter image URL is set")
     else:
         errors.append("Twitter image meta tag not found")
 
@@ -97,9 +103,11 @@ def check_twitter_card(html_path, errors, warnings):
 
     if not og_image_match:
         warnings.append("og:image meta tag not found")
+    else:
+        passed.append("og:image meta tag is set")
 
 
-def check_main_rss(repo_root, slug, date_str, errors, warnings):
+def check_main_rss(repo_root, slug, date_str, errors, warnings, passed):
     """Check main RSS feed includes the article."""
     rss_path = repo_root / "public" / "index.xml"
 
@@ -113,14 +121,15 @@ def check_main_rss(repo_root, slug, date_str, errors, warnings):
     if slug and slug not in content:
         errors.append(f"Article '{slug}' not found in main RSS feed")
     else:
+        passed.append("Article found in main RSS feed")
         # Also check the date
         if date_str and date_str in content:
-            pass  # Good
+            passed.append("Article date found in RSS feed")
         else:
             warnings.append("Article date not found in RSS - may be expected if date format differs")
 
 
-def check_podcast_rss(repo_root, slug, date_str, errors, warnings):
+def check_podcast_rss(repo_root, slug, date_str, errors, warnings, passed):
     """Check podcast RSS feed includes the episode."""
     podcast_rss_path = repo_root / "public" / "podcast.xml"
 
@@ -133,34 +142,44 @@ def check_podcast_rss(repo_root, slug, date_str, errors, warnings):
     # Check if the article slug appears in the podcast RSS
     if slug and slug not in content:
         errors.append(f"Episode '{slug}' not found in podcast RSS feed")
+    else:
+        passed.append("Episode found in podcast RSS feed")
 
     # Check for enclosure tag (mp3 file)
     if '<enclosure' not in content:
         errors.append("No podcast enclosure found in RSS feed")
+    else:
+        passed.append("Podcast enclosure tag found in RSS")
 
     # Check for the specific episode's mp3
     mp3_filename = f"{date_str}-podcast.mp3"
     if mp3_filename not in content:
         warnings.append(f"MP3 file '{mp3_filename}' not found in podcast RSS")
+    else:
+        passed.append(f"MP3 file '{mp3_filename}' found in podcast RSS")
 
 
-def check_pdf_exists(cwd, date_str, errors, warnings):
+def check_pdf_exists(cwd, date_str, errors, warnings, passed):
     """Check PDF file exists."""
     pdf_files = list(cwd.glob("*.pdf"))
     if not pdf_files:
         errors.append("No PDF file found in article folder")
+    else:
+        passed.append(f"PDF file found: {pdf_files[0].name}")
 
 
-def check_mp3_exists(cwd, date_str, errors, warnings):
+def check_mp3_exists(cwd, date_str, errors, warnings, passed):
     """Check MP3 file exists."""
     mp3_filename = f"{date_str}-podcast.mp3"
     mp3_path = cwd / mp3_filename
 
     if not mp3_path.exists():
         errors.append(f"MP3 file not found: {mp3_filename}")
+    else:
+        passed.append(f"MP3 file found: {mp3_filename}")
 
 
-def check_podcast_frontmatter(frontmatter, errors, warnings):
+def check_podcast_frontmatter(frontmatter, errors, warnings, passed):
     """Check podcast section in frontmatter is properly configured."""
     if 'podcast:' not in frontmatter:
         errors.append("podcast section not found in frontmatter")
@@ -171,6 +190,8 @@ def check_podcast_frontmatter(frontmatter, errors, warnings):
     if enabled_match:
         if enabled_match.group(1) != 'true':
             errors.append("podcast.enabled is not 'true'")
+        else:
+            passed.append("podcast.enabled is 'true'")
     else:
         errors.append("podcast.enabled field not found")
 
@@ -180,6 +201,8 @@ def check_podcast_frontmatter(frontmatter, errors, warnings):
         duration = int(duration_match.group(1))
         if duration == 0:
             errors.append("podcast.duration is 0 - run tsb-make-podcast")
+        else:
+            passed.append(f"podcast.duration is set ({duration}s)")
     else:
         errors.append("podcast.duration not found")
 
@@ -189,11 +212,13 @@ def check_podcast_frontmatter(frontmatter, errors, warnings):
         filesize = int(filesize_match.group(1))
         if filesize == 0:
             errors.append("podcast.filesize is 0 - run tsb-make-podcast")
+        else:
+            passed.append(f"podcast.filesize is set ({filesize} bytes)")
     else:
         errors.append("podcast.filesize not found")
 
 
-def check_hero_image_in_html(html_path, errors, warnings):
+def check_hero_image_in_html(html_path, errors, warnings, passed):
     """Check hero image is properly displayed in HTML."""
     if not html_path.exists():
         return
@@ -203,6 +228,8 @@ def check_hero_image_in_html(html_path, errors, warnings):
     # Check for hero image
     if 'hero.jpeg' not in content and 'hero.jpg' not in content:
         warnings.append("Hero image reference not found in HTML")
+    else:
+        passed.append("Hero image found in HTML")
 
 
 def main():
@@ -244,21 +271,25 @@ def main():
 
     errors = []
     warnings = []
+    passed = []
 
     # Run all checks
-    print(f"{BLUE}Running checks...{NC}")
-    print()
+    check_draft_status(frontmatter, errors, warnings, passed)
+    check_pdf_exists(cwd, date_str, errors, warnings, passed)
+    check_mp3_exists(cwd, date_str, errors, warnings, passed)
+    check_podcast_frontmatter(frontmatter, errors, warnings, passed)
+    check_twitter_card(html_path, errors, warnings, passed)
+    check_hero_image_in_html(html_path, errors, warnings, passed)
+    check_main_rss(repo_root, slug, date_str, errors, warnings, passed)
+    check_podcast_rss(repo_root, slug, date_str, errors, warnings, passed)
 
-    check_draft_status(frontmatter, errors, warnings)
-    check_pdf_exists(cwd, date_str, errors, warnings)
-    check_mp3_exists(cwd, date_str, errors, warnings)
-    check_podcast_frontmatter(frontmatter, errors, warnings)
-    check_twitter_card(html_path, errors, warnings)
-    check_hero_image_in_html(html_path, errors, warnings)
-    check_main_rss(repo_root, slug, date_str, errors, warnings)
-    check_podcast_rss(repo_root, slug, date_str, errors, warnings)
+    # Print results - passed checks first
+    if passed:
+        print(f"{GREEN}Passed ({len(passed)}):{NC}")
+        for item in passed:
+            print(f"  {GREEN}✓{NC} {item}")
+        print()
 
-    # Print results
     if errors:
         print(f"{RED}Errors ({len(errors)}):{NC}")
         for error in errors:
