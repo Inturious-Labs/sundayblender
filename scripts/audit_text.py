@@ -247,9 +247,15 @@ def check_sections(body, errors, warnings):
 
 
 def check_story_images(body, errors, warnings):
-    """Check each story has an image reference."""
+    """Check each story has an image reference.
+
+    Story structure: each story consists of an image followed by a paragraph.
+    """
     # Split by section headers
     sections_content = re.split(r'^##\s+', body, flags=re.MULTILINE)[1:]  # Skip content before first ##
+
+    # Collect section stats for table display
+    section_stats = []
 
     for section_block in sections_content:
         lines = section_block.split('\n')
@@ -267,16 +273,41 @@ def check_story_images(body, errors, warnings):
         if not section_content.strip() or section_content.strip().startswith('---'):
             continue
 
-        # Find stories (marked by **bold** text for country/topic name)
-        stories = re.findall(r'\*\*([^*]+)\*\*', section_content)
+        # Count stories by paragraphs (non-empty text blocks that aren't images)
+        # Each story = image + paragraph, so we count non-image paragraphs
+        paragraphs = re.split(r'\n\s*\n', section_content.strip())
+        story_paragraphs = [
+            p.strip() for p in paragraphs
+            if p.strip() and not p.strip().startswith('![')
+        ]
 
         # Find images in this section
         images = re.findall(r'!\[([^\]]*)\]\(([^)]+)\)', section_content)
 
-        if stories and not images:
-            warnings.append(f"Section '{section_name}' has stories but no images")
-        elif len(stories) > len(images):
-            warnings.append(f"Section '{section_name}': {len(stories)} stories but only {len(images)} images")
+        num_stories = len(story_paragraphs)
+        num_images = len(images)
+
+        # Determine status
+        if num_stories == num_images:
+            status = f"{GREEN}OK{NC}"
+        elif num_stories > num_images:
+            status = f"{YELLOW}!{NC}"
+            warnings.append(f"Section '{section_name}': {num_stories} stories but only {num_images} images")
+        else:
+            status = f"{GREEN}OK{NC}"  # More images than stories is fine
+
+        section_stats.append((section_name, num_stories, num_images, status))
+
+    # Print table
+    if section_stats:
+        print(f"\n{BLUE}Story/Image counts by section:{NC}")
+        print(f"{'Section':<35} {'Stories':>8} {'Images':>8} {'Status':>8}")
+        print("-" * 63)
+        for name, stories, images, status in section_stats:
+            # Truncate long section names
+            display_name = name[:32] + "..." if len(name) > 35 else name
+            print(f"{display_name:<35} {stories:>8} {images:>8} {status:>8}")
+        print()
 
 
 def check_reading_time(body, errors, warnings):
