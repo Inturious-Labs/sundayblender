@@ -1,30 +1,30 @@
 ---
-title: "Title Placeholder"
+title: "The Age of One-Person Billion Dollar Company"
 date: 2025-12-27
-slug: title-placeholder-1227
-description: "Description placeholder - brief summary of this issue"
-tags: ["Tag1", "Tag2", "Tag3", "Tag4", "Tag5", "Tag6", "Tag7", "Tag8", "Tag9", "Tag10"]
-keywords: ["news for kids", "kids news", "children's news", "news for tweens", "news for teens", "kid-friendly news", "weekly news for kids", "current events for kids", "world news for children", "educational news", "topic1", "topic2", "topic3", "topic4", "topic5", "topic6", "topic7", "topic8", "topic9", "topic10"]
-featured_image: "hero.jpeg"
-images: ["hero.jpeg"]
-draft: true
+slug: the-age-of-one-person-billion-dollar-company
+description: "With a plethora of emerging AI tools, the age of solo founders is arriving where one person might just be able to build a one-billion-dollar company. "
+tags: ["AI", "Autonomous Driving", "Robotics", "Mars", "Climate Change", "Film", "NBA", "Soccer", "Canada", "TV"]
+keywords: ["news for kids", "kids news", "children's news", "news for tweens", "news for teens", "kid-friendly news", "weekly news for kids", "current events for kids", "world news for children", "educational news", "Waymo", "Elon Musk", "Luminar", "Notion", "Storyteller", "YK Pao", "HKPEP", "Yiwu", "US Kill Line", "Patagonia", "Avatar", "Stranger Things", "Nikola Jokic", "Erling Haaland", "Marco van Basten", "仇英"]
+featured_image: "hero.jpg"
+images: ["hero.jpg"]
+draft: false
 enable_rapport: true
 podcast:
-  enabled: false
+  enabled: true
   file: "2025-12-27-podcast.mp3"
-  duration: 0
-  filesize: 0
+  duration: 845
+  filesize: 12382310
   shownotes: |
     The Sunday Blender is a weekly newsletter that reports top trending news around the world. It's made for curious English-speaking kids aged 8~15 who aspire for a bigger world and nurture a life-long habit of reading. Every new issue is delivered to your email inbox on Saturday. Each issue comes with 20~25 stories. Each story has no more than 100 words, in plain English with a picture. These stories cover Technology, Global, Economy & Finance, Nature & Environment, Science, Lifestyle & Culture, Sports, History, Art, and Comedy. It's about 10~15 minutes of reading time.
-
-    In the issue of 2025-12-27, Description placeholder - brief summary of this issue
-
+    
+    In the issue of Dec 27, With a plethora of emerging AI tools, the age of solo founders is arriving where one person might just be able to build a one-billion-dollar company.
+    
     📖 Read the full newsletter article with pictures, comments, and likes:
-    https://weekly.sundayblender.com/p/title-placeholder-1227/
-
+    https://weekly.sundayblender.com/p/the-age-of-one-person-billion-dollar-company/
+    
     📧 Subscribe to The Sunday Blender newsletter with email:
     https://weekly.sundayblender.com
-
+    
     🎧 Listen on:
     • Apple Podcasts: https://podcasts.apple.com/us/podcast/the-sunday-blender-podcast/id1853996806
     • Spotify: https://open.spotify.com/show/0p6Boxgcyy9eJzdBQlu4CG
@@ -32,6 +32,14 @@ podcast:
 ---
 
 ## Editor's Words
+
+Have you noticed that reading articles on website has become a very unpleasant experience?
+
+Those webpages are full of ads in every corner. They are in the beginning of the article, even before the body of the article is loaded. They are on the left and the right margins of the page - just to make sure you will not miss them. They are planted in the middle of the paragraphs, so that you have to look at them in order to read on. They also jump into your face as a pop-up window, often with a cancellation sign that is hard to detect. Who would care to read them, humans or AI bots?
+
+While people's attention in the end of 2025 is shifting toward apps, social media platforms, and AI chat windows, the original World Wide Web is slowly degenerating into a wasteland that few would visit.
+
+Getting quality content from an ad-free newsletter is one alternative route to fight against this overlord. Savvy?
 
 ## Tech
 
@@ -42,6 +50,18 @@ On December 21, a fire at a power substation caused a massive outage affecting r
 ![Luminar](Luminar.jpg)
 
 **Luminar**, the lidar ("Light Detection and Ranging") maker once valued at over `$3 billion`, filed for Chapter 11 bankruptcy on December 15 after a tumultuous year. The collapse came shortly after **Volvo** — its largest customer — canceled a five-year contract in November. Luminar developed longer-range lidar sensors—laser-based technology that helps autonomous vehicles perceive road conditions, obstacles, and objects around them. **Elon Musk** has long dismissed lidar as unnecessary, famously calling it "a fool's errand" — **Tesla** relies on cameras alone instead. Ironically, Tesla was actually one of Luminar's biggest customers, contributing over `10%` of its Q1 2024 revenue. The company cited slower-than-expected adoption of autonomous vehicle technology as a key factor in its downfall.
+
+![AI rules](robot.jpg)
+
+China's Cyberspace Administration released draft rules today targeting AI services that simulate human personalities and engage users emotionally. The regulations cover AI products displaying simulated personality traits, thinking patterns, and communication styles through text, images, audio, or video. Key requirements include warning users against excessive use, intervening when addiction signs appear, and implementing safety measures throughout the product lifecycle — including algorithm reviews, data security protocols, and personal information protection. Providers must ensure services are ethical, secure, and transparent. The draft is now open for public comment, reflecting Beijing's proactive stance on consumer-facing AI governance.
+
+![Solo Founder](solo-founder.jpg)
+
+**OpenAI** CEO Sam Altman revealed that his "little group chat with tech CEO friends" has a betting pool for when the first one-person billion-dollar company will emerge — "which would have been unimaginable without AI and now will happen." Data shows the share of solo-founded startups has risen sharply, with over one-third of new companies in the first half of 2025 launched by single founders. Author Tim Cortinovis believes 2025 will be remembered as the year the necessary tools became available, and **Anthropic**'s Mike Krieger suggests the milestone is "closer than you think." Companies like **Cursor** ($200M Annual Recurring Revenue with 20 people) and **Midjourney** (~$500M ARR with 10 employees) hint at what's coming.
+
+![Ivan Zhao](ivanzhao.jpg)
+
+**Notion**, the productivity platform founded by Ivan Zhao and Simon Last in 2013, has grown to `100 million` users and a `$10 billion` valuation. In a recent essay titled "**Steam, Steel, and Infinite Minds**", Zhao argues that every era is shaped by its "miracle material" — steel forged the Gilded Age, semiconductors powered the Digital Age, and now AI has arrived as "infinite minds." His co-founder Simon, once a "10× programmer," now rarely writes code — instead orchestrating multiple AI agents simultaneously, becoming a "30-40× engineer." Yet Zhao cautions that AI struggles more with general knowledge work than coding: context is fragmented across dozens of tools, and unlike code, knowledge work lacks verifiability through tests. Notion itself now deploys over `700` AI agents handling meeting minutes, IT requests, and onboarding — but Zhao believes the real limitation isn't technology, it's imagination and inertia.
 
 ## Global
 
@@ -59,19 +79,43 @@ The Hong Kong Professional Education Publisher (HKPEP) recently released its **2
 
 ## Economy & Finance
 
+![Yiwu](yiwu.jpg)
+
+**Yiwu**, a city in eastern China, now produces an estimated `60% `of the world's Christmas decorations. Global supply chains have made importing resin ornaments from Zhejiang cheaper than carving them locally, and stall fees in major markets have risen to the point where only vendors with access to bulk-manufactured goods can afford entry — pricing out local artisans. What began as medieval winter fairs provisioning households before roads froze has become a sea of identical imports. Some cities are pushing back: **Strasbourg** bans mass-produced goods and requires regional sourcing, while **Nuremberg**'s Christkindlesmarkt preserves a dense ecosystem of local craftsmen.
+
+![Kill Line](kill-line.JPG)
+
+The phrase "**US kill line**" has gone viral on Chinese social media, sparking discussion about economic vulnerability in American society. Borrowed from video games — where a "kill line" is a health threshold below which a character can be instantly defeated — the term describes a brutal financial collapse mechanism: once savings, income, or credit fall below a critical point, the system pushes individuals toward irreversible collapse. The case of Jack, a Seattle programmer earning `$450,000` annually, illustrates the phenomenon: burdened by $12,000 monthly mortgage, $3,000 car payments, and $1,500 insurance, a sudden layoff triggered foreclosure, then a $60,000 emergency visit crushed him — six months later, he was living under a bridge.
+
+![Patagonia](patagonia.jpg)
+
+American outdoor apparel brand **Patagonia** has released its first comprehensive "**Work in Progress**" report covering fiscal year 2025. In September 2022, founder Yvon Chouinard and his family transferred ownership of the company to the Holdfast Collective and the Patagonia Purpose Trust — a structure that directs all excess profits to environmental nonprofits rather than private shareholders. The outdoor brand's carbon footprint rose `2%` to 182,646 metric tons, attributed to more carbon-intensive materials in new packs and duffels. The company reached `98%` renewable electricity and targets net zero by `2040` without offsets. Patagonia was blunt: while it runs North America's largest repair center, `85%` of its products lack end-of-life solutions.
+
 ## Nature & Environment
 
 ![Vocano on Mars](vocalno.jpg)
 
 **Mars**' **Olympus Mons** is the largest volcano in the solar system, standing `16 miles` high and `374 miles` wide — bigger than **Hawaii** and two and a half times taller than **Everest**. It grew so massive primarily because Mars lacks mobile tectonic plates. Unlike Earth, where moving plates spread magma around, Mars' crust remains fixed over a stationary hotspot, allowing lava to pile up in the same spot for billions of years. Weaker gravity and less erosion from weather also helped. It's a shield volcano — slowly oozing lava rather than explosively erupting. Scientists believe it may still be active and could erupt again.
 
-## Science
+![Glaciers](glaciers.jpg)
 
-## Lifestyle, Entertainment & Culture
+A study published in **Nature Climate Change** calculates when each of Earth's · glaciers will disappear under various warming scenarios. Even at the **Paris Agreement**(a global treaty adopted in 2015 to combat climate change by limiting global warming to well below `1.5°C` above pre-industrial levels)'s most ambitious `+1.5°C` target, roughly half would survive to `2100` — about `100,000` glaciers. At +4°C warming, only 18,000 would remain, with peak extinction around 2055 losing 4,000 glaciers annually. The Alps face severe losses: of 3,000 current glaciers, just 430 would survive at +1.5°C, dropping to about 20 at +4°C. Researchers emphasize this transforms glacier loss from a scientific concern into a deeply human story.
+
+## Science
 
 ![Cell Phone](cellphone.jpg)
 
 In **The Atlantic** magazine, Charlie Warzel explores what he calls the "phone-based retirement" — adult children noticing their aging parents consumed by devices, constantly scrolling **TikTok**, **Instagram**, or **Facebook**. In multiple instances, people reported that some of these adults seemed to not pay much attention to their grandchildren. A 2019 Pew study found people `60+` spend over `four hours` of daily leisure time on screens, while `40%` of adults aged 59-77 report feeling anxious without device access. Warzel notes the irony: for years, parents worried about kids' screen time, but now the problem exists "on the opposite side of the age spectrum." Adult children are increasingly reporting that their aging parents have developed what looks remarkably like the smartphone addiction typically associated with teenagers.
+
+## Lifestyle, Entertainment & Culture
+
+![Avatar 3: Fire & Ash](avatar.jpg)
+
+**Avatar: Fire and Ash**, the third installment in **James Cameron**'s epic sci-fi franchise, was released on December 19, 2025. The film follows Jake Sully (Sam Worthington) and Neytiri (Zoe Saldaña) as their family grapples with grief and faces a new aggressive Na'vi tribe, the Ash People, led by Varang (Oona Chaplin), amid escalating conflict on Pandora.Praised for stunning IMAX 3D visuals and action sequences, it explores darker Na'vi perspectives. Despite a softer domestic opening of `~$88 million` (below **The Way of Water**'s `$134 million`), it achieved a strong `~$347 million` global debut and crossed $500 million worldwide by late December, boosted by holiday legs, helping Disney surpass `$6 billion` in annual box office. Reviews highlight technical marvels but note less narrative innovation.
+
+![Stranger Things](ryder.jpg)
+
+**Stranger Things** Season 5, the epic final chapter, unfolds in three parts on **Netflix**. Volume 1 (episodes 1-4) launched November 26, 2025, followed by Volume 2 (episodes 5-7) on Christmas Day, December 25. The two-hour finale, "The Rightside Up," arrives December 31. Set in fall 1987, the story centers on the Hawkins friends' desperate united front against Vecna's apocalyptic threat from the Upside Down. Themes of enduring friendship, sacrifice, grief, identity, and found family shine through emotional arcs amid intense action, powers awakening, and revelations about the Upside Down's origins. Volume 1 shattered records with `59.6 million` views in five days, the biggest English-language series premiere ever, topping charts in `90` countries. Reviews praise nostalgic spectacle and closure (`~84-85%` on Rotten Tomatoes), though some critique familiar plotting; audiences remain enthusiastic overall.
 
 ## Sports
 
@@ -96,6 +140,10 @@ On **December 27, 1988**, Dutch striker **Marco van Basten** received the **Ball
 Qiu Ying (仇英, c.1505-1552) was a remarkable rags-to-riches story in Chinese art history — a lacquer craftsman from a humble family who became one of the "Four Masters of Ming," alongside Shen Zhou (沈周), Wen Zhengming (文徵明), and Tang Yin (唐寅). His **"江南春" (Spring in Jiangnan)** is a 7-meter handscroll inspired by Yuan poet Ni Zan (倪瓒)'s lyrics, showcasing his mastery of blue-green landscape painting. The work blends meticulous brushwork with literati elegance — praised as "refined without being rigid, beautiful without being saccharine." After Qiu completed the painting, Wen Zhengming, Wang Chong (王宠), and eight other Wu School (吴门画派) masters added poetic inscriptions, forming a complete artistic chain of "poetry-painting-verse"—a rare collaboration that elevates it beyond mere painting into a cultural treasure.
 
 ## Funny
+
+![Santa](santa.jpeg)
+
+*"Hold on. Let me take a picture to prove I've delivered it."*
 
 ---
 
