@@ -2,7 +2,7 @@
 """
 Audit a Sunday Blender article to ensure it's ready for publishing.
 
-Usage: Run from within the article folder (content/posts/YYYY/MM/MMDD/)
+Usage: Run from within the article folder (content/posts/YYYY/YYYYMMDD/)
        tsb-audit
 """
 

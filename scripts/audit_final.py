@@ -3,7 +3,7 @@
 Final audit for Sunday Blender article before git push.
 Checks HTML output, RSS feeds, and Twitter card metadata.
 
-Usage: Run from within the article folder (content/posts/YYYY/MM/MMDD/)
+Usage: Run from within the article folder (content/posts/YYYY/YYYYMMDD/)
        tsb-audit-final
 """
 

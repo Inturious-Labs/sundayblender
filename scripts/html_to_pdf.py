@@ -45,8 +45,14 @@ def find_newsletter_html(working_dir):
     slug = slug_match.group(1).strip().strip('"\'')  # Strip quotes and whitespace
 
     # Look for the built HTML file - navigate to project root
-    # From content/posts/2025/09/0913 -> go up to sundayblender root (5 levels up)
-    project_root = working_path.parent.parent.parent.parent.parent
+    # Find project root by looking for hugo.toml
+    project_root = None
+    for parent in [working_path] + list(working_path.parents):
+        if (parent / "hugo.toml").exists():
+            project_root = parent
+            break
+    if not project_root:
+        raise FileNotFoundError("Could not find project root (hugo.toml)")
     html_path = project_root / "public" / "p" / slug / "index.html"
 
 

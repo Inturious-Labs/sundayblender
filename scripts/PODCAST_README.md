@@ -37,7 +37,7 @@ ffprobe -version
 Example:
 ```bash
 # Your newsletter directory structure
-content/posts/2025/01/0126/
+content/posts/2026/20260126/
 ├── index.md
 ├── NotebookLM_Audio_20250126.m4a  ← Downloaded audio file
 └── [other image files]
@@ -47,7 +47,7 @@ content/posts/2025/01/0126/
 
 Navigate to your newsletter directory and run:
 ```bash
-cd content/posts/2025/01/0126
+cd content/posts/2026/20260126
 tsb-podcast
 ```
 
@@ -163,7 +163,7 @@ The generated `transcript.txt` can be:
 ## Directory Structure After Processing
 
 ```
-content/posts/2025/01/0126/
+content/posts/2026/20260126/
 ├── index.md                          ← Updated with podcast frontmatter
 ├── 2025-01-26-podcast.mp3           ← Converted audio file
 ├── transcript.txt                    ← Generated transcript
@@ -199,7 +199,7 @@ chmod +x /usr/local/bin/tsb-transcript
 ### Custom Audio File Name
 If you want to manually specify the input file:
 ```bash
-cd content/posts/2025/01/0126
+cd content/posts/2026/20260126
 # Edit process_podcast.sh to accept arguments or manually convert:
 ffmpeg -i your-custom-file.m4a -codec:a libmp3lame -qscale:a 2 2025-01-26-podcast.mp3
 ```
@@ -207,7 +207,7 @@ ffmpeg -i your-custom-file.m4a -codec:a libmp3lame -qscale:a 2 2025-01-26-podcas
 ### Regenerate Transcript Only
 If you update your article content:
 ```bash
-cd content/posts/2025/01/0126
+cd content/posts/2026/20260126
 tsb-transcript
 ```
 
