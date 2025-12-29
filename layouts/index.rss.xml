@@ -24,7 +24,16 @@
         <guid>{{ .Permalink }}</guid>
         {{ $cleanTitle := .Title | replaceRE " " "-" | replaceRE "[\"']" "" | replaceRE "," "-" | replaceRE "[<>:\"/\\\\|?*]" "" | replaceRE "-+" "-" }}
         {{ $pdfUrl := printf "%spdf/The-Sunday-Blender-%s-%s.pdf" .Site.BaseURL (.Date.Format "2006-01-02") $cleanTitle }}
-        {{ $contentWithPdf := printf "<p><em>📄 This week's newsletter is also available as a <strong><a href='%s' style='color: #0066cc;'>beautifully formatted PDF download</a></strong> - perfect for offline reading!</em></p><hr><p><strong><a href='%s'>Read on Website</a></strong></p>%s" $pdfUrl .Permalink .Content }}
+        {{/* Build hero image HTML if featured_image exists */}}
+        {{ $heroImageHtml := "" }}
+        {{ $pagePermalink := .Permalink }}
+        {{ $pageTitle := .Title }}
+        {{ with .Params.featured_image }}
+            {{/* Construct the image URL using the page's permalink + image filename */}}
+            {{ $imageUrl := printf "%s%s" $pagePermalink . }}
+            {{ $heroImageHtml = printf "<p><img src='%s' alt='%s' style='width: 100%%; max-width: 600px; height: auto; border-radius: 8px;' /></p>" $imageUrl $pageTitle }}
+        {{ end }}
+        {{ $contentWithPdf := printf "<p><em>📄 This week's newsletter is also available as a <strong><a href='%s' style='color: #0066cc;'>beautifully formatted PDF download</a></strong> - perfect for offline reading!</em></p><hr><p><strong><a href='%s'>Read on Website</a></strong></p>%s%s" $pdfUrl .Permalink $heroImageHtml .Content }}
         <description>{{ $contentWithPdf | html }}
         </description>
         <content:encoded>{{ $contentWithPdf | html }}
