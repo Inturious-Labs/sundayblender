@@ -107,9 +107,7 @@ hugo_modules/
 content/**/*.pdf
 
 # Sensitive data - email lists and personal information
-data/**/*.csv
-data/**/*.xlsx
-data/**/*.json
+data/
 
 # Project planning (to avoid triggering CI/CD on plan updates)
 PLAN.md
