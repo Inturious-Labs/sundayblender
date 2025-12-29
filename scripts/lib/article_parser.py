@@ -39,7 +39,8 @@ class ArticleParser:
     EXCLUDED_SECTIONS = {
         "Editor's Words",
         "Previous Issues",
-        "Subscribe"
+        "Subscribe",
+        "Funny"
     }
 
     def __init__(self, base_url: str = "https://weekly.sundayblender.com"):
