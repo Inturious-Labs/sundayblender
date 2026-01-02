@@ -3,7 +3,7 @@
 Process podcast for Sunday Blender Newsletter.
 Converts m4a to mp3, updates frontmatter with metadata, and generates shownotes.
 
-Usage: Run from within the article folder (content/posts/YYYY/YYYYMMDD/)
+Usage: Run from within the article folder (content/posts/YYYY/MMDD/)
        tsb-process-podcast
 """
 
