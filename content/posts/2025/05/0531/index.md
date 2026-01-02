@@ -6,6 +6,7 @@ tags: ["robotics", "denmark", "biotech", "game", "box-office", "reading-list", "
 draft: false
 slug: "when-ai-swung-a-racket-and-nadal-hung-up-his"
 featured_image: "nadal.jpg"
+featured_image_alt: "Rafael Nadal playing tennis on clay court at Roland Garros"
 ---
 
 ## Tech

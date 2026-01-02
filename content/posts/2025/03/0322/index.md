@@ -6,6 +6,7 @@ tags: ["nasa", "nvidia", "xai", "ai", "tencent", "microsoft", "africa", "germany
 draft: false
 slug: "march-madness-to-mars"
 featured_image: "mars_x.webp"
+featured_image_alt: "SpaceX Starship rocket launching with Mars in background"
 ---
 
 ## Tech

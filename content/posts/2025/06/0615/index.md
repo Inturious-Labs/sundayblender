@@ -6,6 +6,7 @@ tags: ["apple", "facebook", "nvidia", "google", "amazon", "india", "boeing", "so
 draft: false
 slug: "from-labubu-viral-craze-to-glaciers-spiral-of-doom"
 featured_image: "clash.webp"
+featured_image_alt: "Attack on Titan anime battle scene with two titans clashing"
 ---
 
 ## Tech

@@ -6,6 +6,7 @@ tags: ["facebook", "ai", "nintendo", "china", "education", "rock-n-roll", "apple
 draft: false
 slug: while-young-talents-trailblaze-ai-frontier-legendary-icons-write-new-chapters
 featured_image: "ai_war.jpg"
+featured_image_alt: "Hand holding AI chip surrounded by connected technology icons"
 ---
 
 ## Tech

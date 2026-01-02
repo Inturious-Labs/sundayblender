@@ -6,6 +6,7 @@ tags: ["brain-tech", "tesla", "defense", "tsmc", "singapore", "china", "africa",
 draft: false
 slug: "flying-without-wings-seeing-without-eyes-and-driving-without-humans"
 featured_image: "b2.jpg"
+featured_image_alt: "B-2 Spirit stealth bomber flying against blue sky"
 ---
 
 ## Tech

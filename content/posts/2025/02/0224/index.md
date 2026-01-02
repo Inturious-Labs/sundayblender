@@ -6,6 +6,7 @@ tags: ["china", "xai", "microsoft", "sony", "adobe", "deepseek", "electric-vehic
 draft: false
 slug: "meeting-of-the-minds"
 featured_image: "leader_shake.jpg"
+featured_image_alt: "Chinese leaders meeting and shaking hands in formal government setting"
 ---
 
 ## Tech

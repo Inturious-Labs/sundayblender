@@ -6,6 +6,7 @@ tags: ["education", "news-for-kids", "parenting", "english-learning", "media-lit
 draft: false
 slug: "make-news-interesting-for-kids"
 featured_image: "deck.jpg"
+featured_image_alt: "Scenic coastal deck with orange lounge chairs overlooking ocean cliffs"
 images: ["deck.jpg"]
 ---
 

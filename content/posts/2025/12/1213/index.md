@@ -6,6 +6,7 @@ description: "An influx of AI reports from a16z, OpenAI, and Anthropic on usage 
 tags: ["AI", "Australia", "Japan", "Indonesia", "Netflix", "Hong Kong", "Literature", "Music", "Soccer", "NBA", "F1 Racing", "Cycling"]
 keywords: ["news for kids", "kids news", "children's news", "news for tweens", "news for teens", "kid-friendly news", "weekly news for kids", "current events for kids", "world news for children", "educational news", "bytedance", "openai", "nvidia", "netflix", "Hashkey", "nature magazine", "Kiran Desai", "Coca-Cola", "Christmas", "Golden Globe", "Wham", "Messi", "FIFA 2026", "Francis Drake"]
 featured_image: "hero.jpg"
+featured_image_alt: "Cartoon of two characters discussing AI predicting more AI trends"
 images: ["hero.jpg"]
 draft: false
 enable_rapport: true

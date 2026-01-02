@@ -6,6 +6,7 @@ description: "Crypto crashes amid quantum computing breakthroughs and looming US
 tags: ["NBA", "cycling", "AI", "China", "OpenAI", "Game", "festival", "archaeology", "USA", "Mexico", "crypto", "tesla", "tennis", "MLB", "Minecraft", "auto", "South Korea",  "Qualcomm", "Japan", "quantum physics", "Nobel", "Rolex", "music"]
 keywords: ["Djokovic", "Vacherot", "Sora 2", "EvenUp", "HavocAI", "government shutdown", "Sanae Takaichi", "Hidalgo", "leech", "W state", "László Krasznahorkai", "JK Rowling", "Emma Watson", "Oktoberfest", "Rolex Oyster", "CraftGPT", "Tadej Pogačarc", "Yang Hansen", "Seattle Mariners", "John Lennon", "Imagine"]
 featured_image: "djokovic.jpg"
+featured_image_alt: "Novak Djokovic reaching for forehand shot in red shirt"
 images: ["djokovic.jpg"]
 draft: false
 enable_rapport: true

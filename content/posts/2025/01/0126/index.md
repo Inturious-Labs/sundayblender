@@ -6,6 +6,7 @@ tags: ["ai", "deepseek", "openai", "anthropic", "bytedance", "samsung", "germany
 draft: false
 slug: "deepseek-challenges-ai-powerhouses"
 featured_image: "deepseek.jpg"
+featured_image_alt: "DeepSeek founder Liang Wenfeng speaking at a conference"
 images: ["deepseek.jpg"]
 enable_rapport: true
 podcast:

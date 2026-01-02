@@ -5,6 +5,7 @@ slug: the-return-of-chinese-rock-in-kuala-kumpur
 description: "Chinese rock band Three-Missing-One delivered an epic show in Kuala Lumpur, bringing back memories of Nanjing, Zhen Zhou, Hot River, and beyond."
 tags: ["cursor", "Google", "Thailand", "UK", "Czech", "Tesla", "Spain", "Japan", "Badminton", "NBA", "Cycling", "Soccer", "Impressionism"]
 featured_image: "concert.jpg"
+featured_image_alt: "Rock concert stage with dramatic green and red laser lights"
 images: ["concert.jpg"]
 draft: false
 enable_rapport: true

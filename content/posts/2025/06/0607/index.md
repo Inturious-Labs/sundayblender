@@ -6,6 +6,7 @@ tags: ["ai", "nintendo", "china", "singapore", "england", "chile", "geely", "rea
 draft: false
 slug: "every-dog-has-its-day"
 featured_image: "dog.jpg"
+featured_image_alt: "Happy Jack Russell terrier running across green grass"
 ---
 
 ## Tech

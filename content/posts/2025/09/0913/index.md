@@ -5,6 +5,7 @@ slug: good-old-apple-strikes-back
 description: "Apple strikes back at WWDC; Musk unveils ambitious Tesla plans while absent from White House AI dinner; McLaren finds new life with Nio, Nissan fades."
 tags: ["Apple", "Nissan", "Japan", "China", "AI", "McLaren", "Tesla", "Oracle", "Pop Mart", "NASA", "UAP", "Kobe", "cycling", "soccer", "basketball"]
 featured_image: "apple.webp"
+featured_image_alt: "Apple WWDC 2025 logo at Steve Jobs Theater"
 images: ["apple.webp"]
 draft: false
 enable_rapport: true

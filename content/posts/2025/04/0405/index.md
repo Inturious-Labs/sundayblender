@@ -6,6 +6,7 @@ tags: ["nintendo", "samsung", "tiktok", "xiaomi", "china", "festival", "game", "
 draft: false
 slug: "the-world-jitters-but-nintendo-glitters"
 featured_image: "mario.jpg"
+featured_image_alt: "Super Mario character jumping with colorful game elements"
 ---
 
 ## Tech

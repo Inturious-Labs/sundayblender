@@ -7,6 +7,7 @@ tags: ["audi", "nasa", "byd", "nvidia", "openai", "USA", "China", "Italy", "gold
 keywords: ["E5 Sportback", "Blue Origin", "VIBER", "H1B Visa", "China Eastern Airlines", "Lake Como", "RWA", "Real-World Asset", "Arc'teryx", "3I/ATLAS", "Demon Slayer", "equinox", "Dembele", "Aitana", "Yamal", "Remco Evenepoel", "Harry Kane", "Cadillac Ranch"]
 images: ["hero_yangwangU9.jpg"]
 featured_image: "hero_yangwangU9.jpg"
+featured_image_alt: "BYD Yangwang U9 red supercar racing on track"
 draft: false
 enable_rapport: true
 ---

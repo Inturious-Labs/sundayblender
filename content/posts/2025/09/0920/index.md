@@ -7,6 +7,7 @@ tags: ["openai", "deepseek", "anthropic", "meta", "huawei", "china", "japan", "n
 keywords: ["chatGPT", "deepseek", "anthropic", "meta", "huawei", "Emmy's Awards 2025", "Robert Redford", "Noah Lyles", "parafencing", "Christina's World", "Andrew Wyeth" ]
 draft: false
 featured_image: "hero-ray-ban.jpg"
+featured_image_alt: "Ray-Ban Meta smart glasses with Apple Watch on gradient background"
 images: ["hero-ray-ban.jpg"]
 enable_rapport: true
 ---

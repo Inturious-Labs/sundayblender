@@ -6,6 +6,7 @@ tags: ["ai", "deepseek", "huawei", "crypto", "space-tech", "one-republic", "taiw
 draft: false
 slug: "an-exuberant-chinese-new-year"
 featured_image: "chinese_ne.jpg"
+featured_image_alt: "Colorful fireworks display over Hong Kong harbor skyline at night"
 images: ["chinese_ne.jpg"]
 ---
 

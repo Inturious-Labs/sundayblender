@@ -6,6 +6,7 @@ description: "Bird's nests have been discovered in Ukraine that are constructed 
 tags: ["AI", "Smartphone", "Electric Car", "Sri Lanka", "South Korea", "Hong Kong", "Ukraine", "Music", "Game", "Literature", "Lottery", "Travel", "NBA", "Snooker", "NFL"]
 keywords: ["news for kids", "kids news", "children's news", "news for tweens", "news for teens", "kid-friendly news", "weekly news for kids", "current events for kids", "world news for children", "educational news", "Genesis Mission", "Moore Threads", "Galaxy Z TriFold", "ElevenLabs", "Xpeng", "Cyclone Ditwah", "Hermès", "Cold Moon", "Spotify", "The Jonas Brothers", "Death Stranding", "The Tainted Cup", "Powerball", "TSA", "Chris Paul", "Zinedine Zidane", “Drake Maye”, “Thomas Edison”, "江干雪霁图"]
 featured_image: "hero.jpg"
+featured_image_alt: "Bird nest with inset image of FPV racing drone"
 images: ["hero.jpg"]
 draft: false
 enable_rapport: true

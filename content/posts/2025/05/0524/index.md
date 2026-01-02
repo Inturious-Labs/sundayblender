@@ -6,6 +6,7 @@ tags: ["google", "space-tech", "openai", "anthropic", "uae", "spain", "japan", "
 draft: false
 slug: "shining-stars-of-the-last-generation"
 featured_image: "anime-sky.jpg"
+featured_image_alt: "Anime-style silhouette watching shooting stars cross night sky"
 ---
 
 ## Tech
