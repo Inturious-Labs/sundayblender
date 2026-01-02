@@ -2,10 +2,11 @@
 title: "The Most Intelligent AI Model Yet?"
 date: 2025-11-22
 slug: the-most-intelligent-ai-model-yet
-description: "Google released the highly anticipated AI model Gemini 3 with much fanfare, challenging OpenAI's chatGPT and Anthropic's Claude. Google becomes the first full-stack AI superpower that boasts a complete lineup of large language model, code editor, chip, cloud, and consumer apps."
+description: "Google released Gemini 3, challenging OpenAI's ChatGPT and Anthropic's Claude. Google becomes the first full-stack AI superpower with a complete lineup."
 tags: [Google, AI, Programming, SpaceTech, Education, Estonia, China, France, Singapore, Bitcoin, Oscar, Nintendo, Literature, Festival, Table Tennis, NBA, Soccer, Tennis]
 keywords: [AI, Google, News for Kids, Tiobe, Python, Estonia, Blue Origin, Perrier, Penny, Leonid Meteor, Tom Cruise, Nintendo, Zelda, Call of Duty, Vibe Coding, Collins Dictionary, Speewell, David Szalay, Thanksgiving 2025, Koroshigaki, Japan, Fan Zhendong, LeBron James, Curacao, World Cup, Roger Federer, JFK, Freedom from Want, Norman Rockwell]
 featured_image: "hero.jpg"
+featured_image_alt: "Google Gemini 3.0 announcement with humanoid robot on stage"
 images: ["hero.jpg"]
 draft: false
 enable_rapport: true

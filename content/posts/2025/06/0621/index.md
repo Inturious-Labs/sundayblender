@@ -1,11 +1,12 @@
 ---
 title: "Cyber Doomsday Meets AI Boomtown"
 date: 2025-06-21
-description: "While hackers leak 16 billion passwords, SoftBank and Google double down on AI dominance. Welcome to the post-Internet world, but also don't forget how far we've come, since Manchester Baby."
+description: "While hackers leak 16 billion passwords, SoftBank and Google double down on AI dominance. Welcome to the post-Internet world since Manchester Baby."
 tags: ["softbank", "google", "tencent", "audi", "tesla", "spacex", "israel", "japan", "north-korea", "jd.com", "climate-change", "soccer", "mlb"]
 draft: false
 slug: "cyber-doomsday-meets-ai-boomtown"
 featured_image: "cyber_doom.jpeg"
+featured_image_alt: "Dark castle fortress surrounded by virus particles with glowing portal"
 ---
 
 ## Tech

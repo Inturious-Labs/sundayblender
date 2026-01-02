@@ -5,6 +5,7 @@ slug: the-greatest-performance-in-baseball-history
 description: "Shohei Ohtani delivered an epic performance in 2025 NLCS Game 4 over the Milwaukee Brewers "
 tags: ["AWS", "Anthropic", "OpenAI", "Oracle", "Meta", "China", "Japan", "Google", "France", "Spain", "USA", "Porsche", "Pfizer", "Microsoft", "Australia", "Greece",  "MLB", "NBA", "Ironman", "Picasso"]
 featured_image: "hero.JPG"
+featured_image_alt: "Shohei Ohtani batting for Los Angeles Dodgers"
 images: ["hero.JPG"]
 draft: false
 enable_rapport: true

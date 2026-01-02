@@ -6,6 +6,7 @@ tags: ["spacex", "nasa", "xiaomi", "deepseek", "ai", "tiktok", "microsoft", "ind
 draft: false
 slug: "the-end-game-for-technology"
 featured_image: "header.webp"
+featured_image_alt: "Futuristic cityscape with neon lights and flying vehicles"
 ---
 
 ## Tech

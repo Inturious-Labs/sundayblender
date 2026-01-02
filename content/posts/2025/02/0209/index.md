@@ -6,6 +6,7 @@ tags: ["ai", "openai", "apple", "deepseek", "japan", "england", "nasa", "twitter
 draft: false
 slug: "chinese-film-ne-zha-2-shattered-record"
 featured_image: "header.jpg"
+featured_image_alt: "Ne Zha 2 animated movie promotional poster with characters on red background"
 images: ["header.jpg"]
 ---
 

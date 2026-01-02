@@ -2,10 +2,11 @@
 title: "Djokovic Falls to Vacherot at 2025 Shanghai Masters"
 date: 2025-10-11
 slug: djokovic-falls-to-vacherot-at-2025-shanghai-masters
-description: "market crash for cryptocurrencies amid breakthrough in quantum computing and looming trade war between China and US ... another epic rift broke out in the Harry Potter universe"
+description: "Crypto crashes amid quantum computing breakthroughs and looming US-China trade war. Another epic rift breaks out in the Harry Potter universe."
 tags: ["NBA", "cycling", "AI", "China", "OpenAI", "Game", "festival", "archaeology", "USA", "Mexico", "crypto", "tesla", "tennis", "MLB", "Minecraft", "auto", "South Korea",  "Qualcomm", "Japan", "quantum physics", "Nobel", "Rolex", "music"]
 keywords: ["Djokovic", "Vacherot", "Sora 2", "EvenUp", "HavocAI", "government shutdown", "Sanae Takaichi", "Hidalgo", "leech", "W state", "László Krasznahorkai", "JK Rowling", "Emma Watson", "Oktoberfest", "Rolex Oyster", "CraftGPT", "Tadej Pogačarc", "Yang Hansen", "Seattle Mariners", "John Lennon", "Imagine"]
 featured_image: "djokovic.jpg"
+featured_image_alt: "Novak Djokovic reaching for forehand shot in red shirt"
 images: ["djokovic.jpg"]
 draft: false
 enable_rapport: true

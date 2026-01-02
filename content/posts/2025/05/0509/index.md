@@ -6,6 +6,7 @@ tags: ["news-for-kids", "substack", "twitter", "ai"]
 draft: false
 slug: "we-come-this-far-now-what"
 featured_image: "climb.jpg"
+featured_image_alt: "Rock climber scaling steep cliff face against blue sky"
 ---
 
 **15 issues** over **15 Saturdays** so far since the inaugural issue of **The Sunday Blender** on **January 27** during the Chinese New Year of 2025. I’m mildly surprised that I’ve come down on this path this far and kept doing this for so long.

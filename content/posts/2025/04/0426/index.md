@@ -6,6 +6,7 @@ tags: ["ai", "stanford", "tencent", "google", "apple", "rednote", "intel", "gold
 draft: false
 slug: "a-tale-of-two-nations"
 featured_image: "hero.jpg"
+featured_image_alt: "Scenic mountain landscape with dramatic lighting"
 ---
 
 ## Tech

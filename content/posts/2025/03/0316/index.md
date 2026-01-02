@@ -6,6 +6,7 @@ tags: ["nasa", "openai", "ai", "intel", "brain-tech", "russia", "hong-kong", "ne
 draft: false
 slug: "space-oddities-on-the-moon-space"
 featured_image: "kakeya_con.jpg"
+featured_image_alt: "Mathematical illustration of Kakeya conjecture geometric patterns"
 ---
 
 ## Tech

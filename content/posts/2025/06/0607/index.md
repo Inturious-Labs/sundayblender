@@ -1,11 +1,12 @@
 ---
 title: "Every Dag Has Its Day"
 date: 2025-06-07
-description: "A hero's return for Yates on his old mountain of heartbreaking loss, a wildcard stuns the French Open, cockatoos outthink expectations, and Indiana steals Game 1"
+description: "A hero's return for Yates on his old mountain of heartbreak, a wildcard stuns the French Open, cockatoos outthink expectations, Indiana steals Game 1."
 tags: ["ai", "nintendo", "china", "singapore", "england", "chile", "geely", "reading-list", "tennis", "cycling", "nba", "fifa", "soccer", "f1-racing", "rock-n-roll"]
 draft: false
 slug: "every-dog-has-its-day"
 featured_image: "dog.jpg"
+featured_image_alt: "Happy Jack Russell terrier running across green grass"
 ---
 
 ## Tech
