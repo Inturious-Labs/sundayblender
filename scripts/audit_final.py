@@ -3,7 +3,7 @@
 Final audit for Sunday Blender article before git push.
 Checks HTML output, RSS feeds, and Twitter card metadata.
 
-Usage: Run from within the article folder (content/posts/YYYY/MM/MMDD/)
+Usage: Run from within the article folder (content/posts/YYYY/MMDD/)
        tsb-audit-final
 """
 
@@ -46,6 +46,102 @@ def extract_field(frontmatter, field):
     if match:
         return match.group(1).strip()
     return ""
+
+
+def check_seo_length(frontmatter, errors, warnings, passed):
+    """Check title and description length for SEO."""
+    title = extract_field(frontmatter, 'title')
+    description = extract_field(frontmatter, 'description')
+
+    if title:
+        if len(title) > 70:
+            errors.append(f"Title exceeds 70 chars ({len(title)} chars)")
+        else:
+            passed.append(f"Title length OK ({len(title)}/70 chars)")
+    else:
+        errors.append("Title not found in frontmatter")
+
+    if description:
+        if len(description) > 155:
+            errors.append(f"Meta description exceeds 155 chars ({len(description)} chars)")
+        else:
+            passed.append(f"Meta description length OK ({len(description)}/155 chars)")
+    else:
+        warnings.append("Description not found in frontmatter")
+
+
+def check_slug_length(frontmatter, errors, warnings, passed):
+    """Check slug length for SEO (max 60 chars)."""
+    slug = extract_field(frontmatter, 'slug')
+    if slug:
+        if len(slug) > 60:
+            errors.append(f"Slug exceeds 60 chars ({len(slug)} chars)")
+        else:
+            passed.append(f"Slug length OK ({len(slug)}/60 chars)")
+    else:
+        errors.append("Slug not found in frontmatter")
+
+
+def check_hero_alt_text(frontmatter, errors, warnings, passed):
+    """Check hero image has alt text."""
+    # Look for featured_image_alt or images_alt in frontmatter
+    alt_match = re.search(r'featured_image_alt:\s*["\']?(.+?)["\']?\s*$', frontmatter, re.MULTILINE)
+    if alt_match and alt_match.group(1).strip():
+        passed.append("Hero image alt text is set")
+    else:
+        warnings.append("Hero image alt text not set (add featured_image_alt field)")
+
+
+def check_html_seo(html_path, errors, warnings, passed):
+    """Check canonical URL, og:title/description lengths, and H1 count in HTML."""
+    if not html_path.exists():
+        return
+
+    content = html_path.read_text()
+
+    # Check canonical URL
+    canonical_match = re.search(r'<link\s+rel=["\']canonical["\']\s+href=["\']([^"\']+)["\']', content)
+    if not canonical_match:
+        canonical_match = re.search(r'<link\s+href=["\']([^"\']+)["\']\s+rel=["\']canonical["\']', content)
+    if canonical_match:
+        passed.append("Canonical URL is set")
+    else:
+        errors.append("Canonical URL not found")
+
+    # Check og:title length (max 60 chars)
+    og_title_match = re.search(r'<meta\s+property=["\']og:title["\']\s+content=["\']([^"\']+)["\']', content)
+    if not og_title_match:
+        og_title_match = re.search(r'<meta\s+content=["\']([^"\']+)["\']\s+property=["\']og:title["\']', content)
+    if og_title_match:
+        og_title = og_title_match.group(1)
+        if len(og_title) > 60:
+            warnings.append(f"og:title exceeds 60 chars ({len(og_title)} chars)")
+        else:
+            passed.append(f"og:title length OK ({len(og_title)}/60 chars)")
+    else:
+        warnings.append("og:title meta tag not found")
+
+    # Check og:description length (max 200 chars)
+    og_desc_match = re.search(r'<meta\s+property=["\']og:description["\']\s+content=["\']([^"\']+)["\']', content)
+    if not og_desc_match:
+        og_desc_match = re.search(r'<meta\s+content=["\']([^"\']+)["\']\s+property=["\']og:description["\']', content)
+    if og_desc_match:
+        og_desc = og_desc_match.group(1)
+        if len(og_desc) > 200:
+            warnings.append(f"og:description exceeds 200 chars ({len(og_desc)} chars)")
+        else:
+            passed.append(f"og:description length OK ({len(og_desc)}/200 chars)")
+    else:
+        warnings.append("og:description meta tag not found")
+
+    # Check H1 count (should be exactly 1)
+    h1_matches = re.findall(r'<h1[^>]*>', content)
+    if len(h1_matches) == 0:
+        warnings.append("No H1 tag found (consider adding one for SEO)")
+    elif len(h1_matches) > 1:
+        warnings.append(f"Multiple H1 tags found ({len(h1_matches)}) - should be exactly 1")
+    else:
+        passed.append("H1 tag count OK (1)")
 
 
 def check_draft_status(frontmatter, errors, warnings, passed):
@@ -274,11 +370,15 @@ def main():
     passed = []
 
     # Run all checks
+    check_seo_length(frontmatter, errors, warnings, passed)
+    check_slug_length(frontmatter, errors, warnings, passed)
+    check_hero_alt_text(frontmatter, errors, warnings, passed)
     check_draft_status(frontmatter, errors, warnings, passed)
     check_pdf_exists(cwd, date_str, errors, warnings, passed)
     check_mp3_exists(cwd, date_str, errors, warnings, passed)
     check_podcast_frontmatter(frontmatter, errors, warnings, passed)
     check_twitter_card(html_path, errors, warnings, passed)
+    check_html_seo(html_path, errors, warnings, passed)
     check_hero_image_in_html(html_path, errors, warnings, passed)
     check_main_rss(repo_root, slug, date_str, errors, warnings, passed)
     check_podcast_rss(repo_root, slug, date_str, errors, warnings, passed)

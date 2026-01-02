@@ -65,8 +65,8 @@ git checkout -b draft/YYYYMMDD
 Create the article folder and initialize:
 
 ```bash
-mkdir -p content/posts/YYYY/MM/MMDD
-cd content/posts/YYYY/MM/MMDD
+mkdir -p content/posts/YYYY/MMDD
+cd content/posts/YYYY/MMDD
 tsb-init-article
 ```
 
@@ -87,7 +87,7 @@ Update the article throughout the week with additional stories, materials, and c
 Run a text audit to ensure the article is ready for PDF generation:
 
 ```bash
-cd content/posts/YYYY/MM/MMDD
+cd content/posts/YYYY/MMDD
 tsb-audit-text
 ```
 
@@ -98,7 +98,7 @@ This verifies frontmatter fields, images, section content, and reading time befo
 Ensure Hugo dev server is running (`hugo server -D -F`), then generate the PDF:
 
 ```bash
-cd content/posts/YYYY/MM/MMDD
+cd content/posts/YYYY/MMDD
 tsb-make-pdf
 ```
 
@@ -113,7 +113,7 @@ This generates a PDF in the article folder for podcast creation. If run again, i
 
 **Process audio:**
 ```bash
-cd content/posts/YYYY/MM/MMDD
+cd content/posts/YYYY/MMDD
 tsb-make-podcast
 ```
 
@@ -130,7 +130,7 @@ This single command:
 **Step 2:** Run final audit to verify everything is ready:
 
 ```bash
-cd content/posts/YYYY/MM/MMDD
+cd content/posts/YYYY/MMDD
 tsb-audit-final
 ```
 
@@ -147,7 +147,7 @@ This checks:
 **Step 3:** Commit and push:
 
 ```bash
-git add content/posts/YYYY/MM/MMDD/
+git add content/posts/YYYY/MMDD/
 git commit -m "Publish YYYY-MM-DD issue"
 git push --set-upstream origin draft/YYYYMMDD
 ```

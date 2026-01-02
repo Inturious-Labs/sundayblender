@@ -1,6 +1,7 @@
 # Allow all major crawlers
 User-agent: *
 Allow: /
+Disallow: /pdf/
 
 # ✅ Western AI + search bots
 User-agent: GPTBot
