@@ -2,7 +2,7 @@
 title: "Good Old Apple Strikes Back"
 date: 2025-09-13
 slug: good-old-apple-strikes-back
-description: "Apple strikes back on WWDC; Musk unveils an ambitious plan for Tesla while absent from White House's AI dinner; McLaren finds another life with Chinese new power Nio, but Nissan is fading out"
+description: "Apple strikes back at WWDC; Musk unveils ambitious Tesla plans while absent from White House AI dinner; McLaren finds new life with Nio, Nissan fades."
 tags: ["Apple", "Nissan", "Japan", "China", "AI", "McLaren", "Tesla", "Oracle", "Pop Mart", "NASA", "UAP", "Kobe", "cycling", "soccer", "basketball"]
 featured_image: "apple.webp"
 images: ["apple.webp"]

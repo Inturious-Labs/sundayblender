@@ -2,7 +2,7 @@
 title: "The Return of Chinese Rock in Kuala Lumpur"
 date: 2025-11-15
 slug: the-return-of-chinese-rock-in-kuala-kumpur
-description: "Chinese rock band Three-Missing-One delivered an epic show in Kuala Lumpur, Malaysia, bringing back the memory of Nanjing, Zhen Zhou, Hot River, and Hill's Shadow Road"
+description: "Chinese rock band Three-Missing-One delivered an epic show in Kuala Lumpur, bringing back memories of Nanjing, Zhen Zhou, Hot River, and beyond."
 tags: ["cursor", "Google", "Thailand", "UK", "Czech", "Tesla", "Spain", "Japan", "Badminton", "NBA", "Cycling", "Soccer", "Impressionism"]
 featured_image: "concert.jpg"
 images: ["concert.jpg"]

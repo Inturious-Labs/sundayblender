@@ -2,7 +2,7 @@
 title: "So Many AI Reports, So Little Time to Read"
 date: 2025-12-13
 slug: so-many-ai-reports-so-little-time-to-read
-description: "This week saw an influx of AI reports from a16z, openAI, and Anthropic on usage patterns of AI. The irony is,  who has time to read those AI reports of hundreds of pages?"
+description: "An influx of AI reports from a16z, OpenAI, and Anthropic on usage patterns. The irony: who has time to read hundreds of pages of AI reports?"
 tags: ["AI", "Australia", "Japan", "Indonesia", "Netflix", "Hong Kong", "Literature", "Music", "Soccer", "NBA", "F1 Racing", "Cycling"]
 keywords: ["news for kids", "kids news", "children's news", "news for tweens", "news for teens", "kid-friendly news", "weekly news for kids", "current events for kids", "world news for children", "educational news", "bytedance", "openai", "nvidia", "netflix", "Hashkey", "nature magazine", "Kiran Desai", "Coca-Cola", "Christmas", "Golden Globe", "Wham", "Messi", "FIFA 2026", "Francis Drake"]
 featured_image: "hero.jpg"

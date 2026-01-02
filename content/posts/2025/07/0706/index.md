@@ -1,7 +1,7 @@
 ---
-title: "While Young Talents Trailblaze AI Frontier, Legendary Icons Write New Chapters"
+title: "While Young Talents Trailblaze AI, Legendary Icons Write New Chapters"
 date: 2025-07-06
-description: "The return of Oasis, the farewell of Ozzy Osborne, a new game from Kojima, another dribble goal from Messi, a century win for Djokovic and a new kind of contract for Ronaldo"
+description: "The return of Oasis, farewell of Ozzy, a new game from Kojima, another dribble goal from Messi, a century win for Djokovic, new contract for Ronaldo."
 tags: ["facebook", "ai", "nintendo", "china", "education", "rock-n-roll", "apple", "game", "tennis", "cycling", "soccer", "f1-racing"]
 draft: false
 slug: while-young-talents-trailblaze-ai-frontier-legendary-icons-write-new-chapters
