@@ -48,6 +48,28 @@ def extract_field(frontmatter, field):
     return ""
 
 
+def check_seo_length(frontmatter, errors, warnings, passed):
+    """Check title and description length for SEO."""
+    title = extract_field(frontmatter, 'title')
+    description = extract_field(frontmatter, 'description')
+
+    if title:
+        if len(title) > 70:
+            errors.append(f"Title exceeds 70 chars ({len(title)} chars)")
+        else:
+            passed.append(f"Title length OK ({len(title)}/70 chars)")
+    else:
+        errors.append("Title not found in frontmatter")
+
+    if description:
+        if len(description) > 155:
+            errors.append(f"Meta description exceeds 155 chars ({len(description)} chars)")
+        else:
+            passed.append(f"Meta description length OK ({len(description)}/155 chars)")
+    else:
+        warnings.append("Description not found in frontmatter")
+
+
 def check_draft_status(frontmatter, errors, warnings, passed):
     """Check draft is set to false."""
     draft_match = re.search(r'^draft:\s*(true|false)', frontmatter, re.MULTILINE)
@@ -274,6 +296,7 @@ def main():
     passed = []
 
     # Run all checks
+    check_seo_length(frontmatter, errors, warnings, passed)
     check_draft_status(frontmatter, errors, warnings, passed)
     check_pdf_exists(cwd, date_str, errors, warnings, passed)
     check_mp3_exists(cwd, date_str, errors, warnings, passed)
