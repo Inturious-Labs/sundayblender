@@ -5,6 +5,7 @@ slug: when-yang-meets-yang-celebrating-life-at-the-peak-of-autumn
 description: "a busy week from the costume block party of Halloween to visiting elders during Double Ninth Festival"
 tags: ["NVIDIA", "AI", "Visa", "Climate", "soccer", "MLB", "NFL", "NBA"]
 featured_image: "elderly-haircut.jpg"
+featured_image_alt: "Volunteer giving haircut to smiling elderly woman in China"
 images: ["elderly-haircut.jpg"]
 draft: false
 enable_rapport: true

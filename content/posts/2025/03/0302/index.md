@@ -6,6 +6,7 @@ tags: ["openai", "deepseek", "ai", "xiaomi", "samsung", "crypto", "ukrain", "chi
 draft: false
 slug: "ancient-water-on-mars"
 featured_image: "mars.jpg"
+featured_image_alt: "Artistic rendering of Mars surface with red rocky terrain"
 ---
 
 ## Tech

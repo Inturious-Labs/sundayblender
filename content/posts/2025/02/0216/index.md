@@ -6,6 +6,7 @@ tags: ["boeing", "facebook", "huawei", "apple", "ai", "russia", "egypt", "cuba",
 draft: false
 slug: "mega-snow-and-mega-collision"
 featured_image: "header.jpg"
+featured_image_alt: "Tourist bus traveling through towering snow walls on Japan Tateyama Kurobe Alpine Route"
 ---
 
 ## Tech

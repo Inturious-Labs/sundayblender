@@ -6,6 +6,7 @@ tags: ["ai", "openai", "xai", "twitter", "fusion-tech", "electric-vehicles", "my
 draft: false
 slug: "the-charming-arrival-of-agi"
 featured_image: "ghibli-lal.jpg"
+featured_image_alt: "Studio Ghibli style illustration of person walking through magical forest"
 ---
 
 ## Tech

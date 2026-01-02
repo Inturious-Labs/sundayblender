@@ -6,6 +6,7 @@ tags: ["ai", "war-tech", "openai", "defense", "pharmaceutical", "outbreak", "usa
 draft: false
 slug: "ai-advances-scientific-discovery"
 featured_image: "ai_advance.jpeg"
+featured_image_alt: "Humanoid robot scientist examining holographic asteroid in futuristic lab"
 ---
 
 ## Tech

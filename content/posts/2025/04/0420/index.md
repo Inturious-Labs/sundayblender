@@ -6,6 +6,7 @@ tags: ["auto", "quantum-computing", "harvard", "spain", "china", "trade-war", "i
 draft: false
 slug: "flying-dutchman-sails-away"
 featured_image: "flying_dut.jpg"
+featured_image_alt: "Flying Dutchman sailing ship on stormy seas"
 ---
 
 ## Tech

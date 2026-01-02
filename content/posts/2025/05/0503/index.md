@@ -6,6 +6,7 @@ tags: ["auto", "apple", "space-tech", "spain", "portugal", "singapore", "tesla",
 draft: false
 slug: "hello-darkness-my-old-friend"
 featured_image: "hello_dark.webp"
+featured_image_alt: "Dark atmospheric scene with mysterious lighting effects"
 ---
 
 ## Tech

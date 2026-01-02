@@ -6,6 +6,7 @@ tags: ["spacex", "openai", "space-tech", "robotics", "india", "pakistan", "relig
 draft: false
 slug: "blaze-of-glory-and-sound-of-silence"
 featured_image: "fighter_jet.jpg"
+featured_image_alt: "Dassault Rafale fighter jet in flight with afterburners glowing"
 ---
 
 ## Tech
