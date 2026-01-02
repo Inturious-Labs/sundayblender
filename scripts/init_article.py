@@ -2,7 +2,7 @@
 """
 Initialize a new Sunday Blender article with prepopulated index.md
 
-Usage: Run from within the article folder (content/posts/YYYY/MM/MMDD/)
+Usage: Run from within the article folder (content/posts/YYYY/MMDD/)
        tsb-init-article
 """
 
@@ -33,24 +33,24 @@ def get_repo_root_from_cwd():
 def parse_date_from_path():
     """
     Parse publication date from current directory path.
-    Expected format: .../content/posts/YYYY/MM/MMDD/
+    Expected format: .../content/posts/YYYY/MMDD/
     Returns (year, month, day) tuple or None if invalid.
     """
     cwd = Path.cwd()
     parts = cwd.parts
 
     # Find "posts" in path and get the date components after it
+    # Expected format: posts/YYYY/MMDD
     try:
         posts_idx = parts.index("posts")
-        if len(parts) >= posts_idx + 4:
+        if len(parts) >= posts_idx + 3:
             year = parts[posts_idx + 1]
-            month = parts[posts_idx + 2]
-            mmdd = parts[posts_idx + 3]
+            mmdd = parts[posts_idx + 2]
 
             # Validate format
             if (len(year) == 4 and year.isdigit() and
-                len(month) == 2 and month.isdigit() and
                 len(mmdd) == 4 and mmdd.isdigit()):
+                month = mmdd[0:2]
                 day = mmdd[2:4]
                 return (year, month, day)
     except (ValueError, IndexError):
@@ -166,7 +166,7 @@ def create_article():
     date_parts = parse_date_from_path()
     if not date_parts:
         print(f"{RED}Cannot determine date from folder path{NC}")
-        print(f"{YELLOW}Expected path format: content/posts/YYYY/MM/MMDD/{NC}")
+        print(f"{YELLOW}Expected path format: content/posts/YYYY/MMDD/{NC}")
         return False
 
     year, month, day = date_parts
