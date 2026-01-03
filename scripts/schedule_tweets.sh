@@ -86,10 +86,10 @@ case $menu_choice in
         ;;
 esac
 
-# Find recent articles
+# Find recent articles (search all years, sort by path to get newest first)
 echo
 echo "📚 Finding recent articles..."
-ARTICLES=($(find content/posts/2025 -name "index.md" -type f | sort -r | head -3))
+ARTICLES=($(find content/posts -name "index.md" -type f | sort -r | head -3))
 
 if [ ${#ARTICLES[@]} -eq 0 ]; then
     echo "❌ No articles found!"
