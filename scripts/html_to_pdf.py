@@ -24,7 +24,16 @@ def show_progress(message, stop_event):
         i += 1
         time.sleep(0.1)
 
-def find_newsletter_html(working_dir):
+def get_project_root(working_dir):
+    """Find the project root by looking for hugo.toml"""
+    working_path = Path(working_dir)
+    for parent in [working_path] + list(working_path.parents):
+        if (parent / "hugo.toml").exists():
+            return parent
+    return None
+
+
+def find_newsletter_html(working_dir, project_root):
     """Find the built HTML file for the newsletter"""
     working_path = Path(working_dir)
 
@@ -44,17 +53,8 @@ def find_newsletter_html(working_dir):
 
     slug = slug_match.group(1).strip().strip('"\'')  # Strip quotes and whitespace
 
-    # Look for the built HTML file - navigate to project root
-    # Find project root by looking for hugo.toml
-    project_root = None
-    for parent in [working_path] + list(working_path.parents):
-        if (parent / "hugo.toml").exists():
-            project_root = parent
-            break
-    if not project_root:
-        raise FileNotFoundError("Could not find project root (hugo.toml)")
+    # Look for the built HTML file
     html_path = project_root / "public" / "p" / slug / "index.html"
-
 
     if not html_path.exists():
         raise FileNotFoundError(f"Built HTML file not found at {html_path}")
@@ -778,8 +778,13 @@ def main():
         working_dir = Path.cwd()
 
     try:
+        # Find project root first
+        project_root = get_project_root(working_dir)
+        if not project_root:
+            raise FileNotFoundError("Could not find project root (hugo.toml)")
+
         print("🔍 Finding newsletter HTML file...")
-        html_path = find_newsletter_html(working_dir)
+        html_path = find_newsletter_html(working_dir, project_root)
         print(f"✅ Found HTML file: {html_path}")
 
         print("📝 Generating PDF filename...")
@@ -811,8 +816,9 @@ def main():
 
                 # Copy to static/pdf folder (always use original name, overwrite existing)
                 original_pdf_name = pdf_name  # Use original name without counter
-                static_pdf_path = Path("../../../../../static/pdf") / original_pdf_name
-                static_pdf_path.parent.mkdir(parents=True, exist_ok=True)
+                static_pdf_dir = project_root / "static" / "pdf"
+                static_pdf_dir.mkdir(parents=True, exist_ok=True)
+                static_pdf_path = static_pdf_dir / original_pdf_name
                 shutil.copy2(output_path, static_pdf_path)
 
                 public_url = f"/pdf/{original_pdf_name}"
