@@ -39,7 +39,8 @@ class ArticleParser:
     EXCLUDED_SECTIONS = {
         "Editor's Words",
         "Previous Issues",
-        "Subscribe"
+        "Subscribe",
+        "Funny"
     }
 
     def __init__(self, base_url: str = "https://weekly.sundayblender.com"):
@@ -202,13 +203,15 @@ class ArticleParser:
         Returns:
             Path to latest article's index.md, or None if not found
         """
-        # Find all index.md files
+        # Find all index.md files (supports both directory structures)
+        # Old: YYYY/MM/MMDD/index.md, New: YYYY/YYYYMMDD/index.md
         article_files = list(content_dir.glob('*/*/*/index.md'))
+        article_files.extend(content_dir.glob('*/*/index.md'))
 
         if not article_files:
             return None
 
-        # Sort by date (newest first) - relies on YYYY/MM/DDMM directory structure
+        # Sort by date (newest first)
         article_files.sort(reverse=True)
 
         # Check each article until we find a non-draft

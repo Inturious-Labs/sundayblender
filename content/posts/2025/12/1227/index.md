@@ -4,7 +4,7 @@ date: 2025-12-27
 slug: the-age-of-one-person-billion-dollar-company
 description: "With a plethora of emerging AI tools, the age of solo founders is arriving where one person might just be able to build a one-billion-dollar company. "
 tags: ["AI", "Autonomous Driving", "Robotics", "Mars", "Climate Change", "Film", "NBA", "Soccer", "Canada", "TV"]
-keywords: ["news for kids", "kids news", "children's news", "news for tweens", "news for teens", "kid-friendly news", "weekly news for kids", "current events for kids", "world news for children", "educational news", "Waymo", "Elon Musk", "Luminar", "Notion", "Storyteller", "YK Pao", "HKPEP", "Yiwu", "US Kill Line", "Patagonia", "Avatar", "Stranger Things", "Nikola Jokic", "Erling Haaland", "Marco van Basten", "仇英"]
+keywords: ["news for kids", "kids news", "children's news", "news for teens", "kid-friendly news", "weekly news for kids", "current events for kids", "world news for children", "educational news", "Waymo", "Elon Musk", "Luminar", "Notion", "Storyteller", "YK Pao", "HKPEP", "Yiwu", "US Kill Line", "Patagonia", "Avatar", "Stranger Things", "Nikola Jokic", "Erling Haaland", "Marco van Basten", "仇英"]
 featured_image: "hero.jpeg"
 featured_image_alt: "Person working at futuristic command center with holographic displays"
 images: ["hero.jpeg"]
