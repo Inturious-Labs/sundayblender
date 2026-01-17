@@ -109,6 +109,10 @@ def check_title(frontmatter, errors, warnings):
         errors.append("Title is placeholder or empty")
         return
 
+    # Check for leading/trailing whitespace (causes PDF filename mismatch)
+    if title != title.strip():
+        errors.append(f"Title has leading/trailing whitespace - this breaks PDF download link")
+
     # Check for reasonable title case (first letter of major words capitalized)
     words = title.split()
     minor_words = {'a', 'an', 'the', 'and', 'but', 'or', 'for', 'nor', 'on', 'at', 'to', 'by', 'in', 'of'}
