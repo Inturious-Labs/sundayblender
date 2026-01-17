@@ -38,15 +38,39 @@ We're back! We were at a game last weekend, so we had to skip an issue.
 
 ## Tech
 
+![Jensen](jensen.jpeg)
+
+**Nvidia** founder and CEO **Jensen Huang** opened **CES 2026** at the Fontainebleau Las Vegas, declaring that AI is scaling into every domain and device. "Computing has been fundamentally reshaped," Huang said, noting that "`$10 trillion` of computing is now being modernized." "The **ChatGPT** moment for **physical AI** is here — when machines begin to understand, reason and act in the real world," Huang announced. He unveiled **Rubin**, Nvidia's next-generation AI platform now in full production, promising to deliver AI tokens at one-tenth the cost of previous platforms. He also introduced **Alpamayo**, an open reasoning model family for autonomous vehicles, with the **Mercedes-Benz CLA** becoming the first passenger car featuring the technology.
+
+![Boston Dynamics](atlas.jpg)
+
+After 30+ years of R&D, **Boston Dynamics** unveiled the production **Atlas** at **CES 2026**. The all-electric humanoid has 56 degrees of freedom, allowing its head, torso, and hands to rotate 360° — moving more efficiently than humans in tight spaces without turning its whole body. Four-fingered hands with tactile sensing in fingers and palms enable dexterous manipulation. When battery runs low, Atlas autonomously swaps its own batteries and returns to work. It can rise from a folded position to minimize idle footprint, and limbs are field-replaceable in under five minutes. Once one Atlas learns a task, the skill deploys instantly across the entire fleet. First deployments go to majority shareholder **Hyundai** and new AI partner **Google DeepMind**. Hyundai plans to use Atlas in its car plants by 2028 for parts sequencing, expanding to component assembly by 2030. 
+
+![Lego Smart Brick](lego.jpg)
+
+**Lego** unveiled its **Smart Play** system at **CES 2026 (Consumer Electronics Show)**, calling it the most significant innovation since the Minifigure debuted in 1978. The **Smart Brick** is a standard 2x4 brick packed with a tiny 4.1mm chip, sensors, accelerometers, and a miniature speaker—all enabling screen-free interactive play. Using copper coils, magnetic fields, and Bluetooth, Smart Bricks communicate with Smart Tags and Smart Minifigures to produce sounds and lights in response to movement. Launching **March 1, 2026**, the first sets feature **Star Wars** themes, with prices ranging from `$70 `to `$160`. Some play experts have raised concerns about digitizing a traditionally analog toy, though Lego emphasizes this complements rather than replaces classic building.
+
+![Apple and Google](apple-google.jpg)
+
 When **Apple** launched **Siri** in 2011, it was the first mainstream voice assistant - years ahead of **Google** Assistant or **Amazon**'s Alexa. Fourteen years later, that lead has evaporated. Apple and Google announced a multi-year collaboration where the next generation of Apple Foundation Models will be based on Google's **Gemini**. Siri's brain will now run on a competitor's technology. Apple is paying roughly `$1 billion` annually for access. After careful evaluation, Apple determined that Google's AI technology provides the most capable foundation — an acknowledgment that its own models weren't cutting it. Internal evaluations revealed Siri was failing complex queries about `33%` of the time. For a company that built its identity on vertical integration, this is a pragmatic concession: partner now, compete later. The pioneer has become the customer.
 
 ![Meta](meta.jpg)
 
 In 2021, **Facebook** rebranded itself as **Meta**, staking its entire identity on a virtual world that never materialized. Four years and $73 billion later, the company is quietly dismantling that vision—cutting `1,500` Reality Labs jobs this week, shuttering VR game studios, and redirecting resources toward AI wearables and chatbots. The pivot marks one of the most expensive strategic retreats in tech history. Meta is now betting that AI-powered **Ray-Ban** smart glasses, not VR headsets, will define the next computing platform. Whether this represents hard-won wisdom or simply another hype cycle remains Silicon Valley's billion-dollar question.
 
+![Stack Overflow questions](stack.jpg)
+
+Launched in 2008, Q&A forum **Stack Overflow** quickly became the go-to hub for programmers seeking answers to coding problems, fostering a community-driven repository that powered everything from startup scripts to enterprise software. For years, it was an almost universal experience: find a thread, copy the top-voted answer, run it, problem solved. At its peak around 2014, the platform received over `250,000` questions per month. By early 2026, monthly questions have collapsed to about `300` — levels not seen since 2009.  Developers are switching en masse to AI assistants like **GitHub** Copilot and **Claude Code** directly that answer without the platform's notoriously hostile culture where newbies were routinely humiliated for asking "basic" questions. Ironically, Stack Overflow's own content trained the very AI models now supplanting it.
+
 ## Global
 
-The United States — a country built by generations of newcomers seeking opportunity—recorded more people leaving than entering for the first time in at least half a century. A **Brookings Institution** report estimates net migration of `-10,000` to `-295,000` for 2025, a stunning reversal from `2.8 million` arrivals just a year earlier. The shift stems less from deportations than from a sharp drop in entries, suspended refugee programs, reduced visas, and a chilling effect that's kept would-be migrants away. Brookings warns the trend will dampen labor force growth, consumer spending, and GDP, with negative migration likely continuing into 2026. For a nation whose identity is woven from immigrant stories, the numbers mark an unsettling turning point.
+![Hakone Ekiden](Hakon-ekiden.jpg)
+
+**The Hakone Ekiden** is a two-day, 217-kilometer road relay run by Japan's top university teams between central Tokyo and the mountain resort town of Hakone, near Mount Fuji. The race was first held in `1920`, making this year's edition the `102nd`. It's the event Japanese distance runners grow up watching — like the **Tour de France** in cycling, it shapes recruiting, coaching careers, and public reputations. Each team fields 10 runners covering roughly half-marathon distances per stage, passing a traditional sash called a "tasuki" between teammates. This year, **Aoyama Gakuin University** won with a record time of `10:37:34`, smashing their own course record by nearly 4 minutes. This made them the first university to complete two separate three-peats in the race's history.
+
+![Brooking](brooking.jpg)
+
+The United States — a country built by generations of newcomers seeking opportunity — recorded more people leaving than entering for the first time in at least half a century. A **Brookings Institution** report estimates net migration of `-10,000` to `-295,000` for 2025, a stunning reversal from `2.8 million` arrivals just a year earlier. The shift stems less from deportations than from a sharp drop in entries, suspended refugee programs, reduced visas, and a chilling effect that's kept would-be migrants away. Brookings warns the trend will dampen labor force growth, consumer spending, and GDP, with negative migration likely continuing into 2026. For a nation whose identity is woven from immigrant stories, the numbers mark an unsettling turning point.
 
 ## Economy & Finance
 
@@ -68,7 +92,15 @@ What if the Big Bang wasn't the start of everything — but merely a transition?
 
 ## Lifestyle, Entertainment & Culture
 
+![Chloe Zhao](chloe.jpg)
+
+The 83rd Golden Globes on January 11 crowned *Hamnet* as Best Picture (Drama) and *One Battle After Another* as Best Picture (Musical/Comedy). Beijing-born **Chloé Zhao** — who made history in 2021 as the first woman of color to win the Oscar for Best Director (*Nomadland*) — directed, co-wrote, produced, and edited *Hamnet*, an adaptation of Maggie O'Farrell's novel about Shakespeare's family and the death of his son. Jessie Buckley won Best Actress (Drama) for the film. **Timothée Chalamet** took Best Actor (Musical/Comedy) for *Marty Supreme*. **Paul Thomas Anderson**'s political satire *One Battle After Another* — starring **Leonardo DiCaprio** as an ex-revolutionary — swept the comedy categories with four wins including directing and screenplay.
+
 ## Sports
+
+![Fan Zhendong](fanzhendong.jpg)
+
+[Table Tennis] Chinese table tennis star **Fan Zhendong** celebrated his first title in Germany as his club Saarbrücken lifted the German Cup after a 3-1 victory over Fulda-Maberzell at the Liebherr Cup Final Four in Neu-Ulm. In front of a record crowd of `5,200` spectators at the ratiopharm arena, the Olympic champion played a decisive role, defeating Dimitrij Ovtcharov and Ruwen Filus both in straight games. For Saarbrücken, it was the club's third cup victory after 2012 and 2022. "It was my first Cup Final Four, and it was a special moment in my career," said Fan. The victory marks the first step in the club's ambitious "triple mission," with further title opportunities ahead in the Bundesliga and Champions League.
 
 ## This Day in History
 
