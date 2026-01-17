@@ -574,11 +574,15 @@ def clean_html_for_pdf(html_path, working_dir):
         elem.decompose()
 
     # Remove copyright links and convert "Inturious Labs" to plain text
+    # Only remove links that are exactly to inturious.com root (footer/copyright links)
+    # Keep content links like inturious.com/products/...
     for link in soup.find_all('a', href=lambda x: x and 'inturious.com' in x):
-        # Get the text content
-        link_text = link.get_text()
-        # Replace the link with plain text (no bold, no link)
-        link.replace_with(link_text)
+        href = link.get('href', '')
+        # Only strip the link if it's a root/homepage link (no path beyond /)
+        # This preserves content links like /products/the-sunday-blender/deck/
+        if href.rstrip('/') in ['https://inturious.com', 'http://inturious.com', 'inturious.com']:
+            link_text = link.get_text()
+            link.replace_with(link_text)
 
     # Remove social media icon links (X and Github)
     for link in soup.find_all('a', href=True):
