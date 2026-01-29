@@ -69,6 +69,8 @@ podcast:
 
 ## This Day in History
 
+[DRAFT: 3M invented scotch tape on Jan 31, 1928]
+
 ## Art of the Week
 
 ## Funny
