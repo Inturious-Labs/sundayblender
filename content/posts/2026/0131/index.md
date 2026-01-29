@@ -49,7 +49,7 @@ podcast:
 
 ## Economy & Finance
 
-[DRAFT: SpaceX upcoming $1.5 trillion IPO in June 2025]
+**SpaceX** is preparing for the biggest stock market debut in history this **June 2025**. **Elon Musk's** rocket company plans to sell shares worth **$50 billion**, giving the entire company a value of **$1.5 trillion** – that's more money than most countries have. This makes **SpaceX** worth more than **Apple** or **Microsoft** at their peaks. The timing isn't random either – **Musk** wants to launch during a rare planetary alignment that happens near his birthday. If successful, this **IPO** will let regular people own pieces of the company that sends astronauts to space and plans **Mars** missions. Historic.
 
 
 ## Nature & Environment
