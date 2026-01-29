@@ -49,8 +49,6 @@ podcast:
 
 ## Economy & Finance
 
-**SpaceX upcoming $1.5 trillion IPO in June 2025**
-
 [DRAFT: SpaceX upcoming $1.5 trillion IPO in June 2025]
 
 
@@ -64,7 +62,7 @@ podcast:
 
 ## Sports
 
-[DRAFT: Alex Honnold climbed Taipei 101]
+**Alex Honnold** completed a free‑solo climb of Taipei 101, the **1,667‑foot‑tall** skyscraper in Taiwan, on January 25, 2026. Using no ropes or nets, he reached the top in **1 hour and 30 minutes** during Netflix's live Skyscraper Live broadcast, which drew **6.2 million** viewers. Honnold first scouted the building in September 2025, testing sections with ropes, and waited for perfect weather after rain delays. Known for his rope‑free ascent of El Capitan, he now pushes the boundaries of building climbs, demonstrating extreme athleticism on another global landmark.
 
 [DRAFT: China Men's soccer's historical game in U23 final with Japan]
 
