@@ -36,11 +36,9 @@ podcast:
 
 ## Tech
 
-**skynet has awaken!**
+[DRAFT: skynet has awaken!]
 
-[Reminder: Expand this with Claude when at Moonglade]
-
-skynet has awaken!
+[DRAFT: add some recent story of arduino or raspberry pi]
 
 
 ## Global
