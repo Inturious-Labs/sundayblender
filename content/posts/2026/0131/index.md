@@ -36,8 +36,6 @@ podcast:
 
 ## Tech
 
-[DRAFT: skynet has awaken!]
-
 [DRAFT: add some recent story of arduino or raspberry pi]
 
 [DRAFT: hottest AI agent Moltbot]
