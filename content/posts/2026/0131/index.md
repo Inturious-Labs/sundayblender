@@ -60,7 +60,7 @@ World peace treaty signed
 
 ## Sports
 
-American rock climber Alex Honnold made history by climbing Taiwan's Taipei 101 skyscraper without any ropes or safety equipment! The 508-meter (1,667-foot) tower took him 90 minutes to scale, using only small metal pieces as footholds. Thousands of people cheered from the streets as they watched live on Netflix. Honnold, famous for climbing Yosemite's El Capitan without ropes, called the windy climb "incredible" and said the view of Taipei was "beautiful." This daring feat shows how determination and skill can help people achieve seemingly impossible dreams.
+[DRAFT: Alex Honnold climbed Taipei 101]
 
 ## This Day in History
 
