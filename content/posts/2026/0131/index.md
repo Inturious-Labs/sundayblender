@@ -36,6 +36,9 @@ podcast:
 
 ## Tech
 
+[DRAFT: Test story fix]
+
+
 [DRAFT: add some recent story of arduino or raspberry pi]
 
 [DRAFT: hottest AI agent Moltbot]
@@ -87,6 +90,7 @@ January 03, 2026, **[An Incredible Journey From Wuhan To Singapore](https://week
 ---
 
 Thanks for reading! If you enjoy this newsletter, please share it with friends who might also find it interesting and refreshing, if not for themselves, at least for their kids.
+
 
 
 
