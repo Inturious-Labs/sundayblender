@@ -43,10 +43,6 @@ podcast:
 
 ## Global
 
-**World peace treaty signed**
-
-World peace treaty signed
-
 
 ## Economy & Finance
 
