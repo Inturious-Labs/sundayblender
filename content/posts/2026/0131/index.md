@@ -46,6 +46,11 @@ podcast:
 
 ## Economy & Finance
 
+**SpaceX upcoming $1.5 trillion IPO in June 2025**
+
+[DRAFT: SpaceX upcoming $1.5 trillion IPO in June 2025]
+
+
 ## Nature & Environment
 
 ## Science
@@ -82,6 +87,7 @@ January 03, 2026, **[An Incredible Journey From Wuhan To Singapore](https://week
 ---
 
 Thanks for reading! If you enjoy this newsletter, please share it with friends who might also find it interesting and refreshing, if not for themselves, at least for their kids.
+
 
 
 
