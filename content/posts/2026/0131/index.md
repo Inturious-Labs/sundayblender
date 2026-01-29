@@ -46,6 +46,7 @@ podcast:
 
 ## Global
 
+[DRAFT: Brazil waived visa for Chinese citizens]
 
 ## Economy & Finance
 
