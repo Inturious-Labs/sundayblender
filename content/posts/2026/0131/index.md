@@ -73,6 +73,8 @@ podcast:
 
 ## Art of the Week
 
+[DRAFT: Pieter Brueger the Elder's 'The Hunters in the Snow' (1565)]
+
 ## Funny
 
 ---
