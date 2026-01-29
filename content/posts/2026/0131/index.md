@@ -58,6 +58,8 @@ World peace treaty signed
 
 ## Lifestyle, Entertainment & Culture
 
+[DRAFT: the most anticipated console games for 2026]
+
 ## Sports
 
 [DRAFT: Alex Honnold climbed Taipei 101]
