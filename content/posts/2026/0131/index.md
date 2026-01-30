@@ -43,10 +43,20 @@ podcast:
 
 [DRAFT: hottest AI agent Moltbot]
 
+[DRAFT: MAEXTRO Super Factory in Hefei - digital twin creates living brain for car manufacturing]
+
+[DRAFT: China satellites to process AI computing in orbit (Jan 29)]
+
 
 ## Global
 
 [DRAFT: Brazil waived visa for Chinese citizens]
+
+[DRAFT: IShowSpeed Africa trip highlights - 20 countries, Ghanaian passport]
+
+[DRAFT: Hyderabad India breaks Guinness record - thousands coding AI agents]
+
+[DRAFT: LOL still dominates gaming cafes in South Korea]
 
 ## Economy & Finance
 
@@ -55,7 +65,15 @@ podcast:
 
 ## Nature & Environment
 
+[DRAFT: Malaria expanded across Africa by 2050 due to climate change]
+
 ## Science
+
+[DRAFT: Google AI Science Grants for 12 teams]
+
+[DRAFT: Jan 29 - Bat sound maps: how bats navigate darkness using echo speed]
+
+[DRAFT: China dark matter city hunt - quantum sensors between Hefei and Hangzhou]
 
 ## Lifestyle, Entertainment & Culture
 
