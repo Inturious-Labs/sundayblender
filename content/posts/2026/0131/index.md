@@ -36,9 +36,6 @@ podcast:
 
 ## Tech
 
-[DRAFT: Test story fix]
-
-
 **Arduino Ecosystem 2026**
 
 Arduino made big waves at CES 2026 in Las Vegas this January, showcasing their revolutionary UNO Q board that combines traditional Arduino simplicity with Qualcomm's powerful processors. This new "dual-brain" system lets young makers create projects that were impossible before, from smart robots that recognize faces to voice-controlled home devices. The partnership with Qualcomm has also launched fresh development tools, including new libraries for the Nesso N1 IoT board and expanded Modulino sensor collections that make complex electronics projects easier to build. Students can now tackle advanced projects like machine learning and edge computing while keeping the familiar, beginner-friendly Arduino programming style.
