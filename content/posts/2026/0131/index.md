@@ -52,7 +52,9 @@ podcast:
 
 [DRAFT: Brazil waived visa for Chinese citizens]
 
-[DRAFT: IShowSpeed Africa trip highlights - 20 countries, Ghanaian passport]
+**IShowSpeed Conquers Africa**
+
+YouTube star IShowSpeed just did something epic — he visited 20 African countries in one wild trip! The 19-year-old streamer, famous for his chaotic energy, didn't just sightsee. He ate spicy local foods, danced with villagers, and even got his own Ghanaian passport after meeting the president. His videos racked up millions of views, but here's the cool part: he actually connected with people. Instead of fancy hotels, he hung out in neighborhoods, played soccer with kids, and tried speaking local languages. Fans loved his genuine curiosity. Not bad for a guy who usually just screams at video games!
 
 [DRAFT: Hyderabad India breaks Guinness record - thousands coding AI agents]
 
