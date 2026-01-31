@@ -64,7 +64,9 @@ YouTube star IShowSpeed just did something epic — he visited 20 African countr
 
 On December 21, 2025, the city of Hyderabad in India made history when over 2,300 computer programmers gathered at Malla Reddy University for "Agentathon 2025," breaking the Guinness World Record for the largest AI agent coding event ever held. Organized by Google Developer Groups Hyderabad, this massive hackathon brought together thousands of developers who spent two days creating artificial intelligence programs called "agents" that could solve real-world problems for governments and businesses. This achievement marked Hyderabad's first AI-related world record and helped establish the city as a major global center for artificial intelligence innovation and technology development.
 
-[DRAFT: LOL still dominates gaming cafes in South Korea]
+**League of Legends in Korean Gaming Cafes**
+
+In South Korea, gaming cafes called "PC bangs" are like community centers where friends gather to play computer games together, and League of Legends continues to rule them all. According to 2025 data, LoL captured 36 percent of all gaming time in these cafes, far ahead of any other game. Korean gaming culture thrives on teamwork and competition, with players meeting face-to-face to strategize and compete in this team-based battle game. The cafes offer high-speed internet and powerful computers that many families cannot afford at home. This dominance shows how some games become more than entertainment—they become social experiences that bring communities together, creating lasting friendships through shared digital adventures.
 
 [DRAFT: UK prime minister visits China with many major British company CEOs]
 
