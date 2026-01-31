@@ -70,7 +70,9 @@ On December 21, 2025, the city of Hyderabad in India made history when over 2,30
 
 In South Korea, gaming cafes called "PC bangs" are like community centers where friends gather to play computer games together, and League of Legends continues to rule them all. According to 2025 data, LoL captured 36 percent of all gaming time in these cafes, far ahead of any other game. Korean gaming culture thrives on teamwork and competition, with players meeting face-to-face to strategize and compete in this team-based battle game. The cafes offer high-speed internet and powerful computers that many families cannot afford at home. This dominance shows how some games become more than entertainment—they become social experiences that bring communities together, creating lasting friendships through shared digital adventures.
 
-[DRAFT: UK prime minister visits China with many major British company CEOs]
+**UK Prime Minister Visits China with British Business Leaders**
+
+UK Prime Minister Keir Starmer recently completed a historic four-day visit to China, the first by a British leader in eight years. He brought over 60 business executives from major companies including HSBC bank, pharmaceutical giant GSK, aircraft maker Airbus, and luxury car manufacturer Jaguar Land Rover. This diplomatic mission aimed to strengthen trade relationships between the two countries, especially in finance, healthcare, clean energy, and manufacturing. When world leaders meet with business delegations, they work to create new opportunities for companies to sell products, share technology, and create jobs in both nations, demonstrating how international cooperation can benefit millions of people.
 
 ## Economy & Finance
 
