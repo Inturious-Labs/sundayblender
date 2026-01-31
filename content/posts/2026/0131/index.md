@@ -75,7 +75,9 @@ UK Prime Minister Keir Starmer recently completed a historic four-day visit to C
 
 **SpaceX** is preparing for the biggest stock market debut in history this **June 2025**. **Elon Musk's** rocket company plans to sell shares worth **$50 billion**, giving the entire company a value of **$1.5 trillion** – that's more money than most countries have. This makes **SpaceX** worth more than **Apple** or **Microsoft** at their peaks. The timing isn't random either – **Musk** wants to launch during a rare planetary alignment that happens near his birthday. If successful, this **IPO** will let regular people own pieces of the company that sends astronauts to space and plans **Mars** missions. Historic.
 
-[DRAFT: silver's price surging ... what is silver used for?]
+**Silver Price Surge Hits Technology**
+
+Silver's price has surged over 50% in January 2026, reaching record highs near $115 per ounce, as demand soars across multiple industries. This precious metal isn't just for jewelry and coins—silver is essential for smartphones, computers, and medical equipment because it conducts electricity better than any other metal. Its antimicrobial properties make it valuable for hospital devices and wound dressings, while the green energy boom drives demand for solar panels and electric vehicle components. This price surge reflects silver's growing importance in our technology-driven world, affecting everything from gadget costs to renewable energy development.
 
 ## Nature & Environment
 
