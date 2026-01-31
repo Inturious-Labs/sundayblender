@@ -54,7 +54,9 @@ On January 29, China announced plans to build a massive network of satellites th
 
 ## Global
 
-[DRAFT: Brazil waived visa for Chinese citizens]
+**Brazil Opens Doors to Chinese Visitors**
+
+Brazil's President Lula announced this week that Chinese citizens can now visit Brazil without needing a visa, making travel between the two countries much easier. This decision comes after China gave the same benefit to Brazilian visitors last year, creating a friendship exchange where both countries treat each other's citizens the same way. The new rule allows Chinese tourists, students, and business people to stay in Brazil for up to 30 days without the paperwork that used to be required. This change will help more families visit each other, boost tourism, and strengthen the economic partnership between Brazil and China, two of the world's largest countries that want to work together more closely.
 
 **IShowSpeed Conquers Africa**
 
