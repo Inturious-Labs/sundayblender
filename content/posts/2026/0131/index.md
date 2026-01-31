@@ -89,7 +89,7 @@ podcast:
 
 ## This Day in History
 
-[DRAFT: 3M invented scotch tape on Jan 31, 1928]
+On January 31, 1930, the 3M Company introduced Scotch tape, a transparent adhesive tape that would become a household essential. Engineer Richard Drew invented the clear cellulose tape to help people seal packages and mend torn items. The product arrived during the Great Depression, when many families could not afford to replace broken things. Scotch tape allowed people to repair books, windows, and household items instead of buying new ones. The name "Scotch" came from an early version of masking tape that a painter said was too stingy with adhesive. Today, 3M produces hundreds of tape varieties used worldwide.
 
 ## Art of the Week
 
