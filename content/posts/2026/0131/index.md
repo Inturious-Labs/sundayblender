@@ -101,7 +101,9 @@ Gaming fans are buzzing about 2026's biggest console releases bringing new adven
 
 **Alex Honnold** completed a free‑solo climb of Taipei 101, the **1,667‑foot‑tall** skyscraper in Taiwan, on January 25, 2026. Using no ropes or nets, he reached the top in **1 hour and 30 minutes** during Netflix's live Skyscraper Live broadcast, which drew **6.2 million** viewers. Honnold first scouted the building in September 2025, testing sections with ropes, and waited for perfect weather after rain delays. Known for his rope‑free ascent of El Capitan, he now pushes the boundaries of building climbs, demonstrating extreme athleticism on another global landmark.
 
-[DRAFT: China Men's soccer's historical game in U23 final with Japan]
+**China's Historic Soccer Achievement**
+
+China's Under-23 men's soccer team made history by reaching the final of the AFC U23 Asian Cup in Jeddah, Saudi Arabia, marking the first time in 22 years that any Chinese men's national team has reached an international competition final. The young Chinese players defeated Vietnam 3-0 in the semifinals before facing defending champions Japan in the championship match. Although Japan won the final 4-0, China's achievement sparked nationwide celebration and praise from sports officials who described it as "igniting new hope" for Chinese soccer. This breakthrough performance by the next generation of Chinese players represents a significant step forward for the country's soccer development and has raised expectations for future international competitions.
 
 ## This Day in History
 
