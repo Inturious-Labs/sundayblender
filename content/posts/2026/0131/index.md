@@ -89,7 +89,9 @@ Google has awarded grants to twelve research teams using artificial intelligence
 
 ## Lifestyle, Entertainment & Culture
 
-[DRAFT: the most anticipated console games for 2026]
+**Most Anticipated Console Games**
+
+Gaming fans are buzzing about 2026's biggest console releases bringing new adventures to their favorite systems. Sony PlayStation leads with Marvel's Wolverine, an action-packed superhero game where players slash through enemies as the famous X-Man mutant. Nintendo continues expanding their Switch 2 library with Super Mario Bros Wonder: Nintendo Switch 2 Edition, featuring enhanced graphics and new levels in the Flower Kingdom that weren't possible on the original console. Meanwhile, Copa City arrives on multiple platforms in March, offering players the chance to build and manage their own soccer empire with realistic team management and stadium construction.
 
 ## Sports
 
