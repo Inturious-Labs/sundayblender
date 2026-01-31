@@ -111,6 +111,8 @@ Gaming fans are buzzing about 2026's biggest console releases bringing new adven
 
 China's Under-23 men's soccer team made history by reaching the final of the AFC U23 Asian Cup in Jeddah, Saudi Arabia, marking the first time in 22 years that any Chinese men's national team has reached an international competition final. The young Chinese players defeated Vietnam 3-0 in the semifinals before facing defending champions Japan in the championship match. Although Japan won the final 4-0, China's achievement sparked nationwide celebration and praise from sports officials who described it as "igniting new hope" for Chinese soccer. This breakthrough performance by the next generation of Chinese players represents a significant step forward for the country's soccer development and has raised expectations for future international competitions.
 
+[DRAFT: super bowl 2026 final between patriots and seahawks]
+
 ## This Day in History
 
 On January 31, 1930, the 3M Company introduced Scotch tape, a transparent adhesive tape that would become a household essential. Engineer Richard Drew invented the clear cellulose tape to help people seal packages and mend torn items. The product arrived during the Great Depression, when many families could not afford to replace broken things. Scotch tape allowed people to repair books, windows, and household items instead of buying new ones. The name "Scotch" came from an early version of masking tape that a painter said was too stingy with adhesive. Today, 3M produces hundreds of tape varieties used worldwide.
