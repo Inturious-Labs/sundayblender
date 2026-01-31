@@ -89,7 +89,7 @@ podcast:
 
 ## This Day in History
 
-On January 31, 1928, engineer Richard Drew at 3M created the first transparent adhesive tape. He originally designed it to help car painters create smooth two-tone paint jobs without messy edges. The tape was clear, thin, and sticky enough to hold paper but peeled off cleanly without damage. Early versions earned the nickname "Scotch tape" because some critics thought the adhesive was too weak, like a stereotype about Scottish people being cheap. 3M embraced the name and improved the formula. Today, Scotch tape sits in nearly every home and office, used for wrapping gifts, repairing torn paper, and countless small jobs worldwide.
+[DRAFT: 3M invented scotch tape on Jan 31, 1928]
 
 ## Art of the Week
 
