@@ -115,7 +115,9 @@ China's Under-23 men's soccer team made history by reaching the final of the AFC
 
 Super Bowl LX takes place on February 8, 2026, featuring the New England Patriots against the Seattle Seahawks. Patriots quarterback Drake Maye, an MVP contender this season, will become one of the youngest quarterbacks ever to start a Super Bowl at just 23 years old. This marks New England's first championship game appearance in seven years and their first opportunity to win a title since the Brady-Belichick era ended. The Seahawks, who earned six Pro Bowl selections this season, present a formidable challenge for the young Patriots squad.
 
-[DRAFT: kristian blummenfelt broke the record for VO2 Max for 101.1ml/kg/min]
+**Kristian Blummenfelt VO2 Max Record**
+
+Norwegian triathlete Kristian Blummenfelt recently set a new world record for VO2 Max, measuring 101.1ml/kg/min in controlled laboratory testing. VO2 Max measures how much oxygen your body can use during intense exercise - think of it as your engine's maximum power output. The higher the number, the more efficiently your body can fuel your muscles during endurance activities like running, cycling, or swimming. Blummenfelt's achievement surpassed the previous record of 97.5ml/kg/min, demonstrating the incredible athletic capacity that has helped him become one of the world's top triathletes, including recent podium finishes at major Ironman championships.
 
 ## This Day in History
 
