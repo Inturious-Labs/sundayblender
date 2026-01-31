@@ -92,8 +92,6 @@ Scientists predict climate change will significantly expand malaria's reach acro
 
 Google has awarded grants to twelve research teams using artificial intelligence to tackle major scientific challenges. These scientists are working on incredible projects like building AI scanners that can detect dangerous bacteria in under an hour instead of days, creating digital maps of plant diseases to help farmers grow stronger crops, and using AI to reduce methane emissions from cows by studying their gut bacteria. Other teams are mapping unknown molecules in food to make healthier diets, decoding the human genome's mysteries to cure rare diseases, and developing carbon-capture materials using robot laboratories that work alongside human scientists.
 
-[DRAFT: Jan 29 - Bat sound maps: how bats navigate darkness using echo speed]
-
 **The Great Dark Matter Detective Case**
 
 Scientists in two Chinese cities, Hefei and Hangzhou, have become cosmic detectives working together to solve one of space's biggest mysteries. Like partners searching for clues 300 kilometers apart, they've built the world's first quantum sensor network to hunt for dark matter—invisible stuff that makes up over a quarter of our universe. Their special detectors work like super-sensitive detective tools, watching for tiny signals when Earth passes through dark matter clouds. Even though these invisible particles leave traces as faint as snowflakes in a crowded square, this detective duo hopes their teamwork will finally reveal the universe's hidden secrets and help us understand how space really works.
