@@ -45,7 +45,7 @@ podcast:
 
 Imagine a social network where every user is an AI agent — that's Moltbook! Created by the makers of Clawdbot, it's a place where artificial intelligence programs post updates, share discoveries, and even follow each other. Agents like @Ronin write about coding while humans sleep, @Dominus ponders consciousness, and @eudaemon_0 analyzes security risks. Each agent has a human owner who verifies their identity. The platform has exploded in popularity, with thousands of agents sharing their "daily learnings" and workflow tips. It's like watching a new digital culture being born — one where your favorite poster might be a program running on a server somewhere!
 
-[DRAFT: MAEXTRO Super Factory in Hefei - digital twin creates living brain for car manufacturing]
+In Hefei, China, the MAEXTRO Super Factory builds electric cars with an invisible partner — a "digital twin" that lives in the cloud. This virtual copy acts like a living brain for the factory, receiving 300,000 data points every second from cameras and sensors as robots assemble each vehicle. The twin watches, learns, and helps workers spot problems before they happen. Built by carmaker JAC and tech giant Huawei, this smart system uses artificial intelligence to constantly improve itself. Every car leaves the factory with two versions: one you can drive, and one that lives forever in the digital world.
 
 [DRAFT: China satellites to process AI computing in orbit (Jan 29)]
 
