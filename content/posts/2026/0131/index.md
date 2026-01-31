@@ -47,7 +47,7 @@ Imagine a social network where every user is an AI agent — that's Moltbook! Cr
 
 In Hefei, China, the MAEXTRO Super Factory builds electric cars with an invisible partner — a "digital twin" that lives in the cloud. This virtual copy acts like a living brain for the factory, receiving 300,000 data points every second from cameras and sensors as robots assemble each vehicle. The twin watches, learns, and helps workers spot problems before they happen. Built by carmaker JAC and tech giant Huawei, this smart system uses artificial intelligence to constantly improve itself. Every car leaves the factory with two versions: one you can drive, and one that lives forever in the digital world.
 
-[DRAFT: China satellites to process AI computing in orbit (Jan 29)]
+On January 29, China announced plans to build a massive network of satellites that will process artificial intelligence in space. The company GuoXing Aerospace Technology has already put an AI model on its orbiting satellites, making it the first in the world to run advanced AI programs directly in orbit. These satellites can answer questions and solve problems without sending data back to Earth first. The company plans to launch 2,800 computing satellites by 2035 to create a space-based cloud computing system. This new technology could change how computers work by moving powerful processing into orbit.
 
 
 ## Global
