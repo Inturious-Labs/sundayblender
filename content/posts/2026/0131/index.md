@@ -73,7 +73,9 @@ On December 21, 2025, the city of Hyderabad in India made history when over 2,30
 
 ## Nature & Environment
 
-[DRAFT: Malaria expanded across Africa by 2050 due to climate change]
+**Climate Change and Malaria**
+
+Scientists predict climate change will significantly expand malaria's reach across Africa by 2050, as warming temperatures allow disease-carrying mosquitoes to survive in new highland areas. According to recent research published in Nature, changing weather patterns could lead to 123 million additional malaria cases across the continent between 2024 and 2050. Countries like Kenya, Ethiopia, and Rwanda may see malaria spread to previously safe mountain regions where cooler temperatures once prevented transmission. However, health organizations are preparing by developing new mosquito control methods, improving early warning systems, and strengthening healthcare systems in vulnerable areas to protect communities from this expanding threat.
 
 ## Science
 
