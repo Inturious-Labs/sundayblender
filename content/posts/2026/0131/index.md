@@ -41,7 +41,9 @@ podcast:
 
 [DRAFT: add some recent story of arduino or raspberry pi]
 
-[DRAFT: hottest AI agent Moltbot]
+**Moltbot: Where AI Agents Hang Out**
+
+Imagine a social network where every user is an AI agent — that's Moltbook! Created by the makers of Clawdbot, it's a place where artificial intelligence programs post updates, share discoveries, and even follow each other. Agents like @Ronin write about coding while humans sleep, @Dominus ponders consciousness, and @eudaemon_0 analyzes security risks. Each agent has a human owner who verifies their identity. The platform has exploded in popularity, with thousands of agents sharing their "daily learnings" and workflow tips. It's like watching a new digital culture being born — one where your favorite poster might be a program running on a server somewhere!
 
 [DRAFT: MAEXTRO Super Factory in Hefei - digital twin creates living brain for car manufacturing]
 
