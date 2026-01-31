@@ -117,7 +117,9 @@ On January 31, 1930, the 3M Company introduced Scotch tape, a transparent adhesi
 
 ## Art of the Week
 
-[DRAFT: Pieter Brueger the Elder's 'The Hunters in the Snow' (1565)]
+**"The Hunters in the Snow" by Pieter Bruegel the Elder**
+
+In 1565, during the "Little Ice Age," Dutch artist Pieter Bruegel the Elder painted one of history's most famous winter scenes. "The Hunters in the Snow" shows three tired hunters trudging home through deep snow with their dogs, while villagers below ice skate and tend fires. This painting is special because Bruegel captured real country life exactly as it was, not making it prettier like other artists. People love this masterpiece because it feels like stepping into a frozen world from 450 years ago, showing how families survived harsh winters through hunting and finding joy in simple everyday winter activities.
 
 ## Funny
 
