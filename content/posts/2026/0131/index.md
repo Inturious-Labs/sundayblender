@@ -115,6 +115,8 @@ China's Under-23 men's soccer team made history by reaching the final of the AFC
 
 Super Bowl LX takes place on February 8, 2026, featuring the New England Patriots against the Seattle Seahawks. Patriots quarterback Drake Maye, an MVP contender this season, will become one of the youngest quarterbacks ever to start a Super Bowl at just 23 years old. This marks New England's first championship game appearance in seven years and their first opportunity to win a title since the Brady-Belichick era ended. The Seahawks, who earned six Pro Bowl selections this season, present a formidable challenge for the young Patriots squad.
 
+[DRAFT: kristian blummenfelt broke the record for VO2 Max for 101.1ml/kg/min]
+
 ## This Day in History
 
 On January 31, 1930, the 3M Company introduced Scotch tape, a transparent adhesive tape that would become a household essential. Engineer Richard Drew invented the clear cellulose tape to help people seal packages and mend torn items. The product arrived during the Great Depression, when many families could not afford to replace broken things. Scotch tape allowed people to repair books, windows, and household items instead of buying new ones. The name "Scotch" came from an early version of masking tape that a painter said was too stingy with adhesive. Today, 3M produces hundreds of tape varieties used worldwide.
