@@ -75,7 +75,9 @@ YouTube star IShowSpeed just did something epic — he visited 20 African countr
 
 ## Science
 
-[DRAFT: Google AI Science Grants for 12 teams]
+**Google AI Science Grants**
+
+Google has awarded grants to twelve research teams using artificial intelligence to tackle major scientific challenges. These scientists are working on incredible projects like building AI scanners that can detect dangerous bacteria in under an hour instead of days, creating digital maps of plant diseases to help farmers grow stronger crops, and using AI to reduce methane emissions from cows by studying their gut bacteria. Other teams are mapping unknown molecules in food to make healthier diets, decoding the human genome's mysteries to cure rare diseases, and developing carbon-capture materials using robot laboratories that work alongside human scientists.
 
 [DRAFT: Jan 29 - Bat sound maps: how bats navigate darkness using echo speed]
 
