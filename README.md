@@ -1,8 +1,6 @@
 # README
 
-[![Deploy to IC Mainnet](https://github.com/Inturious-Labs/sundayblender/actions/workflows/deploy.yml/badge.svg)](https://github.com/Inturious-Labs/sundayblender/actions/workflows/deploy.yml)
-
-The Sunday Blender's canister URL: [https://bf52x-nyaaa-aaaan-qz5aq-cai.icp0.io/](https://bf52x-nyaaa-aaaan-qz5aq-cai.icp0.io/)
+The Sunday Blender newsletter: [https://weekly.sundayblender.com/](https://weekly.sundayblender.com/) (deployed via Vercel)
 
 ## Additional Documentation
 
@@ -155,7 +153,7 @@ git push --set-upstream origin draft/YYYYMMDD
 ### 7. Create PR, Merge, and Clean Up
 
 - Create a PR to merge `draft/YYYYMMDD` into `main`
-- This triggers the GitHub deploy action to deploy the production canister on the Internet Computer
+- This triggers Vercel auto-deployment to production
 - Once the merge is completed, the remote draft branch is deleted automatically
 - Update local:
 
