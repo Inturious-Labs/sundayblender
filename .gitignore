@@ -99,8 +99,8 @@ content/**/*.pdf
 # Sensitive data - email lists and personal information
 data/
 
-# Project planning (to avoid triggering CI/CD on plan updates)
-PLAN.md
+# Documentation (avoid triggering CI/CD deployment)
+docs/
 
 # Python
 __pycache__/
