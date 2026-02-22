@@ -4,8 +4,8 @@ The Sunday Blender newsletter: [https://weekly.sundayblender.com/](https://weekl
 
 ## Additional Documentation
 
-- [PLAN.md](PLAN.md) - Project roadmap and planning
-- [TWITTER_BOT_README.md](TWITTER_BOT_README.md) - Twitter bot documentation
+- [PLAN.md](docs/PLAN.md) - Project roadmap and planning
+- [TWITTER_BOT_README.md](docs/TWITTER_BOT_README.md) - Twitter bot documentation
 
 ## Deploy, Test & Publish
 

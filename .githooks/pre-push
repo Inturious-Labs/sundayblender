@@ -1,0 +1,28 @@
+#!/bin/bash
+#
+# Pre-push hook: Prevent direct pushes to main branch
+# All changes to main must go through pull requests
+#
+
+PROTECTED_BRANCH="main"
+
+while read local_ref local_sha remote_ref remote_sha; do
+    # Extract branch name from ref
+    remote_branch=$(echo "$remote_ref" | sed 's|refs/heads/||')
+
+    if [ "$remote_branch" = "$PROTECTED_BRANCH" ]; then
+        echo ""
+        echo "ERROR: Direct push to '$PROTECTED_BRANCH' is not allowed."
+        echo ""
+        echo "All changes to main must go through a pull request."
+        echo ""
+        echo "To push your changes:"
+        echo "  1. Create a feature branch: git checkout -b your-branch-name"
+        echo "  2. Push the branch: git push -u origin your-branch-name"
+        echo "  3. Create a PR on GitHub to merge into main"
+        echo ""
+        exit 1
+    fi
+done
+
+exit 0

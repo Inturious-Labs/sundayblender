@@ -38,13 +38,6 @@
                                 &nbsp;
                         {{ end }}
 
-                        {{ if gt .Params.tags 0 }}
-                            <i class="material-icons" style="">label</i>
-                            {{ range .Params.tags }}
-                                <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}/">{{ . }}</a>
-                                &nbsp;
-                            {{ end }}
-                        {{ end }}
                         {{ if and .Site.Params.enableReadingTime (not .Params.disableReadingTime) }}
                             <i class="material-icons" style="">schedule</i>
                             {{ $readTime := mul (div (countwords .Content) 220.0) 60 }}

@@ -350,28 +350,6 @@ def clean_html_for_pdf(html_path, working_dir):
         max-height: 3in !important;
     }
 
-    /* Make Internet Computer logo readable but fit inline with text */
-    img[alt*="Internet Computer"],
-    img[src*="ic_logo"] {
-        height: 32px !important;
-        width: auto !important;
-        max-height: 32px !important;
-        max-width: none !important;
-        vertical-align: middle !important;
-        display: inline !important;
-        border: none !important;
-    }
-
-    /* Keep "powered by" section inline and prevent wrapping */
-    a[href*="internetcomputer.org"] {
-        display: inline !important;
-        white-space: nowrap !important;
-    }
-
-    div[style*="white-space: nowrap"] {
-        white-space: nowrap !important;
-    }
-
     /* Avoid breaking articles across columns when possible */
     article, section {
         break-inside: avoid-column;

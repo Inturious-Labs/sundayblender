@@ -7,7 +7,7 @@ import re
 import yaml
 from pathlib import Path
 from typing import Dict, List, Optional
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 
 
 @dataclass
@@ -26,10 +26,10 @@ class Article:
     date: str
     slug: str
     description: str
-    tags: List[str]
     featured_image: str
     stories: List[Story]
     url: str
+    tags: List[str] = field(default_factory=list)
 
 
 class ArticleParser:
