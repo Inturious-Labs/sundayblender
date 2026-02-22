@@ -161,19 +161,6 @@ def check_description(frontmatter, errors, warnings):
         warnings.append(f"Description is long ({len(desc)} chars, max {MAX_DESCRIPTION_LENGTH})")
 
 
-def check_tags(frontmatter, errors, warnings):
-    """Check tags don't contain placeholders."""
-    tags = frontmatter.get('tags', [])
-
-    if not tags:
-        errors.append("No tags defined")
-        return
-
-    placeholder_tags = [t for t in tags if re.match(r'^Tag\d+$', t)]
-    if placeholder_tags:
-        errors.append(f"Tag placeholders not replaced: {', '.join(placeholder_tags)}")
-
-
 def check_keywords(frontmatter, errors, warnings):
     """Check keywords don't contain topic placeholders."""
     keywords = frontmatter.get('keywords', [])
@@ -367,7 +354,6 @@ def audit_article():
     check_title(frontmatter, errors, warnings)
     check_slug(frontmatter, errors, warnings)
     check_description(frontmatter, errors, warnings)
-    check_tags(frontmatter, errors, warnings)
     check_keywords(frontmatter, errors, warnings)
     check_hero_image(cwd, errors, warnings)
     check_draft_status(frontmatter, errors, warnings)

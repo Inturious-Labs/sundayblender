@@ -17,11 +17,9 @@ googleAnalytics = "G-9WB2PSGYTC"
 
 [permalinks]
 	posts = "/p/:slug/"
-	tags = "/tags/:slug/"
 	categories = "/categories/:slug/"
 
 [taxonomies]
-	tag = "tags"
 	category = "categories"
 
 [params]
@@ -63,11 +61,6 @@ uglyURLs = false
 	name = "Archive"
 	url = "/"
 	weight = 2
-
-[[menu.main]]
-	name = "Tags"
-	url = "/tags/"
-	weight = 3
 
 [[menu.main]]
 	name = "Terms & Privacy"
