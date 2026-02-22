@@ -4,7 +4,7 @@ resources/
 .hugo_build.lock
 hugo_stats.json
 
-# DFX build artifacts
+# Build artifacts
 .dfx/
 target/
 dist/
@@ -79,16 +79,6 @@ temp/
 # Backup files
 *.bak
 *.backup
-
-# Canister IDs for local development (keep production ones)
-# canister_ids.json
-!canister_ids.json.example
-
-# Local DFX identity
-.identity/
-
-# DFX cache
-.dfx/cache/
 
 # Build artifacts
 build/

@@ -48,7 +48,7 @@ We published [the first issue on Jan 26, 2025](https://weekly.sundayblender.com/
 
 ## How is it created
 
-I read widely and source the stories. [AI LLM](https://claude.ai/) does the summation (`give me a 100-word summary of this recent story of xxx`). I do some editing in [cursor](https://cursor.com/). I use [Flux](https://inturious.com/products/flux/index.html) to manage the writing and publishing of my [multiple publications](https://inturious.com/index.html), including this one. The Sunday Blender website is hosted on a [smart contract on a blockchain](https://dashboard.internetcomputer.org/canister/bf52x-nyaaa-aaaan-qz5aq-cai), as I explained in this article [Migrate from Substack to a Self-Hosting Newsletter](https://digitalsovereignty.herbertyang.xyz/p/migrate-from-substack-to-a-self-hosting-newsletter/). 
+I read widely and source the stories. [AI LLM](https://claude.ai/) does the summation (`give me a 100-word summary of this recent story of xxx`). I do some editing in [cursor](https://cursor.com/). The Sunday Blender website is self-hosted on [Vercel](https://vercel.com/), as I explained in this article [Migrate from Substack to a Self-Hosting Newsletter](https://digitalsovereignty.herbertyang.xyz/p/migrate-from-substack-to-a-self-hosting-newsletter/).
 
 I try to keep **politics** entirely out of The Sunday Blender. It's not pretty, and they don't need to be sucked into that.
 
