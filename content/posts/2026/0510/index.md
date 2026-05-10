@@ -7,7 +7,7 @@ keywords: ["news for kids", "kids news", "children's news", "news for teens", "k
 featured_image: "hero.jpg"
 featured_image_alt: "Arsenal's exciting 2026"
 images: ["hero.jpg"]
-draft: true
+draft: false
 enable_rapport: true
 podcast:
   enabled: true
