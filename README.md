@@ -80,6 +80,30 @@ Update the article throughout the week with additional stories, materials, and c
 - Preview with `hugo server -D -F` to display draft articles with future dates
 - For Cursor editor, use theme `Quiet Light` for better readability
 
+**Fetching images from Google Images:**
+
+Images are the primary visual for each issue and are usually found via Google
+image search. Use `tsb-fetch-image` to download and normalize one in a single
+step (caps it at 1200px wide and ≤500KB so the site loads fast):
+
+1. In Google Images, click the result to open the large preview.
+2. Right-click the **large image** → **Copy image address**
+   (this is the direct image URL — *not* the search-result link, which only
+   points to the web page the image sits on and cannot be used).
+3. Run, pasting the URL in quotes:
+
+```bash
+tsb-fetch-image --issue MMDD "<image-url>"
+# or, when already inside the issue folder, the destination is auto-detected:
+cd content/posts/YYYY/MMDD
+tsb-fetch-image "<image-url>" [optional-name]
+```
+
+The image lands in the issue folder as a JPEG, ≤1200px wide, ≤500KB. Without
+`--issue` and when run outside an issue folder, it saves to `~/Downloads/`.
+If you paste a Google thumbnail (`gstatic.com`) or a page link by mistake,
+the script detects it and tells you to re-copy the image address.
+
 ### 3. Audit Text Content
 
 Run a text audit to ensure the article is ready for PDF generation:
@@ -206,6 +230,32 @@ Options:
 The script automatically discovers and adds new articles from the production site.
 
 Note: 喜马拉雅 (Ximalaya) requires manual verification.
+
+## Scripts Reference
+
+All scripts live in `scripts/` and are exposed as `tsb-*` commands via
+symlinks in `/usr/local/bin/` (so they run from anywhere). The convention for
+most of them is to `cd` into the issue folder (`content/posts/YYYY/MMDD/`)
+first.
+
+| Command | Script | What it does |
+|---------|--------|--------------|
+| `tsb-init-article` | `init_article.py` | Generates `index.md` for a new issue with frontmatter placeholders, section headers, and links to the 3 most recent published articles. Run from inside the new issue folder. |
+| `tsb-fetch-image` | `fetch_image.sh` | Downloads an image from a Google Images "Copy image address" URL and normalizes it to JPEG, ≤1200px wide, ≤500KB. Saves into the issue folder (`--issue MMDD` or auto-detected) or `~/Downloads/`. See [Weekly Content Updates](#2-weekly-content-updates). |
+| `tsb-audit-text` | `audit_text.py` | Pre-flight text audit — verifies frontmatter fields, images, section content, and reading time before PDF/podcast generation. |
+| `tsb-make-pdf` | `html_to_pdf.py` | Renders the article (from the running Hugo dev server) to a PDF in the issue folder, used as the podcast source. Versions previous PDFs rather than overwriting. |
+| `tsb-make-podcast` | `process_podcast.py` | Converts the NotebookLM `m4a` to `YYYY-MM-DD-podcast.mp3`, updates podcast frontmatter (`enabled`, `file`, `duration`, `filesize`), and regenerates show notes. |
+| `tsb-audit-final` | `audit_final.py` | Final pre-publish gate — checks `draft: false`, PDF/MP3 presence, podcast frontmatter, Twitter card tags, hero image, and both RSS feeds. |
+| `tsb-update-progress` | `update_progress.py` | Updates the Content Update Progress table below by checking the production site/RSS. Flags: `--sync`, `--date YYYY-MM-DD`, `--all`, `--dry-run`. |
+
+The following `scripts/` files are **not** wired as `tsb-*` commands and are
+run directly or by other tooling:
+
+| Script | What it does |
+|--------|--------------|
+| `image_process.sh` | Batch-renames and resizes **already-downloaded** images in a directory (lowercase, ≤10-char names, ≤1200px wide). Complements `tsb-fetch-image`, which handles single-image fetch + normalize. |
+| `schedule_tweets.sh` / `post_scheduled_tweets.py` / `run_twitter_bot.sh` | Twitter announcement bot — run on Dalaran. See [TWITTER_BOT_README.md](docs/TWITTER_BOT_README.md). |
+| `evening-push.sh` | Auto-pushes the current draft branch (if it has unpushed commits) to keep Moonglade in sync; logs to `scripts/push.log`. Typically run on a schedule. |
 
 ## Content Update Progress
 
