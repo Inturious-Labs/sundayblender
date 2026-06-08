@@ -13,6 +13,18 @@ GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
 NC='\033[0m' # No Color
 
+# Emit the NUL-delimited list of image files to process for a given target.
+# If the target is a single file, emit just that file; if it's a directory,
+# recursively find all supported image files inside it.
+list_target_images() {
+    local target="$1"
+    if [ -f "$target" ]; then
+        printf '%s\0' "$target"
+    else
+        find "$target" -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.webp" -o -iname "*.avif" -o -iname "*.gif" -o -iname "*.svg" \) -print0
+    fi
+}
+
 # Function to resize image if needed
 resize_image() {
     local file="$1"
@@ -50,9 +62,49 @@ resize_image() {
     fi
 }
 
+# Convert a raster image to .jpg in place. Echoes the new path on stdout so the
+# caller can pick up the renamed file. Leaves .jpg/.jpeg and .svg (vector)
+# untouched. Transparency is flattened onto white; animated GIFs keep frame 1.
+# NOTE: this is lossy and irreversible — by design, photos are the target.
+convert_to_jpg() {
+    local file="$1"
+    local ext_lc="$(echo "${file##*.}" | tr '[:upper:]' '[:lower:]')"
+
+    # Already jpeg, or vector — nothing to convert.
+    case "$ext_lc" in
+        jpg|jpeg|svg) echo "$file"; return 0 ;;
+    esac
+
+    if ! command -v magick &> /dev/null; then
+        echo "$file"
+        echo -e "${YELLOW}Warning: ImageMagick not available, cannot convert $file to jpg${NC}" >&2
+        return 0
+    fi
+
+    local jpg_path="${file%.*}.jpg"
+
+    # Flatten transparency onto white (JPEG has no alpha); [0] takes the first
+    # frame of animated GIFs. -quality 85 matches the resize step.
+    if magick "$file"[0] -background white -flatten -quality 85 "$jpg_path" 2>/dev/null; then
+        # Avoid deleting the source if it somehow shares the path (e.g. odd casing).
+        [ "$file" != "$jpg_path" ] && rm -f "$file"
+        echo -e "${GREEN}✓${NC} Converted $(basename "$file") → $(basename "$jpg_path")" >&2
+        echo "$jpg_path"
+    else
+        echo -e "${RED}✗${NC} Failed to convert $file to jpg${NC}" >&2
+        echo "$file"
+        return 1
+    fi
+}
+
 # Function to process a single file
 process_file() {
     local file="$1"
+
+    # Convert non-jpg raster formats to .jpg first, so all downstream naming,
+    # dedup, and resizing operate on the final .jpg file.
+    file="$(convert_to_jpg "$file")"
+
     local dir="$(dirname "$file")"
     local filename="$(basename "$file")"
     local extension="${filename##*.}"
@@ -87,6 +139,7 @@ process_file() {
         echo -e "${GREEN}✓${NC} $filename (no change needed)"
         # Still resize if needed
         resize_image "$file"
+        LAST_PROCESSED_PATH="$file"
         return 0
     fi
     
@@ -113,6 +166,7 @@ process_file() {
     # Then rename the file
     if mv "$file" "$new_path"; then
         echo -e "${GREEN}✓${NC} $filename → $new_filename"
+        LAST_PROCESSED_PATH="$new_path"
         return 0
     else
         echo -e "${RED}✗${NC} Failed to rename $filename"
@@ -139,6 +193,10 @@ capture_file_info() {
 # Function to find and process all image files
 find_and_process_images() {
     local search_dir="$1"
+    # Remember whether the target started as a single file: it may be renamed
+    # mid-run, after which we can no longer test the original path.
+    local single_file=false
+    [ -f "$search_dir" ] && single_file=true
     local supported_extensions="jpg jpeg png webp avif gif svg"
     local total_files=0
     local processed_files=0
@@ -158,7 +216,7 @@ find_and_process_images() {
     echo "Capturing original file information..."
     while IFS= read -r -d '' file; do
         before_files+=("$(capture_file_info "$file")")
-    done < <(find "$search_dir" -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.webp" -o -iname "*.avif" -o -iname "*.gif" -o -iname "*.svg" \) -print0)
+    done < <(list_target_images "$search_dir")
     
     # Second pass: process files
     while IFS= read -r -d '' file; do
@@ -171,30 +229,41 @@ find_and_process_images() {
             original_dimensions=$(identify -format "%wx%h" "$file" 2>/dev/null || echo "unknown")
         fi
         
+        LAST_PROCESSED_PATH="$file"
         if process_file "$file"; then
             processed_files=$((processed_files + 1))
-            
+
+            # process_file sets LAST_PROCESSED_PATH to the file's path after any
+            # rename, so stat/basename below read the actual resulting file.
+            local new_path="$LAST_PROCESSED_PATH"
+
             # Check if file was renamed
-            local new_filename="$(basename "$file")"
+            local new_filename="$(basename "$new_path")"
             if [ "$original_filename" != "$new_filename" ]; then
                 renamed_files=$((renamed_files + 1))
             fi
-            
+
             # Check if file was resized
-            local new_size=$(stat -f%z "$file" 2>/dev/null || stat -c%s "$file" 2>/dev/null)
+            local new_size=$(stat -f%z "$new_path" 2>/dev/null || stat -c%s "$new_path" 2>/dev/null)
             if [ "$original_size" != "$new_size" ]; then
                 resized_files=$((resized_files + 1))
             fi
         else
             failed_files=$((failed_files + 1))
         fi
-    done < <(find "$search_dir" -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.webp" -o -iname "*.avif" -o -iname "*.gif" -o -iname "*.svg" \) -print0)
+    done < <(list_target_images "$search_dir")
+
+    # In single-file mode the target path itself may have changed due to a
+    # rename; re-point it so the final-state pass and comparison find the file.
+    if [ "$single_file" = true ]; then
+        search_dir="$LAST_PROCESSED_PATH"
+    fi
     
     # Third pass: capture final state
     echo "Capturing final file information..."
     while IFS= read -r -d '' file; do
         after_files+=("$(capture_file_info "$file")")
-    done < <(find "$search_dir" -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.webp" -o -iname "*.avif" -o -iname "*.gif" -o -iname "*.svg" \) -print0)
+    done < <(list_target_images "$search_dir")
     
     # Display summary
     display_summary "$search_dir" "$total_files" "$processed_files" "$failed_files" "$renamed_files" "$resized_files" "${before_files[@]}" "${after_files[@]}"
@@ -288,7 +357,7 @@ display_summary() {
     
     # Create a temporary file to store current state
     local temp_file=$(mktemp)
-    find "$search_dir" -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.webp" -o -iname "*.avif" -o -iname "*.gif" -o -iname "*.svg" \) -exec basename {} \; | sort > "$temp_file"
+    list_target_images "$search_dir" | xargs -0 -n1 basename | sort > "$temp_file"
     
     # Display comparison table
     printf "%-25s %-15s %-15s %-15s %-15s\n" "Filename" "Size (Before)" "Size (After)" "Dimensions" "Status"
@@ -349,22 +418,25 @@ display_summary() {
 
 # Main script
 main() {
-    local target_dir="${1:-content/posts}"
-    
-    # Check if target directory exists
-    if [ ! -d "$target_dir" ]; then
-        echo -e "${RED}Error: Directory '$target_dir' does not exist${NC}"
-        echo "Usage: $0 [directory]"
+    local target="${1:-content/posts}"
+    local single_file=false
+
+    # Target may be a single image file or a directory of images.
+    if [ -f "$target" ]; then
+        single_file=true
+    elif [ ! -d "$target" ]; then
+        echo -e "${RED}Error: '$target' is not a file or directory${NC}"
+        echo "Usage: $0 [file|directory]"
         echo "Default directory: content/posts"
         exit 1
     fi
-    
+
     # Check if ImageMagick is available (optional check)
     if ! command -v identify &> /dev/null; then
         echo -e "${YELLOW}Warning: ImageMagick not found. This script only renames files.${NC}"
         echo "To install ImageMagick: brew install imagemagick (macOS) or apt-get install imagemagick (Ubuntu)"
     fi
-    
+
     echo -e "${YELLOW}Image File Renaming and Resizing Script${NC}"
     echo "This script will:"
     echo "1. Convert filenames to lowercase"
@@ -373,15 +445,19 @@ main() {
     echo "4. Truncate to 10 characters maximum"
     echo "5. Resize images to max width of 1200px (maintaining aspect ratio)"
     echo ""
-    
-    read -p "Do you want to proceed? (y/N): " -n 1 -r
-    echo
-    if [[ ! $REPLY =~ ^[Yy]$ ]]; then
-        echo "Operation cancelled."
-        exit 0
+
+    # Directory mode has a large blast radius, so confirm first.
+    # Single-file mode targets an explicit file, so skip the prompt.
+    if [ "$single_file" = false ]; then
+        read -p "Do you want to proceed? (y/N): " -n 1 -r
+        echo
+        if [[ ! $REPLY =~ ^[Yy]$ ]]; then
+            echo "Operation cancelled."
+            exit 0
+        fi
     fi
-    
-    find_and_process_images "$target_dir"
+
+    find_and_process_images "$target"
 }
 
 # Run main function with arguments
