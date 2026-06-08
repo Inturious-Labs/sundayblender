@@ -19,4 +19,70 @@
         margin-top: 15px !important;
     }
 }
+
+/* Shared homepage card wrapper — matches the archive card's white+shadow look */
+.home-card {
+    background: #fff;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    padding: 30px 24px;
+    margin: 0 0 24px;
+}
+@media (prefers-color-scheme: dark) {
+    .home-card { background: #1f1f1f; box-shadow: 0 0 8px rgba(0, 0, 0, 0.4); }
+}
+/* The signup partial draws its own top divider; redundant inside a card */
+.home-card .newsletter-divider { display: none; }
+.home-card .newsletter-signup { padding-top: 0; }
+
+/* Remove the theme's stubby blue indicator bar on the sidebar nav-head (logo block) */
+.side-container .nav-head.active,
+.side-container .nav-head:hover { border-right-color: transparent; }
+
+/* Homepage benefits pitch block */
+.home-benefits {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 0;
+}
+.home-benefits-divider {
+    height: 1px;
+    background: linear-gradient(to right, transparent, #89532B, transparent);
+    margin-bottom: 1.75rem;
+    opacity: 0.6;
+}
+.home-benefits-heading {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #89532B;
+    margin: 0 0 0.75rem;
+    text-align: center;
+    line-height: 1.3;
+}
+.home-benefits-lede {
+    margin: 0 0 1.25rem;
+    line-height: 1.6;
+    opacity: 0.9;
+    text-align: left;
+}
+.home-benefits-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.5rem;
+}
+.home-benefits-list li {
+    position: relative;
+    padding-left: 1.9rem;
+    margin-bottom: 0.7rem;
+    line-height: 1.55;
+}
+.home-benefits-list li::before {
+    content: "✅";
+    position: absolute;
+    left: 0;
+    font-size: 0.95em;
+}
 </style>
+
+<!-- JSON-LD structured data (SEO + GEO / AI answer engines) -->
+{{- partial "structured-data.html" . }}

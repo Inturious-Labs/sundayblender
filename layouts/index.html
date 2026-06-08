@@ -1,6 +1,7 @@
 {{ define "main" }}
 
     <!-- Newsletter signup placement -->
+    <div class="home-card">
     <div id="newsletter-top-placement" style="display: none;">
         <!-- A/B test will move the newsletter here if user is in top variant -->
     </div>
@@ -10,8 +11,14 @@
     <div id="newsletter-bottom-placement">
         <!-- Default placement for newsletter (bottom variant) -->
     </div>
+    </div>
 
-    <div class="post-list-container post-list-container-no-background">
+    <!-- Homepage benefits pitch (between signup and archive) -->
+    <div class="home-card">
+    {{ partial "home-benefits.html" . }}
+    </div>
+
+    <div id="issues" class="post-list-container post-list-container-no-background">
         {{ $paginator := .Paginate (where .Site.RegularPages "Params.hidden" "!=" true) }}
         {{range $paginator.Pages }}
             <a href="{{.RelPermalink}}" class="a-block">
@@ -36,7 +43,7 @@
                             <div class="post-item-image-wrapper">
                             <div class="post-item-image"
                             {{ if $image }}
-                                {{ $thumbnail := $image.Resize "460x240" }}
+                                {{ $thumbnail := $image.Fill "460x240" }}
                                  style="background-image: url('{{ $thumbnail.RelPermalink }}')"
                             {{ else }}
                             

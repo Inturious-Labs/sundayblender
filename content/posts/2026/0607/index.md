@@ -5,7 +5,7 @@ slug: wear-adidas-to-handle-important-business-in-the-city
 description: "Now, that's how to market a brand. Don't take yourself too seriously."
 keywords: ["news for kids", "kids news", "children's news", "news for teens", "kid-friendly news", "weekly news for kids", "current events for kids", "world news for children", "educational news"]
 featured_image: "hero.jpg"
-featured_image_alt: "Hero image alt text placeholder"
+featured_image_alt: "Parody Adidas logo with the three stripes above bilingual Chinese-English text reading 'chuan adi ban das'"
 images: ["hero.jpg"]
 draft: false
 enable_rapport: true

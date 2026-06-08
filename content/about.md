@@ -28,7 +28,7 @@ This newsletter does NOT work for kids who like to:
 
 ## What's in it
 
-Each issue comes with 20~25 stories. Each story has no more than `100` words, in plain English with a picture. These stories cover **Technology**, **Global**, **Economy & Finance**, **Nature & Environment**, **Science**, **Lifestyle & Culture**, **Sports**, **History**, **Art**, and **Comedy**. It's about `10~15` minutes of reading time.
+Each issue comes with 20~25 stories. Each story is `100~150` words, in plain English with a picture. These stories cover **Technology**, **Global**, **Economy & Finance**, **Nature & Environment**, **Science**, **Lifestyle & Culture**, **Sports**, **History**, **Art**, and **Comedy**. It's about `10~15` minutes of reading time.
 
 ## Why do this?
 
