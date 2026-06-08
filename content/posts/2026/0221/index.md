@@ -5,7 +5,7 @@ slug: celebrate-the-year-of-the-fire-horse
 description: "In a year of ambition and relentless forward motion, disruptive AI tech shocked traditional film and gaming industry."
 keywords: ["news for kids", "kids news", "children's news", "news for teens", "kid-friendly news", "weekly news for kids", "current events for kids", "world news for children", "educational news", "red horse", "openclaw", "milan winter olympics", "seedance", "zhipu", "Spinosaurus Mirabilis", "Artemis", "Lionel Richie", "Seollal", "Bad Bunny"]
 featured_image: "hero.jpg"
-featured_image_alt: "Hero image alt text placeholder"
+featured_image_alt: "A fiery red horse galloping through a golden field at sunset, celebrating the Year of the Fire Horse"
 images: ["hero.jpg"]
 draft: false
 enable_rapport: true

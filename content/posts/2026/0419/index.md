@@ -5,7 +5,7 @@ slug: robots-run-faster-than-humans-now
 description: "Will sports still bring the same level of fun when robots can easily beat humans?"
 keywords: ["news for kids", "kids news", "children's news", "news for teens", "kid-friendly news", "weekly news for kids", "current events for kids", "world news for children", "educational news"]
 featured_image: "hero.jpg"
-featured_image_alt: "Hero image alt text placeholder"
+featured_image_alt: "A human runner in a yellow shirt racing a silver humanoid robot in front of a city skyline"
 images: ["hero.jpg"]
 draft: false
 enable_rapport: true
