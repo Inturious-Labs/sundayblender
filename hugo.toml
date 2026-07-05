@@ -1,5 +1,6 @@
 baseURL = 'https://weekly.sundayblender.com/'
 languageCode = 'en-us'
+timeZone = 'Asia/Shanghai'
 title = 'The Sunday Blender'
 canonifyURLs = true
 theme = "diary"
