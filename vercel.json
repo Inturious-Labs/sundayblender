@@ -4,7 +4,7 @@
       "HUGO_VERSION": "0.148.2"
     }
   },
-  "buildCommand": "hugo --minify --gc",
+  "buildCommand": "hugo --minify --gc --buildFuture",
   "outputDirectory": "public",
   "framework": "hugo",
   "headers": [
