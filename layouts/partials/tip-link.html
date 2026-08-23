@@ -1,0 +1,37 @@
+{{ if not .Params.hideTip }}
+{{/* Use the published address of the article, not the content folder name, so tip
+     figures can be matched back to articles. */}}
+{{ $slug := path.Base .RelPermalink }}
+<div class="tip-link-block">
+    <a class="tip-link"
+       href="https://tip.inturious.com/?src=tsb&a={{ $slug }}"
+       rel="noopener">Buy me a coffee ☕</a>
+</div>
+
+<style>
+.tip-link-block {
+    margin: 2.5rem 0 1rem;
+    text-align: center;
+}
+
+.tip-link-block .tip-link {
+    display: inline-block;
+    padding: 0.6rem 1.4rem;
+    border: 1px solid #89532B;
+    border-radius: 999px;
+    color: #89532B;
+    font-size: 0.95rem;
+    text-decoration: none;
+    transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.tip-link-block .tip-link:hover {
+    background-color: #89532B;
+    color: #ffffff;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .tip-link-block .tip-link { transition: none; }
+}
+</style>
+{{ end }}

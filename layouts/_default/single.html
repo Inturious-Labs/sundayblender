@@ -93,6 +93,9 @@
                 </div>
             </div>
 
+            <!-- Tip link -->
+            {{- partial "tip-link.html" . -}}
+
             <!-- PDF Download Section -->
             {{- if and (.Params.date) (not .Params.hidePDF) }}
                 {{ $cleanTitle := .Title | strings.TrimSpace | replaceRE " " "-" | replaceRE "[\"']" "" | replaceRE "," "-" | replaceRE "[<>:\"/\\\\|?*]" "" | replaceRE "-+" "-" | strings.TrimSuffix "-" }}
