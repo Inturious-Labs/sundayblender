@@ -1,14 +1,13 @@
 """
 Image candidate search for The Sunday Blender.
 
-Finds image candidates for a story by querying, in order of preference:
-  1. Brave Image Search  (fresh news photos; needs BRAVE_API_KEY)
-  2. Wikimedia Commons   (license-clean; free, no key)
-  3. Openverse           (license-clean; free, no key)
+Finds image candidates for a story via Brave Image Search (needs BRAVE_API_KEY).
 
-Brave is the only source that reliably has *this week's* news photos, which is
-most of what TSB covers. Commons and Openverse are the license-clean fallbacks
-for evergreen subjects (people, places, animals, artworks).
+Brave only, by design. Wikimedia Commons and Openverse were tried and removed:
+they are archives, so they answer a current-affairs query with stock scenery of
+the right place rather than a photo of the event. TSB runs on this week's news,
+which makes an archive the wrong shape of source no matter how clean the
+licence.
 
 Deliberately zero pip dependencies — HTTP goes through curl via subprocess, the
 same way fetch_image.sh does it. See memory: tsb-image-picker-arch.
@@ -98,10 +97,10 @@ class Candidate:
     thumb: str          # thumbnail URL for the contact sheet
     width: int
     height: int
-    source: str         # "brave" | "commons" | "openverse"
+    source: str         # always "brave"
     site: str           # origin domain, shown under the thumbnail
     title: str = ""
-    license: str = ""   # populated for commons/openverse
+    license: str = ""   # rarely populated; Brave reports no licence
     watermark: bool = False  # likely a watermarked stock comp
 
     def to_dict(self):
@@ -294,88 +293,10 @@ def search_brave(query: str, count: int = 12, offset: int = 0) -> List[Candidate
     return out
 
 
-def search_commons(query: str, count: int = 8) -> List[Candidate]:
-    """Wikimedia Commons. License-clean, free, no key."""
-    url = ("https://commons.wikimedia.org/w/api.php"
-           f"?action=query&generator=search&gsrsearch={_quote(query)}"
-           f"&gsrnamespace=6&gsrlimit={count}"
-           "&prop=imageinfo&iiprop=url|size|extmetadata&iiurlwidth=800&format=json")
-    data = _curl_json(url)
-    if not data:
-        return []
-
-    out = []
-    for page in (data.get("query", {}).get("pages", {}) or {}).values():
-        info = (page.get("imageinfo") or [{}])[0]
-        direct = info.get("url")
-        if not direct:
-            continue
-        meta = info.get("extmetadata") or {}
-        lic = (meta.get("LicenseShortName") or {}).get("value", "")
-        out.append(Candidate(
-            url=direct,
-            thumb=info.get("thumburl") or direct,
-            width=int(info.get("width") or 0),
-            height=int(info.get("height") or 0),
-            source="commons",
-            site="commons.wikimedia.org",
-            title=page.get("title", "").replace("File:", "")[:120],
-            license=lic,
-        ))
-    return out
 
 
-def search_openverse(query: str, count: int = 8) -> List[Candidate]:
-    """Openverse. License-clean aggregator, free, no key required."""
-    url = (f"https://api.openverse.org/v1/images/?q={_quote(query)}"
-           f"&page_size={count}&license_type=all")
-    data = _curl_json(url)
-    if not data:
-        return []
-
-    out = []
-    for r in data.get("results", []) or []:
-        direct = r.get("url")
-        if not direct:
-            continue
-        out.append(Candidate(
-            url=direct,
-            thumb=r.get("thumbnail") or direct,
-            width=int(r.get("width") or 0),
-            height=int(r.get("height") or 0),
-            source="openverse",
-            site=r.get("source") or r.get("provider") or "",
-            title=(r.get("title") or "")[:120],
-            license=r.get("license") or "",
-        ))
-    return out
 
 
-def wikipedia_lead_image(term: str) -> List[Candidate]:
-    """The lead image of a Wikipedia article.
-
-    Resolves a named person or place far more reliably than keyword search --
-    'Tadej Pogacar' gets the right portrait instead of a crowd shot.
-    """
-    url = (f"https://en.wikipedia.org/api/rest_v1/page/summary/{_quote(term)}"
-           "?redirect=true")
-    data = _curl_json(url, timeout=15)
-    if not data:
-        return []
-    orig = data.get("originalimage") or {}
-    src = orig.get("source")
-    if not src:
-        return []
-    return [Candidate(
-        url=src,
-        thumb=(data.get("thumbnail") or {}).get("source") or src,
-        width=int(orig.get("width") or 0),
-        height=int(orig.get("height") or 0),
-        source="commons",
-        site="wikipedia.org",
-        title=data.get("title", "")[:120],
-        license="see Commons",
-    )]
 
 
 # --- aggregation ------------------------------------------------------------
@@ -394,23 +315,18 @@ def _dedupe(cands: List[Candidate]) -> List[Candidate]:
 def find_candidates(query: str, limit: int = 3, offset: int = 0,
                     sources: Optional[List[str]] = None,
                     lead_term: Optional[str] = None) -> List[Candidate]:
-    """Gather candidates for a query across the enabled sources.
+    """Gather candidates for a query from Brave.
 
-    Brave leads because it has the fresh news photos; Commons and Openverse
-    fill in behind it. Results below MIN_WIDTH are dropped -- they cannot fill
-    the newsletter column.
+    Results below MIN_WIDTH are dropped -- they cannot fill the newsletter
+    column. `sources` and `lead_term` are retained so the picker's query string
+    keeps working, but Brave is the only source now.
     """
-    sources = sources or ["brave", "commons", "openverse"]
     pool: List[Candidate] = []
-
-    if lead_term and "commons" in sources and offset == 0:
-        pool += wikipedia_lead_image(lead_term)
-    if "brave" in sources:
-        pool += search_brave(query, count=max(20, limit * 4))
-    if "commons" in sources:
-        pool += search_commons(query, count=8)
-    if "openverse" in sources:
-        pool += search_openverse(query, count=8)
+    if not sources or "brave" in sources:
+        # Ask for well beyond `limit`: MIN_WIDTH filtering, dedupe and the
+        # one-per-site rule all discard results, and "search for more" pages
+        # through this same pool by offset.
+        pool += search_brave(query, count=50)
 
     pool = [c for c in pool if c.width == 0 or c.width >= MIN_WIDTH]
     pool = _dedupe(pool)
@@ -424,30 +340,16 @@ def find_candidates(query: str, limit: int = 3, offset: int = 0,
 
     pool.sort(key=rank)
 
-    # Interleave by source rather than returning a straight ranking. Brave wins
-    # on resolution nearly every time, so a pure sort would bury the
-    # license-clean Commons/Openverse hits and hide that choice from the editor.
-    by_source = {}
+    # One shot per site first. Several outlets run the same wire photo, so an
+    # unfiltered top-3 is often the same picture three times; repeats are held
+    # back as filler for when the pool is thin or "search for more" pages on.
+    ordered, deferred, used_sites = [], [], set()
     for c in pool:
-        by_source.setdefault(c.source, []).append(c)
-
-    ordered, order = [], ["brave", "commons", "openverse"]
-    used_sites = {}
-    deferred = []
-    while any(by_source.get(s) for s in order):
-        for s in order:
-            bucket = by_source.get(s)
-            if not bucket:
-                continue
-            c = bucket.pop(0)
-            # Three shots from the same site are usually near-identical and
-            # waste the editor's three slots; hold repeats back as filler.
-            n = used_sites.get(c.site, 0)
-            if c.site and n >= 1:
-                deferred.append(c)
-            else:
-                used_sites[c.site] = n + 1
-                ordered.append(c)
+        if c.site and c.site in used_sites:
+            deferred.append(c)
+        else:
+            used_sites.add(c.site)
+            ordered.append(c)
 
     ordered += deferred
     return ordered[offset:offset + limit]

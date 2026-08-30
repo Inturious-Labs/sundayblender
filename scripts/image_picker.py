@@ -13,8 +13,9 @@ Usage:
     tsb-image-picker --issue 20260829 --port 8420
     tsb-image-picker --issue 0829 --no-prefetch    # search lazily instead
 
-Requires BRAVE_API_KEY in the environment for fresh news photos (see ~/.secrets).
-Commons and Openverse work without a key but only cover evergreen subjects.
+Requires BRAVE_API_KEY in the environment (see ~/.secrets) — Brave is the only
+source, because TSB needs photographs of this week's events rather than archive
+material.
 
 Zero pip dependencies by design — stdlib http.server plus curl/ImageMagick,
 matching the rest of scripts/. See memory: tsb-image-picker-arch.
@@ -235,13 +236,8 @@ class PickerState:
               sources=None):
         q = query or self.queries[order]
         self.queries[order] = q
-        story = self.stories[order]
-        lead = None
-        m = re.search(r"\*\*(.+?)\*\*", story["text"])
-        if m and len(m.group(1).split()) <= 4:
-            lead = m.group(1)
         cands = find_candidates(q, limit=CANDIDATES_PER_STORY, offset=offset,
-                                sources=sources, lead_term=lead)
+                                sources=sources)
         with self.lock:
             self.candidates[order] = cands
         return cands
@@ -254,8 +250,8 @@ def prefetch_all(state: PickerState, workers: int = 3):
     feel, so every story is warmed up front instead.
 
     Only 3 workers: Brave's free tier is ~1 req/s and is serialized behind a
-    throttle in image_search, so more threads add contention without speed.
-    The parallelism still helps, because Commons and Openverse are unthrottled.
+    throttle in image_search, so more threads add contention without much gain.
+    A few still help by overlapping request setup with the throttle wait.
     """
     todo = [s["order"] for s in state.stories
             if state.status.get(s["order"]) != "placed"]
@@ -425,14 +421,10 @@ main{max-width:1080px;margin:0 auto;padding:22px 20px 60px}
 .tag{display:inline-block;padding:1px 6px;border-radius:4px;font-size:10px;
   background:var(--line);color:var(--ink);margin-right:4px}
 .tag.brave{background:#fde8d7;color:#8a3b00}
-.tag.commons{background:#d7ecfd;color:#00458a}
-.tag.openverse{background:#e2f7d9;color:#215c00}
 .tag.wm{background:#fde3e3;color:#8a1c1c}
 @media (prefers-color-scheme:dark){
   .tag.wm{background:#4a1717;color:#ffb4b4}
   .tag.brave{background:#4a2b12;color:#ffcfa3}
-  .tag.commons{background:#12324a;color:#a9d8ff}
-  .tag.openverse{background:#1e3d14;color:#bff3a5}
 }
 .controls{display:flex;gap:10px;align-items:center;margin:18px 0 8px;flex-wrap:wrap}
 input[type=text]{flex:1;min-width:260px;padding:8px 11px;border:1px solid var(--line);
@@ -616,8 +608,10 @@ def main():
         raise SystemExit("No image-eligible stories found in index.md")
 
     if not os.environ.get("BRAVE_API_KEY"):
-        print("! BRAVE_API_KEY not set — falling back to Commons/Openverse only,")
-        print("  which will miss most current-news photos. Add it to ~/.secrets.")
+        raise SystemExit(
+            "BRAVE_API_KEY is not set, and Brave is the only image source.\n"
+            "  It lives in ~/.secrets; load it with:  source ~/.secrets\n"
+            "  (New shells pick it up automatically.)")
 
     state = PickerState(issue_dir, stories)
     already = sum(1 for s in stories if s["image"])
