@@ -80,11 +80,39 @@ Update the article throughout the week with additional stories, materials, and c
 - Preview with `hugo server -D -F` to display draft articles with future dates
 - For Cursor editor, use theme `Quiet Light` for better readability
 
-**Fetching images from Google Images:**
+**Picking images for a whole issue (recommended):**
 
-Images are the primary visual for each issue and are usually found via Google
-image search. Use `tsb-fetch-image` to download and normalize one in a single
-step (caps it at 1200px wide and ≤500KB so the site loads fast):
+`tsb-image-picker` finds candidates for every story at once and lets you choose
+them from a single page, instead of searching for each one by hand:
+
+```bash
+tsb-image-picker --issue MMDD
+```
+
+It reads the draft, works out a search query per story, fetches three
+candidates each (about a minute for a full issue), then opens
+`http://localhost:8420`. Each screen shows one story with its three options.
+Click one and it is downloaded, normalized to the usual JPEG ≤1200px / ≤500KB,
+saved into the issue folder, and written into `index.md` above the story —
+then it moves to the next.
+
+Per story you can also edit the search query, press **↻ More** for three
+different candidates, or **Skip** and come back later. Keys: `1`/`2`/`3` to
+pick, `r` for more, `s` to skip, `←`/`→` to move between stories.
+
+Images come from Brave (current news photos; needs `BRAVE_API_KEY` in
+`~/.secrets`), plus Wikimedia Commons and Openverse for older subjects. The
+source and licence are shown under every thumbnail, and stock-library images
+that usually arrive watermarked are marked `watermark?` — worth avoiding.
+
+Nothing is written until you click, and every change lands in `index.md`, so
+`git diff` shows exactly what happened.
+
+**Fetching a single image by URL:**
+
+For one-off images — a replacement, or something the picker could not find —
+`tsb-fetch-image` takes a URL copied from Google Images and normalizes it in a
+single step (caps it at 1200px wide and ≤500KB so the site loads fast):
 
 1. In Google Images, click the result to open the large preview.
 2. Right-click the **large image** → **Copy image address**
@@ -241,6 +269,7 @@ first.
 | Command | Script | What it does |
 |---------|--------|--------------|
 | `tsb-init-article` | `init_article.py` | Generates `index.md` for a new issue with frontmatter placeholders, section headers, and links to the 3 most recent published articles. Run from inside the new issue folder. |
+| `tsb-image-picker` | `image_picker.py` | Finds three image candidates for every story in an issue and serves a local page (`localhost:8420`) to pick from. The chosen image is downloaded, normalized, and inserted into `index.md`. Searches Brave (needs `BRAVE_API_KEY`), Wikimedia Commons, and Openverse. See [Weekly Content Updates](#2-weekly-content-updates). |
 | `tsb-fetch-image` | `fetch_image.sh` | Downloads an image from a Google Images "Copy image address" URL and normalizes it to JPEG, ≤1200px wide, ≤500KB. Saves into the issue folder (`--issue MMDD` or auto-detected) or `~/Downloads/`. See [Weekly Content Updates](#2-weekly-content-updates). |
 | `tsb-audit-text` | `audit_text.py` | Pre-flight text audit — verifies frontmatter fields, images, section content, and reading time before PDF/podcast generation. |
 | `tsb-make-pdf` | `html_to_pdf.py` | Renders the article (from the running Hugo dev server) to a PDF in the issue folder, used as the podcast source. Versions previous PDFs rather than overwriting. |
