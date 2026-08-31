@@ -176,17 +176,16 @@ def check_keywords(frontmatter, errors, warnings):
 
 def check_hero_image(cwd, errors, warnings):
     """Check hero image exists and has correct dimensions."""
-    hero_jpeg = cwd / "hero.jpeg"
-    hero_jpg = cwd / "hero.jpg"
-
+    # .jpg is the standard; .jpeg is still accepted for older issues.
     hero_path = None
-    if hero_jpeg.exists():
-        hero_path = hero_jpeg
-    elif hero_jpg.exists():
-        hero_path = hero_jpg
+    for name in ("hero.jpg", "hero.jpeg"):
+        candidate = cwd / name
+        if candidate.exists():
+            hero_path = candidate
+            break
 
     if not hero_path:
-        errors.append("Hero image not found (hero.jpeg or hero.jpg)")
+        errors.append("Hero image not found (hero.jpg)")
         return
 
     # Check image dimensions
