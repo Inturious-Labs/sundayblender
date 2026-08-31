@@ -35,13 +35,28 @@ class Article:
 class ArticleParser:
     """Parses Sunday Blender markdown articles and extracts stories."""
 
-    # Sections to exclude from story extraction
+    # Sections to exclude from story extraction.
+    # Humor sections have gone by several names across issues; all are skipped.
     EXCLUDED_SECTIONS = {
         "Editor's Words",
         "Previous Issues",
         "Subscribe",
-        "Funny"
+        "Funny",
+        "Joke",
+        "Cartoon",
+        "Humor",
+        "Offbeat",
+        "Oddball",
+        "Oddities"
     }
+
+    # Headings starting with any of these are also excluded, catching
+    # one-off variants like "Funny Quotes on World Cup".
+    EXCLUDED_PREFIXES = (
+        "Funny",
+        "Joke",
+        "Cartoon",
+    )
 
     def __init__(self, base_url: str = "https://weekly.sundayblender.com"):
         self.base_url = base_url
@@ -109,7 +124,7 @@ class ArticleParser:
             section_content = sections[i + 1].strip() if i + 1 < len(sections) else ""
 
             # Skip excluded sections
-            if section_name in self.EXCLUDED_SECTIONS:
+            if self._is_excluded(section_name):
                 continue
 
             current_section = section_name
@@ -140,6 +155,12 @@ class ArticleParser:
                 story_order += 1
 
         return stories
+
+    def _is_excluded(self, section_name: str) -> bool:
+        """Return True if a section should be left out of story extraction."""
+        if section_name in self.EXCLUDED_SECTIONS:
+            return True
+        return section_name.startswith(self.EXCLUDED_PREFIXES)
 
     def _split_into_stories(self, section_content: str) -> List[str]:
         """

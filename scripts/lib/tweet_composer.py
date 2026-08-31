@@ -273,8 +273,7 @@ class TweetComposer:
             'Lifestyle, Entertainment & Culture': '#Culture',
             'Sports': '#Sports',
             'This Day in History': '#History',
-            'Art of the Week': '#Art',
-            'Funny': '#Humor'
+            'Art of the Week': '#Art'
         }
 
         return section_map.get(section)

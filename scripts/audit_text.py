@@ -169,24 +169,27 @@ def check_keywords(frontmatter, errors, warnings):
         warnings.append("No keywords defined")
         return
 
+    # New issues no longer ship topic placeholders, but catch any added by hand.
     placeholder_keywords = [k for k in keywords if re.match(r'^topic\d+$', k)]
     if placeholder_keywords:
         errors.append(f"Keyword placeholders not replaced: {', '.join(placeholder_keywords)}")
 
+    if any(not k.strip() for k in keywords):
+        warnings.append("Empty keyword in list")
+
 
 def check_hero_image(cwd, errors, warnings):
     """Check hero image exists and has correct dimensions."""
-    hero_jpeg = cwd / "hero.jpeg"
-    hero_jpg = cwd / "hero.jpg"
-
+    # .jpg is the standard; .jpeg is still accepted for older issues.
     hero_path = None
-    if hero_jpeg.exists():
-        hero_path = hero_jpeg
-    elif hero_jpg.exists():
-        hero_path = hero_jpg
+    for name in ("hero.jpg", "hero.jpeg"):
+        candidate = cwd / name
+        if candidate.exists():
+            hero_path = candidate
+            break
 
     if not hero_path:
-        errors.append("Hero image not found (hero.jpeg or hero.jpg)")
+        errors.append("Hero image not found (hero.jpg)")
         return
 
     # Check image dimensions

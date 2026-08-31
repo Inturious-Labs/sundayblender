@@ -63,16 +63,44 @@ resize_image() {
 }
 
 # Convert a raster image to .jpg in place. Echoes the new path on stdout so the
-# caller can pick up the renamed file. Leaves .jpg/.jpeg and .svg (vector)
-# untouched. Transparency is flattened onto white; animated GIFs keep frame 1.
+# caller can pick up the renamed file. .jpeg/.JPG are renamed to .jpg without
+# re-encoding; .svg (vector) is left untouched. Transparency is flattened onto
+# white; animated GIFs keep frame 1.
 # NOTE: this is lossy and irreversible — by design, photos are the target.
 convert_to_jpg() {
     local file="$1"
     local ext_lc="$(echo "${file##*.}" | tr '[:upper:]' '[:lower:]')"
 
-    # Already jpeg, or vector — nothing to convert.
+    # Vector — nothing to convert.
     case "$ext_lc" in
-        jpg|jpeg|svg) echo "$file"; return 0 ;;
+        svg) echo "$file"; return 0 ;;
+    esac
+
+    # Already JPEG data. Normalise the extension to .jpg without re-encoding,
+    # so a .jpeg (or .JPG) input doesn't survive as a stray extension.
+    case "$ext_lc" in
+        jpg|jpeg)
+            local norm_path="${file%.*}.jpg"
+            if [ "$file" != "$norm_path" ]; then
+                # Two-step via a temp name: on case-insensitive filesystems a
+                # direct "hero.JPG" -> "hero.jpg" move is a no-op or is refused,
+                # so go through a distinct intermediate name.
+                local tmp_path="${file%.*}.tsbtmp$$"
+                if [ -e "$norm_path" ] && ! [ "$norm_path" -ef "$file" ]; then
+                    echo -e "${YELLOW}Warning: $(basename "$norm_path") already exists, leaving $(basename "$file") as-is${NC}" >&2
+                elif mv "$file" "$tmp_path" 2>/dev/null && mv "$tmp_path" "$norm_path" 2>/dev/null; then
+                    echo -e "${GREEN}✓${NC} Renamed $(basename "$file") → $(basename "$norm_path")" >&2
+                    echo "$norm_path"
+                    return 0
+                else
+                    # Restore if the second move failed and left the temp behind.
+                    [ -e "$tmp_path" ] && mv "$tmp_path" "$file" 2>/dev/null
+                    echo -e "${YELLOW}Warning: could not rename $(basename "$file") to .jpg${NC}" >&2
+                fi
+            fi
+            echo "$file"
+            return 0
+            ;;
     esac
 
     if ! command -v magick &> /dev/null; then
