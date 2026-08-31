@@ -200,7 +200,7 @@ title: "{title}"
 date: {publication_date}
 slug: {slug}
 description: "{description}"
-keywords: ["news for kids", "kids news", "children's news", "news for teens", "kid-friendly news", "weekly news for kids", "current events for kids", "world news for children", "educational news", "topic1", "topic2", "topic3", "topic4", "topic5", "topic6", "topic7", "topic8", "topic9", "topic10"]
+keywords: ["news for kids", "kids news", "children's news", "news for teens", "kid-friendly news", "weekly news for kids", "current events for kids", "world news for children", "educational news"]
 featured_image: "hero.jpg"
 featured_image_alt: "Hero image alt text placeholder"
 images: ["hero.jpg"]

@@ -169,9 +169,13 @@ def check_keywords(frontmatter, errors, warnings):
         warnings.append("No keywords defined")
         return
 
+    # New issues no longer ship topic placeholders, but catch any added by hand.
     placeholder_keywords = [k for k in keywords if re.match(r'^topic\d+$', k)]
     if placeholder_keywords:
         errors.append(f"Keyword placeholders not replaced: {', '.join(placeholder_keywords)}")
+
+    if any(not k.strip() for k in keywords):
+        warnings.append("Empty keyword in list")
 
 
 def check_hero_image(cwd, errors, warnings):
