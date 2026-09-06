@@ -1,29 +1,17 @@
-{{ $alt := .Text }}
-{{ $title := .Title }}
-{{ $dst := .Destination }}
-
-{{/* 1) Try to resolve as a page resource in the current page bundle */}}
-{{ $res := .Page.Resources.GetMatch (printf "**%s" $dst) }}
-
-{{/* 2) Decide the final src */}}
-{{ $src := "" }}
-{{ if $res }}
-  {{/* Resource found: use its permalink (already absolute) */}}
-  {{ $src = $res.Permalink }}
-{{ else if hasPrefix $dst "http" }}
-  {{/* External URL: keep as-is */}}
-  {{ $src = $dst }}
-{{ else }}
-  {{/* Not a resource: treat as site-relative/static and absolutize */}}
-  {{ $src = ($dst | relURL | absURL) }}
-{{ end }}
-
-
-<img 
-    src="{{ $src }}" 
-    alt="{{ $alt }}"
-    title="{{ $title }}"
-    loading="lazy"
-    decoding="async"
-    style="max-width: 100%; height: auto;"
-/>
+{{- /*
+  Renders every markdown image. Accepts the bundle image as `./pic.jpg` or
+  `pic.jpg` and emits an absolute URL either way, so the same markup works on
+  the site, on localhost, and inside the newsletter email. Same hook as the
+  Digital Sovereignty Chronicle repo - keep the two in sync.
+*/ -}}
+{{- $dst := .Destination -}}
+{{- $src := $dst -}}
+{{- $u := urls.Parse $dst -}}
+{{- if not $u.IsAbs -}}
+  {{- with .Page.Resources.Get (strings.TrimPrefix "./" $u.Path) -}}
+    {{- $src = .Permalink -}}
+  {{- else -}}
+    {{- $src = absURL $dst -}}
+  {{- end -}}
+{{- end -}}
+<img src="{{ $src }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }} loading="lazy" decoding="async" style="max-width: 100%; height: auto;">
