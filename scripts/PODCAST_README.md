@@ -251,6 +251,27 @@ Symlinks are at:
 
 After updating scripts, no additional steps needed (symlinks auto-update).
 
+## YouTube Archive Videos
+
+YouTube does not accept audio-only uploads, so `scripts/youtube_archive.py`
+wraps every archived episode MP3 in an MP4: one 1920x1080 frame (blurred hero
+backdrop, hero picture, title, date, logo) looped at 2 fps under AAC audio.
+The same frame is saved as a 1280x720 thumbnail, and a `.txt` next to each
+video carries the YouTube title, description, and tags to paste.
+
+```bash
+scripts/youtube_archive.py                 # all episodes -> ~/Desktop/tsb-youtube
+scripts/youtube_archive.py --only 2026-06-21
+scripts/youtube_archive.py --verify        # re-check durations and codecs
+```
+
+Existing videos are skipped unless `--force` is given. Output lands outside
+the repo on purpose: the archive is about 1 GB and must not be committed.
+
+This is a one-time backfill. Once the channel history exists, connect the
+podcast RSS feed in YouTube Studio (Create > Submit RSS feed) with a start date
+after the last manual upload so new episodes are ingested automatically.
+
 ## Questions?
 
 Contact: clayton.man@sundayblender.com
