@@ -37,13 +37,14 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from process_podcast import generate_shownotes  # noqa: E402
+from process_podcast import NEWSLETTER_DESC  # noqa: E402
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CONTENT_DIR = REPO_ROOT / "content" / "posts"
 LOGO = REPO_ROOT / "static" / "img" / "logo.png"
 DEFAULT_OUT = Path.home() / "Desktop" / "tsb-youtube"
 
+SITE_URL = "https://weekly.sundayblender.com"
 SITE_LABEL = "weekly.sundayblender.com"
 SHOW_LABEL = "THE SUNDAY BLENDER PODCAST"
 PLAYLIST = "The Sunday Blender Podcast"
@@ -92,9 +93,24 @@ class Episode:
 
     @property
     def youtube_description(self) -> str:
+        """Episode-specific lines first, then the standard blurb and the subscribe link."""
+        issue_line = ""
         if self.shownotes:
-            return self.shownotes
-        return generate_shownotes(f"{self.date:%Y-%m-%d}", self.description, self.slug)
+            for para in self.shownotes.split("\n\n"):
+                if para.startswith("In the issue of"):
+                    issue_line = para.strip()
+                    break
+        if not issue_line:
+            issue_line = f"In the issue of {self.date:%b %d}, {self.description}"
+        return f"""{issue_line}
+
+📖 Read the full newsletter article with pictures, comments, and likes:
+{SITE_URL}/p/{self.slug}/
+
+{NEWSLETTER_DESC}
+
+📧 Subscribe to The Sunday Blender newsletter with email:
+{SITE_URL}"""
 
 
 # ---------------------------------------------------------------- front matter
