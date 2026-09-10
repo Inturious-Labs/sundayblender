@@ -101,7 +101,7 @@ class Episode:
                     issue_line = para.strip()
                     break
         if not issue_line:
-            issue_line = f"In the issue of {self.date:%b %d}, {self.description}"
+            issue_line = f"In the issue of {self.date:%b %d}: {self.description}"
         return f"""{issue_line}
 
 📖 Read the full newsletter article with pictures, comments, and likes:

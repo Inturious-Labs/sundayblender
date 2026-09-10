@@ -97,18 +97,18 @@ def generate_shownotes(date_str, description, slug):
     try:
         date_obj = datetime.strptime(date_str, '%Y-%m-%d')
         formatted_date = date_obj.strftime('%b %d')
-        transition = f"In the issue of {formatted_date}, "
+        transition = f"In the issue of {formatted_date}: "
     except:
         transition = ""
 
     article_url = f"{BASE_URL}/p/{slug}/" if slug else BASE_URL
 
-    shownotes = f"""{newsletter_desc}
-
-{transition}{description}
+    shownotes = f"""{transition}{description}
 
 📖 Read the full newsletter article with pictures, comments, and likes:
 {article_url}
+
+{newsletter_desc}
 
 📧 Subscribe to The Sunday Blender newsletter with email:
 {BASE_URL}
@@ -116,6 +116,7 @@ def generate_shownotes(date_str, description, slug):
 🎧 Listen on:
 • Apple Podcasts: https://podcasts.apple.com/us/podcast/the-sunday-blender-podcast/id1853996806
 • Spotify: https://open.spotify.com/show/0p6Boxgcyy9eJzdBQlu4CG
+• YouTube: https://www.youtube.com/playlist?list=PLcRJg9AlaYT4
 • 小宇宙 (Xiaoyuzhou): https://www.xiaoyuzhoufm.com/podcast/691d248b88967822c085fda5"""
 
     return shownotes

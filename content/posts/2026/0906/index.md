@@ -2,7 +2,7 @@
 title: The Age of Mathematics Crisis
 date: 2026-09-06
 slug: the-age-of-mathematics-crisis
-description: we’re flooded by AI-generated proofs that are beyond the comprehension of humans
+description: We’re flooded by AI-generated proofs that are beyond the comprehension of humans
 keywords: ["news for kids", "kids news", "children's news", "news for teens", "kid-friendly news", "weekly news for kids", "current events for kids", "world news for children", "educational news"]
 featured_image: "hero.jpg"
 featured_image_alt: “Microduck"
@@ -15,12 +15,12 @@ podcast:
   duration: 1446
   filesize: 20916749
   shownotes: |
-    The Sunday Blender is a weekly newsletter that reports top trending news around the world. It's made for curious English-speaking kids aged 8~15 who aspire for a bigger world and nurture a life-long habit of reading. Every new issue is delivered to your email inbox on Saturday. Each issue comes with 20~25 stories. Each story has no more than 100 words, in plain English with a picture. These stories cover Technology, Global, Economy & Finance, Nature & Environment, Science, Lifestyle & Culture, Sports, History, Art, and Comedy. It's about 10~15 minutes of reading time.
-    
-    In the issue of Sep 06, we’re flooded by AI-generated proofs that are beyond the comprehension of humans
+    In the issue of Sep 06: We’re flooded by AI-generated proofs that are beyond the comprehension of humans
     
     📖 Read the full newsletter article with pictures, comments, and likes:
     https://weekly.sundayblender.com/p/the-age-of-mathematics-crisis/
+    
+    The Sunday Blender is a weekly newsletter that reports top trending news around the world. It's made for curious English-speaking kids aged 8~15 who aspire for a bigger world and nurture a life-long habit of reading. Every new issue is delivered to your email inbox on Saturday. Each issue comes with 20~25 stories. Each story has no more than 100 words, in plain English with a picture. These stories cover Technology, Global, Economy & Finance, Nature & Environment, Science, Lifestyle & Culture, Sports, History, Art, and Comedy. It's about 10~15 minutes of reading time.
     
     📧 Subscribe to The Sunday Blender newsletter with email:
     https://weekly.sundayblender.com
@@ -28,6 +28,7 @@ podcast:
     🎧 Listen on:
     • Apple Podcasts: https://podcasts.apple.com/us/podcast/the-sunday-blender-podcast/id1853996806
     • Spotify: https://open.spotify.com/show/0p6Boxgcyy9eJzdBQlu4CG
+    • YouTube: https://www.youtube.com/playlist?list=PLcRJg9AlaYT4
     • 小宇宙 (Xiaoyuzhou): https://www.xiaoyuzhoufm.com/podcast/691d248b88967822c085fda5
 ---
 
@@ -35,7 +36,7 @@ podcast:
 
 Do you know that you can also listen to The Sunday Blender as a podcast? Your kids can listen to the issues (over-the-air or downloaded) on drowsy school bus rides, on long family road trips, or during boring waits for Disney roller coasters.
 
-It’s available on [Apple](https://podcasts.apple.com/us/podcast/the-sunday-blender-podcast/id1853996806), [Spotify](https://open.spotify.com/show/0p6Boxgcyy9eJzdBQlu4CG), Youtube (being rebuilt currently), and [Xiaoyouzhou](https://www.xiaoyuzhoufm.com/podcast/691d248b88967822c085fda5) (for those in China). 
+It’s available on [Apple](https://podcasts.apple.com/us/podcast/the-sunday-blender-podcast/id1853996806), [Spotify](https://open.spotify.com/show/0p6Boxgcyy9eJzdBQlu4CG), [YouTube](https://www.youtube.com/playlist?list=PLcRJg9AlaYT4), and [Xiaoyouzhou](https://www.xiaoyuzhoufm.com/podcast/691d248b88967822c085fda5) (for those in China). 
 
 I only promise this - the host’s English is PERFECT. 
 
