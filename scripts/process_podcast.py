@@ -103,12 +103,12 @@ def generate_shownotes(date_str, description, slug):
 
     article_url = f"{BASE_URL}/p/{slug}/" if slug else BASE_URL
 
-    shownotes = f"""{newsletter_desc}
-
-{transition}{description}
+    shownotes = f"""{transition}{description}
 
 📖 Read the full newsletter article with pictures, comments, and likes:
 {article_url}
+
+{newsletter_desc}
 
 📧 Subscribe to The Sunday Blender newsletter with email:
 {BASE_URL}
