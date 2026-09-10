@@ -2,7 +2,7 @@
 title: The Age of Mathematics Crisis
 date: 2026-09-06
 slug: the-age-of-mathematics-crisis
-description: we’re flooded by AI-generated proofs that are beyond the comprehension of humans
+description: We’re flooded by AI-generated proofs that are beyond the comprehension of humans
 keywords: ["news for kids", "kids news", "children's news", "news for teens", "kid-friendly news", "weekly news for kids", "current events for kids", "world news for children", "educational news"]
 featured_image: "hero.jpg"
 featured_image_alt: “Microduck"
@@ -15,7 +15,7 @@ podcast:
   duration: 1446
   filesize: 20916749
   shownotes: |
-    In the issue of Sep 06, we’re flooded by AI-generated proofs that are beyond the comprehension of humans
+    In the issue of Sep 06: We’re flooded by AI-generated proofs that are beyond the comprehension of humans
     
     📖 Read the full newsletter article with pictures, comments, and likes:
     https://weekly.sundayblender.com/p/the-age-of-mathematics-crisis/

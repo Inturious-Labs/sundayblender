@@ -212,7 +212,7 @@ podcast:
   duration: 0
   filesize: 0
   shownotes: |
-    In the issue of {publication_date}, {description}
+    In the issue of {publication_date}: {description}
 
     📖 Read the full newsletter article with pictures, comments, and likes:
     https://weekly.sundayblender.com/p/{slug}/

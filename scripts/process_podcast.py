@@ -97,7 +97,7 @@ def generate_shownotes(date_str, description, slug):
     try:
         date_obj = datetime.strptime(date_str, '%Y-%m-%d')
         formatted_date = date_obj.strftime('%b %d')
-        transition = f"In the issue of {formatted_date}, "
+        transition = f"In the issue of {formatted_date}: "
     except:
         transition = ""
 
