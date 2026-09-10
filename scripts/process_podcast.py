@@ -116,6 +116,7 @@ def generate_shownotes(date_str, description, slug):
 🎧 Listen on:
 • Apple Podcasts: https://podcasts.apple.com/us/podcast/the-sunday-blender-podcast/id1853996806
 • Spotify: https://open.spotify.com/show/0p6Boxgcyy9eJzdBQlu4CG
+• YouTube: https://www.youtube.com/playlist?list=PLcRJg9AlaYT4
 • 小宇宙 (Xiaoyuzhou): https://www.xiaoyuzhoufm.com/podcast/691d248b88967822c085fda5"""
 
     return shownotes

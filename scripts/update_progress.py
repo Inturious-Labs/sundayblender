@@ -32,6 +32,7 @@ BASE_URL = "https://weekly.sundayblender.com"
 PODCAST_RSS = f"{BASE_URL}/podcast.xml"
 APPLE_PODCASTS = "https://podcasts.apple.com/us/podcast/the-sunday-blender-podcast/id1853996806"
 SPOTIFY = "https://open.spotify.com/show/0p6Boxgcyy9eJzdBQlu4CG"
+YOUTUBE = "https://www.youtube.com/playlist?list=PLcRJg9AlaYT4"
 XIAOYUZHOU = "https://www.xiaoyuzhoufm.com/podcast/691d248b88967822c085fda5"
 
 
