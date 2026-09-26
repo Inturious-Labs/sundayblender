@@ -28,9 +28,9 @@
     padding: 30px 24px;
     margin: 0 0 24px;
 }
-@media (prefers-color-scheme: dark) {
-    .home-card { background: #1f1f1f; box-shadow: 0 0 8px rgba(0, 0, 0, 0.4); }
-}
+/* Night styling follows the theme's body.night toggle (journal.js), NOT the
+   OS media query — the two must stay in sync or cards desync from the page */
+body.night .home-card { background: #282828; box-shadow: 0 0 8px rgba(0, 0, 0, 0.4); }
 /* The signup partial draws its own top divider; redundant inside a card */
 .home-card .newsletter-divider { display: none; }
 .home-card .newsletter-signup { padding-top: 0; }
@@ -81,6 +81,61 @@
     position: absolute;
     left: 0;
     font-size: 0.95em;
+}
+body.night .home-benefits-heading { color: #c89b6e; }
+body.night .home-benefits-divider { background: linear-gradient(to right, transparent, #c89b6e, transparent); }
+body.night .home-benefits-lede { color: #cfcfcf; }
+/* journal.scss hardcodes rgba(0,0,0,x) for summaries/meta with higher
+   specificity than plain night rules — match it with !important */
+body.night .post-item-summary { color: #b8b8b8 !important; }
+body.night .post-item-meta { color: #9a9a9a !important; }
+
+/* Dark mode toggle — journal.js binds to these exact element IDs.
+   Desktop: right-aligned to the same 30px inset as .nav-footer, so the
+   button's right edge lines up with the GitHub/X icons below it. */
+.nav-darkmode-toggle { display: flex; justify-content: flex-end; padding-right: 30px; margin-top: 0.75rem; }
+.dark-mode-toggle {
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.45);
+    transition: color 0.2s ease, border-color 0.2s ease;
+    padding: 0;
+}
+.dark-mode-toggle:hover { color: #89532B; border-color: #89532B; }
+.dark-mode-toggle .material-icons { font-size: 20px; }
+body.night .dark-mode-toggle { color: rgba(255, 255, 255, 0.55); border-color: rgba(255, 255, 255, 0.2); }
+body.night .dark-mode-toggle:hover { color: #c89b6e; border-color: #c89b6e; }
+/* Mobile variant: hidden on desktop; on phones it floats fixed at the
+   top-right of the header (next to the hamburger) so it is always visible
+   and reachable while scrolling. */
+.mobile-darkmode-toggle { display: none; }
+@media screen and (max-width: 1020px) {
+    .mobile-darkmode-toggle {
+        display: block;
+        position: fixed;
+        top: 14px;
+        right: 14px;
+        z-index: 1700; /* above the header (1600), below the drawer menu (1800) */
+    }
+    .mobile-darkmode-toggle .dark-mode-toggle {
+        width: 40px;
+        height: 40px;
+        background: rgba(255, 255, 255, 0.92);
+        border-color: transparent;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+    }
+    body.night .mobile-darkmode-toggle .dark-mode-toggle {
+        background: rgba(40, 40, 40, 0.92);
+        border-color: rgba(255, 255, 255, 0.12);
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    }
 }
 </style>
 

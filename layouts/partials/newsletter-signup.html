@@ -160,17 +160,26 @@
     }
 }
 
-/* Dark mode support */
-@media (prefers-color-scheme: dark) {
-    .newsletter-input {
-        background: rgba(255, 255, 255, 0.9);
-        color: #333;
-    }
-
-    .newsletter-input:focus {
-        background: white;
-    }
+/* Dark mode support — follows the theme's body.night toggle (journal.js),
+   not the OS media query, so it stays in sync with the rest of the page */
+body.night .newsletter-signup { color: #ccc; }
+body.night .newsletter-content h3 { color: #c89b6e; }
+body.night .newsletter-content p { color: #ececec; }
+body.night .newsletter-input {
+    background: #303030;
+    border-color: #555;
+    color: #eee;
 }
+body.night .newsletter-input:focus {
+    background: #383838;
+    border-color: #9C633A;
+    box-shadow: 0 0 0 2px rgba(156, 99, 58, 0.35);
+}
+body.night .newsletter-input::placeholder { color: #999; }
+body.night .newsletter-privacy { color: #cfcfcf; opacity: 1; }
+body.night .newsletter-privacy a { color: #cfcfcf; }
+body.night .newsletter-button { background: #9C633A; }
+body.night .newsletter-button:hover { background: #b0754a; }
 </style>
 
 <script>
