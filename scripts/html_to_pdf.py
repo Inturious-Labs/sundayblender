@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/Users/zire/.venvs/tsb/bin/python
 """
 HTML to PDF Converter for Sunday Blender Newsletter
 Converts the built Hugo HTML page to PDF

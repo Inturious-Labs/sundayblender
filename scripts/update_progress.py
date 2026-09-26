@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/Users/zire/.venvs/tsb/bin/python
 """
 Update Content Update Progress chart in README.md.
 Checks production site and podcast platforms for article status.

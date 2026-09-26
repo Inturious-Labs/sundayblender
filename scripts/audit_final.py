@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/Users/zire/.venvs/tsb/bin/python
 """
 Final audit for Sunday Blender article before git push.
 Checks HTML output, RSS feeds, and Twitter card metadata.

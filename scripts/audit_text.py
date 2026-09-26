@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/Users/zire/.venvs/tsb/bin/python
 """
 Audit a Sunday Blender article to ensure it's ready for publishing.
 

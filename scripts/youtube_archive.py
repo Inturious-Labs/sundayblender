@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/Users/zire/.venvs/tsb/bin/python
 """
 Build YouTube-ready videos for every archived Sunday Blender podcast episode.
 
