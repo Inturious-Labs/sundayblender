@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/Users/zire/.venvs/tsb/bin/python
 """
 Schedule tweets from a Sunday Blender article.
 Called by schedule_tweets.sh

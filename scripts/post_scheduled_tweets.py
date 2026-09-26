@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/Users/zire/.venvs/tsb/bin/python
 """
 Post Scheduled Tweets - Cron Job Script
 

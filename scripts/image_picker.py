@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/Users/zire/.venvs/tsb/bin/python
 """
 tsb-image-picker — pick images for a Sunday Blender issue from a local contact sheet.
 

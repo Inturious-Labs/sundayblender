@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/Users/zire/.venvs/tsb/bin/python
 """
 Process podcast for Sunday Blender Newsletter.
 Converts m4a to mp3, updates frontmatter with metadata, and generates shownotes.

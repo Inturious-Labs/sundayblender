@@ -43,7 +43,7 @@
                             <div class="post-item-image-wrapper">
                             <div class="post-item-image"
                             {{ if $image }}
-                                {{ $thumbnail := $image.Fill "460x240" }}
+                                {{ $thumbnail := $image.Fill "460x240 Center" }}
                                  style="background-image: url('{{ $thumbnail.RelPermalink }}')"
                             {{ else }}
                             
