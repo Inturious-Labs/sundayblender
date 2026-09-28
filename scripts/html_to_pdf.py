@@ -369,6 +369,11 @@ def clean_html_for_pdf(html_path, working_dir):
         display: none !important;
     }
 
+    /* Hide the podcast/audio player block — useless in a PDF */
+    .podcast-player, audio {
+        display: none !important;
+    }
+
     /* Hide header metadata elements */
     .tags, .tag-list, .post-tags, .article-tags,
     .description, .post-description, .excerpt, .summary,
