@@ -8,7 +8,8 @@ pipeline as youtube_archive.py, which is the batch tool for the historical
 back-catalogue. This tool is for the weekly workflow: run it on an issue
 folder after the podcast MP3 exists and upload the produced files.
 
-For the issue folder (the one holding index.md) this writes, next to the MP3:
+For the issue folder (the one holding index.md) this writes to the video
+depot (~/Desktop/tsb-youtube, kept out of git and Vercel):
     YYYY-MM-DD-<slug>.mp4            the video to upload
     YYYY-MM-DD-<slug>-thumbnail.jpg  custom thumbnail (1280x720)
     YYYY-MM-DD-<slug>.txt            title, description, tags to paste
@@ -16,7 +17,7 @@ For the issue folder (the one holding index.md) this writes, next to the MP3:
 Usage (from anywhere):
     tsb-make-youtube content/posts/2026/0927     # issue folder, absolute or relative
     tsb-make-youtube --force ...                 # re-encode if the MP4 already exists
-    tsb-make-youtube --out DIR ...               # write outputs elsewhere (e.g. ~/Desktop)
+    tsb-make-youtube --out DIR ...               # write outputs elsewhere
 
 Requires ffmpeg/ffprobe on PATH and Pillow (both in the tsb venv).
 """
@@ -27,7 +28,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from youtube_archive import (  # noqa: E402
-    GREEN, RED, YELLOW, NC,
+    DEFAULT_OUT, GREEN, RED, YELLOW, NC,
     build, load_episodes,
 )
 
@@ -54,7 +55,7 @@ def main() -> int:
     ap.add_argument("issue", nargs="?", default=".",
                     help="issue folder containing index.md (or its date), default: current dir")
     ap.add_argument("--out", type=Path, default=None,
-                    help="output folder (default: the issue folder itself)")
+                    help=f"output folder (default: {DEFAULT_OUT}, the video depot)")
     ap.add_argument("--force", action="store_true", help="re-encode if the MP4 already exists")
     args = ap.parse_args()
 
@@ -77,7 +78,7 @@ def main() -> int:
               f"and a featured_image that exist.")
         return 1
 
-    out_dir = args.out.resolve() if args.out else episode.source_dir
+    out_dir = args.out.resolve() if args.out else DEFAULT_OUT
     print(f"Issue : {episode.title}")
     print(f"Date  : {episode.date:%Y-%m-%d}  (episode {episode.number:02d})")
     print(f"MP3   : {episode.mp3.name}")
