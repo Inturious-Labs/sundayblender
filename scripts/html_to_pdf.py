@@ -177,7 +177,7 @@ def clean_html_for_pdf(html_path, working_dir):
 
     body {
         font-family: 'Georgia', serif;
-        font-size: 11px !important;
+        font-size: 20px !important;
         line-height: 1.6 !important;
         color: #000 !important;
         background: white !important;
@@ -185,19 +185,11 @@ def clean_html_for_pdf(html_path, working_dir):
         padding: 0 !important;
         width: 100% !important;
         max-width: none !important;
-        /* Override Bootstrap's @media print `body { min-width: 992px !important }`,
-           which forces a wide layout and makes Chrome shrink-to-fit the whole page */
-        min-width: 0 !important;
-    }
-
-    .container, .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
-        min-width: 0 !important;
-        max-width: none !important;
     }
 
     .magazine-header {
         width: 100% !important;
-        height: 2.9in !important;
+        height: 4in !important;
         position: relative !important;
         margin: 0 0 0.3in 0 !important;
         display: flex !important;
@@ -239,7 +231,7 @@ def clean_html_for_pdf(html_path, working_dir):
 
     .newsletter-name {
         font-family: 'Times New Roman', serif !important;
-        font-size: 40px !important;
+        font-size: 48px !important;
         font-weight: bold !important;
         margin: 0 0 10px 0 !important;
         letter-spacing: 2px !important;
@@ -252,7 +244,7 @@ def clean_html_for_pdf(html_path, working_dir):
 
     .issue-title {
         font-family: 'Georgia', serif !important;
-        font-size: 18px !important;
+        font-size: 28px !important;
         font-weight: normal !important;
         font-style: italic !important;
         margin: 15px auto 0 auto !important;
@@ -294,7 +286,7 @@ def clean_html_for_pdf(html_path, working_dir):
     }
 
     h1 {
-        font-size: 16px !important;
+        font-size: 24px !important;
         margin-bottom: 16px !important;
         column-span: all;
         text-align: center;
@@ -303,7 +295,7 @@ def clean_html_for_pdf(html_path, working_dir):
     }
 
     h2 {
-        font-size: 13px !important;
+        font-size: 20px !important;
         margin: 20px 0 12px 0 !important;
         font-weight: bold !important;
         break-after: avoid;
@@ -318,7 +310,7 @@ def clean_html_for_pdf(html_path, working_dir):
     }
 
     h3 {
-        font-size: 12px !important;
+        font-size: 18px !important;
         margin: 16px 0 10px 0 !important;
         font-weight: bold !important;
         text-transform: uppercase !important;
@@ -329,7 +321,7 @@ def clean_html_for_pdf(html_path, working_dir):
     }
 
     p {
-        font-size: 11px !important;
+        font-size: 20px !important;
         line-height: 1.6 !important;
         margin-bottom: 12px !important;
         orphans: 2;
@@ -367,6 +359,13 @@ def clean_html_for_pdf(html_path, working_dir):
     /* Hide any navigation, footer, sidebar elements */
     nav, aside, .sidebar, .navigation, .menu, .footer {
         display: none !important;
+    }
+
+    /* Deterministic print scale: Chrome shrink-to-fit. Bootstrap's print CSS
+       (body { min-width: 992px }) used to provide this implicitly; asserting it
+       here keeps the published-issue look even when the site CSS fails to load. */
+    body {
+        min-width: 992px !important;
     }
 
     /* Hide the podcast/audio player block — useless in a PDF */
@@ -636,7 +635,7 @@ def clean_html_for_pdf(html_path, working_dir):
 
         # Issue date - create a copy of title styling but smaller
         formatted_date = datetime.strptime(header_info['date'], '%Y-%m-%d').strftime('%b %d, %Y')
-        issue_date = soup.new_tag('div', **{'class': 'issue-title', 'style': 'font-size: 12px !important; margin-top: 10px !important; opacity: 0.8 !important;'})
+        issue_date = soup.new_tag('div', **{'class': 'issue-title', 'style': 'font-size: 18px !important; margin-top: 10px !important; opacity: 0.8 !important;'})
         issue_date.string = formatted_date
         header_content.append(issue_date)
 
