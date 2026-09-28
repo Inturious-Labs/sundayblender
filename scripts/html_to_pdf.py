@@ -217,7 +217,7 @@ def clean_html_for_pdf(html_path, working_dir):
         left: 0 !important;
         right: 0 !important;
         bottom: 0 !important;
-        background: rgba(0, 0, 0, 0.7) !important;
+        background: rgba(0, 0, 0, 0.45) !important;
         z-index: 1 !important;
     }
 
