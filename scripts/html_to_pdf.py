@@ -217,7 +217,7 @@ def clean_html_for_pdf(html_path, working_dir):
         left: 0 !important;
         right: 0 !important;
         bottom: 0 !important;
-        background: rgba(0, 0, 0, 0.7) !important;
+        background: rgba(0, 0, 0, 0.45) !important;
         z-index: 1 !important;
     }
 
@@ -358,6 +358,18 @@ def clean_html_for_pdf(html_path, working_dir):
 
     /* Hide any navigation, footer, sidebar elements */
     nav, aside, .sidebar, .navigation, .menu, .footer {
+        display: none !important;
+    }
+
+    /* Deterministic print scale: Chrome shrink-to-fit. Bootstrap's print CSS
+       (body { min-width: 992px }) used to provide this implicitly; asserting it
+       here keeps the published-issue look even when the site CSS fails to load. */
+    body {
+        min-width: 992px !important;
+    }
+
+    /* Hide the podcast/audio player block — useless in a PDF */
+    .podcast-player, audio {
         display: none !important;
     }
 
