@@ -113,3 +113,5 @@ __pycache__/
 dist/
 build/
 *.egg
+# Video builds stay out of git/Vercel — depot is ~/Desktop/tsb-youtube
+*.mp4
