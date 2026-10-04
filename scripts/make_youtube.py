@@ -74,8 +74,8 @@ def main() -> int:
     episode = next((ep for ep in episodes if ep.source_dir == issue_dir), None)
     if episode is None:
         print(f"{RED}no podcast episode in {issue_dir}{NC}\n"
-              f"Check that index.md has podcast.enabled: true, a podcast file, "
-              f"and a featured_image that exist.")
+              f"Check that index.md has podcast.enabled: true, draft is not true, "
+              f"a podcast file, and a featured_image that exist.")
         return 1
 
     out_dir = args.out.resolve() if args.out else DEFAULT_OUT
