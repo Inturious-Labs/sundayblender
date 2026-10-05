@@ -28,6 +28,11 @@ fi
 source venv/bin/activate
 
 # Run the Twitter bot posting script
-python3 scripts/post_scheduled_tweets.py
+# - python3 -u: unbuffered stdout so the log always shows the last action before a hang
+# - timeout -k 30s 15m: hard watchdog. A stalled network call (tweepy Client has no
+#   timeout param) used to hang forever while holding the flock above, silently
+#   blocking every cron run. Any run longer than 15 min gets killed, the lock is
+#   released, and the next cron run carries on.
+timeout --kill-after=30s 15m python3 -u scripts/post_scheduled_tweets.py
 
 # Lock is automatically released when script exits

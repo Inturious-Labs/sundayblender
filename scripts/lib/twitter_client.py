@@ -45,7 +45,8 @@ class TwitterClient:
 
         # Create API client (v1.1 for media upload)
         # wait_on_rate_limit=False: fail fast instead of sleeping (prevents zombie processes)
-        self.api = tweepy.API(auth, wait_on_rate_limit=False)
+        # timeout=60: abort network calls that stall (prevents flock-holding hangs)
+        self.api = tweepy.API(auth, wait_on_rate_limit=False, timeout=60)
 
         # Create client for API v2 (for posting)
         # wait_on_rate_limit=False: fail fast instead of sleeping (prevents zombie processes)
