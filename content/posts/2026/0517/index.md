@@ -1,6 +1,7 @@
 ---
 title: "The Call of the Wild"
 date: 2026-05-17
+issue: 54
 slug: the-call-of-the-wild
 description: "We try hard to hold on to things when we're about to lose them. "
 keywords: ["news for kids", "kids news", "children's news", "news for teens", "kid-friendly news", "weekly news for kids", "current events for kids", "world news for children", "educational news"]

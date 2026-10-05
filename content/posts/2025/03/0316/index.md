@@ -1,6 +1,7 @@
 ---
 title: "Space Oddities On the Moon Space"
 date: 2025-03-16
+issue: 9
 description: "take your protein pills and put your helmet on"
 tags: ["nasa", "openai", "ai", "intel", "brain-tech", "russia", "hong-kong", "new-zealand", "gold", "singapore", "japan", "mathematics", "space-exploration", "lunar-eclipse", "architecture", "england", "denmark", "festival", "f1-racing", "nba", "cycling", "india"]
 draft: false

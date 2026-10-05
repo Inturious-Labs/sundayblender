@@ -1,6 +1,7 @@
 ---
 title: "All You Need Is Another AI Research Report"
 date: 2025-09-20
+issue: 27
 slug: "all-you-need-is-another-ai-research-report"
 description: "A busy week of AI reports and summits. OpenAI, DeepSeek, and Anthropic reveal how AI is being used. Meta and Huawei host DevCons drawing thousands."
 tags: ["openai", "deepseek", "anthropic", "meta", "huawei", "china", "japan", "nasa", "cycling", "table tennis"]

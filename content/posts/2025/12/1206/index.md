@@ -1,6 +1,7 @@
 ---
 title: "Humans Are No Longer the Only Species to Use Fiber Optics"
 date: 2025-12-06
+issue: 36
 slug: human-are-no-longer-the-only-species-to-use-fiber-optics
 description: "Bird's nests have been discovered in Ukraine that are constructed by the debris of war-fighting drones."
 tags: ["AI", "Smartphone", "Electric Car", "Sri Lanka", "South Korea", "Hong Kong", "Ukraine", "Music", "Game", "Literature", "Lottery", "Travel", "NBA", "Snooker", "NFL"]

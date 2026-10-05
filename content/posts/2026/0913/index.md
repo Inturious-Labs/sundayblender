@@ -1,6 +1,7 @@
 ---
 title: Can Teenagers Still Read?
 date: 2026-09-13
+issue: 63
 slug: can-teenagers-still-read
 description: The reading capability of teenagers is declining due to a lack of attention and too much screen time
 keywords: ["news for kids", "kids news", "children's news", "news for teens", "kid-friendly news", "weekly news for kids", "current events for kids", "world news for children", "educational news"]

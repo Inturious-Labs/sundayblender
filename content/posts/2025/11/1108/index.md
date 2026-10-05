@@ -1,6 +1,7 @@
 ---
 title: "Who Wins In This AI Bonanza?"
 date: 2025-11-08
+issue: 32
 slug: who-wins-in-this-ai-bonanza
 description: "As every big tech except Google is selling compute power to OpenAI, are we entering into an AI bubble, or just accelerating a historical bonanza?"
 tags: ["OpenAI", "Amazon", "Alibaba", "AI", "USA", "Switzerland", "Philippines", "Shanghai", "Starbucks", "Mautai", "Comet", "Tesla", "Game", "Mexico", "Czech", "Marathon", "New York", "NBA", "Soccer"]

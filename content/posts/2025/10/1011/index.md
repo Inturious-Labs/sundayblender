@@ -1,6 +1,7 @@
 ---
 title: "Djokovic Falls to Vacherot at 2025 Shanghai Masters"
 date: 2025-10-11
+issue: 29
 slug: djokovic-falls-to-vacherot-at-2025-shanghai-masters
 description: "Crypto crashes amid quantum computing breakthroughs and looming US-China trade war. Another epic rift breaks out in the Harry Potter universe."
 tags: ["NBA", "cycling", "AI", "China", "OpenAI", "Game", "festival", "archaeology", "USA", "Mexico", "crypto", "tesla", "tennis", "MLB", "Minecraft", "auto", "South Korea",  "Qualcomm", "Japan", "quantum physics", "Nobel", "Rolex", "music"]

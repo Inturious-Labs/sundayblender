@@ -1,6 +1,7 @@
 ---
 title: "An Incredible Journey From Wuhan To Singapore"
 date: 2026-01-03
+issue: 39
 slug: an-incredible-journey-from-wuhan-to-singapore
 description: "Manus AI's acquisition by Meta became the exclamation mark for 2025, the year of AI agent. How shall we embrace AI in our daily life?"
 tags: ["AI", "Electric Cars", "SpaceTech", "Cycling", "Tennis", "Baseball", "Literature", "Switzerland"]

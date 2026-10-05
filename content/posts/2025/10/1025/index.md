@@ -1,6 +1,7 @@
 ---
 title: "The Greatest Performance in Baseball History"
 date: 2025-10-25
+issue: 30
 slug: the-greatest-performance-in-baseball-history
 description: "Shohei Ohtani delivered an epic performance in 2025 NLCS Game 4 over the Milwaukee Brewers "
 tags: ["AWS", "Anthropic", "OpenAI", "Oracle", "Meta", "China", "Japan", "Google", "France", "Spain", "USA", "Porsche", "Pfizer", "Microsoft", "Australia", "Greece",  "MLB", "NBA", "Ironman", "Picasso"]

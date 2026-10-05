@@ -1,6 +1,7 @@
 ---
 title: "Build A Second Brain to Compound Knowledge Learning"
 date: 2026-04-11
+issue: 49
 slug: build-a-second-brain-to-compound-knowledge-learning
 description: "Fast rising capabilities of AI models reinvigorated the second brain movement"
 keywords: ["news for kids", "kids news", "children's news", "news for teens", "kid-friendly news", "weekly news for kids", "current events for kids", "world news for children", "educational news", "Obsidian", "Apple", "Anthropic", "Nantucket", "The Strait of Hormuz", "Arakurayama Sengen Park", "Artemis II", "Augusta", "Tour of Flanders", "Erling Haaland"]

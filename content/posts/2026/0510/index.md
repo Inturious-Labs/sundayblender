@@ -1,6 +1,7 @@
 ---
 title: "Double Wins for Arsenal in 2026?"
 date: 2026-05-10
+issue: 53
 slug: double-wins-for-arsenal-in-2026
 description: "Arsenal is headed for a historical double wins - both England's Premier League and the European League"
 keywords: ["news for kids", "kids news", "children's news", "news for teens", "kid-friendly news", "weekly news for kids", "current events for kids", "world news for children", "educational news"]

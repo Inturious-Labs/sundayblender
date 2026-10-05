@@ -19,6 +19,7 @@
                 {{ end }}
             >
                 <div class="post-title">
+                    {{ with .Params.issue }}<div class="issue-number" style="font-size: 0.85em; letter-spacing: 0.08em; text-transform: uppercase; opacity: 0.8; margin-bottom: 0.4em;">Issue #{{ . }} · {{ $.PublishDate.Format "January 2, 2006" }}</div>{{ end }}
                     <h1>{{ .Title }}</h1>
                     {{ if .Params.description }}
                     <div class="post-subtitle">

@@ -1,6 +1,7 @@
 ---
 title: "The Charming Arrival of AGI"
 date: 2025-03-29
+issue: 11
 description: "All Ghibli Images (AGI) is taking over the Internet"
 tags: ["ai", "openai", "xai", "twitter", "fusion-tech", "electric-vehicles", "myanmar", "china", "mlb", "space-tech", "box-office", "disney", "facebook", "f1-racing", "cycling", "nba", "archaeology"]
 draft: false

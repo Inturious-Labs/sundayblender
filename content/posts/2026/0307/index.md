@@ -1,6 +1,7 @@
 ---
 title: "Facing the Storm"
 date: 2026-03-07
+issue: 45
 slug: facing-the-storm
 description: "Resilience and grit are found not only in sports, but also in everyday life, the uprising AI wave, and even in the driest desert."
 keywords: ["news for kids", "kids news", "children's news", "news for teens", "kid-friendly news", "weekly news for kids", "current events for kids", "world news for children", "educational news", "Apple", "OpenClaw", "Qwen", "MiniMax", "Belt and Road", "Atacama Desert", "World Obesity Day", "Gentle Monster", "LeBron James", "Venus Williams"]

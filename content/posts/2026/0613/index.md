@@ -1,6 +1,7 @@
 ---
 title: "Who Will Win the 2026 World Cup?"
 date: 2026-06-13
+issue: 57
 slug: who-will-win-2026-world-cup
 description: "Vanishing Vision Pro and human visitors, SpaceX and Amazon's glory moments, World Cup is ON!"
 keywords: ["news for kids", "kids news", "children's news", "news for teens", "kid-friendly news", "weekly news for kids", "current events for kids", "world news for children", "educational news"]

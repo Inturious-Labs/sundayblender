@@ -1,6 +1,7 @@
 ---
 title: "Ancient Water on Mars"
 date: 2025-03-02
+issue: 7
 description: "defunct Chinese rover found an ocean shoreline on the red planet"
 tags: ["openai", "deepseek", "ai", "xiaomi", "samsung", "crypto", "ukrain", "chile", "japan", "hong-kong","ipo", "trade-war", "btc", "eth", "archaeology", "brain-tech", "india", "climate-change", "fashion", "marathon", "cycling", "nba", "daytona-500"]
 draft: false

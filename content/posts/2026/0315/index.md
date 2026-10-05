@@ -1,6 +1,7 @@
 ---
 title: "The Unstoppable Kimi"
 date: 2026-03-15
+issue: 46
 slug: the-unstoppable-kimi
 description: "Italian sensation Kimi Antonelli won F1 in Shanghai at 19 and Moonshot AI - the studio behind AI model Kimi, raced to $18 billion valuation in just 3 years"
 keywords: ["news for kids", "kids news", "children's news", "news for teens", "kid-friendly news", "weekly news for kids", "current events for kids", "world news for children", "educational news", "Nvidia", "the witcher 4", "F1", "holi", "Pi Day", "Nowruz", "Shimanami Kaido", "Sambhar Lake", "Yuja Wang", "Delta Force"]

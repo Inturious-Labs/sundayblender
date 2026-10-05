@@ -1,6 +1,7 @@
 ---
 title: We Will Go To the Moon Again
 date: 2026-09-27
+issue: 65
 slug: we-will-go-to-the-moon-again
 description: NASA plans to land humans on the Moon in 2028 and a build moon base there
 keywords: ["news for kids", "kids news", "children's news", "news for teens", "kid-friendly news", "weekly news for kids", "current events for kids", "world news for children", "educational news"]

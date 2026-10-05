@@ -1,6 +1,7 @@
 ---
 title: "Wear Adidas to Handle Important Business in the City"
 date: 2026-06-07
+issue: 56
 slug: wear-adidas-to-handle-important-business-in-the-city
 description: "Now, that's how to market a brand. Don't take yourself too seriously."
 keywords: ["news for kids", "kids news", "children's news", "news for teens", "kid-friendly news", "weekly news for kids", "current events for kids", "world news for children", "educational news"]

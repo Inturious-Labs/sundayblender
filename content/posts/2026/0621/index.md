@@ -1,6 +1,7 @@
 ---
 title: "Wonderwall and Other Wonders"
 date: 2026-06-21
+issue: 58
 slug: wonderwall-and-other-wonders
 description: "Messi, Mbappe, Vinicius, Haaland, Kane all in peak form; all eyes on Ronaldo"
 keywords: ["news for kids", "kids news", "children's news", "news for teens", "kid-friendly news", "weekly news for kids", "current events for kids", "world news for children", "educational news"]

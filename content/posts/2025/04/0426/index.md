@@ -1,6 +1,7 @@
 ---
 title: "A Tale of Two Nations"
 date: 2025-04-26
+issue: 14
 description: "one is working too hard and trying to chill; the other one is chilling too much and trying to work ... wait, what is that trade war about again?"
 tags: ["ai", "stanford", "tencent", "google", "apple", "rednote", "intel", "gold", "ipo", "byd", "bmw", "nasa", "africa", "festival", "f1-racing", "nba", "nfl", "cycling", "soccer", "boxing"]
 draft: false

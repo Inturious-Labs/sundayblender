@@ -1,6 +1,7 @@
 ---
 title: "The End Game for Technology"
 date: 2025-03-09
+issue: 8
 description: "some became retro-styled collectables and some vanished without a trace"
 tags: ["spacex", "nasa", "xiaomi", "deepseek", "ai", "tiktok", "microsoft", "india", "myanmar", "trade-war", "china", "tata-group", "biotech","fusion-tech", "oscar-2025", "box-office", "womens-day", "nba", "soccer"]
 draft: false

@@ -1,6 +1,7 @@
 ---
 title: "No Vibe-Watching of World Cup"
 date: 2026-07-05
+issue: 60
 slug: no-vibe-watching-of-world-cup
 description: "You can vibe code, but not vibe watch World Cup. To enjoy the game, you need to fully present."
 keywords: ["news for kids", "kids news", "children's news", "news for teens", "kid-friendly news", "weekly news for kids", "current events for kids", "world news for children", "educational news"]

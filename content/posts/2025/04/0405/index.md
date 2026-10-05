@@ -1,6 +1,7 @@
 ---
 title: "The World Jitters But Nintendo Glitters"
 date: 2025-04-05
+issue: 12
 description: "when we're back in the caves to save costs, at least we can still play Switch 2 and watch Zelda movie"
 tags: ["nintendo", "samsung", "tiktok", "xiaomi", "china", "festival", "game", "soccer", "nba", "cycling"]
 draft: false

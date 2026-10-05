@@ -1,6 +1,7 @@
 ---
 title: "Celebrate the Year of the Fire Horse"
 date: 2026-02-21
+issue: 43
 slug: celebrate-the-year-of-the-fire-horse
 description: "In a year of ambition and relentless forward motion, disruptive AI tech shocked traditional film and gaming industry."
 keywords: ["news for kids", "kids news", "children's news", "news for teens", "kid-friendly news", "weekly news for kids", "current events for kids", "world news for children", "educational news", "red horse", "openclaw", "milan winter olympics", "seedance", "zhipu", "Spinosaurus Mirabilis", "Artemis", "Lionel Richie", "Seollal", "Bad Bunny"]

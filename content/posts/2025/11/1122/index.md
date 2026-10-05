@@ -1,6 +1,7 @@
 ---
 title: "The Most Intelligent AI Model Yet?"
 date: 2025-11-22
+issue: 34
 slug: the-most-intelligent-ai-model-yet
 description: "Google released Gemini 3, challenging OpenAI's ChatGPT and Anthropic's Claude. Google becomes the first full-stack AI superpower with a complete lineup."
 tags: [Google, AI, Programming, SpaceTech, Education, Estonia, China, France, Singapore, Bitcoin, Oscar, Nintendo, Literature, Festival, Table Tennis, NBA, Soccer, Tennis]

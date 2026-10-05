@@ -1,6 +1,7 @@
 ---
 title: From Frankenstein to Arduino-Powered Robots
 date: 2026-08-30
+issue: 61
 slug: from-frankenstein-to-arduino-powered-robots
 description: No more Frankenstein fear after two hundred years of machine revolution
 keywords: ["news for kids", "kids news", "children's news", "news for teens", "kid-friendly news", "weekly news for kids", "current events for kids", "world news for children", "educational news"]

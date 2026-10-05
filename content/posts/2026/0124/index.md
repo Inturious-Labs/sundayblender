@@ -1,6 +1,7 @@
 ---
 title: "Destination: China - The Return of Western Rock Bands"
 date: 2026-01-24
+issue: 41
 slug: destination-china-return-of-western-rock-bands
 description: "American alternative rock band the Pixies and English rock band Suede are returning to China in 2026, so are the giant pandas from Japan"
 tags: ["Google", "Anthropic", "China", "Japan", "Canada", "Russia", "India", "USA", "Soccer", "NBA", "Fencing", "Pickleball", "Snooker"]
