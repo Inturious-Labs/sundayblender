@@ -196,10 +196,10 @@ def create_article():
 
     # Create index.md content
     content = f'''---
-title: "{title}"
+title: {title}
 date: {publication_date}
 slug: {slug}
-description: "{description}"
+description: {description}
 keywords: ["news for kids", "kids news", "children's news", "news for teens", "kid-friendly news", "weekly news for kids", "current events for kids", "world news for children", "educational news"]
 featured_image: "hero.jpg"
 featured_image_alt: "Hero image alt text placeholder"
