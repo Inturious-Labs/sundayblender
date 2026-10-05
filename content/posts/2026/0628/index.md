@@ -1,6 +1,7 @@
 ---
 title: "A Hot Week for the World Cup and Europe"
 date: 2026-06-28
+issue: 59
 slug: a-hot-week-for-the-world-cup-and-europe
 description: "Superstars have delivered electrifying performances in the group stage of 2026 World Cup"
 keywords: ["news for kids", "kids news", "children's news", "news for teens", "kid-friendly news", "weekly news for kids", "current events for kids", "world news for children", "educational news"]

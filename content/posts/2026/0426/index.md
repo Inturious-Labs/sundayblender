@@ -1,6 +1,7 @@
 ---
 title: "Game Is No. 1, Friendship is No. 14"
 date: 2026-04-26
+issue: 51
 slug: game-is-no-1-friendship-is-no-14
 description: "This is how to make soccer great in China - no meddling from central government, serve up what fans want for glory and honor, and most importantly - just play good ball"
 keywords: ["news for kids", "kids news", "children's news", "news for teens", "kid-friendly news", "weekly news for kids", "current events for kids", "world news for children", "educational news"]

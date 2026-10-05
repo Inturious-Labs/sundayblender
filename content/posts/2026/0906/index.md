@@ -1,6 +1,7 @@
 ---
 title: The Age of Mathematics Crisis
 date: 2026-09-06
+issue: 62
 slug: the-age-of-mathematics-crisis
 description: We’re flooded by AI-generated proofs that are beyond the comprehension of humans
 keywords: ["news for kids", "kids news", "children's news", "news for teens", "kid-friendly news", "weekly news for kids", "current events for kids", "world news for children", "educational news"]

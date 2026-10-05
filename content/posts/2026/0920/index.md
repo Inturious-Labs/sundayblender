@@ -1,6 +1,7 @@
 ---
 title: Tech Tourism in China Has Begun
 date: 2026-09-20
+issue: 64
 slug: tech-tourism-in-china-has-begun
 description: Seeing is believing. As the global innovation race heats up, tech pilgrims flock to China to visit factories and AI labs. 
 keywords: ["news for kids", "kids news", "children's news", "news for teens", "kid-friendly news", "weekly news for kids", "current events for kids", "world news for children", "educational news"]

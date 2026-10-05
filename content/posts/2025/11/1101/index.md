@@ -1,6 +1,7 @@
 ---
 title: "When Yang Meets Yang: Celebrating Life at the Peak of Autumn"
 date: 2025-11-01
+issue: 31
 slug: when-yang-meets-yang-celebrating-life-at-the-peak-of-autumn
 description: "a busy week from the costume block party of Halloween to visiting elders during Double Ninth Festival"
 tags: ["NVIDIA", "AI", "Visa", "Climate", "soccer", "MLB", "NFL", "NBA"]

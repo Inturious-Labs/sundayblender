@@ -1,6 +1,7 @@
 ---
 title: "Robots Run Faster Than Humans Now"
 date: 2026-04-19
+issue: 50
 slug: robots-run-faster-than-humans-now
 description: "Will sports still bring the same level of fun when robots can easily beat humans?"
 keywords: ["news for kids", "kids news", "children's news", "news for teens", "kid-friendly news", "weekly news for kids", "current events for kids", "world news for children", "educational news"]

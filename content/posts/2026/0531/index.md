@@ -1,6 +1,7 @@
 ---
 title: "Countdown to World Cup"
 date: 2026-05-31
+issue: 55
 slug: countdown-to-world-cup
 description: "The giants of the past still loom large at the upcoming World Cup — but a new generation is ready to take the stage"
 keywords: ["news for kids", "kids news", "children's news", "news for teens", "kid-friendly news", "weekly news for kids", "current events for kids", "world news for children", "educational news"]

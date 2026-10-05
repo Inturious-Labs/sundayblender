@@ -1,6 +1,7 @@
 ---
 title: "Meeting of the Minds"
 date: 2025-02-24
+issue: 6
 description: "Flying car and flying NBA dunk star"
 tags: ["china", "xai", "microsoft", "sony", "adobe", "deepseek", "electric-vehicles", "religion", "india", "thailand", "huawei", "clean-energy", "semi-conductor", "space-exploration", "archaeology", "norway", "climate-change", "box-office", "olympics-2025", "soccer", "f1-racing", "cycling", "nba", "germany" ]
 draft: false

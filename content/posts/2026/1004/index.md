@@ -1,6 +1,7 @@
 ---
 title: Flowers and Crayfish in the Desert
 date: 2026-10-04
+issue: 66
 slug: flowers-and-crayfish-in-the-desert
 description: Life finds a way in the desert, and NASA looks for a cave on the Moon
 keywords: ["news for kids", "kids news", "children's news", "news for teens", "kid-friendly news", "weekly news for kids", "current events for kids", "world news for children", "educational news"]

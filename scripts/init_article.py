@@ -125,6 +125,26 @@ def format_date_readable(date_str):
     except:
         return date_str
 
+def get_next_issue_number(repo_root):
+    """
+    Determine the next issue serial number by scanning all posts for an
+    'issue:' frontmatter field and returning max + 1 (1 if none found).
+    Drafts are included in the scan so a reserved number is never reused.
+    """
+    posts_dir = repo_root / "content" / "posts"
+    max_issue = 0
+    for index_file in posts_dir.rglob("index.md"):
+        try:
+            for line in index_file.read_text().split('\n'):
+                if line.startswith('issue:'):
+                    value = line.replace('issue:', '').strip().strip('"')
+                    if value.isdigit():
+                        max_issue = max(max_issue, int(value))
+                    break
+        except Exception:
+            continue
+    return max_issue + 1
+
 def generate_previous_issues_section(repo_root):
     """Generate the Previous Issues markdown section."""
     posts = get_published_posts(repo_root, limit=3)
@@ -188,6 +208,14 @@ def create_article():
     slug = f"title-placeholder-{month}{day}"
     description = "Description placeholder - brief summary of this issue"
 
+    # Assign issue serial number (max existing issue number + 1)
+    issue_number = None
+    if repo_root:
+        issue_number = get_next_issue_number(repo_root)
+        print(f"{BLUE}Issue number: #{issue_number}{NC}")
+    else:
+        print(f"{YELLOW}Warning: repo root not found, no issue number assigned{NC}")
+
     # Generate previous issues section
     previous_issues = ""
     if repo_root:
@@ -198,6 +226,7 @@ def create_article():
     content = f'''---
 title: {title}
 date: {publication_date}
+issue: {issue_number}
 slug: {slug}
 description: {description}
 keywords: ["news for kids", "kids news", "children's news", "news for teens", "kid-friendly news", "weekly news for kids", "current events for kids", "world news for children", "educational news"]
@@ -212,7 +241,7 @@ podcast:
   duration: 0
   filesize: 0
   shownotes: |
-    In the issue of {publication_date}: {description}
+    In issue #{issue_number} ({publication_date}): {description}
 
     📖 Read the full newsletter article with pictures, comments, and likes:
     https://weekly.sundayblender.com/p/{slug}/

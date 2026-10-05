@@ -1,6 +1,7 @@
 ---
 title: "AI Advances Scientific Discovery"
 date: 2025-05-17
+issue: 18
 description: "with all the hype and mega data centers, AI is finding its use in scientific analysis"
 tags: ["ai", "war-tech", "openai", "defense", "pharmaceutical", "outbreak", "usa", "starbucks", "archaeology", "biotech", "climate-change", "pulitzer", "soccer", "nba", "cycling" ]
 draft: false

@@ -1,6 +1,7 @@
 ---
 title: "To the Moon and Back"
 date: 2026-04-05
+issue: 48
 slug: to-the-moon-and-back
 description: "A new space age started with the launch of Artemis II. This time, the Moon will be more than just a beacon of inspiration, but become a new frontier for energy and science."
 keywords: ["news for kids", "kids news", "children's news", "news for teens", "kid-friendly news", "weekly news for kids", "current events for kids", "world news for children", "educational news", "Claude Code", "Sora", "HarmonyOS", "SpaceX", "Timmy", "Artemis", "McCartney", "Harry Styles", "Elden Ring", "ZXMoto"]

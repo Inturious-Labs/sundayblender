@@ -1,6 +1,7 @@
 ---
 title: "Who Will Lead Brazil at the 2026 World Cup, Neymar or Estevao?"
 date: 2025-11-29
+issue: 35
 slug: who-will-lead-brazil-at-2026-world-cup-neymay-or-estevao
 description: "While 33-year-old Neymar is injured again and may miss the 2026 World Cup, 18-year-old rookie Estevao is buzzing in the Champions League."
 tags: ["South Korea", "AI", "Alibaba", "Hong Kong", "Thailand", "Afghanistan", "Canada", "Hungary", "Xiaomi", "Japan", "New York City", "Netflix", "Nvidia", "Badminton", "Soccer", "NBA", "Sprinting", "Snooker", "F1", "NCAA", "Game"]

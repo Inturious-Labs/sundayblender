@@ -1,6 +1,7 @@
 ---
 title: "Cyber Doomsday Meets AI Boomtown"
 date: 2025-06-21
+issue: 23
 description: "While hackers leak 16 billion passwords, SoftBank and Google double down on AI dominance. Welcome to the post-Internet world since Manchester Baby."
 tags: ["softbank", "google", "tencent", "audi", "tesla", "spacex", "israel", "japan", "north-korea", "jd.com", "climate-change", "soccer", "mlb"]
 draft: false

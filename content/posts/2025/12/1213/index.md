@@ -1,6 +1,7 @@
 ---
 title: "So Many AI Reports, So Little Time to Read"
 date: 2025-12-13
+issue: 37
 slug: so-many-ai-reports-so-little-time-to-read
 description: "An influx of AI reports from a16z, OpenAI, and Anthropic on usage patterns. The irony: who has time to read hundreds of pages of AI reports?"
 tags: ["AI", "Australia", "Japan", "Indonesia", "Netflix", "Hong Kong", "Literature", "Music", "Soccer", "NBA", "F1 Racing", "Cycling"]

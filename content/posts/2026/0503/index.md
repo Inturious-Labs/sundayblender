@@ -1,6 +1,7 @@
 ---
 title: "The Way You Make Me Feel"
 date: 2026-05-03
+issue: 52
 slug: the-way-you-make-me-feel
 description: "Music used to resonate with people of different cultures and transcend feelings across different generations. It's much harder to see that today."
 keywords: ["news for kids", "kids news", "children's news", "news for teens", "kid-friendly news", "weekly news for kids", "current events for kids", "world news for children", "educational news", "Michael Jackson", "Prince", "", "Kenzaburo Oe", "Damien Hirst", "Hyrox", "Rubik's Cube", "Voyager 1", "El Nino", "KOSPI"]

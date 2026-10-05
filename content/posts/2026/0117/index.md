@@ -1,6 +1,7 @@
 ---
 title: "The Attack of Robots, Elephant, Banksy, and Heat"
 date: 2026-01-17
+issue: 40
 slug: the-attack-of-robots-elephant-banksy-and-heat
 description: "Robots are trending at CES 2026; a lonely elephant is on a killing spree; Banksy upsets Sotheby's; 2025 became one of the hottest years on record."
 tags: ["AI", "Robot", "Apple", "Google", "OpenAI", "Meta", "Japan", "Canada", "India", "Africa", "Soccer", "Table Tennis"]

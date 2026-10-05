@@ -1,6 +1,7 @@
 ---
 title: "The Making of a Hero"
 date: 2026-03-01
+issue: 44
 slug: the-making-of-a-hero
 description: "The AI world is turning upside down with the rise of open-weight models from China and the meteoric ascent to the top of App Store chart of Claude"
 keywords: ["news for kids", "kids news", "children's news", "news for teens", "kid-friendly news", "weekly news for kids", "current events for kids", "world news for children", "educational news"]

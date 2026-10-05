@@ -1,6 +1,7 @@
 ---
 title: "Flying Dutchman Sails Away"
 date: 2025-04-20
+issue: 13
 description: "in a world of chaos, human spirit of endurance and perseverance still carries the day"
 tags: ["auto", "quantum-computing", "harvard", "spain", "china", "trade-war", "ipo", "space-exploration", "festival", "box-office", "cycling", "f1-racing", "nba"]
 draft: false

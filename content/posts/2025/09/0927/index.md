@@ -1,6 +1,7 @@
 ---
 title: "150x Acceleration from Ford Model T to BYD Yangwang U9 Extreme"
 date: 2025-09-27
+issue: 28
 slug: 1500x-acceleration-from-ford-model-to-to-byd-yangwang-u9-extreme
 description: "From Ford Model T to electric Audi E5 and BYD Yangwang U9 — cars evolved fast. Will man visit Mars first, or will 3I/ATLAS visit Earth first?"
 tags: ["audi", "nasa", "byd", "nvidia", "openai", "USA", "China", "Italy", "gold", "crypto", "PSG",  "Kane", "Ford", "Cadillac", "Oktoberfest"]

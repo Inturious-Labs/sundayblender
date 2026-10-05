@@ -49,7 +49,7 @@
 
     {{ range $podcastPages }}
     <item>
-      <title>{{ .Title }}</title>
+      <title>{{ if .Params.issue }}The Sunday Blender #{{ .Params.issue }}: {{ .Title }}{{ else }}{{ .Title }}{{ end }}</title>
       <link>{{ .Permalink }}</link>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       <guid isPermaLink="true">{{ .Permalink }}</guid>
@@ -58,7 +58,8 @@
       <description>{{ if .Params.podcast.shownotes }}{{ .Params.podcast.shownotes | html }}{{ else }}{{ .Params.description | html }}{{ end }}</description>
 
       <!-- iTunes Episode Tags -->
-      <itunes:title>{{ .Title }}</itunes:title>
+      <itunes:title>{{ if .Params.issue }}The Sunday Blender #{{ .Params.issue }}: {{ .Title }}{{ else }}{{ .Title }}{{ end }}</itunes:title>
+      {{ with .Params.issue }}<itunes:episode>{{ . }}</itunes:episode>{{ end }}
       <itunes:author>{{ .Site.Params.author }}</itunes:author>
       <itunes:summary>{{ if .Params.podcast.shownotes }}{{ .Params.podcast.shownotes }}{{ else }}{{ .Params.description }}{{ end }}</itunes:summary>
       <itunes:explicit>false</itunes:explicit>

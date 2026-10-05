@@ -1,6 +1,7 @@
 ---
 title: "When AI Swung A Racket And Nadal Hung Up His"
 date: 2025-05-31
+issue: 20
 description: "Mission Impossible Continues for Tom Cruise, gamers in Helldivers II, a cloud-riding paraglider, Chinese cycling brand XDS, and the elderly in Denmark"
 tags: ["robotics", "denmark", "biotech", "game", "box-office", "reading-list", "cannes-festival", "f1-ralcing", "tennis", "soccer", "nba", "cycling", "china"]
 draft: false

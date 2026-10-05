@@ -1,6 +1,7 @@
 ---
 title: "The Dawn of Machine-to-Machine Society"
 date: 2026-01-31
+issue: 42
 slug: the-dawn-of-machine-to-machine-society
 description: "Did we just cross the singularity point where machines start interacting with each other autonomously without humans?"
 tags: ["China", "Brazil", "Ghana", "India", "South Korea", "Britain", "Climbing", "Football", "Soccer", "Electric Car"]

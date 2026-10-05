@@ -1,6 +1,7 @@
 ---
 title: "Make News Interesting For Kids"
 date: 2025-01-30
+issue: 2
 description: "why I make this news digest"
 tags: ["education", "news-for-kids", "parenting", "english-learning", "media-literacy"]
 draft: false

@@ -1,6 +1,7 @@
 ---
 title: "We Come This Far - Now What?"
 date: 2025-05-09
+issue: 16
 description: "Editor's notes for several questions on the creation of The Sunday Blender"
 tags: ["news-for-kids", "substack", "twitter", "ai"]
 draft: false
