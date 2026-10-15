@@ -63,7 +63,7 @@
     {
       "source": "/podcast.xml",
       "destination": "https://anchor.fm/s/117da5710/podcast/rss",
-      "permanent": true
+      "statusCode": 301
     }
   ]
 }
