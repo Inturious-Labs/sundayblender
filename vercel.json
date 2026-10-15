@@ -7,6 +7,7 @@
   "buildCommand": "hugo --minify --gc --buildFuture",
   "outputDirectory": "public",
   "framework": "hugo",
+  "trailingSlash": true,
   "headers": [
     {
       "source": "/p/(.*)",
@@ -23,6 +24,10 @@
         {
           "key": "Cache-Control",
           "value": "public, max-age=604800"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
         }
       ]
     },

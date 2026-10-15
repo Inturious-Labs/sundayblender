@@ -88,11 +88,11 @@ The **UEFA** (Union of European Football Associations) Nations League final in *
 ## Previous Issues
 ---
 
-June 7, 2025, **[Every Dog Has Its Da](https://weekly.sundayblender.com/p/every-dog-has-its-day)y**
+June 7, 2025, **[Every Dog Has Its Da](https://weekly.sundayblender.com/p/every-dog-has-its-day/)y**
 
-June 1, 2025, [When AI Swung a Racket and Nadal Hung Up His](https://weekly.sundayblender.com/p/when-ai-swung-a-racket-and-nadal-hung-up-his)
+June 1, 2025, [When AI Swung a Racket and Nadal Hung Up His](https://weekly.sundayblender.com/p/when-ai-swung-a-racket-and-nadal-hung-up-his/)
 
-May 24, 2025, **[Shining Stars of the Last Generation](https://weekly.sundayblender.com/p/shining-stars-of-the-last-generation)**
+May 24, 2025, **[Shining Stars of the Last Generation](https://weekly.sundayblender.com/p/shining-stars-of-the-last-generation/)**
 
 P.S. You can download the PDF version of this issue from the link below, which is now available to all free subscribers. Starting from August 1, 2025, the PDF link will be paywalled and available only to paid subscribers (monthly, yearly, or lifetime). Thank you for your support!
 

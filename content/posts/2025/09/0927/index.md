@@ -126,11 +126,11 @@ On **September 27, 1908**, automotive history was made when the first **Ford Mod
 
 ---
 
-September 20, 2025, **[All You Need Is Another AI Research Report](https://weekly.sundayblender.com/p/all-you-need-is-another-ai-research-report)**
+September 20, 2025, **[All You Need Is Another AI Research Report](https://weekly.sundayblender.com/p/all-you-need-is-another-ai-research-report/)**
 
-September 13, 2025, **[Good Old Apple Strikes Back](https://weekly.sundayblender.com/p/good-old-apple-strikes-back)**
+September 13, 2025, **[Good Old Apple Strikes Back](https://weekly.sundayblender.com/p/good-old-apple-strikes-back/)**
 
-July 06, 2025, **[While Young Talents Trailblaze AI Frontier, Legendary Icons Write New Chapters](https://weekly.sundayblender.com/p/while-young-talents-trailblaze-ai-frontier-legendary-icons-write-new-chapters)**
+July 06, 2025, **[While Young Talents Trailblaze AI Frontier, Legendary Icons Write New Chapters](https://weekly.sundayblender.com/p/while-young-talents-trailblaze-ai-frontier-legendary-icons-write-new-chapters/)**
 
 ---
 

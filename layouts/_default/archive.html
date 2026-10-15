@@ -1,0 +1,28 @@
+{{ define "main" }}
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
+            <div class="post-head-wrapper-text-only">
+                <div class="post-title">
+                    <h1>{{ .Title }}</h1>
+                    {{ with .Params.description }}<div class="post-subtitle">{{ . }}</div>{{ end }}
+                </div>
+            </div>
+            <div class="post-body-wrapper">
+                <div class="post-body" v-pre>
+                    {{ $issues := where (where site.RegularPages "Section" "posts") "Params.hidden" "!=" true }}
+                    <ul class="archive-list" style="list-style: none; padding-left: 0;">
+                    {{ range $issues.ByPublishDate.Reverse }}
+                        <li style="margin-bottom: 1.25em;">
+                            <div style="font-size: 0.85em; opacity: 0.75;">
+                                {{ with .Params.issue }}Issue #{{ . }} · {{ end }}<time datetime="{{ .PublishDate.Format "2006-01-02" }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
+                            </div>
+                            <a href="{{ .RelPermalink }}"><strong>{{ .Title }}</strong></a>
+                            {{ with .Params.description }}<div>{{ . }}</div>{{ end }}
+                        </li>
+                    {{ end }}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+{{ end }}

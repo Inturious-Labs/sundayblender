@@ -163,11 +163,11 @@ There is a Chinese story about eight immortals invited to a party across the sea
 
 ---
 
-August 30, 2026, **[From Frankenstein to Arduino-Powered Robots](https://weekly.sundayblender.com/p/from-frankenstein-to-arduino-powered-robots)**
+August 30, 2026, **[From Frankenstein to Arduino-Powered Robots](https://weekly.sundayblender.com/p/from-frankenstein-to-arduino-powered-robots/)**
 
-July 05, 2026, **[No Vibe-Watching of World Cup](https://weekly.sundayblender.com/p/no-vibe-watching-of-world-cup)**
+July 05, 2026, **[No Vibe-Watching of World Cup](https://weekly.sundayblender.com/p/no-vibe-watching-of-world-cup/)**
 
-June 28, 2026, **[A Hot Week for the World Cup and Europe](https://weekly.sundayblender.com/p/a-hot-week-for-the-world-cup-and-europe)**
+June 28, 2026, **[A Hot Week for the World Cup and Europe](https://weekly.sundayblender.com/p/a-hot-week-for-the-world-cup-and-europe/)**
 
 
 ---

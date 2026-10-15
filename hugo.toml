@@ -36,16 +36,21 @@ googleAnalytics = "G-9WB2PSGYTC"
 	enableReadingTime = true
 	author = "Inturious Labs"
 	author_bio = "A newsman making the best news for kids with AI tools"
-	author_image = "/img/author.jpg"
+	author_image = "/img/herbert-yang.jpg"
 	logo = "/img/logo.png"
 	favicon = "/img/favicon.ico"
+
+	# Named editor: post bylines, the /author/ page, and NewsArticle JSON-LD.
+	[params.editor]
+		name = "Herbert Yang"
+		alternateName = "Clayton Man"  # pen name used on early issues
+		jobTitle = "Editor"
+		profile = "https://herbertyang.xyz/docs/about/herbert-yang/"
 
 [build]
 	writeStats = true
 
 [sitemap]
-	changefreq = "weekly"
-	priority = 0.5
 	entryLimit = 5000
 
 # Ensure trailing slashes for better URL structure
@@ -63,7 +68,7 @@ uglyURLs = false
 
 [[menu.main]]
 	name = "Archive"
-	url = "/#issues"
+	url = "/archive/"
 	weight = 2
 
 [[menu.main]]

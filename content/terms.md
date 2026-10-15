@@ -9,6 +9,8 @@ disablePagination: true
 build:
   list: false
   render: true
+sitemap:
+  disable: true
 ---
 
 ## Educational Purpose Only

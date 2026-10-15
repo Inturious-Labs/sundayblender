@@ -153,11 +153,11 @@ One of the most played pieces of music in the world has no known composer. Guita
 
 ---
 
-September 13, 2026, **[Can Teenagers Still Read?](https://weekly.sundayblender.com/p/can-teenagers-still-read)**
+September 13, 2026, **[Can Teenagers Still Read?](https://weekly.sundayblender.com/p/can-teenagers-still-read/)**
 
-September 06, 2026, **[The Age of Mathematics Crisis](https://weekly.sundayblender.com/p/the-age-of-mathematics-crisis)**
+September 06, 2026, **[The Age of Mathematics Crisis](https://weekly.sundayblender.com/p/the-age-of-mathematics-crisis/)**
 
-August 30, 2026, **[From Frankenstein to Arduino-Powered Robots](https://weekly.sundayblender.com/p/from-frankenstein-to-arduino-powered-robots)**
+August 30, 2026, **[From Frankenstein to Arduino-Powered Robots](https://weekly.sundayblender.com/p/from-frankenstein-to-arduino-powered-robots/)**
 
 
 ---

@@ -164,7 +164,7 @@ def generate_previous_issues_section(repo_root):
 
     for date_str, title, slug in posts:
         formatted_date = format_date_readable(date_str)
-        url = f"https://weekly.sundayblender.com/p/{slug}"
+        url = f"https://weekly.sundayblender.com/p/{slug}/"
         lines.append(f"{formatted_date}, **[{title}]({url})**")
         lines.append("")
 
@@ -206,6 +206,8 @@ def create_article():
     # Generate placeholder values
     title = "Title Placeholder"
     slug = f"title-placeholder-{month}{day}"
+    # Name 3-4 of the main stories, not just the lead one: this text is the
+    # search snippet and the archive blurb, so it should show the whole issue.
     description = "Description placeholder - brief summary of this issue"
 
     # Assign issue serial number (max existing issue number + 1)

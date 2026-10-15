@@ -157,11 +157,11 @@ Spanish architect **Antoni Gaudí** spent 43 years of his life on a single build
 
 ---
 
-February 21, 2026, **[Celebrate the Year of the Fire Horse](https://weekly.sundayblender.com/p/celebrate-the-year-of-the-fire-horse)**
+February 21, 2026, **[Celebrate the Year of the Fire Horse](https://weekly.sundayblender.com/p/celebrate-the-year-of-the-fire-horse/)**
 
-January 31, 2026, **[The Dawn of Machine-to-Machine Society](https://weekly.sundayblender.com/p/the-dawn-of-machine-to-machine-society)**
+January 31, 2026, **[The Dawn of Machine-to-Machine Society](https://weekly.sundayblender.com/p/the-dawn-of-machine-to-machine-society/)**
 
-January 24, 2026, **[Destination: China - The Return of Western Rock Bands](https://weekly.sundayblender.com/p/destination-china-return-of-western-rock-bands)**
+January 24, 2026, **[Destination: China - The Return of Western Rock Bands](https://weekly.sundayblender.com/p/destination-china-return-of-western-rock-bands/)**
 
 
 ---

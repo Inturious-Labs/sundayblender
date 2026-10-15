@@ -167,11 +167,11 @@ On **April 19, 1985**, "*We Are the World*" reached No. 1 on the **Billboard Hot
 
 ---
 
-April 11, 2026, **[Build A Second Brain to Compound Knowledge Learning](https://weekly.sundayblender.com/p/build-a-second-brain-to-compound-knowledge-learning)**
+April 11, 2026, **[Build A Second Brain to Compound Knowledge Learning](https://weekly.sundayblender.com/p/build-a-second-brain-to-compound-knowledge-learning/)**
 
-April 05, 2026, **[To the Moon and Back](https://weekly.sundayblender.com/p/to-the-moon-and-back)**
+April 05, 2026, **[To the Moon and Back](https://weekly.sundayblender.com/p/to-the-moon-and-back/)**
 
-March 22, 2026, **[The Future of SaaS Companies and Knowledge Workers](https://weekly.sundayblender.com/p/the-future-of-saas-companies-and-knowledge-workers)**
+March 22, 2026, **[The Future of SaaS Companies and Knowledge Workers](https://weekly.sundayblender.com/p/the-future-of-saas-companies-and-knowledge-workers/)**
 
 
 ---

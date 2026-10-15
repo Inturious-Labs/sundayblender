@@ -170,11 +170,11 @@ Tomorrow at art auction house **Christie's** in New York, a painting called Numb
 
 ---
 
-May 10, 2026, **[Double Wins for Arsenal in 2026?](https://weekly.sundayblender.com/p/double-wins-for-arsenal-in-2026)**
+May 10, 2026, **[Double Wins for Arsenal in 2026?](https://weekly.sundayblender.com/p/double-wins-for-arsenal-in-2026/)**
 
-May 03, 2026, **[The Way You Make Me Feel](https://weekly.sundayblender.com/p/the-way-you-make-me-feel)**
+May 03, 2026, **[The Way You Make Me Feel](https://weekly.sundayblender.com/p/the-way-you-make-me-feel/)**
 
-April 26, 2026, **[Game Is No. 1, Friendship is No. 14](https://weekly.sundayblender.com/p/game-is-no-1-friendship-is-no-14)**
+April 26, 2026, **[Game Is No. 1, Friendship is No. 14](https://weekly.sundayblender.com/p/game-is-no-1-friendship-is-no-14/)**
 
 
 ---

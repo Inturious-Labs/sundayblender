@@ -156,11 +156,11 @@ Around 1831, a 70-year-old Japanese artist created what has been called "possibl
 
 ---
 
-March 15, 2026, **[The Unstoppable Kimi](https://weekly.sundayblender.com/p/the-unstoppable-kimi)**
+March 15, 2026, **[The Unstoppable Kimi](https://weekly.sundayblender.com/p/the-unstoppable-kimi/)**
 
-March 07, 2026, **[Facing the Storm](https://weekly.sundayblender.com/p/facing-the-storm)**
+March 07, 2026, **[Facing the Storm](https://weekly.sundayblender.com/p/facing-the-storm/)**
 
-March 01, 2026, **[The Making of a Hero](https://weekly.sundayblender.com/p/the-making-of-a-hero)**
+March 01, 2026, **[The Making of a Hero](https://weekly.sundayblender.com/p/the-making-of-a-hero/)**
 
 
 ---

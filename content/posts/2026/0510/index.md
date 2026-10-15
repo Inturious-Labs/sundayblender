@@ -152,11 +152,11 @@ On **May 10, 1963**, five young Londoners walked into Olympic Sound Studios and 
 
 ---
 
-May 03, 2026, **[The Way You Make Me Feel](https://weekly.sundayblender.com/p/the-way-you-make-me-feel)**
+May 03, 2026, **[The Way You Make Me Feel](https://weekly.sundayblender.com/p/the-way-you-make-me-feel/)**
 
-April 26, 2026, **[Game Is No. 1, Friendship is No. 14](https://weekly.sundayblender.com/p/game-is-no-1-friendship-is-no-14)**
+April 26, 2026, **[Game Is No. 1, Friendship is No. 14](https://weekly.sundayblender.com/p/game-is-no-1-friendship-is-no-14/)**
 
-April 19, 2026, **[Robots Run Faster Than Humans Now](https://weekly.sundayblender.com/p/robots-run-faster-than-humans-now)**
+April 19, 2026, **[Robots Run Faster Than Humans Now](https://weekly.sundayblender.com/p/robots-run-faster-than-humans-now/)**
 
 
 ---

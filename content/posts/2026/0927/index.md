@@ -155,11 +155,11 @@ Cartoon by **Adam Douglas Thompson**, from **the New Yorker**
 
 ---
 
-September 20, 2026, **[Tech Tourism in China Has Begun](https://weekly.sundayblender.com/p/tech-tourism-in-china-has-begun)**
+September 20, 2026, **[Tech Tourism in China Has Begun](https://weekly.sundayblender.com/p/tech-tourism-in-china-has-begun/)**
 
-September 13, 2026, **[Can Teenagers Still Read?](https://weekly.sundayblender.com/p/can-teenagers-still-read)**
+September 13, 2026, **[Can Teenagers Still Read?](https://weekly.sundayblender.com/p/can-teenagers-still-read/)**
 
-September 06, 2026, **[The Age of Mathematics Crisis](https://weekly.sundayblender.com/p/the-age-of-mathematics-crisis)**
+September 06, 2026, **[The Age of Mathematics Crisis](https://weekly.sundayblender.com/p/the-age-of-mathematics-crisis/)**
 
 
 ---

@@ -1,24 +1,25 @@
+{{- /*
+  Lists only pages worth indexing: the homepage, published issues, and
+  the standalone pages named below. Those pages use `build.list: false`
+  (to stay off the homepage issue list), so they are fetched by path.
+  Section lists, taxonomy pages, and anything with
+  `sitemap: { disable: true }` are left out.
+*/ -}}
 {{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  {{ range .Data.Pages }}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {{- $pages := slice site.Home }}
+  {{- $pages = $pages | append (where (where site.RegularPages "Section" "posts") "Params.hidden" "!=" true) }}
+  {{- range slice "/about" "/archive" "/author" }}
+    {{- with site.GetPage . }}{{ $pages = $pages | append . }}{{ end }}
+  {{- end }}
+  {{- range $pages }}
+  {{- if not .Sitemap.Disable }}
   <url>
-    <loc>{{ if eq .Site.BaseURL "/" }}https://weekly.sundayblender.com{{ .RelPermalink }}{{ else }}{{ .Permalink }}{{ end }}</loc>
-    {{ if not .Lastmod.IsZero }}
-    <lastmod>{{ safeHTML ( .Lastmod.Format "2006-01-02T15:04:05-07:00" ) }}</lastmod>
-    {{ end }}
-    {{ with .Sitemap.ChangeFreq }}
-    <changefreq>{{ . }}</changefreq>
-    {{ end }}
-    {{ if ge .Sitemap.Priority 0.0 }}
-    <priority>{{ .Sitemap.Priority }}</priority>
-    {{ end }}
-    {{ if .IsTranslated }}
-    {{ range .Translations }}
-    <xhtml:link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}"/>
-    {{ end }}
-    <xhtml:link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}"/>
-    {{ end }}
+    <loc>{{ .Permalink }}</loc>
+    {{- if not .Lastmod.IsZero }}
+    <lastmod>{{ safeHTML (.Lastmod.Format "2006-01-02T15:04:05-07:00") }}</lastmod>
+    {{- end }}
   </url>
-  {{ end }}
-</urlset> 
+  {{- end }}
+  {{- end }}
+</urlset>

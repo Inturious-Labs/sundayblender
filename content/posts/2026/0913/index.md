@@ -156,11 +156,11 @@ On **September 13, 1985**, **Super Mario Bros.** went on sale in Japan for the F
 
 ---
 
-September 06, 2026, **[The Age of Mathematics Crisis](https://weekly.sundayblender.com/p/the-age-of-mathematics-crisis)**
+September 06, 2026, **[The Age of Mathematics Crisis](https://weekly.sundayblender.com/p/the-age-of-mathematics-crisis/)**
 
-August 30, 2026, **[From Frankenstein to Arduino-Powered Robots](https://weekly.sundayblender.com/p/from-frankenstein-to-arduino-powered-robots)**
+August 30, 2026, **[From Frankenstein to Arduino-Powered Robots](https://weekly.sundayblender.com/p/from-frankenstein-to-arduino-powered-robots/)**
 
-July 05, 2026, **[No Vibe-Watching of World Cup](https://weekly.sundayblender.com/p/no-vibe-watching-of-world-cup)**
+July 05, 2026, **[No Vibe-Watching of World Cup](https://weekly.sundayblender.com/p/no-vibe-watching-of-world-cup/)**
 
 
 ---

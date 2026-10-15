@@ -151,11 +151,11 @@ On **May 31, 1859**, the famous clock tower in London now known as **Big Ben** k
 
 ---
 
-May 17, 2026, **[The Call of the Wild](https://weekly.sundayblender.com/p/the-call-of-the-wild)**
+May 17, 2026, **[The Call of the Wild](https://weekly.sundayblender.com/p/the-call-of-the-wild/)**
 
-May 10, 2026, **[Double Wins for Arsenal in 2026?](https://weekly.sundayblender.com/p/double-wins-for-arsenal-in-2026)**
+May 10, 2026, **[Double Wins for Arsenal in 2026?](https://weekly.sundayblender.com/p/double-wins-for-arsenal-in-2026/)**
 
-May 03, 2026, **[The Way You Make Me Feel](https://weekly.sundayblender.com/p/the-way-you-make-me-feel)**
+May 03, 2026, **[The Way You Make Me Feel](https://weekly.sundayblender.com/p/the-way-you-make-me-feel/)**
 
 
 ---

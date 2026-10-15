@@ -172,11 +172,11 @@ Because Seven, Eight ("ate"), Nine
 
 ---
 
-April 26, 2026, **[Game Is No. 1, Friendship is No. 14](https://weekly.sundayblender.com/p/game-is-no-1-friendship-is-no-14)**
+April 26, 2026, **[Game Is No. 1, Friendship is No. 14](https://weekly.sundayblender.com/p/game-is-no-1-friendship-is-no-14/)**
 
-April 19, 2026, **[Robots Run Faster Than Humans Now](https://weekly.sundayblender.com/p/robots-run-faster-than-humans-now)**
+April 19, 2026, **[Robots Run Faster Than Humans Now](https://weekly.sundayblender.com/p/robots-run-faster-than-humans-now/)**
 
-April 11, 2026, **[Build A Second Brain to Compound Knowledge Learning](https://weekly.sundayblender.com/p/build-a-second-brain-to-compound-knowledge-learning)**
+April 11, 2026, **[Build A Second Brain to Compound Knowledge Learning](https://weekly.sundayblender.com/p/build-a-second-brain-to-compound-knowledge-learning/)**
 
 
 ---

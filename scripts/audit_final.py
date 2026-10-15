@@ -144,6 +144,31 @@ def check_html_seo(html_path, errors, warnings, passed):
         passed.append("H1 tag count OK (1)")
 
 
+# A link to an issue page: either absolute on our domain, or site-relative
+# right after "](" or "href=". Other sites' /p/ paths (e.g. Substack) don't match.
+ISSUE_LINK_RE = re.compile(
+    r'(?:https?://weekly\.sundayblender\.com|(?<=\]\()|(?<=href=")|(?<=href=\'))'
+    r'/p/[A-Za-z0-9_-]+/?(?![\w./-])'
+)
+
+
+def check_issue_link_slashes(content, errors, warnings, passed):
+    """Check every link to an issue page ends with '/'.
+
+    /p/slug and /p/slug/ are the same page; the slash form is the canonical
+    one, and the other only reaches it through a redirect.
+    """
+    links = 0
+    for line_no, line in enumerate(content.splitlines(), 1):
+        for match in ISSUE_LINK_RE.finditer(line):
+            links += 1
+            url = match.group(0)
+            if not url.endswith('/'):
+                errors.append(f"Line {line_no}: issue link missing trailing slash: {url} → {url}/")
+    if links and not any("issue link missing trailing slash" in e for e in errors):
+        passed.append(f"All {links} issue links end with a trailing slash")
+
+
 def check_draft_status(frontmatter, errors, warnings, passed):
     """Check draft is set to false."""
     draft_match = re.search(r'^draft:\s*(true|false)', frontmatter, re.MULTILINE)
@@ -374,6 +399,7 @@ def main():
     check_slug_length(frontmatter, errors, warnings, passed)
     check_hero_alt_text(frontmatter, errors, warnings, passed)
     check_draft_status(frontmatter, errors, warnings, passed)
+    check_issue_link_slashes(content, errors, warnings, passed)
     check_pdf_exists(cwd, date_str, errors, warnings, passed)
     check_mp3_exists(cwd, date_str, errors, warnings, passed)
     check_podcast_frontmatter(frontmatter, errors, warnings, passed)

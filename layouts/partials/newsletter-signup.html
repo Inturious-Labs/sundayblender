@@ -177,6 +177,8 @@ body.night .newsletter-input:focus {
 }
 body.night .newsletter-input::placeholder { color: #999; }
 body.night .newsletter-privacy { color: #cfcfcf; opacity: 1; }
+/* The note sits in a <small>, which the theme's "* { color: #000 }" turns black again */
+body.night .newsletter-privacy small { color: #cfcfcf; }
 body.night .newsletter-privacy a { color: #cfcfcf; }
 body.night .newsletter-button { background: #9C633A; }
 body.night .newsletter-button:hover { background: #b0754a; }

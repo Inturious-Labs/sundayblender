@@ -115,11 +115,11 @@ This painting is a classic work by **Wu Guanzhong**, a master of 20th-century Ch
 
 ---
 
-July 06, 2025, **[While Young Talents Trailblaze AI Frontier, Legendary Icons Write New Chapters](https://weekly.sundayblender.com/p/while-young-talents-trailblaze-ai-frontier-legendary-icons-write-new-chapters)**
+July 06, 2025, **[While Young Talents Trailblaze AI Frontier, Legendary Icons Write New Chapters](https://weekly.sundayblender.com/p/while-young-talents-trailblaze-ai-frontier-legendary-icons-write-new-chapters/)**
 
-June 28, 2025, **[Flying Without Wings, Seeing Without Eyes, and Driving Without Humans](https://weekly.sundayblender.com/p/flying-without-wings-seeing-without-eyes-and-driving-without-humans)**
+June 28, 2025, **[Flying Without Wings, Seeing Without Eyes, and Driving Without Humans](https://weekly.sundayblender.com/p/flying-without-wings-seeing-without-eyes-and-driving-without-humans/)**
 
-June 21, 2025, **[Cyber Doomsday Meets AI Boomtown](https://weekly.sundayblender.com/p/cyber-doomsday-meets-ai-boomtown)**
+June 21, 2025, **[Cyber Doomsday Meets AI Boomtown](https://weekly.sundayblender.com/p/cyber-doomsday-meets-ai-boomtown/)**
 
 ---
 

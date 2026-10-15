@@ -1,11 +1,16 @@
 {{- /*
   JSON-LD structured data for SEO + GEO (AI answer engines).
-  - Single pages (posts)        -> NewsArticle, with Organization publisher
-  - Home / list / other pages   -> WebSite + Organization
+  - Issues (posts section)      -> NewsArticle, Person author, Organization publisher
+  - /author/                    -> ProfilePage about the editor
+  - Everything else             -> WebSite + Organization
   Built with dict + jsonify so titles/descriptions are safely escaped.
 */ -}}
 
 {{- $siteURL := .Site.BaseURL -}}
+{{- /* Stable @ids let engines join the editor and the publication into one graph
+     across pages: the Organization names its founder, the Person names where they work. */ -}}
+{{- $orgID := printf "%s#organization" $siteURL -}}
+{{- $personID := printf "%s#person" ("/author/" | absURL) -}}
 {{- $orgLogo := dict
     "@type" "ImageObject"
     "url" (.Site.Params.logo | absURL)
@@ -14,13 +19,31 @@
 -}}
 {{- $publisher := dict
     "@type" "Organization"
+    "@id" $orgID
     "name" "The Sunday Blender"
     "url" $siteURL
     "logo" $orgLogo
     "sameAs" (slice "https://x.com/SundayBlender")
+    "founder" (dict "@type" "Person" "@id" $personID "name" .Site.Params.editor.name "url" ("/author/" | absURL))
 -}}
+{{- $editor := dict
+    "@type" "Person"
+    "@id" $personID
+    "name" .Site.Params.editor.name
+    "alternateName" .Site.Params.editor.alternateName
+    "jobTitle" .Site.Params.editor.jobTitle
+    "url" ("/author/" | absURL)
+    "sameAs" (slice .Site.Params.editor.profile)
+    "worksFor" (dict "@type" "Organization" "@id" $orgID "name" "The Sunday Blender" "url" $siteURL)
+-}}
+{{- /* The editor's one-line bio is the /author/ page description, kept in one place. */ -}}
+{{- with site.GetPage "/author" -}}
+  {{- with .Description -}}
+    {{- $editor = merge $editor (dict "description" .) -}}
+  {{- end -}}
+{{- end -}}
 
-{{- if .IsPage -}}
+{{- if and .IsPage (eq .Section "posts") -}}
   {{- /* Resolve hero image to an absolute URL (page-bundle resource or param). */ -}}
   {{- $img := "" -}}
   {{- with .Params.featured_image -}}
@@ -41,7 +64,7 @@
       "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00")
       "url" .Permalink
       "mainEntityOfPage" (dict "@type" "WebPage" "@id" .Permalink)
-      "author" (dict "@type" "Organization" "name" "The Sunday Blender" "url" $siteURL)
+      "author" $editor
       "publisher" $publisher
       "inLanguage" "en-US"
       "isAccessibleForFree" true
@@ -53,6 +76,15 @@
     {{- $article = merge $article (dict "articleSection" .) -}}
   {{- end -}}
   <script type="application/ld+json">{{ $article | jsonify (dict "indent" "  ") | safeJS }}</script>
+
+{{- else if eq .RelPermalink "/author/" -}}
+  {{- $profile := dict
+      "@context" "https://schema.org"
+      "@type" "ProfilePage"
+      "url" .Permalink
+      "mainEntity" (merge $editor (dict "image" (.Site.Params.author_image | absURL)))
+  -}}
+  <script type="application/ld+json">{{ $profile | jsonify (dict "indent" "  ") | safeJS }}</script>
 
 {{- else -}}
   {{- $website := dict

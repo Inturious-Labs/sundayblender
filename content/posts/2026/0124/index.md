@@ -179,11 +179,11 @@ Husband: Absolutely not. These books were published years ago.
 
 ---
 
-January 17, 2026, **[The Attack of Robots, Elephant, Banksy, and Heat](https://weekly.sundayblender.com/p/the-attack-of-robots-elephant-banksy-and-heat)**
+January 17, 2026, **[The Attack of Robots, Elephant, Banksy, and Heat](https://weekly.sundayblender.com/p/the-attack-of-robots-elephant-banksy-and-heat/)**
 
-January 03, 2026, **[An Incredible Journey From Wuhan To Singapore](https://weekly.sundayblender.com/p/an-incredible-journey-from-wuhan-to-singapore)**
+January 03, 2026, **[An Incredible Journey From Wuhan To Singapore](https://weekly.sundayblender.com/p/an-incredible-journey-from-wuhan-to-singapore/)**
 
-December 27, 2025, **[The Age of One-Person Billion Dollar Company](https://weekly.sundayblender.com/p/the-age-of-one-person-billion-dollar-company)**
+December 27, 2025, **[The Age of One-Person Billion Dollar Company](https://weekly.sundayblender.com/p/the-age-of-one-person-billion-dollar-company/)**
 
 
 ---

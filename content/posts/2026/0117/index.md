@@ -165,11 +165,11 @@ British super rock band **Led Zeppelin** is arguably the heaviest, most sonicall
 
 ---
 
-January 03, 2026, **[An Incredible Journey From Wuhan To Singapore](https://weekly.sundayblender.com/p/an-incredible-journey-from-wuhan-to-singapore)**
+January 03, 2026, **[An Incredible Journey From Wuhan To Singapore](https://weekly.sundayblender.com/p/an-incredible-journey-from-wuhan-to-singapore/)**
 
-December 27, 2025, **[The Age of One-Person Billion Dollar Company](https://weekly.sundayblender.com/p/the-age-of-one-person-billion-dollar-company)**
+December 27, 2025, **[The Age of One-Person Billion Dollar Company](https://weekly.sundayblender.com/p/the-age-of-one-person-billion-dollar-company/)**
 
-December 13, 2025, **[So Many AI Reports, So Little Time to Read](https://weekly.sundayblender.com/p/so-many-ai-reports-so-little-time-to-read)**
+December 13, 2025, **[So Many AI Reports, So Little Time to Read](https://weekly.sundayblender.com/p/so-many-ai-reports-so-little-time-to-read/)**
 
 
 ---

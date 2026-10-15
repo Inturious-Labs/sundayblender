@@ -158,11 +158,11 @@ Rule one for World Cup watch party: no explaining the **offside** rule to newcom
 
 ---
 
-June 07, 2026, **[Wear Adidas to Handle Important Business in the City](https://weekly.sundayblender.com/p/wear-adidas-to-handle-important-business-in-the-city)**
+June 07, 2026, **[Wear Adidas to Handle Important Business in the City](https://weekly.sundayblender.com/p/wear-adidas-to-handle-important-business-in-the-city/)**
 
-May 31, 2026, **[Countdown to World Cup](https://weekly.sundayblender.com/p/countdown-to-world-cup)**
+May 31, 2026, **[Countdown to World Cup](https://weekly.sundayblender.com/p/countdown-to-world-cup/)**
 
-May 17, 2026, **[The Call of the Wild](https://weekly.sundayblender.com/p/the-call-of-the-wild)**
+May 17, 2026, **[The Call of the Wild](https://weekly.sundayblender.com/p/the-call-of-the-wild/)**
 
 
 ---

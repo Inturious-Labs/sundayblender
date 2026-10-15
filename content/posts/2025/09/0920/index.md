@@ -140,11 +140,11 @@ The Battle of the Sexes was an exhibition tennis match on `September 20, 1973`, 
 
 ---
 
-September 13, 2025, **[Good Old Apple Strikes Back](https://weekly.sundayblender.com/p/good-old-apple-strikes-back)**
+September 13, 2025, **[Good Old Apple Strikes Back](https://weekly.sundayblender.com/p/good-old-apple-strikes-back/)**
 
-July 06, 2025, **[While Young Talents Trailblaze AI Frontier, Legendary Icons Write New Chapters](https://weekly.sundayblender.com/p/while-young-talents-trailblaze-ai-frontier-legendary-icons-write-new-chapters)**
+July 06, 2025, **[While Young Talents Trailblaze AI Frontier, Legendary Icons Write New Chapters](https://weekly.sundayblender.com/p/while-young-talents-trailblaze-ai-frontier-legendary-icons-write-new-chapters/)**
 
-June 28, 2025, **[Flying Without Wings, Seeing Without Eyes, and Driving Without Humans](https://weekly.sundayblender.com/p/flying-without-wings-seeing-without-eyes-and-driving-without-humans)**
+June 28, 2025, **[Flying Without Wings, Seeing Without Eyes, and Driving Without Humans](https://weekly.sundayblender.com/p/flying-without-wings-seeing-without-eyes-and-driving-without-humans/)**
 
 ---
 
