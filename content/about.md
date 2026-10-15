@@ -93,7 +93,7 @@ If you have an interesting local story, please send me a DM on either **Rapport*
 
 The Sunday Blender is created by **[Herbert Yang](/author/)**, a parent who believes in the power of reading and who happens to be at the forefront of the AI + crypto revolution. He leverages decentralized blockchain technology and AI to create many products for super content creators and growth hackers through [Inturious Labs](https://inturious.com/). 
 
-![Herbert Yang](/img/author.jpg)
+<img class="editor-avatar" src="/img/herbert-yang.jpg" alt="Herbert Yang" width="150" height="150">
 
 ## Is it free
 

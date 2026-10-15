@@ -14,7 +14,7 @@ build:
 
 <!-- TODO: write a fuller bio. Keep every fact here true; don't add anything made up. -->
 
-![Herbert Yang](/img/author.jpg)
+<img class="editor-avatar" src="/img/herbert-yang.jpg" alt="Herbert Yang" width="150" height="150">
 
 **Herbert Yang** is the editor of The Sunday Blender. He is a parent who believes in the power of reading. Every week he picks 20+ of the most interesting stories from around the world and retells each one in plain English for readers aged 8 to 15.
 

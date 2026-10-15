@@ -20,6 +20,19 @@
     }
 }
 
+/* Editor photo on /author/ and /about/: a small circle, like the profile card on the editor's own site.
+   The full path outranks the theme's ".post-body img { border-radius: 5px }" */
+.stream-container .post .post-body-wrapper .post-body img.editor-avatar {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 1.2rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #89532B;
+    box-shadow: none;
+}
+
 /* Shared homepage card wrapper — matches the archive card's white+shadow look */
 .home-card {
     background: #fff;
