@@ -60,7 +60,7 @@
 
             <!-- Podcast Audio Player -->
             {{ if .Params.podcast.enabled }}
-            <div class="podcast-player" style="background: #f5f5f5; padding: 20px; border-radius: 8px; margin: 20px;">
+            <div class="podcast-player tsb-box" style="padding: 20px; margin: 20px;">
                 <h3 style="margin-top: 0;">🎧 Listen to this article</h3>
                 <p style="margin: 0 0 15px 0; font-size: 14px;">
                     Also available on:
@@ -73,7 +73,7 @@
                     <source src="{{ .Params.podcast.file }}" type="audio/mpeg">
                     Your browser does not support the audio element.
                 </audio>
-                <p style="margin-bottom: 0; font-size: 14px; color: #666;">
+                <p class="tsb-muted" style="margin-bottom: 0; font-size: 14px;">
                     Duration: {{ div .Params.podcast.duration 60 }} minutes
                 </p>
             </div>
@@ -112,11 +112,11 @@
                 {{ $fileSize := $fileInfo.Size }}
                 {{ $fileSizeMB := div $fileSize 1048576.0 }}
                 {{ $fileSizeFormatted := printf "%.1f MB" $fileSizeMB }}
-                <div class="pdf-download-section" style="margin: 2rem 0; padding: 1.5rem; background: #f8f9fa; border-radius: 8px;">
+                <div class="pdf-download-section tsb-box" style="margin: 2rem 0; padding: 1.5rem;">
                     <div style="display: flex; align-items: center; gap: 0.75rem;">
                         <span style="font-size: 1.5rem;">📄</span>
                         <div>
-                            <p style="margin: 0; font-size: 0.9rem; color: #666;">Perfect for offline reading and printing • {{ $fileSizeFormatted }}</p>
+                            <p class="tsb-muted" style="margin: 0; font-size: 0.9rem;">Perfect for offline reading and printing • {{ $fileSizeFormatted }}</p>
                             <a href="{{ $pdfUrl }}"
                                style="display: inline-block; margin-top: 0.75rem; background: #89532B; color: white; padding: 0.5rem 1rem; text-decoration: none; border-radius: 5px; font-weight: 600; font-size: 0.9rem; transition: background-color 0.2s;"
                                onmouseover="this.style.backgroundColor='#9C633A'"
@@ -131,7 +131,7 @@
             
             <!-- Rapport Comments Widget -->
             {{ if .Params.enable_rapport }}
-            <div style="margin: 3rem 0; padding: 2rem; background: #f8f9fa; border-radius: 8px;">
+            <div class="rapport-comments tsb-box" style="margin: 3rem 0; padding: 2rem;">
                 <h3 style="margin-bottom: 1.5rem;">Comments & Discussion</h3>
                 <script src="https://kdcro-gqaaa-aaaai-q34gq-cai.icp0.io/ic-agent-bundle.js"></script>
                 <script src="https://kdcro-gqaaa-aaaai-q34gq-cai.icp0.io/ic-agent.js"></script>

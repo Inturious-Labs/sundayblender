@@ -20,6 +20,16 @@
     }
 }
 
+/* Boxes on issue pages: podcast player, PDF download, comments.
+   Colors live here, not inline, so night mode can override them. */
+.tsb-box { background: #f8f9fa; border-radius: 8px; }
+.tsb-muted { color: #666; }
+body.night .tsb-box { background: #323232; }
+body.night .tsb-box,
+body.night .tsb-box h3,
+body.night .tsb-box p { color: #e6e6e6; }
+body.night .tsb-box .tsb-muted { color: #aaa; }
+
 /* Editor photo on /author/ and /about/: a small circle, like the profile card on the editor's own site.
    The full path outranks the theme's ".post-body img { border-radius: 5px }" */
 .stream-container .post .post-body-wrapper .post-body img.editor-avatar {
