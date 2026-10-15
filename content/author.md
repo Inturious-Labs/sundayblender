@@ -1,10 +1,10 @@
 ---
 title: "Herbert Yang"
-description: "Herbert Yang is the editor of The Sunday Blender, a weekly news digest for curious kids."
+description: "Herbert Yang, editor of The Sunday Blender, is a writer, developer and investor in AI and Web3 with 25+ years in finance and technology."
 url: "/author/"
 draft: false
 disableReadingTime: true
-hideSubtitle: true  # description stays in <meta> for search snippets
+hideSubtitle: true  # description still feeds <meta> and the Person JSON-LD
 disableToC: true
 disableSubscribe: false
 disablePagination: true

@@ -44,6 +44,7 @@ googleAnalytics = "G-9WB2PSGYTC"
 	[params.editor]
 		name = "Herbert Yang"
 		alternateName = "Clayton Man"  # pen name used on early issues
+		jobTitle = "Editor"
 		profile = "https://herbertyang.xyz/docs/about/herbert-yang/"
 
 [build]
