@@ -175,11 +175,11 @@ On **November 22, 1963**, President **John F. Kennedy** was assassinated in Dall
 
 ---
 
-November 15, 2025, **[The Return of Chinese Rock in Kuala Lumpur](https://weekly.sundayblender.com/p/the-return-of-chinese-rock-in-kuala-kumpur)**
+November 15, 2025, **[The Return of Chinese Rock in Kuala Lumpur](https://weekly.sundayblender.com/p/the-return-of-chinese-rock-in-kuala-kumpur/)**
 
-November 08, 2025, **[Who Wins In This AI Bonanza?](https://weekly.sundayblender.com/p/who-wins-in-this-ai-bonanza)**
+November 08, 2025, **[Who Wins In This AI Bonanza?](https://weekly.sundayblender.com/p/who-wins-in-this-ai-bonanza/)**
 
-November 01, 2025, **[When Yang Meets Yang: Celebrating Life at the Peak of Autumn](https://weekly.sundayblender.com/p/when-yang-meets-yang-celebrating-life-at-the-peak-of-autumn)**
+November 01, 2025, **[When Yang Meets Yang: Celebrating Life at the Peak of Autumn](https://weekly.sundayblender.com/p/when-yang-meets-yang-celebrating-life-at-the-peak-of-autumn/)**
 
 ---
 

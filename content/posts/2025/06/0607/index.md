@@ -75,11 +75,11 @@ The past week in Formula 1, centered around the **Spanish Grand Prix** on June 1
 ## Previous Issues
 ---
 
-June 7, 2025, **[When AI Swung a Racket and Nadal Hung Up His](https://weekly.sundayblender.com/p/when-ai-swung-a-racket-and-nadal-hung-up-his)**
+June 7, 2025, **[When AI Swung a Racket and Nadal Hung Up His](https://weekly.sundayblender.com/p/when-ai-swung-a-racket-and-nadal-hung-up-his/)**
 
-May 25, 2025, **[Shining Stars of the Last Generation](https://weekly.sundayblender.com/p/shining-stars-of-the-last-generation)**
+May 25, 2025, **[Shining Stars of the Last Generation](https://weekly.sundayblender.com/p/shining-stars-of-the-last-generation/)**
 
-May 17, 2025, **[AI Advances Scientific Discovery](https://weekly.sundayblender.com/p/ai-advances-scientific-discovery)**
+May 17, 2025, **[AI Advances Scientific Discovery](https://weekly.sundayblender.com/p/ai-advances-scientific-discovery/)**
 
 ---
 

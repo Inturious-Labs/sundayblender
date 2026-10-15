@@ -132,11 +132,11 @@ This Ming Dynasty (1368-1644) painting by artist **Zhou Chen** is housed in the 
 
 ---
 
-October 25, 2025, **[The Greatest Performance in Baseball History](https://weekly.sundayblender.com/p/the-greatest-performance-in-baseball-history)**
+October 25, 2025, **[The Greatest Performance in Baseball History](https://weekly.sundayblender.com/p/the-greatest-performance-in-baseball-history/)**
 
-October 11, 2025, **[Djokovic Falls to Vacherot at 2025 Shanghai Masters](https://weekly.sundayblender.com/p/djokovic-falls-to-vacherot-at-2025-shanghai-masters)**
+October 11, 2025, **[Djokovic Falls to Vacherot at 2025 Shanghai Masters](https://weekly.sundayblender.com/p/djokovic-falls-to-vacherot-at-2025-shanghai-masters/)**
 
-September 27, 2025, **[150x Acceleration from Ford Model T to BYD Yangwang U9 Extreme](https://weekly.sundayblender.com/p/1500x-acceleration-from-ford-model-to-to-byd-yangwang-u9-extreme)**
+September 27, 2025, **[150x Acceleration from Ford Model T to BYD Yangwang U9 Extreme](https://weekly.sundayblender.com/p/1500x-acceleration-from-ford-model-to-to-byd-yangwang-u9-extreme/)**
 
 ---
 

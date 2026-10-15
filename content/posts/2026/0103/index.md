@@ -151,11 +151,11 @@ On **January 3, 1920**, **Boston Red Sox** owner Harry Frazee sold **Babe Ruth**
 
 ---
 
-December 27, 2025, **[The Age of One-Person Billion Dollar Company](https://weekly.sundayblender.com/p/the-age-of-one-person-billion-dollar-company)**
+December 27, 2025, **[The Age of One-Person Billion Dollar Company](https://weekly.sundayblender.com/p/the-age-of-one-person-billion-dollar-company/)**
 
-December 13, 2025, **[So Many AI Reports, So Little Time to Read](https://weekly.sundayblender.com/p/so-many-ai-reports-so-little-time-to-read)**
+December 13, 2025, **[So Many AI Reports, So Little Time to Read](https://weekly.sundayblender.com/p/so-many-ai-reports-so-little-time-to-read/)**
 
-December 06, 2025, **[Humans Are No Longer the Only Species to Use Fiber Optics](https://weekly.sundayblender.com/p/human-are-no-longer-the-only-species-to-use-fiber-optics)**
+December 06, 2025, **[Humans Are No Longer the Only Species to Use Fiber Optics](https://weekly.sundayblender.com/p/human-are-no-longer-the-only-species-to-use-fiber-optics/)**
 
 
 ---

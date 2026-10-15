@@ -159,11 +159,11 @@ Before 1931, there were many different depictions of **Santa Claus** around the 
 
 ---
 
-December 06, 2025, **[Humans Are No Longer the Only Species to Use Fiber Optics](https://weekly.sundayblender.com/p/human-are-no-longer-the-only-species-to-use-fiber-optics)**
+December 06, 2025, **[Humans Are No Longer the Only Species to Use Fiber Optics](https://weekly.sundayblender.com/p/human-are-no-longer-the-only-species-to-use-fiber-optics/)**
 
-November 29, 2025, **[Who Will Lead Brazil at the 2026 World Cup, Neymar or Estevao?](https://weekly.sundayblender.com/p/who-will-lead-brazil-at-2026-world-cup-neymay-or-estevao)**
+November 29, 2025, **[Who Will Lead Brazil at the 2026 World Cup, Neymar or Estevao?](https://weekly.sundayblender.com/p/who-will-lead-brazil-at-2026-world-cup-neymay-or-estevao/)**
 
-November 22, 2025, **[The Most Intelligent AI Model Yet?](https://weekly.sundayblender.com/p/the-most-intelligent-ai-model-yet)**
+November 22, 2025, **[The Most Intelligent AI Model Yet?](https://weekly.sundayblender.com/p/the-most-intelligent-ai-model-yet/)**
 
 
 ---

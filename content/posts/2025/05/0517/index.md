@@ -87,11 +87,11 @@ A: Their bats flew away.
 ## Previous Issues
 ---
 
-May 11, 2025, **[Blaze of Glory & Sound of Silence](https://weekly.sundayblender.com/p/blaze-of-glory-and-sound-of-silence)**
+May 11, 2025, **[Blaze of Glory & Sound of Silence](https://weekly.sundayblender.com/p/blaze-of-glory-and-sound-of-silence/)**
 
-May 3, 2025, **[Hello Darkness My Old Friend](https://weekly.sundayblender.com/p/hello-darkness-my-old-friend)**
+May 3, 2025, **[Hello Darkness My Old Friend](https://weekly.sundayblender.com/p/hello-darkness-my-old-friend/)**
 
-April 26, 2025, **[A Tale of Two Nations](https://weekly.sundayblender.com/p/a-tale-of-two-nations)**
+April 26, 2025, **[A Tale of Two Nations](https://weekly.sundayblender.com/p/a-tale-of-two-nations/)**
 
 ---
 

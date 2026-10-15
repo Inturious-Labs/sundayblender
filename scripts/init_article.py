@@ -164,7 +164,7 @@ def generate_previous_issues_section(repo_root):
 
     for date_str, title, slug in posts:
         formatted_date = format_date_readable(date_str)
-        url = f"https://weekly.sundayblender.com/p/{slug}"
+        url = f"https://weekly.sundayblender.com/p/{slug}/"
         lines.append(f"{formatted_date}, **[{title}]({url})**")
         lines.append("")
 

@@ -113,11 +113,11 @@ After dinner, the father asks, "Now, son, what did you want to ask me?"
 ## Previous Issues
 ---
 
-May 3, 2025, **[Hello Darkness My Old Friend](https://weekly.sundayblender.com/p/hello-darkness-my-old-friend)**
+May 3, 2025, **[Hello Darkness My Old Friend](https://weekly.sundayblender.com/p/hello-darkness-my-old-friend/)**
 
-April 26, 2025, **[A Tale of Two Nations](https://weekly.sundayblender.com/p/a-tale-of-two-nations)**
+April 26, 2025, **[A Tale of Two Nations](https://weekly.sundayblender.com/p/a-tale-of-two-nations/)**
 
-April 20, 2025, **[Flying Dutchman Sails Away](https://weekly.sundayblender.com/p/flying-dutchman-sails-away)**
+April 20, 2025, **[Flying Dutchman Sails Away](https://weekly.sundayblender.com/p/flying-dutchman-sails-away/)**
 
 ---
 

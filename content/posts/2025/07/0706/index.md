@@ -133,11 +133,11 @@ by Emily Flake, The New Yorker
 ## Previous Issues
 ---
 
-June 29, 2025, [Flying Without Wings, Seeing Without Eyes & Driving Without Humans](https://weekly.sundayblender.com/p/flying-without-wings-seeing-without-eyes-and-driving-without-humans)
+June 29, 2025, [Flying Without Wings, Seeing Without Eyes & Driving Without Humans](https://weekly.sundayblender.com/p/flying-without-wings-seeing-without-eyes-and-driving-without-humans/)
 
-June 21, 2025, **[Cyber Doomsday Meets AI Boomtown](https://weekly.sundayblender.com/p/cyber-doomsday-meets-ai-boomtown)**
+June 21, 2025, **[Cyber Doomsday Meets AI Boomtown](https://weekly.sundayblender.com/p/cyber-doomsday-meets-ai-boomtown/)**
 
-June 16, 2025, **[From Labubu's Viral Craze to Glaciers' Spiral of Doom](https://weekly.sundayblender.com/p/from-labubu-viral-craze-to-glaciers-spiral-of-doom)**
+June 16, 2025, **[From Labubu's Viral Craze to Glaciers' Spiral of Doom](https://weekly.sundayblender.com/p/from-labubu-viral-craze-to-glaciers-spiral-of-doom/)**
 
 ---
 

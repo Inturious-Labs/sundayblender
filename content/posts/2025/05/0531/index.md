@@ -87,11 +87,11 @@ By Jim Davis
 ## Previous Issues
 ---
 
-May 25, 2025, **[Shining Stars of the Last Generation](https://weekly.sundayblender.com/p/shining-stars-of-the-last-generation)**
+May 25, 2025, **[Shining Stars of the Last Generation](https://weekly.sundayblender.com/p/shining-stars-of-the-last-generation/)**
 
-May 17, 2025, **[AI Advances Scientific Discovery](https://weekly.sundayblender.com/p/ai-advances-scientific-discovery)**
+May 17, 2025, **[AI Advances Scientific Discovery](https://weekly.sundayblender.com/p/ai-advances-scientific-discovery/)**
 
-May 11, 2025, **[Blaze of Glory & Sound of Silence](https://weekly.sundayblender.com/p/blaze-of-glory-and-sound-of-silence)**
+May 11, 2025, **[Blaze of Glory & Sound of Silence](https://weekly.sundayblender.com/p/blaze-of-glory-and-sound-of-silence/)**
 
 ---
 

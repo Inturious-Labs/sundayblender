@@ -136,11 +136,11 @@ On this day **October 25, 1881**, **Pablo Picasso** was born in Málaga, **Spain
 
 ---
 
-October 11, 2025, **[Djokovic Falls to Vacherot at 2025 Shanghai Masters](https://weekly.sundayblender.com/p/djokovic-falls-to-vacherot-at-2025-shanghai-masters)**
+October 11, 2025, **[Djokovic Falls to Vacherot at 2025 Shanghai Masters](https://weekly.sundayblender.com/p/djokovic-falls-to-vacherot-at-2025-shanghai-masters/)**
 
-September 27, 2025, **[150x Acceleration from Ford Model T to BYD Yangwang U9 Extreme](https://weekly.sundayblender.com/p/1500x-acceleration-from-ford-model-to-to-byd-yangwang-u9-extreme)**
+September 27, 2025, **[150x Acceleration from Ford Model T to BYD Yangwang U9 Extreme](https://weekly.sundayblender.com/p/1500x-acceleration-from-ford-model-to-to-byd-yangwang-u9-extreme/)**
 
-September 20, 2025, **[All You Need Is Another AI Research Report](https://weekly.sundayblender.com/p/all-you-need-is-another-ai-research-report)**
+September 20, 2025, **[All You Need Is Another AI Research Report](https://weekly.sundayblender.com/p/all-you-need-is-another-ai-research-report/)**
 
 ---
 

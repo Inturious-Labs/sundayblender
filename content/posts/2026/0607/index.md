@@ -170,11 +170,11 @@ One of the most famous paintings in the world sits on the ceiling of the **Sisti
 
 ---
 
-May 31, 2026, **[Countdown to World Cup](https://weekly.sundayblender.com/p/countdown-to-world-cup)**
+May 31, 2026, **[Countdown to World Cup](https://weekly.sundayblender.com/p/countdown-to-world-cup/)**
 
-May 17, 2026, **[The Call of the Wild](https://weekly.sundayblender.com/p/the-call-of-the-wild)**
+May 17, 2026, **[The Call of the Wild](https://weekly.sundayblender.com/p/the-call-of-the-wild/)**
 
-May 10, 2026, **[Double Wins for Arsenal in 2026?](https://weekly.sundayblender.com/p/double-wins-for-arsenal-in-2026)**
+May 10, 2026, **[Double Wins for Arsenal in 2026?](https://weekly.sundayblender.com/p/double-wins-for-arsenal-in-2026/)**
 
 
 ---

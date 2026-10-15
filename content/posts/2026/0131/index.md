@@ -155,11 +155,11 @@ In 1565, during the "Little Ice Age," Dutch artist **Pieter Bruegel the Elder** 
 
 ---
 
-January 24, 2026, **[Destination: China - The Return of Western Rock Bands](https://weekly.sundayblender.com/p/destination-china-return-of-western-rock-bands)**
+January 24, 2026, **[Destination: China - The Return of Western Rock Bands](https://weekly.sundayblender.com/p/destination-china-return-of-western-rock-bands/)**
 
-January 17, 2026, **[The Attack of Robots, Elephant, Banksy, and Heat](https://weekly.sundayblender.com/p/the-attack-of-robots-elephant-banksy-and-heat)**
+January 17, 2026, **[The Attack of Robots, Elephant, Banksy, and Heat](https://weekly.sundayblender.com/p/the-attack-of-robots-elephant-banksy-and-heat/)**
 
-January 03, 2026, **[An Incredible Journey From Wuhan To Singapore](https://weekly.sundayblender.com/p/an-incredible-journey-from-wuhan-to-singapore)**
+January 03, 2026, **[An Incredible Journey From Wuhan To Singapore](https://weekly.sundayblender.com/p/an-incredible-journey-from-wuhan-to-singapore/)**
 
 
 ---

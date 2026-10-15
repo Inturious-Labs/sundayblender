@@ -144,11 +144,11 @@ French painter **Claude Monet**'s "Impression, Sunrise" (1872) is the seminal wo
 
 ---
 
-November 08, 2025, **[Who Wins In This AI Bonanza?](https://weekly.sundayblender.com/p/who-wins-in-this-ai-bonanza)**
+November 08, 2025, **[Who Wins In This AI Bonanza?](https://weekly.sundayblender.com/p/who-wins-in-this-ai-bonanza/)**
 
-November 01, 2025, **[When Yang Meets Yang: Celebrating Life at the Peak of Autumn](https://weekly.sundayblender.com/p/when-yang-meets-yang-celebrating-life-at-the-peak-of-autumn)**
+November 01, 2025, **[When Yang Meets Yang: Celebrating Life at the Peak of Autumn](https://weekly.sundayblender.com/p/when-yang-meets-yang-celebrating-life-at-the-peak-of-autumn/)**
 
-October 25, 2025, **[The Greatest Performance in Baseball History](https://weekly.sundayblender.com/p/the-greatest-performance-in-baseball-history)**
+October 25, 2025, **[The Greatest Performance in Baseball History](https://weekly.sundayblender.com/p/the-greatest-performance-in-baseball-history/)**
 
 ---
 

@@ -184,11 +184,11 @@ On **December 6, 1877**, **Thomas Edison** achieved a breakthrough at his **Menl
 
 ---
 
-November 29, 2025, **[Who Will Lead Brazil at the 2026 World Cup, Neymar or Estevao?](https://weekly.sundayblender.com/p/who-will-lead-brazil-at-2026-world-cup-neymay-or-estevao)**
+November 29, 2025, **[Who Will Lead Brazil at the 2026 World Cup, Neymar or Estevao?](https://weekly.sundayblender.com/p/who-will-lead-brazil-at-2026-world-cup-neymay-or-estevao/)**
 
-November 22, 2025, **[The Most Intelligent AI Model Yet?](https://weekly.sundayblender.com/p/the-most-intelligent-ai-model-yet)**
+November 22, 2025, **[The Most Intelligent AI Model Yet?](https://weekly.sundayblender.com/p/the-most-intelligent-ai-model-yet/)**
 
-November 15, 2025, **[The Return of Chinese Rock in Kuala Lumpur](https://weekly.sundayblender.com/p/the-return-of-chinese-rock-in-kuala-kumpur)**
+November 15, 2025, **[The Return of Chinese Rock in Kuala Lumpur](https://weekly.sundayblender.com/p/the-return-of-chinese-rock-in-kuala-kumpur/)**
 
 
 ---

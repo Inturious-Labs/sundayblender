@@ -168,11 +168,11 @@ Widely regarded as one of the greatest films ever made, **Casablanca** is set du
 
 ---
 
-March 01, 2026, **[The Making of a Hero](https://weekly.sundayblender.com/p/the-making-of-a-hero)**
+March 01, 2026, **[The Making of a Hero](https://weekly.sundayblender.com/p/the-making-of-a-hero/)**
 
-February 21, 2026, **[Celebrate the Year of the Fire Horse](https://weekly.sundayblender.com/p/celebrate-the-year-of-the-fire-horse)**
+February 21, 2026, **[Celebrate the Year of the Fire Horse](https://weekly.sundayblender.com/p/celebrate-the-year-of-the-fire-horse/)**
 
-January 31, 2026, **[The Dawn of Machine-to-Machine Society](https://weekly.sundayblender.com/p/the-dawn-of-machine-to-machine-society)**
+January 31, 2026, **[The Dawn of Machine-to-Machine Society](https://weekly.sundayblender.com/p/the-dawn-of-machine-to-machine-society/)**
 
 
 ---

@@ -107,9 +107,9 @@ Because it couldn't handle the **CURRENT** relationship!
 ## From Previous Weeks
 ---
 
-April 26, 2025, **[A Tale of Two Nations](https://weekly.sundayblender.com/p/a-tale-of-two-nations)**
+April 26, 2025, **[A Tale of Two Nations](https://weekly.sundayblender.com/p/a-tale-of-two-nations/)**
 
-April 20, 2025, **[Flying Dutchman Sails Away](https://weekly.sundayblender.com/p/flying-dutchman-sails-away)**
+April 20, 2025, **[Flying Dutchman Sails Away](https://weekly.sundayblender.com/p/flying-dutchman-sails-away/)**
 
 ---
 

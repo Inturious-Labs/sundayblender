@@ -107,11 +107,11 @@ By Jerry Scott, Jim Borgman, May 24, 2025, on The Washington Post
 ## Previous Issues
 ---
 
-May 17, 2025, **[AI Advances Scientific Discovery](https://weekly.sundayblender.com/p/ai-advances-scientific-discovery)**
+May 17, 2025, **[AI Advances Scientific Discovery](https://weekly.sundayblender.com/p/ai-advances-scientific-discovery/)**
 
-May 11, 2025, **[Blaze of Glory & Sound of Silence](https://weekly.sundayblender.com/p/blaze-of-glory-and-sound-of-silence)**
+May 11, 2025, **[Blaze of Glory & Sound of Silence](https://weekly.sundayblender.com/p/blaze-of-glory-and-sound-of-silence/)**
 
-May 3, 2025, **[Hello Darkness My Old Friend](https://weekly.sundayblender.com/p/hello-darkness-my-old-friend)**
+May 3, 2025, **[Hello Darkness My Old Friend](https://weekly.sundayblender.com/p/hello-darkness-my-old-friend/)**
 
 ---
 

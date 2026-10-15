@@ -166,11 +166,11 @@ Few images are more synonymous with Chinese modern art than **Xu Beihong**'s hor
 
 ---
 
-January 31, 2026, **[The Dawn of Machine-to-Machine Society](https://weekly.sundayblender.com/p/the-dawn-of-machine-to-machine-society)**
+January 31, 2026, **[The Dawn of Machine-to-Machine Society](https://weekly.sundayblender.com/p/the-dawn-of-machine-to-machine-society/)**
 
-January 24, 2026, **[Destination: China - The Return of Western Rock Bands](https://weekly.sundayblender.com/p/destination-china-return-of-western-rock-bands)**
+January 24, 2026, **[Destination: China - The Return of Western Rock Bands](https://weekly.sundayblender.com/p/destination-china-return-of-western-rock-bands/)**
 
-January 17, 2026, **[The Attack of Robots, Elephant, Banksy, and Heat](https://weekly.sundayblender.com/p/the-attack-of-robots-elephant-banksy-and-heat)**
+January 17, 2026, **[The Attack of Robots, Elephant, Banksy, and Heat](https://weekly.sundayblender.com/p/the-attack-of-robots-elephant-banksy-and-heat/)**
 
 
 ---

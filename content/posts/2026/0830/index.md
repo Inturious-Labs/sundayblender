@@ -160,11 +160,11 @@ A: A blueberry.
 
 ---
 
-July 05, 2026, **[No Vibe-Watching of World Cup](https://weekly.sundayblender.com/p/no-vibe-watching-of-world-cup)**
+July 05, 2026, **[No Vibe-Watching of World Cup](https://weekly.sundayblender.com/p/no-vibe-watching-of-world-cup/)**
 
-June 28, 2026, **[A Hot Week for the World Cup and Europe](https://weekly.sundayblender.com/p/a-hot-week-for-the-world-cup-and-europe)**
+June 28, 2026, **[A Hot Week for the World Cup and Europe](https://weekly.sundayblender.com/p/a-hot-week-for-the-world-cup-and-europe/)**
 
-June 21, 2026, **[Wonderwall and Other Wonders](https://weekly.sundayblender.com/p/wonderwall-and-other-wonders)**
+June 21, 2026, **[Wonderwall and Other Wonders](https://weekly.sundayblender.com/p/wonderwall-and-other-wonders/)**
 
 ---
 

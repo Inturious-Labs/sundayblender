@@ -154,11 +154,11 @@ On **April 11, 1970**, **NASA** launched **Apollo 13** from Cape Canaveral, Flor
 
 ---
 
-April 05, 2026, **[To the Moon and Back](https://weekly.sundayblender.com/p/to-the-moon-and-back)**
+April 05, 2026, **[To the Moon and Back](https://weekly.sundayblender.com/p/to-the-moon-and-back/)**
 
-March 22, 2026, **[The Future of SaaS Companies and Knowledge Workers](https://weekly.sundayblender.com/p/the-future-of-saas-companies-and-knowledge-workers)**
+March 22, 2026, **[The Future of SaaS Companies and Knowledge Workers](https://weekly.sundayblender.com/p/the-future-of-saas-companies-and-knowledge-workers/)**
 
-March 15, 2026, **[The Unstoppable Kimi](https://weekly.sundayblender.com/p/the-unstoppable-kimi)**
+March 15, 2026, **[The Unstoppable Kimi](https://weekly.sundayblender.com/p/the-unstoppable-kimi/)**
 
 
 ---

@@ -151,11 +151,11 @@ On **October 4, 1957**, the **Soviet Union** launched **Sputnik 1**, the first o
 
 ---
 
-September 27, 2026, **[We Will Go To the Moon Again](https://weekly.sundayblender.com/p/we-will-go-to-the-moon-again)**
+September 27, 2026, **[We Will Go To the Moon Again](https://weekly.sundayblender.com/p/we-will-go-to-the-moon-again/)**
 
-September 20, 2026, **[Tech Tourism in China Has Begun](https://weekly.sundayblender.com/p/tech-tourism-in-china-has-begun)**
+September 20, 2026, **[Tech Tourism in China Has Begun](https://weekly.sundayblender.com/p/tech-tourism-in-china-has-begun/)**
 
-September 13, 2026, **[Can Teenagers Still Read?](https://weekly.sundayblender.com/p/can-teenagers-still-read)**
+September 13, 2026, **[Can Teenagers Still Read?](https://weekly.sundayblender.com/p/can-teenagers-still-read/)**
 
 
 ---

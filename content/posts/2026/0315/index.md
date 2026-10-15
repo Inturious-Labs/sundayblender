@@ -172,11 +172,11 @@ In 1949, Spanish artist **Pablo Picasso** drew a simple, beautiful lithograph of
 
 ---
 
-March 07, 2026, **[Facing the Storm](https://weekly.sundayblender.com/p/facing-the-storm)**
+March 07, 2026, **[Facing the Storm](https://weekly.sundayblender.com/p/facing-the-storm/)**
 
-March 01, 2026, **[The Making of a Hero](https://weekly.sundayblender.com/p/the-making-of-a-hero)**
+March 01, 2026, **[The Making of a Hero](https://weekly.sundayblender.com/p/the-making-of-a-hero/)**
 
-February 21, 2026, **[Celebrate the Year of the Fire Horse](https://weekly.sundayblender.com/p/celebrate-the-year-of-the-fire-horse)**
+February 21, 2026, **[Celebrate the Year of the Fire Horse](https://weekly.sundayblender.com/p/celebrate-the-year-of-the-fire-horse/)**
 
 
 ---
