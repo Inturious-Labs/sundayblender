@@ -115,3 +115,6 @@ build/
 *.egg
 # Video builds stay out of git/Vercel — depot is ~/Desktop/tsb-youtube
 *.mp4
+
+# Draft audio (e.g. NotebookLM .m4a). Only the final podcast .mp3 belongs in the repo.
+*.m4a
