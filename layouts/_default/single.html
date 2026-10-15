@@ -27,6 +27,9 @@
                     </div>
                     {{ end }}
                     <div class="post-meta">
+                        {{ if eq .Section "posts" }}
+                        By <a href="{{ "/author/" | relURL }}" rel="author">{{ .Site.Params.editor.name }}</a> &nbsp;
+                        {{ end }}
                         {{ if .Params.date}}
                         <time itemprop="datePublished">
                             {{ i18n "format_date" .PublishDate }}

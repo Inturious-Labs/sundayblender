@@ -40,6 +40,12 @@ googleAnalytics = "G-9WB2PSGYTC"
 	logo = "/img/logo.png"
 	favicon = "/img/favicon.ico"
 
+	# Named editor: post bylines, the /author/ page, and NewsArticle JSON-LD.
+	[params.editor]
+		name = "Herbert Yang"
+		alternateName = "Clayton Man"  # pen name used on early issues
+		profile = "https://herbertyang.xyz/docs/about/herbert-yang/"
+
 [build]
 	writeStats = true
 
@@ -61,7 +67,7 @@ uglyURLs = false
 
 [[menu.main]]
 	name = "Archive"
-	url = "/#issues"
+	url = "/archive/"
 	weight = 2
 
 [[menu.main]]

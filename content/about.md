@@ -87,13 +87,13 @@ I can use your help to bring The Sunday Blender to more curious kids and create 
 - **Follow 👀** the [Twitter/X handle of The Sunday Blender @SundayBlender](https://x.com/SundayBlender) to grow its influence
 - **Join 🙋** the reader's club on **OpenChat** - [The Sunday Blender Readers Club (SBRC)](https://oc.app/community/nbcsa-qyaaa-aaaac-a5dsa-cai/channel/2461518333/?ref=inda5-hyaaa-aaaaf-aaioq-cai), which runs on a decentralized blockchain that is cross-border and requires NO personal information from you to join (not possible on any traditional IM, such as **WeChat**, **Whatsapp**, **Telegram**, **Signal**, **Kakao**, or **Line**).
 
-If you have an interesting local story, please send me a DM on either **Rapport**, **GitHub**, **Twitter**, **OpenChat**, or just good old **email** `clayton.man@sundayblender.com`.
+If you have an interesting local story, please send me a DM on either **Rapport**, **GitHub**, **Twitter**, **OpenChat**, or just good old **email** `herbert@inturious.com`.
 
 ## Who makes it
 
-The Sunday Blender is created by **Clayton Man**, a parent who believes in the power of reading and [whose alter ego ](https://www.linkedin.com/in/herbertyang/) happens to be at the forefront of the AI + crypto revolution. He leverages decentralized blockchain technology and AI to create many products for super content creators and growth hackers through [Inturious Labs](https://inturious.com/). 
+The Sunday Blender is created by **[Herbert Yang](/author/)**, a parent who believes in the power of reading and who happens to be at the forefront of the AI + crypto revolution. He leverages decentralized blockchain technology and AI to create many products for super content creators and growth hackers through [Inturious Labs](https://inturious.com/). 
 
-![Clayton Man](/img/author.jpg)
+![Herbert Yang](/img/author.jpg)
 
 ## Is it free
 

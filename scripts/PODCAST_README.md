@@ -274,4 +274,4 @@ after the last manual upload so new episodes are ingested automatically.
 
 ## Questions?
 
-Contact: clayton.man@sundayblender.com
+Contact: herbert@inturious.com
