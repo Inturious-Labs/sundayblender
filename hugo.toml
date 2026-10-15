@@ -44,8 +44,6 @@ googleAnalytics = "G-9WB2PSGYTC"
 	writeStats = true
 
 [sitemap]
-	changefreq = "weekly"
-	priority = 0.5
 	entryLimit = 5000
 
 # Ensure trailing slashes for better URL structure
