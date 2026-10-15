@@ -30,10 +30,13 @@ body.night .tsb-box h3,
 body.night .tsb-box p { color: #e6e6e6; }
 body.night .tsb-box .tsb-muted { color: #aaa; }
 
-/* Mobile footer: the theme lights up sidebar text in night mode but not this footer,
-   so "Inturious Labs" and the icons stayed dark on dark. Match the sidebar. */
-body.night #single-column-footer a,
-body.night #single-column-footer strong { color: #e6e6e6; }
+/* Mobile footer: the theme's global "* { color: #000 }" keeps every child black, and the
+   sidebar's night fix (".side-container *") doesn't reach this footer, so the icons and
+   "Inturious Labs" were dark on dark. Light up every descendant except the dark-mode
+   toggle, which has its own colors. The icon links use inline "color: inherit", so they
+   follow their (now light) wrapper. */
+body.night #single-column-footer > :not(.mobile-darkmode-toggle),
+body.night #single-column-footer > :not(.mobile-darkmode-toggle) * { color: #e6e6e6; }
 
 /* Editor photo on /author/ and /about/: a small circle, like the profile card on the editor's own site.
    The full path outranks the theme's ".post-body img { border-radius: 5px }" */
@@ -140,6 +143,14 @@ body.night .post-item-meta { color: #9a9a9a !important; }
 .dark-mode-toggle .material-icons { font-size: 20px; }
 body.night .dark-mode-toggle { color: rgba(255, 255, 255, 0.55); border-color: rgba(255, 255, 255, 0.2); }
 body.night .dark-mode-toggle:hover { color: #c89b6e; border-color: #c89b6e; }
+/* The icon is a <span>, which the theme's "* { color: #000 }" keeps black; follow the button */
+body.night .dark-mode-toggle .material-icons { color: inherit; }
+/* Mobile drawer: the theme features Home and About in dark brown (!important), unreadable on
+   the night drawer. The #drawer id outranks the theme's class-only selectors. */
+body.night #drawer .drawer-menu-item:first-child,
+body.night #drawer .drawer-menu-item[href*="/about/"] { color: #c89b6e !important; }
+body.night #drawer .drawer-menu-item:first-child:hover,
+body.night #drawer .drawer-menu-item[href*="/about/"]:hover { color: #e0b88f !important; }
 /* Mobile variant: hidden on desktop; on phones it floats fixed at the
    top-right of the header (next to the hamburger) so it is always visible
    and reachable while scrolling. */
