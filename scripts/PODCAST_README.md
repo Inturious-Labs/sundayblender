@@ -231,12 +231,12 @@ tsb-transcript
 
 ## Integration with Hugo
 
-The podcast audio player is automatically rendered when:
-1. `podcast.enabled: true` in frontmatter
-2. MP3 file exists in post directory
-3. Hugo theme includes podcast template (already configured)
+When `podcast.enabled: true`, the issue page shows a "Listen to this issue" box
+linking to Apple Podcasts, Spotify, YouTube, and 小宇宙. The site does not play
+audio itself: the MP3 is gitignored and never deployed. Spotify for Creators
+hosts it and serves the show feed that Apple Podcasts and others read.
 
-See `layouts/_default/single.html` lines 64-76 for implementation details.
+See `layouts/_default/single.html` for implementation details.
 
 ## Maintenance
 
@@ -268,9 +268,11 @@ scripts/youtube_archive.py --verify        # re-check durations and codecs
 Existing videos are skipped unless `--force` is given. Output lands outside
 the repo on purpose: the archive is about 1 GB and must not be committed.
 
-This is a one-time backfill. Once the channel history exists, connect the
-podcast RSS feed in YouTube Studio (Create > Submit RSS feed) with a start date
-after the last manual upload so new episodes are ingested automatically.
+This is a one-time backfill. For new issues, build the video with
+`tsb-make-youtube content/posts/YYYY/MMDD` and upload it. To automate instead,
+connect the Spotify feed (`https://anchor.fm/s/117da5710/podcast/rss`) in YouTube
+Studio (Create > Submit RSS feed) with a start date after the last manual upload,
+so YouTube doesn't duplicate the archive.
 
 ## Questions?
 

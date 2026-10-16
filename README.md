@@ -173,6 +173,18 @@ This single command:
 - Updates frontmatter: `enabled: true`, `file`, `duration`, `filesize`
 - Regenerates `shownotes` with the actual description
 
+The MP3 stays on your machine (it's gitignored and never deployed). The site
+doesn't play audio; each issue shows a "Listen to this issue" box linking to
+Apple Podcasts, Spotify, YouTube, and 小宇宙.
+
+**Publish the audio:**
+- Upload the MP3 to [Spotify for Creators](https://creators.spotify.com/). Spotify hosts the audio, and Apple Podcasts reads the show from Spotify's feed (`https://anchor.fm/s/117da5710/podcast/rss`). The show notes link to the article, so set the episode to go live at or after the article does.
+- Build the YouTube video and upload the files it writes to `~/Desktop/tsb-youtube`:
+
+```bash
+tsb-make-youtube content/posts/YYYY/MMDD
+```
+
 ### 6. Final Audit and Push
 
 **Step 1:** Change `draft: false` in the frontmatter
@@ -192,7 +204,6 @@ This checks:
 - Twitter card meta tags are correct (`summary_large_image`)
 - Hero image is displayed
 - Main RSS feed includes the article
-- Podcast RSS feed includes the episode
 
 **Step 3:** Commit and push:
 
@@ -274,7 +285,8 @@ first.
 | `tsb-audit-text` | `audit_text.py` | Pre-flight text audit — verifies frontmatter fields, images, section content, and reading time before PDF/podcast generation. |
 | `tsb-make-pdf` | `html_to_pdf.py` | Renders the article (from the running Hugo dev server) to a PDF in the issue folder, used as the podcast source. Versions previous PDFs rather than overwriting. |
 | `tsb-make-podcast` | `process_podcast.py` | Converts the NotebookLM `m4a` to `YYYY-MM-DD-podcast.mp3`, updates podcast frontmatter (`enabled`, `file`, `duration`, `filesize`), and regenerates show notes. |
-| `tsb-audit-final` | `audit_final.py` | Final pre-publish gate — checks `draft: false`, PDF/MP3 presence, podcast frontmatter, Twitter card tags, hero image, and both RSS feeds. |
+| `tsb-make-youtube` | `make_youtube.py` | Wraps the issue's podcast MP3 in a YouTube-ready MP4 and writes the thumbnail and title/description/tags to `~/Desktop/tsb-youtube`. |
+| `tsb-audit-final` | `audit_final.py` | Final pre-publish gate — checks `draft: false`, PDF/MP3 presence, podcast frontmatter, Twitter card tags, hero image, and the main RSS feed. |
 | `tsb-update-progress` | `update_progress.py` | Updates the Content Update Progress table below by checking the production site/RSS. Flags: `--sync`, `--date YYYY-MM-DD`, `--all`, `--dry-run`. |
 
 The following `scripts/` files are **not** wired as `tsb-*` commands and are
@@ -288,40 +300,40 @@ run directly or by other tooling:
 
 ## Content Update Progress
 
-| Date | Images | PDF | Show Notes | Apple | Spotify | 小宇宙 | 喜马拉雅 | Inline 🎧 |
-|------|:------:|:---:|:----------:|:-----:|:-------:|:------:|:--------:|:---------:|
-| [2025-11-22](https://weekly.sundayblender.com/p/the-most-intelligent-ai-model-yet/) |  |  |  |  |  |  |  |  |
-| [2025-11-29](https://weekly.sundayblender.com/p/who-will-lead-brazil-at-2026-world-cup-neymay-or-estevao/) |  |  |  |  |  |  |  |  |
-| [2025-11-15](https://weekly.sundayblender.com/p/the-return-of-chinese-rock-in-kuala-kumpur/) | 🟢 | 🟢 | 🟢 | 🟢 | 🟢 | 🟢 |  | 🟢 |
-| [2025-11-08](https://weekly.sundayblender.com/p/who-wins-in-this-ai-bonanza/) | 🟢 | 🟢 | 🔴 | 🟢 | 🟢 | 🟢 | 🔴 | 🟢 |
-| [2025-11-01](https://weekly.sundayblender.com/p/when-yang-meets-yang-celebrating-life-at-the-peak-of-autumn/) | | | | | | | | |
-| [2025-10-25](https://weekly.sundayblender.com/p/the-greatest-performance-in-baseball-history/) | | | | | | | | |
-| [2025-10-11](https://weekly.sundayblender.com/p/djokovic-falls-to-vacherot-at-2025-shanghai-masters/) | | | | | | | | |
-| [2025-09-27](https://weekly.sundayblender.com/p/1500x-acceleration-from-ford-model-to-to-byd-yangwang-u9-extreme/) | | | | | | | | |
-| [2025-09-20](https://weekly.sundayblender.com/p/all-you-need-is-another-ai-research-report/) | | | | | | | | |
-| [2025-09-13](https://weekly.sundayblender.com/p/good-old-apple-strikes-back/) | | | | | | | | |
-| [2025-07-06](https://weekly.sundayblender.com/p/while-young-talents-trailblaze-ai-frontier-legendary-icons-write-new-chapters/) | | | | | | | | |
-| [2025-06-28](https://weekly.sundayblender.com/p/flying-without-wings-seeing-without-eyes-and-driving-without-humans/) | | | | | | | | |
-| [2025-06-21](https://weekly.sundayblender.com/p/cyber-doomsday-meets-ai-boomtown/) | | | | | | | | |
-| [2025-06-15](https://weekly.sundayblender.com/p/from-labubu-viral-craze-to-glaciers-spiral-of-doom/) | | | | | | | | |
-| [2025-06-07](https://weekly.sundayblender.com/p/every-dog-has-its-day/) | | | | | | | | |
-| [2025-05-31](https://weekly.sundayblender.com/p/when-ai-swung-a-racket-and-nadal-hung-up-his/) | | | | | | | | |
-| [2025-05-24](https://weekly.sundayblender.com/p/shining-stars-of-the-last-generation/) | | | | | | | | |
-| [2025-05-17](https://weekly.sundayblender.com/p/ai-advances-scientific-discovery/) | | | | | | | | |
-| [2025-05-10](https://weekly.sundayblender.com/p/blaze-of-glory-and-sound-of-silence/) | | | | | | | | |
-| [2025-05-09](https://weekly.sundayblender.com/p/we-come-this-far-now-what/) | | | | | | | | |
-| [2025-05-03](https://weekly.sundayblender.com/p/hello-darkness-my-old-friend/) | | | | | | | | |
-| [2025-04-26](https://weekly.sundayblender.com/p/a-tale-of-two-nations/) | | | | | | | | |
-| [2025-04-20](https://weekly.sundayblender.com/p/flying-dutchman-sails-away/) | | | | | | | | |
-| [2025-04-05](https://weekly.sundayblender.com/p/the-world-jitters-but-nintendo-glitters/) | | | | | | | | |
-| [2025-03-29](https://weekly.sundayblender.com/p/the-charming-arrival-of-agi/) | | | | | | | | |
-| [2025-03-22](https://weekly.sundayblender.com/p/march-madness-to-mars/) | | | | | | | | |
-| [2025-03-16](https://weekly.sundayblender.com/p/space-oddities-on-the-moon-space/) | | | | | | | | |
-| [2025-03-09](https://weekly.sundayblender.com/p/the-end-game-for-technology/) | | | | | | | | |
-| [2025-03-02](https://weekly.sundayblender.com/p/ancient-water-on-mars/) | | | | | | | | |
-| [2025-02-24](https://weekly.sundayblender.com/p/meeting-of-the-minds/) | | | | | | | | |
-| [2025-02-16](https://weekly.sundayblender.com/p/mega-snow-and-mega-collision/) | | | | | | | | |
-| [2025-02-09](https://weekly.sundayblender.com/p/chinese-film-ne-zha-2-shattered-record/) | | | | | | | | |
-| [2025-02-01](https://weekly.sundayblender.com/p/an-exuberant-chinese-new-year/) | | | | | | | | |
-| [2025-01-30](https://weekly.sundayblender.com/p/make-news-interesting-for-kids/) | | | | | | | | |
-| [2025-01-26](https://weekly.sundayblender.com/p/deepseek-challenges-ai-powerhouses/) | | | | | | | | |
+| Date | Images | PDF | Show Notes | Apple | Spotify | 小宇宙 | 喜马拉雅 |
+|------|:------:|:---:|:----------:|:-----:|:-------:|:------:|:--------:|
+| [2025-11-22](https://weekly.sundayblender.com/p/the-most-intelligent-ai-model-yet/) |  |  |  |  |  |  |  |
+| [2025-11-29](https://weekly.sundayblender.com/p/who-will-lead-brazil-at-2026-world-cup-neymay-or-estevao/) |  |  |  |  |  |  |  |
+| [2025-11-15](https://weekly.sundayblender.com/p/the-return-of-chinese-rock-in-kuala-kumpur/) | 🟢 | 🟢 | 🟢 | 🟢 | 🟢 | 🟢 |  |
+| [2025-11-08](https://weekly.sundayblender.com/p/who-wins-in-this-ai-bonanza/) | 🟢 | 🟢 | 🔴 | 🟢 | 🟢 | 🟢 | 🔴 |
+| [2025-11-01](https://weekly.sundayblender.com/p/when-yang-meets-yang-celebrating-life-at-the-peak-of-autumn/) | | | | | | | |
+| [2025-10-25](https://weekly.sundayblender.com/p/the-greatest-performance-in-baseball-history/) | | | | | | | |
+| [2025-10-11](https://weekly.sundayblender.com/p/djokovic-falls-to-vacherot-at-2025-shanghai-masters/) | | | | | | | |
+| [2025-09-27](https://weekly.sundayblender.com/p/1500x-acceleration-from-ford-model-to-to-byd-yangwang-u9-extreme/) | | | | | | | |
+| [2025-09-20](https://weekly.sundayblender.com/p/all-you-need-is-another-ai-research-report/) | | | | | | | |
+| [2025-09-13](https://weekly.sundayblender.com/p/good-old-apple-strikes-back/) | | | | | | | |
+| [2025-07-06](https://weekly.sundayblender.com/p/while-young-talents-trailblaze-ai-frontier-legendary-icons-write-new-chapters/) | | | | | | | |
+| [2025-06-28](https://weekly.sundayblender.com/p/flying-without-wings-seeing-without-eyes-and-driving-without-humans/) | | | | | | | |
+| [2025-06-21](https://weekly.sundayblender.com/p/cyber-doomsday-meets-ai-boomtown/) | | | | | | | |
+| [2025-06-15](https://weekly.sundayblender.com/p/from-labubu-viral-craze-to-glaciers-spiral-of-doom/) | | | | | | | |
+| [2025-06-07](https://weekly.sundayblender.com/p/every-dog-has-its-day/) | | | | | | | |
+| [2025-05-31](https://weekly.sundayblender.com/p/when-ai-swung-a-racket-and-nadal-hung-up-his/) | | | | | | | |
+| [2025-05-24](https://weekly.sundayblender.com/p/shining-stars-of-the-last-generation/) | | | | | | | |
+| [2025-05-17](https://weekly.sundayblender.com/p/ai-advances-scientific-discovery/) | | | | | | | |
+| [2025-05-10](https://weekly.sundayblender.com/p/blaze-of-glory-and-sound-of-silence/) | | | | | | | |
+| [2025-05-09](https://weekly.sundayblender.com/p/we-come-this-far-now-what/) | | | | | | | |
+| [2025-05-03](https://weekly.sundayblender.com/p/hello-darkness-my-old-friend/) | | | | | | | |
+| [2025-04-26](https://weekly.sundayblender.com/p/a-tale-of-two-nations/) | | | | | | | |
+| [2025-04-20](https://weekly.sundayblender.com/p/flying-dutchman-sails-away/) | | | | | | | |
+| [2025-04-05](https://weekly.sundayblender.com/p/the-world-jitters-but-nintendo-glitters/) | | | | | | | |
+| [2025-03-29](https://weekly.sundayblender.com/p/the-charming-arrival-of-agi/) | | | | | | | |
+| [2025-03-22](https://weekly.sundayblender.com/p/march-madness-to-mars/) | | | | | | | |
+| [2025-03-16](https://weekly.sundayblender.com/p/space-oddities-on-the-moon-space/) | | | | | | | |
+| [2025-03-09](https://weekly.sundayblender.com/p/the-end-game-for-technology/) | | | | | | | |
+| [2025-03-02](https://weekly.sundayblender.com/p/ancient-water-on-mars/) | | | | | | | |
+| [2025-02-24](https://weekly.sundayblender.com/p/meeting-of-the-minds/) | | | | | | | |
+| [2025-02-16](https://weekly.sundayblender.com/p/mega-snow-and-mega-collision/) | | | | | | | |
+| [2025-02-09](https://weekly.sundayblender.com/p/chinese-film-ne-zha-2-shattered-record/) | | | | | | | |
+| [2025-02-01](https://weekly.sundayblender.com/p/an-exuberant-chinese-new-year/) | | | | | | | |
+| [2025-01-30](https://weekly.sundayblender.com/p/make-news-interesting-for-kids/) | | | | | | | |
+| [2025-01-26](https://weekly.sundayblender.com/p/deepseek-challenges-ai-powerhouses/) | | | | | | | |

@@ -250,36 +250,6 @@ def check_main_rss(repo_root, slug, date_str, errors, warnings, passed):
             warnings.append("Article date not found in RSS - may be expected if date format differs")
 
 
-def check_podcast_rss(repo_root, slug, date_str, errors, warnings, passed):
-    """Check podcast RSS feed includes the episode."""
-    podcast_rss_path = repo_root / "public" / "podcast.xml"
-
-    if not podcast_rss_path.exists():
-        errors.append("Podcast RSS feed (podcast.xml) not found - run 'hugo' first")
-        return
-
-    content = podcast_rss_path.read_text()
-
-    # Check if the article slug appears in the podcast RSS
-    if slug and slug not in content:
-        errors.append(f"Episode '{slug}' not found in podcast RSS feed")
-    else:
-        passed.append("Episode found in podcast RSS feed")
-
-    # Check for enclosure tag (mp3 file)
-    if '<enclosure' not in content:
-        errors.append("No podcast enclosure found in RSS feed")
-    else:
-        passed.append("Podcast enclosure tag found in RSS")
-
-    # Check for the specific episode's mp3
-    mp3_filename = f"{date_str}-podcast.mp3"
-    if mp3_filename not in content:
-        warnings.append(f"MP3 file '{mp3_filename}' not found in podcast RSS")
-    else:
-        passed.append(f"MP3 file '{mp3_filename}' found in podcast RSS")
-
-
 def check_pdf_exists(cwd, date_str, errors, warnings, passed):
     """Check PDF file exists."""
     pdf_files = list(cwd.glob("*.pdf"))
@@ -407,7 +377,6 @@ def main():
     check_html_seo(html_path, errors, warnings, passed)
     check_hero_image_in_html(html_path, errors, warnings, passed)
     check_main_rss(repo_root, slug, date_str, errors, warnings, passed)
-    check_podcast_rss(repo_root, slug, date_str, errors, warnings, passed)
 
     # Print results - passed checks first
     if passed:

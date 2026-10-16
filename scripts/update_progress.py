@@ -29,7 +29,7 @@ BLUE = '\033[0;34m'
 NC = '\033[0m'
 
 BASE_URL = "https://weekly.sundayblender.com"
-PODCAST_RSS = f"{BASE_URL}/podcast.xml"
+PODCAST_RSS = "https://anchor.fm/s/117da5710/podcast/rss"  # Spotify for Creators hosts the show
 APPLE_PODCASTS = "https://podcasts.apple.com/us/podcast/the-sunday-blender-podcast/id1853996806"
 SPOTIFY = "https://open.spotify.com/show/0p6Boxgcyy9eJzdBQlu4CG"
 YOUTUBE = "https://www.youtube.com/playlist?list=PLcRJg9AlaYT4"
@@ -99,27 +99,6 @@ def check_pdf(html_content):
     # Look for PDF link - handle both quoted and minified HTML
     # Pattern matches: href="...pdf" or href=...pdf (minified)
     return bool(re.search(r'\.pdf', html_content, re.IGNORECASE))
-
-
-def check_inline_audio(html_content):
-    """Check if inline audio player exists."""
-    if not html_content:
-        return False
-
-    # Look for audio player indicators - handle minified HTML
-    audio_indicators = [
-        r'<audio',
-        r'podcast-player',
-        r'audio-player',
-        r'Listen to this article',
-        r'\.mp3',  # Simple mp3 file reference
-    ]
-
-    for pattern in audio_indicators:
-        if re.search(pattern, html_content, re.IGNORECASE):
-            return True
-
-    return False
 
 
 def check_shownotes_in_rss(rss_content, slug):
@@ -268,11 +247,6 @@ def check_article(date_str, url, rss_content):
         status = f"{GREEN}✓{NC}" if results['xiaoyuzhou'] else f"{RED}✗{NC}"
     print(f"  {status} 小宇宙")
 
-    # Check Inline Audio
-    results['inline'] = check_inline_audio(html_content)
-    status = f"{GREEN}✓{NC}" if results['inline'] else f"{RED}✗{NC}"
-    print(f"  {status} Inline 🎧")
-
     # Ximalaya - manual check (placeholder)
     results['ximalaya'] = None  # Cannot auto-check
     print(f"  {YELLOW}?{NC} 喜马拉雅 (manual)")
@@ -354,7 +328,7 @@ def add_missing_articles(readme_content, rss_articles, existing_dates, separator
     for date_str, url in rss_articles:
         if date_str not in existing_dates:
             # Create new row with empty status
-            new_row = f"| [{date_str}]({url}) |  |  |  |  |  |  |  |  |"
+            new_row = f"| [{date_str}]({url}) |  |  |  |  |  |  |  |"
             new_rows.append((date_str, new_row))
 
     if not new_rows:
@@ -386,7 +360,7 @@ def update_readme_row(line, results):
         return '🟢' if val else '🔴'
 
     # Build new row
-    # | Date | Images | PDF | Show Notes | Apple | Spotify | 小宇宙 | 喜马拉雅 | Inline 🎧 |
+    # | Date | Images | PDF | Show Notes | Apple | Spotify | 小宇宙 | 喜马拉雅 |
     new_row = (
         f"{prefix} "
         f"{status_emoji(results.get('images'))} | "
@@ -395,8 +369,7 @@ def update_readme_row(line, results):
         f"{status_emoji(results.get('apple'))} | "
         f"{status_emoji(results.get('spotify'))} | "
         f"{status_emoji(results.get('xiaoyuzhou'))} | "
-        f"{status_emoji(results.get('ximalaya'))} | "
-        f"{status_emoji(results.get('inline'))} |"
+        f"{status_emoji(results.get('ximalaya'))} |"
     )
 
     return new_row
