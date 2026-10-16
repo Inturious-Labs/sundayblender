@@ -173,19 +173,35 @@ This single command:
 - Updates frontmatter: `enabled: true`, `file`, `duration`, `filesize`
 - Regenerates `shownotes` with the actual description
 
-The MP3 stays on your machine (it's gitignored and never deployed). The site
-doesn't play audio; each issue shows a "Listen to this issue" box linking to
-Apple Podcasts, Spotify, YouTube, and 小宇宙.
+The MP3 is gitignored and never deployed. The site doesn't play audio; each
+issue shows a "Listen to this issue" box linking to Apple Podcasts, Spotify,
+YouTube, and 小宇宙.
 
-**Publish the audio:**
-- Upload the MP3 to [Spotify for Creators](https://creators.spotify.com/). Spotify hosts the audio, and Apple Podcasts reads the show from Spotify's feed (`https://anchor.fm/s/117da5710/podcast/rss`). The show notes link to the article, so set the episode to go live at or after the article does.
-- Build the YouTube video and upload the files it writes to `~/Desktop/tsb-youtube`:
+### 6. Make the YouTube Video
 
 ```bash
 tsb-make-youtube content/posts/YYYY/MMDD
 ```
 
-### 6. Final Audit and Push
+This wraps the MP3 in an MP4 and writes the video, thumbnail, and
+title/description/tags to `~/Desktop/tsb-youtube`.
+
+### 7. Archive Media to Crestfall
+
+Before publishing, copy the issue's PDF, MP3, and MP4 to the NAS, the
+designated archive for all issue media:
+
+```bash
+cd content/posts/YYYY/MMDD
+tsb-archive-media
+```
+
+Files land in `crestfall:/volume1/familyarchive/newsletters/sundayblender/YYYY-MM-DD/`.
+The PDF comes from `static/pdf/` (the latest version), the MP3 from the issue
+folder, and the MP4 from `~/Desktop/tsb-youtube`. It stops if any of the three is
+missing. Run it on the home network (with Astrill off); rerunning is safe.
+
+### 8. Final Audit and Push
 
 **Step 1:** Change `draft: false` in the frontmatter
 
@@ -200,6 +216,7 @@ This checks:
 
 - draft is set to `false`
 - PDF and MP3 files exist
+- PDF, MP3, and MP4 are archived on Crestfall (a warning, not an error, if Crestfall can't be reached)
 - Podcast frontmatter is complete (enabled, duration, filesize)
 - Twitter card meta tags are correct (`summary_large_image`)
 - Hero image is displayed
@@ -213,7 +230,7 @@ git commit -m "Publish YYYY-MM-DD issue"
 git push --set-upstream origin draft/YYYYMMDD
 ```
 
-### 7. Create PR, Merge, and Clean Up
+### 9. Create PR, Merge, and Clean Up
 
 - Create a PR to merge `draft/YYYYMMDD` into `main`
 - This triggers Vercel auto-deployment to production
@@ -226,7 +243,12 @@ git pull
 git branch -d draft/YYYYMMDD
 ```
 
-### 8. Post Announcement Tweet
+### 10. Publish the Podcast and Video
+
+- Upload the MP3 to [Spotify for Creators](https://creators.spotify.com/). Spotify hosts the audio, and Apple Podcasts reads the show from Spotify's feed (`https://anchor.fm/s/117da5710/podcast/rss`). The show notes link to the article, so set the episode to go live at or after the article does.
+- Upload the video, thumbnail, and text from `~/Desktop/tsb-youtube` to YouTube.
+
+### 11. Post Announcement Tweet
 
 Post an announcement tweet on [@SundayBlender](https://x.com/SundayBlender) to announce the new issue:
 
@@ -235,7 +257,7 @@ Post an announcement tweet on [@SundayBlender](https://x.com/SundayBlender) to a
 - Include relevant hashtags and a brief teaser about the content
 - Attach the featured image if applicable
 
-### 9. Schedule Twitter Bot
+### 12. Schedule Twitter Bot
 
 Initiate the Twitter bot schedule script to promote the new issue across social media.
 
@@ -266,7 +288,8 @@ first.
 | `tsb-make-pdf` | `html_to_pdf.py` | Renders the article (from the running Hugo dev server) to a PDF in the issue folder, used as the podcast source. Versions previous PDFs rather than overwriting. |
 | `tsb-make-podcast` | `process_podcast.py` | Converts the NotebookLM `m4a` to `YYYY-MM-DD-podcast.mp3`, updates podcast frontmatter (`enabled`, `file`, `duration`, `filesize`), and regenerates show notes. |
 | `tsb-make-youtube` | `make_youtube.py` | Wraps the issue's podcast MP3 in a YouTube-ready MP4 and writes the thumbnail and title/description/tags to `~/Desktop/tsb-youtube`. |
-| `tsb-audit-final` | `audit_final.py` | Final pre-publish gate — checks `draft: false`, PDF/MP3 presence, podcast frontmatter, Twitter card tags, hero image, and the main RSS feed. |
+| `tsb-archive-media` | `archive_media.py` | Copies the issue's PDF, MP3, and MP4 to `crestfall:/volume1/familyarchive/newsletters/sundayblender/YYYY-MM-DD/` with rsync. Run from the issue folder before publishing; `--all` backfills every issue, `--dry-run` previews. |
+| `tsb-audit-final` | `audit_final.py` | Final pre-publish gate — checks `draft: false`, PDF/MP3 presence, the Crestfall media archive, podcast frontmatter, Twitter card tags, hero image, and the main RSS feed. |
 
 The following `scripts/` files are **not** wired as `tsb-*` commands and are
 run directly or by other tooling:

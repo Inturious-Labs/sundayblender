@@ -270,6 +270,33 @@ def check_mp3_exists(cwd, date_str, errors, warnings, passed):
         passed.append(f"MP3 file found: {mp3_filename}")
 
 
+def check_media_archived(cwd, date_str, errors, warnings, passed):
+    """Check the issue's PDF, MP3, and MP4 are archived on Crestfall."""
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    import archive_media as am
+
+    media = am.media_for(cwd, date_str)
+    local = {path.name: path.stat().st_size for path in media.values() if path}
+    if len(local) < len(media):
+        missing = [kind for kind, path in media.items() if path is None]
+        errors.append(f"Can't archive yet - missing {', '.join(missing)} (see tsb-archive-media)")
+        return
+
+    result = am.ssh(f"cd '{am.NAS_ROOT}/{date_str}' 2>/dev/null && stat -c '%s %n' *")
+    if result.returncode == 255:
+        warnings.append(f"Couldn't reach {am.NAS_HOST} to confirm the media archive")
+        return
+    remote = {}
+    for line in result.stdout.splitlines():
+        size, _, name = line.partition(" ")
+        remote[name] = int(size)
+    not_archived = [name for name, size in local.items() if remote.get(name) != size]
+    if not_archived:
+        errors.append(f"Media not archived on {am.NAS_HOST}: {', '.join(not_archived)} - run tsb-archive-media")
+    else:
+        passed.append(f"PDF, MP3, and MP4 archived on {am.NAS_HOST}")
+
+
 def check_podcast_frontmatter(frontmatter, errors, warnings, passed):
     """Check podcast section in frontmatter is properly configured."""
     if 'podcast:' not in frontmatter:
@@ -372,6 +399,7 @@ def main():
     check_issue_link_slashes(content, errors, warnings, passed)
     check_pdf_exists(cwd, date_str, errors, warnings, passed)
     check_mp3_exists(cwd, date_str, errors, warnings, passed)
+    check_media_archived(cwd, date_str, errors, warnings, passed)
     check_podcast_frontmatter(frontmatter, errors, warnings, passed)
     check_twitter_card(html_path, errors, warnings, passed)
     check_html_seo(html_path, errors, warnings, passed)
