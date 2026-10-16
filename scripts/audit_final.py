@@ -250,36 +250,6 @@ def check_main_rss(repo_root, slug, date_str, errors, warnings, passed):
             warnings.append("Article date not found in RSS - may be expected if date format differs")
 
 
-def check_podcast_rss(repo_root, slug, date_str, errors, warnings, passed):
-    """Check podcast RSS feed includes the episode."""
-    podcast_rss_path = repo_root / "public" / "podcast.xml"
-
-    if not podcast_rss_path.exists():
-        errors.append("Podcast RSS feed (podcast.xml) not found - run 'hugo' first")
-        return
-
-    content = podcast_rss_path.read_text()
-
-    # Check if the article slug appears in the podcast RSS
-    if slug and slug not in content:
-        errors.append(f"Episode '{slug}' not found in podcast RSS feed")
-    else:
-        passed.append("Episode found in podcast RSS feed")
-
-    # Check for enclosure tag (mp3 file)
-    if '<enclosure' not in content:
-        errors.append("No podcast enclosure found in RSS feed")
-    else:
-        passed.append("Podcast enclosure tag found in RSS")
-
-    # Check for the specific episode's mp3
-    mp3_filename = f"{date_str}-podcast.mp3"
-    if mp3_filename not in content:
-        warnings.append(f"MP3 file '{mp3_filename}' not found in podcast RSS")
-    else:
-        passed.append(f"MP3 file '{mp3_filename}' found in podcast RSS")
-
-
 def check_pdf_exists(cwd, date_str, errors, warnings, passed):
     """Check PDF file exists."""
     pdf_files = list(cwd.glob("*.pdf"))
@@ -298,6 +268,33 @@ def check_mp3_exists(cwd, date_str, errors, warnings, passed):
         errors.append(f"MP3 file not found: {mp3_filename}")
     else:
         passed.append(f"MP3 file found: {mp3_filename}")
+
+
+def check_media_archived(cwd, date_str, errors, warnings, passed):
+    """Check the issue's PDF, MP3, and MP4 are archived on Crestfall."""
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    import archive_media as am
+
+    media = am.media_for(cwd, date_str)
+    local = {path.name: path.stat().st_size for path in media.values() if path}
+    if len(local) < len(media):
+        missing = [kind for kind, path in media.items() if path is None]
+        errors.append(f"Can't archive yet - missing {', '.join(missing)} (see tsb-archive-media)")
+        return
+
+    result = am.ssh(f"cd '{am.NAS_ROOT}/{date_str}' 2>/dev/null && stat -c '%s %n' *")
+    if result.returncode == 255:
+        warnings.append(f"Couldn't reach {am.NAS_HOST} to confirm the media archive")
+        return
+    remote = {}
+    for line in result.stdout.splitlines():
+        size, _, name = line.partition(" ")
+        remote[name] = int(size)
+    not_archived = [name for name, size in local.items() if remote.get(name) != size]
+    if not_archived:
+        errors.append(f"Media not archived on {am.NAS_HOST}: {', '.join(not_archived)} - run tsb-archive-media")
+    else:
+        passed.append(f"PDF, MP3, and MP4 archived on {am.NAS_HOST}")
 
 
 def check_podcast_frontmatter(frontmatter, errors, warnings, passed):
@@ -402,12 +399,12 @@ def main():
     check_issue_link_slashes(content, errors, warnings, passed)
     check_pdf_exists(cwd, date_str, errors, warnings, passed)
     check_mp3_exists(cwd, date_str, errors, warnings, passed)
+    check_media_archived(cwd, date_str, errors, warnings, passed)
     check_podcast_frontmatter(frontmatter, errors, warnings, passed)
     check_twitter_card(html_path, errors, warnings, passed)
     check_html_seo(html_path, errors, warnings, passed)
     check_hero_image_in_html(html_path, errors, warnings, passed)
     check_main_rss(repo_root, slug, date_str, errors, warnings, passed)
-    check_podcast_rss(repo_root, slug, date_str, errors, warnings, passed)
 
     # Print results - passed checks first
     if passed:

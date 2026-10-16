@@ -58,23 +58,16 @@
                 </div>
             </div>
 
-            <!-- Podcast Audio Player -->
+            <!-- Podcast links: the site doesn't play audio; listeners subscribe on a platform -->
             {{ if .Params.podcast.enabled }}
             <div class="podcast-player tsb-box" style="padding: 20px; margin: 20px;">
-                <h3 style="margin-top: 0;">🎧 Listen to this article</h3>
-                <p style="margin: 0 0 15px 0; font-size: 14px;">
-                    Also available on:
-                    <a href="https://podcasts.apple.com/us/podcast/the-sunday-blender-podcast/id1853996806" target="_blank" rel="noopener" style="margin-left: 8px;">Apple Podcasts</a> ·
+                <h3 style="margin-top: 0;">🎧 Listen to this issue</h3>
+                <p style="margin: 0; font-size: 14px;">
+                    <a href="https://podcasts.apple.com/us/podcast/the-sunday-blender-podcast/id1853996806" target="_blank" rel="noopener">Apple Podcasts</a> ·
                     <a href="https://open.spotify.com/show/0p6Boxgcyy9eJzdBQlu4CG" target="_blank" rel="noopener">Spotify</a> ·
                     <a href="https://www.youtube.com/playlist?list=PLcRJg9AlaYT4" target="_blank" rel="noopener">YouTube</a> ·
                     <a href="https://www.xiaoyuzhoufm.com/podcast/691d248b88967822c085fda5" target="_blank" rel="noopener">小宇宙</a>
-                </p>
-                <audio controls preload="none" style="width: 100%;">
-                    <source src="{{ .Params.podcast.file }}" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-                <p class="tsb-muted" style="margin-bottom: 0; font-size: 14px;">
-                    Duration: {{ div .Params.podcast.duration 60 }} minutes
+                    {{ with .Params.podcast.duration }}<span class="tsb-muted"> · {{ div . 60 }} min</span>{{ end }}
                 </p>
             </div>
             {{ end }}

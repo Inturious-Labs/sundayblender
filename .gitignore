@@ -116,5 +116,7 @@ build/
 # Video builds stay out of git/Vercel — depot is ~/Desktop/tsb-youtube
 *.mp4
 
-# Draft audio (e.g. NotebookLM .m4a). Only the final podcast .mp3 belongs in the repo.
+# Podcast audio stays local — Spotify for Creators hosts and serves it.
+# The local .mp3 is still used to build the YouTube video.
 *.m4a
+*-podcast.mp3
