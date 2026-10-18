@@ -156,7 +156,7 @@ def clean_html_for_pdf(html_path, working_dir):
         size: A4;
         margin: 0.3in 0.3in 0.8in 0.3in;
         @bottom-left {
-            content: "© 2025 Inturious Labs";
+            content: """ + f'"© {header_info["date"][:4]} Inturious Labs"' + """;
             font-family: 'Arial', sans-serif;
             font-size: 10px;
             color: #666;
@@ -517,6 +517,10 @@ def clean_html_for_pdf(html_path, working_dir):
         signup_elements = soup.find_all(['div', 'section', 'form', 'p'],
                                        string=lambda text: text and keyword.lower() in text.lower())
         for elem in signup_elements:
+            # Skip article text — a paragraph mentioning "subscribers" would
+            # otherwise take its parent, the whole post body, with it
+            if elem.find_parent('div', class_='post-body'):
+                continue
             # Find the parent container that likely contains the whole signup box
             parent = elem.parent
             if parent and parent.name in ['div', 'section', 'aside']:
