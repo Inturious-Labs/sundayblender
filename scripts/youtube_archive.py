@@ -157,14 +157,8 @@ def load_episodes(only: str | None) -> list[Episode]:
         if not re.search(r"^podcast:\s*$", fm, re.MULTILINE) or field(fm, "enabled") != "true":
             continue
         mp3 = index.parent / field(fm, "file")
-        if not mp3.is_file():
-            print(f"{YELLOW}skip {index.parent}: podcast file missing{NC}")
-            continue
         date = datetime.strptime(field(fm, "date")[:10], "%Y-%m-%d")
         hero = index.parent / field(fm, "featured_image")
-        if not hero.is_file():
-            print(f"{YELLOW}skip {index.parent}: hero image missing{NC}")
-            continue
         found.append((date, index, fm, mp3, hero))
 
     found.sort(key=lambda item: item[0])
@@ -183,7 +177,17 @@ def load_episodes(only: str | None) -> list[Episode]:
         ))
     if only:
         episodes = [ep for ep in episodes if f"{ep.date:%Y-%m-%d}" == only]
-    return episodes
+    # Number first, check files after: archived issues keep their MP3 on the
+    # NAS, not in the repo, and must still count toward later episode numbers
+    buildable = []
+    for ep in episodes:
+        if not ep.mp3.is_file():
+            print(f"{YELLOW}skip {ep.source_dir}: podcast file missing{NC}")
+        elif not ep.hero.is_file():
+            print(f"{YELLOW}skip {ep.source_dir}: hero image missing{NC}")
+        else:
+            buildable.append(ep)
+    return buildable
 
 
 # ---------------------------------------------------------------------- frame

@@ -29,7 +29,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from youtube_archive import (  # noqa: E402
     DEFAULT_OUT, GREEN, RED, YELLOW, NC,
-    build, load_episodes,
+    build, field, load_episodes, split_frontmatter,
 )
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -70,8 +70,8 @@ def main() -> int:
         print(f"{RED}{exc}{NC}")
         return 1
 
-    episodes = load_episodes(None)  # full list, so episode numbering matches the archive
-    episode = next((ep for ep in episodes if ep.source_dir == issue_dir), None)
+    date = field(split_frontmatter((issue_dir / "index.md").read_text()), "date")[:10]
+    episode = next((ep for ep in load_episodes(date) if ep.source_dir == issue_dir), None)
     if episode is None:
         print(f"{RED}no podcast episode in {issue_dir}{NC}\n"
               f"Check that index.md has podcast.enabled: true, draft is not true, "
