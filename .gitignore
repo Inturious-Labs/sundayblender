@@ -120,3 +120,6 @@ build/
 # The local .mp3 is still used to build the YouTube video.
 *.m4a
 *-podcast.mp3
+
+# Red Note cards and paste text are rebuilt from xhs-drafts.md (~8 MB a week)
+content/**/xhs/
