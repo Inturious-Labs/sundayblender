@@ -149,6 +149,21 @@ echo
 # Run the Python script
 python3 scripts/lib/schedule_article.py "$selected_article" --days "$days"
 
+# A new schedule does not clear an old pause. That left the Oct 18 issue's
+# tweets sitting unposted for 11 days, so say it loudly and offer to resume.
+# Resuming is safe here: every tweet in a fresh schedule is in the future.
+if [ -f data/.queue_paused ]; then
+    echo
+    echo "⚠️  The queue is PAUSED — none of these tweets will post until it is resumed."
+    read -p "Resume now? (Y/n): " resume
+    if [ "$resume" != "n" ] && [ "$resume" != "N" ]; then
+        python3 scripts/lib/manage_queue.py --resume
+    else
+        echo "⚠️  Left paused. Run ./scripts/schedule_tweets.sh and pick 3 to resume."
+        exit 0
+    fi
+fi
+
 echo
 echo "✅ Done! Tweets will be posted automatically via cron job on Dalaran."
 echo
