@@ -8,6 +8,11 @@
   "outputDirectory": "public",
   "framework": "hugo",
   "trailingSlash": true,
+  "git": {
+    "deploymentEnabled": {
+      "draft/*": false
+    }
+  },
   "headers": [
     {
       "source": "/p/(.*)",

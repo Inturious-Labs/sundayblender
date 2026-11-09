@@ -1,5 +1,5 @@
 baseURL = 'https://weekly.sundayblender.com/'
-ignoreFiles = ['/xhs/', '/xhs-drafts\.md$']
+ignoreFiles = ['/xhs/', '/xhs-drafts\.md$', '\.pptx$']
 languageCode = 'en-us'
 timeZone = 'Asia/Shanghai'
 title = 'The Sunday Blender'
