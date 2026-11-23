@@ -16,7 +16,7 @@ podcast:
   duration: 1387
   filesize: 19446096
   shownotes: |
-    In the issue of Nov 01: a self-made Chinese engineer invented a flying glider that lifted him over rivers and mountains
+    In the issue of Nov 01: a self-made Chinese engineer invented a flying glider that lifted him over rivers and mountains.
     
     📖 Read the full newsletter article with pictures, comments, and likes:
     https://weekly.sundayblender.com/p/free-as-a-bird/

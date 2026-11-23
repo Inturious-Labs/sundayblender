@@ -18,7 +18,7 @@ podcast:
   shownotes: |
     The Sunday Blender is a weekly newsletter that reports top trending news around the world. It's made for curious English-speaking kids aged 8~15 who aspire for a bigger world and nurture a life-long habit of reading. Every new issue is delivered to your email inbox on Saturday. Each issue comes with 20~25 stories. Each story has no more than 100 words, in plain English with a picture. These stories cover Technology, Global, Economy & Finance, Nature & Environment, Science, Lifestyle & Culture, Sports, History, Art, and Comedy. It's about 10~15 minutes of reading time.
     
-    In the issue of Apr 11, Fast rising capabilities of AI models reinvigorated the second brain movement
+    In the issue of Apr 11, Fast rising capabilities of AI models reinvigorated the second brain movement.
     
     📖 Read the full newsletter article with pictures, comments, and likes:
     https://weekly.sundayblender.com/p/build-a-second-brain-to-compound-knowledge-learning/

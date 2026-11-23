@@ -16,7 +16,7 @@ podcast:
   duration: 1444
   filesize: 20243609
   shownotes: |
-    In the issue of Nov 08: a bronze sword witnessed the revenge of a king 2,400 years ago
+    In the issue of Nov 08: a bronze sword witnessed the revenge of a king 2,400 years ago.
     
     📖 Read the full newsletter article with pictures, comments, and likes:
     https://weekly.sundayblender.com/p/the-revenge-of-the-king/

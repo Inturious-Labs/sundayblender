@@ -18,7 +18,7 @@ podcast:
   shownotes: |
     The Sunday Blender is a weekly newsletter that reports top trending news around the world. It's made for curious English-speaking kids aged 8~15 who aspire for a bigger world and nurture a life-long habit of reading. Every new issue is delivered to your email inbox on Saturday. Each issue comes with 20~25 stories. Each story has no more than 100 words, in plain English with a picture. These stories cover Technology, Global, Economy & Finance, Nature & Environment, Science, Lifestyle & Culture, Sports, History, Art, and Comedy. It's about 10~15 minutes of reading time.
     
-    In the issue of Mar 15, Italian teenage sensation Kimi Antonelli won F1 in Shanghai at the age of 19 and Moonshot AI - the studio behind AI model Kimi, raced to $18 billion valuation in just three years
+    In the issue of Mar 15, Italian teenage sensation Kimi Antonelli won F1 in Shanghai at the age of 19 and Moonshot AI - the studio behind AI model Kimi, raced to $18 billion valuation in just three years.
     
     📖 Read the full newsletter article with pictures, comments, and likes:
     https://weekly.sundayblender.com/p/the-unstoppable-kimi/

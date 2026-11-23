@@ -16,7 +16,7 @@ podcast:
   duration: 1094
   filesize: 15366895
   shownotes: |
-    In the issue of Oct 18: a real flying car from Tesla; the grandiose farewell game for Messi; the terrible haze in Singapore; and the many hacks in France and Denmark
+    In the issue of Oct 18: a real flying car from Tesla; the grandiose farewell game for Messi; the terrible haze in Singapore; and the many hacks in France and Denmark.
     
     📖 Read the full newsletter article with pictures, comments, and likes:
     https://weekly.sundayblender.com/p/back-to-the-future-with-tesla/

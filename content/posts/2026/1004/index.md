@@ -16,7 +16,7 @@ podcast:
   duration: 1548
   filesize: 21867050
   shownotes: |
-    In the issue of Oct 04: Life finds a way in the desert, and NASA looks for a cave on the Moon
+    In the issue of Oct 04: Life finds a way in the desert, and NASA looks for a cave on the Moon.
     
     📖 Read the full newsletter article with pictures, comments, and likes:
     https://weekly.sundayblender.com/p/flowers-and-crayfish-in-the-desert/

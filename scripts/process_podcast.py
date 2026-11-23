@@ -78,12 +78,49 @@ def parse_frontmatter(content):
 
 
 def extract_field(frontmatter, field):
-    """Extract a field value from frontmatter."""
-    pattern = rf'^{field}:\s*["\']?(.*?)["\']?\s*$'
+    """Extract a field value from frontmatter.
+
+    Surrounding quotes are removed only when the value both starts and ends
+    with the same quote character, so a value merely ending in a quote (e.g. a
+    quoted term) keeps it.
+    """
+    pattern = rf'^{field}:[ \t]*(.*)$'
     match = re.search(pattern, frontmatter, re.MULTILINE)
-    if match:
-        return match.group(1).strip()
-    return ""
+    if not match:
+        return ""
+    value = match.group(1).strip()
+    if len(value) >= 2 and value[0] in '"\'' and value[-1] == value[0]:
+        value = value[1:-1].strip()
+    return value
+
+
+# Trailing closing double quotes a period should tuck in front of (US style).
+CLOSING_QUOTES = {'"': '”', '“': '”', '”': '”'}
+TERMINAL_PUNCTUATION = '.!?…'
+
+
+def ensure_period(text):
+    """End a description with a period, unless it already ends with punctuation.
+
+    - A dangling comma, semicolon or colon is replaced by the period.
+    - A trailing closing double quote stays last, so text ending in a quoted
+      term gets the period tucked in front of the closing quote.
+    """
+    text = (text or '').strip()
+
+    while text and text[-1] in ',;:':
+        text = text[:-1].rstrip()
+
+    closers = ''
+    while text and text[-1] in CLOSING_QUOTES:
+        closers = CLOSING_QUOTES[text[-1]] + closers
+        text = text[:-1].rstrip()
+
+    if not text:
+        return ''
+    if text[-1] in TERMINAL_PUNCTUATION:
+        return text + closers
+    return f"{text}.{closers}"
 
 
 NEWSLETTER_DESC = "The Sunday Blender is a weekly newsletter that reports top trending news around the world. It's made for curious English-speaking kids aged 8~15 who aspire for a bigger world and nurture a life-long habit of reading. Every new issue is delivered to your email inbox on Saturday. Each issue comes with 20~25 stories. Each story has no more than 100 words, in plain English with a picture. These stories cover Technology, Global, Economy & Finance, Nature & Environment, Science, Lifestyle & Culture, Sports, History, Art, and Comedy. It's about 10~15 minutes of reading time."
@@ -103,7 +140,7 @@ def generate_shownotes(date_str, description, slug):
 
     article_url = f"{BASE_URL}/p/{slug}/" if slug else BASE_URL
 
-    shownotes = f"""{transition}{description}
+    shownotes = f"""{transition}{ensure_period(description)}
 
 📖 Read the full newsletter article with pictures, comments, and likes:
 {article_url}

@@ -16,7 +16,7 @@ podcast:
   duration: 1569
   filesize: 22606358
   shownotes: |
-    In the issue of Sep 13: The reading capability of teenagers is declining due to a lack of attention and too much screen time
+    In the issue of Sep 13: The reading capability of teenagers is declining due to a lack of attention and too much screen time.
     
     📖 Read the full newsletter article with pictures, comments, and likes:
     https://weekly.sundayblender.com/p/can-teenagers-still-read/

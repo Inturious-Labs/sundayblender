@@ -16,7 +16,7 @@ podcast:
   duration: 394
   filesize: 5701202
   shownotes: |
-    In the issue of Sep 27: NASA plans to land humans on the Moon in 2028 and a build moon base there
+    In the issue of Sep 27: NASA plans to land humans on the Moon in 2028 and a build moon base there.
     
     📖 Read the full newsletter article with pictures, comments, and likes:
     https://weekly.sundayblender.com/p/we-will-go-to-the-moon-again/
