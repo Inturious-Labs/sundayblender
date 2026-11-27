@@ -16,7 +16,7 @@ podcast:
   duration: 1547
   filesize: 19200171
   shownotes: |
-    In the issue of Nov 22: SpaceX caught the top half of its Starship in mid-air using “chopsticks
+    In the issue of Nov 22: SpaceX caught the top half of its Starship in mid-air using “chopsticks.”
     
     📖 Read the full newsletter article with pictures, comments, and likes:
     https://weekly.sundayblender.com/p/the-return-of-starship-dolphins-and-james-bond/

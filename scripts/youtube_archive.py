@@ -37,7 +37,7 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from process_podcast import NEWSLETTER_DESC  # noqa: E402
+from process_podcast import NEWSLETTER_DESC, ensure_period  # noqa: E402
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CONTENT_DIR = REPO_ROOT / "content" / "posts"
@@ -101,7 +101,7 @@ class Episode:
                     issue_line = para.strip()
                     break
         if not issue_line:
-            issue_line = f"In the issue of {self.date:%b %d}: {self.description}"
+            issue_line = f"In the issue of {self.date:%b %d}: {ensure_period(self.description)}"
         return f"""{issue_line}
 
 📖 Read the full newsletter article with pictures, comments, and likes:

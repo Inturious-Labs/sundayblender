@@ -16,7 +16,7 @@ podcast:
   duration: 1537
   filesize: 19296733
   shownotes: |
-    In the issue of Nov 15: History might take a detour sometimes, but in the end, the hero will find his way home
+    In the issue of Nov 15: History might take a detour sometimes, but in the end, the hero will find his way home.
     
     📖 Read the full newsletter article with pictures, comments, and likes:
     https://weekly.sundayblender.com/p/dont-stop-believin/

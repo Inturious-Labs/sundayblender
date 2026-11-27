@@ -16,7 +16,7 @@ podcast:
   duration: 1446
   filesize: 20916749
   shownotes: |
-    In the issue of Sep 06: We’re flooded by AI-generated proofs that are beyond the comprehension of humans
+    In the issue of Sep 06: We’re flooded by AI-generated proofs that are beyond the comprehension of humans.
     
     📖 Read the full newsletter article with pictures, comments, and likes:
     https://weekly.sundayblender.com/p/the-age-of-mathematics-crisis/
